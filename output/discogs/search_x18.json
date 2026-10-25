@@ -1,0 +1,121 @@
+{
+  "q": "Don McLean 29001",
+  "results": [
+    {
+      "id": 2581147,
+      "title": "Don McLean - Classics",
+      "country": "Netherlands",
+      "year": "1996",
+      "catno": "29001",
+      "label": [
+        "Dino Music",
+        "Curb Records",
+        "Sentinel"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 753955
+    },
+    {
+      "id": 1573522,
+      "title": "Various - 100 Nr. 1 Hits - Volume 2",
+      "country": "Belgium",
+      "year": "2007",
+      "catno": "984.928-9",
+      "label": [
+        "Universal Music Belgium",
+        "100 Klassiekers",
+        "Universal Music",
+        "Universal Music",
+        "EDC, Germany",
+        "EDC, Germany",
+        "EDC, Germany",
+        "EDC, Germany",
+        "EDC, Germany"
+      ],
+      "format": [
+        "Box Set",
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 3067400
+    },
+    {
+      "id": 9778378,
+      "title": "גלי עטרי* - המיטב",
+      "country": "Israel",
+      "year": "2009",
+      "catno": "20882-2",
+      "label": [
+        "NMC United",
+        "המיטב"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 0
+    },
+    {
+      "id": 32449869,
+      "title": "Various - סיפור אהבה (החלק השלישי)",
+      "country": "Israel",
+      "year": "2010",
+      "catno": "2168",
+      "label": [
+        "IMP Records",
+        "סיפור אהבה",
+        "IMP Records Ltd.",
+        "IMP Records Ltd.",
+        "Mastering Room",
+        "CDI Ltd.",
+        "WWW.CDI.CO.IL"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 0
+    },
+    {
+      "id": 23685419,
+      "title": "Various - שירת התנ\"ך: שירים בהשראת המקורות = Songs Of The Bible: Songs Inspired By The Tanakh",
+      "country": "Israel",
+      "year": "2008",
+      "catno": "none",
+      "label": [
+        "The Eighth Note",
+        "CDI Ltd.",
+        "The Eighth Note",
+        "The Eighth Note",
+        "The Eighth Note Production And Distribution Ltd.",
+        "The Eighth Note Production And Distribution Ltd.",
+        "בית המורה",
+        "היכל התרבות",
+        "Hed Arzi Ltd.",
+        "Visart Ltd.",
+        "NMC United Entertainment Ltd.",
+        "Israel Broadcasting Authority",
+        "ישראפון בע''מ",
+        "Esti Katz",
+        "B M Records Ltd.",
+        "Akiva Nof",
+        "מאגרי מוסיקה",
+        "Reuveni Productions",
+        "Shlomo Zach",
+        "א.מ.ל. הפקות",
+        "Shuly Nathan",
+        "אקו בע\"מ",
+        "Kicha Studios"
+      ],
+      "format": [
+        "Box Set",
+        "Compilation",
+        "CD"
+      ],
+      "master_id": 0
+    }
+  ]
+}

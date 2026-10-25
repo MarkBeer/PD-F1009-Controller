@@ -1,0 +1,102 @@
+{
+  "id": 292244,
+  "title": "I'm Breathless (Music From And Inspired By The Film Dick Tracy)",
+  "artists": "Madonna",
+  "year": 1990,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Sire",
+      "catno": "7599-26209-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "7599-26209-2"
+    }
+  ],
+  "master_id": 34566,
+  "track_count": 12,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "He's A Man",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Sooner Or Later",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Hanky Panky",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "I'm Going Bananas",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Cry Baby",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Something To Remember",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Back In Business",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "More",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "What Can You Lose",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Now I'm Following You (Part I)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Now I'm Following You (Part II)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Vogue",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

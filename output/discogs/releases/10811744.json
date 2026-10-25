@@ -1,0 +1,90 @@
+{
+  "id": 10811744,
+  "title": "King Of Hearts",
+  "artists": "Roy Orbison",
+  "year": 1992,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Virgin America",
+      "catno": "CDVUS 58"
+    },
+    {
+      "name": "Virgin America",
+      "catno": "0777 7 86520 2 1"
+    }
+  ],
+  "master_id": 168964,
+  "track_count": 10,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "You're The One",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Heartbreak Radio",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "We'll Take The Night",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Crying (Duet With K.D. Lang)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "After The Love Has Gone",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Love In Time",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "I Drove All Night",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Wild Hearts Run Out Of Time",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Coming Home",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Careless Heart (Original Demo)",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

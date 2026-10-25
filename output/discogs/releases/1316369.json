@@ -1,0 +1,102 @@
+{
+  "id": 1316369,
+  "title": "Hard Candy",
+  "artists": "Madonna",
+  "year": 2008,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-49884-9"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "936249884-9"
+    }
+  ],
+  "master_id": 18125,
+  "track_count": 12,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Candy Shop",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "4 Minutes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Give It 2 Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Heartbeat",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Miles Away",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "She's Not Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Incredible",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Beat Goes On",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Dance 2night",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Spanish Lesson",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Devil Wouldn't Recognize You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Voices",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

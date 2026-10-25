@@ -1,0 +1,108 @@
+{
+  "id": 74027,
+  "title": "Ray Of Light",
+  "artists": "Madonna",
+  "year": 1998,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-46847-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-46847-2"
+    }
+  ],
+  "master_id": 67803,
+  "track_count": 13,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Drowned World/Substitute For Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Swim",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Ray Of Light",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Candy Perfume Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Skin",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Nothing Really Matters",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Sky Fits Heaven",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Shanti/Ashtangi",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Frozen",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "The Power Of Good-Bye",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "To Have And Not To Hold",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Little Star",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Mer Girl",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

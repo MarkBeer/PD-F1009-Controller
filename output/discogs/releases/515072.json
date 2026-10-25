@@ -1,0 +1,105 @@
+{
+  "id": 515072,
+  "title": "Addictions Volume 1",
+  "artists": "Robert Palmer",
+  "year": 0,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Repress"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Island Records",
+      "catno": "260 309"
+    }
+  ],
+  "master_id": 91096,
+  "track_count": 13,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Bad Case Of Loving You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Pride",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Addicted To Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Sweet Lies",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Woke Up Laughing",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Looking For Clues",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Some Guys Have All The Luck",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Some Like It Hot",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "What's It Take?",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Every Kinda People",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Johnny & Mary",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Simply Irresistible",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Style Kills",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

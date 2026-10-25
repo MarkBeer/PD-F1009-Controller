@@ -1,0 +1,190 @@
+{
+  "q": "Fleet Foxes Fleet Foxes",
+  "results": [
+    {
+      "id": 1407391,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "US",
+      "year": "2008",
+      "catno": "SPCD 777",
+      "label": [
+        "Sub Pop",
+        "Sub Pop Records",
+        "Sub Pop Records",
+        "Staatliche Gemäldegalerie, Berlin",
+        "The Bridgeman Art Library",
+        "Xachua'bsh",
+        "Avast! Recording Co.",
+        "London Bridge Studio",
+        "RFI Mastering",
+        "Cinram, Olyphant, PA",
+        "Cinram, Olyphant, PA"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/1407391-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 1611855,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "Europe",
+      "year": "2008",
+      "catno": "BELLACD167",
+      "label": [
+        "Bella Union",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering",
+        "Bella Union",
+        "Bella Union",
+        "EDC, Germany",
+        "Xachua'bsh"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/1611855-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 1647097,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "Europe",
+      "year": "2009",
+      "catno": "BELLA2CD167",
+      "label": [
+        "Bella Union",
+        "Bella Union",
+        "Bella Union",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering",
+        "Xachua'bsh",
+        "EDC, Germany",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/1647097-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 1501421,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "Europe",
+      "year": "2009",
+      "catno": "BELLACD175",
+      "label": [
+        "Bella Union",
+        "Bella Union",
+        "Bella Union",
+        "RFI Mastering",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "EDC, Germany",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "CD"
+      ],
+      "master_id": 72463,
+      "uri": "/release/1501421-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 1365632,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "UK",
+      "year": "2008",
+      "catno": "BELLACD167",
+      "label": [
+        "Bella Union",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering",
+        "Bella Union",
+        "Bella Union",
+        "Xachua'bsh",
+        "EDC Blackburn Ltd"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/1365632-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 15184281,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "Europe",
+      "year": "2008",
+      "catno": "BELLACD167",
+      "label": [
+        "Bella Union",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering",
+        "Bella Union",
+        "Bella Union",
+        "EDC, Germany",
+        "Xachua'bsh"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/15184281-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 8810423,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "UK & Europe",
+      "year": "2008",
+      "catno": "BELLACD167",
+      "label": [
+        "Bella Union",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering",
+        "Bella Union",
+        "Bella Union",
+        "Sonopress Arvato"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 72463,
+      "uri": "/release/8810423-Fleet-Foxes-Fleet-Foxes"
+    },
+    {
+      "id": 2087818,
+      "title": "Fleet Foxes - Fleet Foxes",
+      "country": "US",
+      "year": "2009",
+      "catno": "SPCD815",
+      "label": [
+        "Sub Pop",
+        "London Bridge Studio",
+        "Avast! Recording Co.",
+        "RFI Mastering"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Limited Edition"
+      ],
+      "master_id": 72463,
+      "uri": "/release/2087818-Fleet-Foxes-Fleet-Foxes"
+    }
+  ]
+}

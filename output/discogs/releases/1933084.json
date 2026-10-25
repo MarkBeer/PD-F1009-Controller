@@ -1,0 +1,139 @@
+{
+  "id": 1933084,
+  "title": "Celebration",
+  "artists": "Madonna",
+  "year": 2009,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Remastered"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-49927-4"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362499274"
+    }
+  ],
+  "master_id": 181106,
+  "track_count": 18,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Hung Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Music",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Vogue",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "4 Minutes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Holiday",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Like A Virgin",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Into The Groove",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Like A Prayer",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Ray Of Light",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "La Isla Bonita",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Frozen",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Material Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Papa Don't Preach",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Lucky Star",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Express Yourself",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Dress You Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "Celebration",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

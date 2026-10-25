@@ -1,0 +1,156 @@
+{
+  "id": 608302,
+  "title": "Singles",
+  "artists": "Suede",
+  "year": 2003,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Sony Music",
+      "catno": "SIN 513604 2"
+    },
+    {
+      "name": "Sony Music",
+      "catno": "513604 2"
+    }
+  ],
+  "master_id": 122144,
+  "track_count": 21,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Beautiful Ones",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Animal Nitrate",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Trash",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Metal Mickey",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "So Young",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "The Wild Ones",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Obsessions",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Filmstar",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Can't Get Enough",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Everything Will Flow",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Stay Together",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Love The Way You Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "The Drowners",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "New Generation",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Lazy",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "She's In Fashion",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Attitude",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "Electricity",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "19",
+      "title": "We Are The Pigs",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "20",
+      "title": "Positivity",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "21",
+      "title": "Saturday Night",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

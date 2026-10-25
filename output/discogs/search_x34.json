@@ -1,0 +1,68 @@
+{
+  "q": "Beach Boys CDMFP 5988 I Love You",
+  "results": [
+    {
+      "id": 572782,
+      "title": "The Beach Boys - I Love You",
+      "country": "UK",
+      "year": null,
+      "catno": "CD-MFP 5988",
+      "label": [
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "EMI Records Ltd."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 492007
+    },
+    {
+      "id": 10865847,
+      "title": "The Beach Boys - I Love You",
+      "country": "Europe",
+      "year": "1993",
+      "catno": "CDMFP 5988",
+      "label": [
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "EMI Records Ltd.",
+        "EMI Swindon"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 492007
+    },
+    {
+      "id": 26384411,
+      "title": "The Beach Boys - I Love You",
+      "country": "UK",
+      "year": null,
+      "catno": "CD-MFP 5988",
+      "label": [
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "Music For Pleasure",
+        "EMI Records Ltd.",
+        "TAKT",
+        "TAKT",
+        "EMI",
+        "EMI",
+        "EMI"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Stereo"
+      ],
+      "master_id": 492007
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": 1568450,
+  "title": "Staring At The Sea • The Singles",
+  "artists": "The Cure",
+  "year": 1986,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Fiction Records",
+      "catno": "829239/2"
+    },
+    {
+      "name": "Fiction Records",
+      "catno": "829 239-2"
+    }
+  ],
+  "master_id": 22482,
+  "track_count": 17,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Killing An Arab",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "10.15 Saturday Night",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Boys Don't Cry",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Jumping Someone Else's Train",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "A Forest",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Play For Today",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Primary",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Other Voices",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Charlotte Sometimes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "The Hanging Garden",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Let's Go To Bed",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "The Walk",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "The Lovecats",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "The Caterpillar",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "In Between Days",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Close To Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "A Night Like This",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

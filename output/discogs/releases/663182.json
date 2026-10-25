@@ -1,0 +1,160 @@
+{
+  "id": 663182,
+  "title": "The Very Best Of...",
+  "artists": "The Pogues",
+  "year": 2001,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Pogue Mahone Records",
+      "catno": "8573 87459 2"
+    },
+    {
+      "name": "WEA",
+      "catno": "8573 87459 2"
+    },
+    {
+      "name": "Warner Strategic Marketing",
+      "catno": "8573 87459 2"
+    }
+  ],
+  "master_id": 43846,
+  "track_count": 21,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Dirty Old Town",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "The Irish Rover",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Sally MacLennane",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Fiesta",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "A Pair Of Brown Eyes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Fairytale Of New York",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "The Body Of An American",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Streams Of Whiskey",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "The Sick Bed Of Cuchulainn",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "If I Should Fall From Grace With God",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Misty Morning, Albert Bridge",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Rain Street",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "White City",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "A Rainy Night In Soho",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "London Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Boys From The County Hell",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "The Sunnyside Of The Street",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "Summer In Siam",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "19",
+      "title": "Hell's Ditch",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "20",
+      "title": "The Old Main Drag",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "21",
+      "title": "The Band Played Waltzing Matilda",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

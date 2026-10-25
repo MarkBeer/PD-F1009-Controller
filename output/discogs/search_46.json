@@ -1,0 +1,205 @@
+{
+  "q": "Tamla Motown Gold",
+  "results": [
+    {
+      "id": 629140,
+      "title": "Various - Tamla Motown Gold - The Sound Of Young America",
+      "country": "UK & Europe",
+      "year": "2001",
+      "catno": "016301-2",
+      "label": [
+        "Universal Music TV",
+        "Universal Music TV",
+        "Universal Music TV",
+        "Universal Music Operations Ltd.",
+        "Universal Music Operations Ltd.",
+        "Disctronics, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 0,
+      "uri": "/release/629140-Various-Tamla-Motown-Gold-The-Sound-Of-Young-America"
+    },
+    {
+      "id": 1882291,
+      "title": "The Marvelettes - Forever (The Complete Motown Albums Volume 1)",
+      "country": "US",
+      "year": "2009",
+      "catno": "B0011516-02",
+      "label": [
+        "Hip-O Select",
+        "Motown Records"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Stereo",
+        "Mono",
+        "Limited Edition",
+        "Remastered"
+      ],
+      "master_id": 0,
+      "uri": "/release/1882291-The-Marvelettes-Forever-The-Complete-Motown-Albums-Volume-1"
+    },
+    {
+      "id": 4211100,
+      "title": "Various - AM Gold 1964",
+      "country": "US",
+      "year": "1995",
+      "catno": "AM1-11",
+      "label": [
+        "Time Life Music",
+        "Warner Special Products",
+        "AM Gold",
+        "Time Life Music",
+        "Warner Special Products",
+        "Warner Special Products",
+        "Time Life Inc.",
+        "Hit And Run Studios"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 2457256,
+      "uri": "/release/4211100-Various-AM-Gold-1964"
+    },
+    {
+      "id": 21975673,
+      "title": "Stevie Wonder - Talking Book",
+      "country": "Europe",
+      "year": "2000",
+      "catno": "157 354-2",
+      "label": [
+        "Tamla",
+        "Motown"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 87446,
+      "uri": "/release/21975673-Stevie-Wonder-Talking-Book"
+    },
+    {
+      "id": 11113963,
+      "title": "Various - Solid Gold (Volume Four - Dancing In The Streets)",
+      "country": "UK",
+      "year": "2004",
+      "catno": "ASDMCD04",
+      "label": [
+        "Daily Mail",
+        "Solid Gold",
+        "Associated Newspapers Ltd.",
+        "Associated Newspapers Ltd.",
+        "Associated Newspapers",
+        "Associated Newspapers",
+        "UMG Recordings, Inc.",
+        "Universal Strategic Marketing",
+        "HHO Ltd",
+        "Sony Music Entertainment (UK) Ltd.",
+        "Decca Music Group Limited",
+        "Sony Music Entertainment Inc.",
+        "Polydor Ltd. (UK)",
+        "Jobete Music Co., Inc.",
+        "Rondor Music Publishing",
+        "Warner Chappell Music Ltd.",
+        "EMI Music Publishing Ltd.",
+        "Dominion Music Co. Ltd.",
+        "EMI Songs Ltd.",
+        "Rondor Music (London) Ltd.",
+        "Beam Down Music Ltd.",
+        "Stylist Music Ltd.",
+        "Universal/Dick James Music Ltd",
+        "Sony/ATV Music Publishing Ltd.",
+        "Famous Music",
+        "BMG Music Publishing Ltd."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1012569,
+      "uri": "/release/11113963-Various-Solid-Gold-Volume-Four-Dancing-In-The-Streets"
+    },
+    {
+      "id": 11928240,
+      "title": "Stevie Wonder - Innervisions",
+      "country": "US",
+      "year": null,
+      "catno": "UDCD 554",
+      "label": [
+        "Tamla",
+        "Mobile Fidelity Sound Lab",
+        "Original Master Recording",
+        "Ultradisc II",
+        "JVC",
+        "Mobile Fidelity Sound Lab, Inc.",
+        "Mobile Fidelity Sound Lab, Inc.",
+        "Motown Record Corporation",
+        "Motown Record Corporation",
+        "Motown Record Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 86466,
+      "uri": "/release/11928240-Stevie-Wonder-Innervisions"
+    },
+    {
+      "id": 37421718,
+      "title": "Various - AM Gold 1964",
+      "country": "US",
+      "year": "1995",
+      "catno": "AM1-11",
+      "label": [
+        "Time Life Music",
+        "Warner Special Products",
+        "AM Gold",
+        "Time Life Music",
+        "Warner Special Products",
+        "Warner Special Products",
+        "Time Life Inc.",
+        "Hit And Run Studios",
+        "Specialty Records Corporation",
+        "Specialty Records Corporation"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 2457256,
+      "uri": "/release/37421718-Various-AM-Gold-1964"
+    },
+    {
+      "id": 1856099,
+      "title": "Stevie Wonder - Innervisions",
+      "country": "US",
+      "year": "1991",
+      "catno": "UDCD 554",
+      "label": [
+        "Tamla",
+        "Mobile Fidelity Sound Lab",
+        "Original Master Recording",
+        "Ultradisc",
+        "Motown Record Corporation",
+        "Mobile Fidelity Sound Lab, Inc.",
+        "Mobile Fidelity Sound Lab, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Remastered"
+      ],
+      "master_id": 86466,
+      "uri": "/release/1856099-Stevie-Wonder-Innervisions"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": 8161840,
+  "title": "Led Zeppelin III",
+  "artists": "Led Zeppelin",
+  "year": 1994,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Reissue",
+        "Remastered"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Atlantic",
+      "catno": "7567-82678-2"
+    }
+  ],
+  "master_id": 4199,
+  "track_count": 10,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Immigrant Song",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Friends",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Celebration Day",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Since I've Been Loving You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Out On The Tiles",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Gallows Pole",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Tangerine",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "That's The Way",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Bron-Y-Aur Stomp",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Hats Off To (Roy) Harper",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

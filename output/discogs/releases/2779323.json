@@ -1,0 +1,116 @@
+{
+  "id": 2779323,
+  "title": "The Colour And The Shape",
+  "artists": "Foo Fighters",
+  "year": 1997,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Roswell Records",
+      "catno": "7243 8 55832 2 3"
+    },
+    {
+      "name": "Roswell Records",
+      "catno": "CDEST 2295"
+    },
+    {
+      "name": "Capitol Records",
+      "catno": "7243 8 55832 2 3"
+    },
+    {
+      "name": "Capitol Records",
+      "catno": "CDEST 2295"
+    }
+  ],
+  "master_id": 62129,
+  "track_count": 13,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Doll",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Monkey Wrench",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Hey, Johnny Park!",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "My Poor Brain",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Wind Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Up In Arms",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "My Hero",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "See You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Enough Space",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "February Stars",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Everlong",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Walking After You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "New Way Home",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

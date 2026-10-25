@@ -1,0 +1,128 @@
+{
+  "id": 549356,
+  "title": "Melting Pot",
+  "artists": "The Charlatans",
+  "year": 1998,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Beggars Banquet",
+      "catno": "BBQCD 198"
+    }
+  ],
+  "master_id": 70861,
+  "track_count": 17,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "The Only One I Know",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Then",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Opportunity Three",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Over Rising",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Sproston Green (US Version)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Weirdo",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Theme From The Wish",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Patrol (The Chemical Brothers Mix)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Can't Get Out Of Bed",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "I Never Want An Easy Life If Me & He Were Ever To Get There",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Jesus Hairdo",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Crashin' In",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Just Lookin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Here Comes A Soul Saver",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Just When You're Thinkin' Things Over",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "One To Another",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "North Country Boy",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

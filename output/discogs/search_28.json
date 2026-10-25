@@ -1,0 +1,190 @@
+{
+  "q": "Blondie Picture This The Essential Collection",
+  "results": [
+    {
+      "id": 2504107,
+      "title": "Blondie - Picture This - The Essential Blondie Collection",
+      "country": "UK & Europe",
+      "year": "1998",
+      "catno": "7243 4 94559 2 4",
+      "label": [
+        "EMI",
+        "EMI",
+        "EMI Records Ltd.",
+        "Chrysalis Records, Inc.",
+        "EMI Records Ltd.",
+        "EMI",
+        "EMI",
+        "EMI Swindon"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1687935,
+      "uri": "/release/2504107-Blondie-Picture-This-The-Essential-Blondie-Collection"
+    },
+    {
+      "id": 699338,
+      "title": "Blondie - The Essential Collection",
+      "country": "Europe",
+      "year": "1999",
+      "catno": "7243 4 99421 2 7",
+      "label": [
+        "EMI Gold",
+        "EMI Gold",
+        "EMI",
+        "EMI",
+        "Chrysalis Records, Inc.",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 360421,
+      "uri": "/release/699338-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 2934447,
+      "title": "Blondie - The Essential Collection",
+      "country": "UK & Europe",
+      "year": "1997",
+      "catno": "CD GOLD1091",
+      "label": [
+        "EMI Gold",
+        "EMI Gold",
+        "The Gold Collection",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "EMI",
+        "EMI",
+        "EMI Swindon"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 360421,
+      "uri": "/release/2934447-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 3379978,
+      "title": "Blondie - The Essential Collection",
+      "country": "UK & Europe",
+      "year": null,
+      "catno": "CD GOLD1091",
+      "label": [
+        "EMI Gold",
+        "EMI Gold",
+        "The Gold Collection",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "EMI",
+        "EMI Uden",
+        "Mediamotion"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 360421,
+      "uri": "/release/3379978-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 7159308,
+      "title": "Blondie - The Essential Collection",
+      "country": "Australia",
+      "year": "1997",
+      "catno": "7243 8 55731 2 5",
+      "label": [
+        "EMI",
+        "EMI",
+        "Chrysalis Records, Inc.",
+        "EMI Music Group Australasia",
+        "EMI Music Group Australasia",
+        "Chrysalis Records, Inc.",
+        "Digital Audio Technologies Australia",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 360421,
+      "uri": "/release/7159308-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 7481839,
+      "title": "Blondie - The Essential Collection",
+      "country": "Australia",
+      "year": "1997",
+      "catno": "7243 8 55731 2 5",
+      "label": [
+        "EMI",
+        "Chrysalis",
+        "EMI Music Group Australasia",
+        "EMI Music Group Australasia",
+        "Chrysalis Records Ltd.",
+        "Chrysalis Records Ltd.",
+        "EMI Swindon",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 360421,
+      "uri": "/release/7481839-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 15592246,
+      "title": "Blondie - The Essential Collection",
+      "country": "Europe",
+      "year": "1999",
+      "catno": "7243 4 99421 2 7",
+      "label": [
+        "EMI Gold",
+        "EMI Gold",
+        "EMI",
+        "EMI",
+        "Chrysalis Records, Inc.",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "EMI Uden",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Stereo"
+      ],
+      "master_id": 360421,
+      "uri": "/release/15592246-Blondie-The-Essential-Collection"
+    },
+    {
+      "id": 10410676,
+      "title": "Blondie - The Essential Collection",
+      "country": "Canada",
+      "year": "1997",
+      "catno": "7243 8 55731 2 5",
+      "label": [
+        "EMI Gold",
+        "The Gold Collection"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 360421,
+      "uri": "/release/10410676-Blondie-The-Essential-Collection"
+    }
+  ]
+}

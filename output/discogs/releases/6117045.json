@@ -1,0 +1,169 @@
+{
+  "id": 6117045,
+  "title": "Van Morrison",
+  "artists": "Van Morrison",
+  "year": 2008,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "2",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Weton-Wesgram",
+      "catno": "ORANGE224"
+    }
+  ],
+  "master_id": 487263,
+  "tracks": [
+    {
+      "pos": "1-1",
+      "title": "Brown Eyed Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-2",
+      "title": "T.B. Sheets",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-3",
+      "title": "Goodbye Baby (Baby Goodbye)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-4",
+      "title": "Who Drove The Red Sportscar",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-5",
+      "title": "Beside You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-6",
+      "title": "Madame George",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-7",
+      "title": "The Smile You Smile",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-8",
+      "title": "Joe Harper Saturday Morning",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-9",
+      "title": "I Love You (The Smile You Smile)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-10",
+      "title": "The Big Royalty Check",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-11",
+      "title": "Ring Worm",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "1-12",
+      "title": "Blow In Your Nose",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-1",
+      "title": "Spanish Rose",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-2",
+      "title": "Ro Ro Rosey",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-3",
+      "title": "Midnight Special",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-4",
+      "title": "He Ain't Give You None",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-5",
+      "title": "It's All Right",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-6",
+      "title": "Send Your Mind",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-7",
+      "title": "The Back Boom",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-8",
+      "title": "Chick- A- Boom",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-9",
+      "title": "Brown Eyed Girl (Alternate Take)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-10",
+      "title": "Twist And Shake",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-11",
+      "title": "Dum Dum George",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2-12",
+      "title": "Go For Yourself",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

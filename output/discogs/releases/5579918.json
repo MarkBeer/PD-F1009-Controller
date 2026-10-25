@@ -1,0 +1,134 @@
+{
+  "id": 5579918,
+  "title": "This Is It / The Collection",
+  "artists": "Huey Lewis & The News",
+  "year": 2000,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "EMI Gold",
+      "catno": "7243 5 27032 2 7"
+    }
+  ],
+  "master_id": 1056204,
+  "track_count": 18,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Heart Of Rock & Roll",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Bad Is Bad",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "The Power Of Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Is It Me?",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Doin It (All For My Baby)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Slammin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "If This Is It",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Walking With The Kid",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "World To Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Change Of Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Whole Lotta Lovin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Naturally",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Hope You Love Me Like You Say You Do",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Workin' For A Livin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "The Only One",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Stuck With You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Trouble In Paradise",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "You Crack Me Up",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

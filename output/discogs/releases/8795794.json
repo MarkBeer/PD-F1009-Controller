@@ -1,0 +1,108 @@
+{
+  "id": 8795794,
+  "title": "Together Alone",
+  "artists": "Crowded House",
+  "year": 1993,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Capitol Records",
+      "catno": "CDESTU 2215"
+    },
+    {
+      "name": "Capitol Records",
+      "catno": "7243 8 27048 2 9"
+    }
+  ],
+  "master_id": 157732,
+  "track_count": 13,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Kare Kare",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "In My Command",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Nails In My Feet",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Black & White Boy",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Fingers Of Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Pineapple Head",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Locked Out",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Private Universe",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Walking On The Spot",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Distant Sun",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Catherine Wheels",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Skin Feeling",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Together Alone",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

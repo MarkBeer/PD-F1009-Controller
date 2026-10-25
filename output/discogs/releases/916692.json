@@ -1,0 +1,130 @@
+{
+  "id": 916692,
+  "title": "Mind Body & Soul",
+  "artists": "Joss Stone",
+  "year": 2004,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Relentless Records",
+      "catno": "CDREL04"
+    },
+    {
+      "name": "Virgin",
+      "catno": "0724359489728"
+    },
+    {
+      "name": "S-Curve Records",
+      "catno": "0724359489728"
+    }
+  ],
+  "master_id": 60294,
+  "track_count": 16,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Right To Be Wrong",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Jet Lag",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "You Had Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Spoiled",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Don't Cha Wanna Ride",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Less Is More",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Security",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Young At Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Snakes And Ladders",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Understand",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Don't Know How",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Torn And Tattered",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Killing Time",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14.1",
+      "title": "Sleep Like A Child",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14.2",
+      "title": "(silence)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Daniel",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

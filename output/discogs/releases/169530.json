@@ -1,0 +1,115 @@
+{
+  "id": 169530,
+  "title": "Once In A Lifetime - The Best Of",
+  "artists": "Talking Heads",
+  "year": 1992,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Remastered"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "EMI",
+      "catno": "0777 7 80593 2 5"
+    },
+    {
+      "name": "EMI",
+      "catno": "CDEMD 1039"
+    }
+  ],
+  "master_id": 39434,
+  "track_count": 14,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Psycho Killer",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Take Me To The River",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Once In  A Lifetime",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Burning Down The House",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "This Must Be The Place (Naive Melody)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Slippery People (Live)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Life During Wartime (Live)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "And She Was",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Road To Nowhere",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Wild Wild Life",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Blind",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "(Nothing But) Flowers",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Sax And Violins",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Lifetime Piling Up",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

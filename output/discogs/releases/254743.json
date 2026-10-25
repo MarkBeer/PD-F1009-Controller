@@ -1,0 +1,103 @@
+{
+  "id": 254743,
+  "title": "Affirmation",
+  "artists": "Savage Garden",
+  "year": 1999,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "catno": "COL 494935 2"
+    },
+    {
+      "name": "Columbia",
+      "catno": "494935 2"
+    }
+  ],
+  "master_id": 101906,
+  "track_count": 12,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Affirmation",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Hold Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "I Knew I Loved You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "The Best Thing",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Crash And Burn",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Chained To You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "The Animal Song",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "The Lover After Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Two Beds And A Coffee Machine",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "You Can Still Be Free",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Gunning Down Romance",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "I Don't Know You Anymore",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

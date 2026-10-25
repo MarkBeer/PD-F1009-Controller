@@ -1,0 +1,56 @@
+{
+  "id": 1586022,
+  "title": "What Can I Do (Live At The Albert Hall)",
+  "artists": "The Corrs",
+  "year": 1998,
+  "country": "UK & Ireland",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Single"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Atlantic",
+      "catno": "AT0044CD2"
+    },
+    {
+      "name": "Atlantic",
+      "catno": "7567-84175-2"
+    },
+    {
+      "name": "Lava",
+      "catno": "7567-84175-2"
+    },
+    {
+      "name": "143 Records",
+      "catno": "7567-84175-2"
+    }
+  ],
+  "master_id": 108292,
+  "track_count": 3,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "What Can I Do (Live)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Runaway (Live)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Toss The Feathers (Live)",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

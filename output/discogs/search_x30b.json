@@ -1,0 +1,195 @@
+{
+  "q": "Madonna Celebration 2CD",
+  "results": [
+    {
+      "id": 2372402,
+      "title": "Madonna - Celebration",
+      "country": "Germany",
+      "year": "2009",
+      "catno": "none",
+      "label": [
+        "Warner Bros. Records"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "DVD",
+        "Box Set",
+        "Promo"
+      ],
+      "master_id": 181106
+    },
+    {
+      "id": 3447749,
+      "title": "Madonna - Celebration",
+      "country": "Philippines",
+      "year": "2009",
+      "catno": "521096-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Bros. Records",
+        "Warner Music Philippines",
+        "Warner Music Philippines Inc.",
+        "Warner Music Philippines Inc."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Limited Edition",
+        "DVD",
+        "NTSC",
+        "Compilation",
+        "Limited Edition",
+        "CD",
+        "Promo",
+        "Sampler"
+      ],
+      "master_id": 181106
+    },
+    {
+      "id": 8611408,
+      "title": "Madonna - Celebration",
+      "country": "Japan",
+      "year": "2016",
+      "catno": "WPCR-17152/3",
+      "label": [
+        "Warner Bros. Records",
+        "2CD Best 1800",
+        "Warner Bros. Records Inc.",
+        "Warner Music Japan Inc.",
+        "Warner Music Japan Inc."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 181106
+    },
+    {
+      "id": 6235215,
+      "title": "Madonna - Celebration",
+      "country": "Japan",
+      "year": "2014",
+      "catno": "WPCR-16039/40",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Music Japan Inc.",
+        "2CD Best 1800"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 181106
+    },
+    {
+      "id": 4888544,
+      "title": "Madonna - MDNA World Tour",
+      "country": "Europe",
+      "year": "2013",
+      "catno": "0602537489244",
+      "label": [
+        "Interscope Records",
+        "Live Nation",
+        "Live Nation Worldwide, Inc.",
+        "Interscope Records",
+        "Boy Toy, Inc.",
+        "Boy Toy, Inc.",
+        "EDC, Germany",
+        "EDC, Germany",
+        "EDC, Germany",
+        "EDC, Germany"
+      ],
+      "format": [
+        "DVD",
+        "DVD-Video",
+        "Multichannel",
+        "PAL",
+        "CD",
+        "Album",
+        "All Media",
+        "Deluxe Edition"
+      ],
+      "master_id": 594533
+    },
+    {
+      "id": 5359857,
+      "title": "Madonna - MDNA World Tour",
+      "country": "Japan",
+      "year": "2013",
+      "catno": "UIBS-9026",
+      "label": [
+        "Interscope Records",
+        "Boy Toy, Inc.",
+        "Boy Toy, Inc.",
+        "Live Nation Worldwide, Inc.",
+        "Interscope Records",
+        "Universal Music LLC",
+        "Universal Music LLC"
+      ],
+      "format": [
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "CD",
+        "Album",
+        "All Media",
+        "Deluxe Edition"
+      ],
+      "master_id": 594533
+    },
+    {
+      "id": 10660208,
+      "title": "Madonna - MDNA World Tour",
+      "country": "Argentina",
+      "year": "2013",
+      "catno": "3748924",
+      "label": [
+        "Interscope Records",
+        "Boy Toy, Inc.",
+        "Boy Toy, Inc.",
+        "Live Nation Worldwide, Inc.",
+        "Interscope Records",
+        "Universal Music Group",
+        "Universal Music Argentina S.A.",
+        "Universal Music Argentina S.A."
+      ],
+      "format": [
+        "DVD",
+        "DVD-Video",
+        "CD",
+        "Album",
+        "All Media",
+        "Deluxe Edition"
+      ],
+      "master_id": 594533
+    },
+    {
+      "id": 5327154,
+      "title": "Madonna - MDNA World Tour",
+      "country": "Taiwan",
+      "year": "2013",
+      "catno": "0602537489244",
+      "label": [
+        "Interscope Records",
+        "Boy Toy, Inc.",
+        "Boy Toy, Inc.",
+        "Universal Music International",
+        "Universal Music International"
+      ],
+      "format": [
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "CD",
+        "Album",
+        "All Media",
+        "Deluxe Edition"
+      ],
+      "master_id": 594533
+    }
+  ]
+}

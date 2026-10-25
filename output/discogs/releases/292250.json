@@ -1,0 +1,119 @@
+{
+  "id": 292250,
+  "title": "Erotica",
+  "artists": "Madonna",
+  "year": 1992,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-45031-2"
+    },
+    {
+      "name": "Sire",
+      "catno": "9362-45031-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-45031-2"
+    }
+  ],
+  "master_id": 34414,
+  "track_count": 14,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Erotica",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Fever",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Bye Bye Baby",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Deeper And Deeper",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Where Life Begins",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Bad Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Waiting",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Thief Of Hearts",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Words",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Rain",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Why's It So Hard",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "In This Life",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Did You Do It?",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Secret Garden",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

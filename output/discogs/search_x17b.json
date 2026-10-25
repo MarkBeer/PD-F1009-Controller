@@ -1,0 +1,61 @@
+{
+  "q": "Van Morrison Payin Dues",
+  "results": [
+    {
+      "id": 2412762,
+      "title": "Van Morrison - Payin' Dues",
+      "country": "UK",
+      "year": "1994",
+      "catno": "CP CD 8035 - 2",
+      "label": [
+        "Charly Records",
+        "Charly Rock",
+        "Charly Holdings Inc.",
+        "Charly Holdings Inc.",
+        "Charly International APS",
+        "Lost Gold Records, Inc."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 439280
+    },
+    {
+      "id": 22661810,
+      "title": "Van Morrison - Payin' Dues",
+      "country": "Brazil",
+      "year": null,
+      "catno": "CP CD 8035 - 1",
+      "label": [
+        "Charly Records",
+        "Paradoxx Music",
+        "Sonopress-Rimo da Amazônia Indústria e Comércio Fonográfica Ltda."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 439280
+    },
+    {
+      "id": 2752690,
+      "title": "Van Morrison - Payin' Dues (The Complete \"Bang Records\" Sessions '67)",
+      "country": "Italy",
+      "year": "2002",
+      "catno": "FT810",
+      "label": [
+        "Fruit Tree",
+        "Charly Licensing Aps",
+        "A&R Studios",
+        "Century Sound Studios"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 439280
+    }
+  ]
+}

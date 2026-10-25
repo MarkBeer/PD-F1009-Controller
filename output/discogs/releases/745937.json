@@ -1,0 +1,140 @@
+{
+  "id": 745937,
+  "title": "The Very Best Of The Bee Gees",
+  "artists": "Bee Gees",
+  "year": 1996,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Polydor",
+      "catno": "519 453-2"
+    }
+  ],
+  "master_id": 24044,
+  "track_count": 19,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "New York Mining Disaster 1941",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "To Love Somebody",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Massachusetts",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "World",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Words",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "I've Gotta Get A Message To You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "First Of May",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Don't Forget To Remember",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Saved By The Bell",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Run To Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Jive Talkin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Nights On Broadway",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "You Should Be Dancing",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "How Deep Is Your Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "More Than A Woman",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Stayin' Alive",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Night Fever",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "Too Much Heaven",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "19",
+      "title": "Tragedy",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

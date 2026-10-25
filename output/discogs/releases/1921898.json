@@ -1,0 +1,104 @@
+{
+  "id": 1921898,
+  "title": "New Light Through Old Windows (The Best Of Chris Rea)",
+  "artists": "Chris Rea",
+  "year": 1988,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "WEA",
+      "catno": "243 841-2"
+    }
+  ],
+  "master_id": 112850,
+  "track_count": 13,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Let's Dance",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Working On It",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Ace Of Hearts",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Josephine",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Candles",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "On The Beach",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Fool (If You Think It's Over)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "I Can Hear Your Heartbeat",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Shamrock Diaries",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Stainsby Girls",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Windy Town",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Driving Home For Christmas",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Steel River",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

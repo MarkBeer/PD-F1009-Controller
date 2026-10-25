@@ -1,0 +1,134 @@
+{
+  "id": 1090349,
+  "title": "Missing You: The Collection",
+  "artists": "Chris de Burgh",
+  "year": 2004,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Spectrum Music (2)",
+      "catno": "982 065-1"
+    }
+  ],
+  "master_id": 717132,
+  "track_count": 18,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "High On Emotion",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Satin Green Shutters",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "The Connemara Coast",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Quite Moments",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Spanish Train",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "I Had The Love In My Eyes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Lonely Sky",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Missing You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "A Celebration",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "I'm Going Home",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Say Goodbye To It All",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Where Peaceful Waters Flow",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Shine On",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "In A Country Churchyard",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Borderline",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Patricia The Stripper",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "The Ecstacy Of Flight (I Love The Night)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "A Spaceman Came Travelling",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

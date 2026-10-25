@@ -1,0 +1,265 @@
+{
+  "q": "Foo Fighters The Colour And The Shape",
+  "results": [
+    {
+      "id": 391946,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "US",
+      "year": "1997",
+      "catno": "CDP 7243 8 55832 2 3",
+      "label": [
+        "Capitol Records",
+        "Roswell Records",
+        "Capitol Records, Inc.",
+        "Capitol Records, Inc.",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "M.J. Twelve Music",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering",
+        "EMI MFG."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Stereo"
+      ],
+      "master_id": 62129,
+      "uri": "/release/391946-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 11706481,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "US",
+      "year": "2018",
+      "catno": "88697 69446 2",
+      "label": [
+        "Roswell Records",
+        "RCA",
+        "Legacy",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "Sony Music",
+        "Sony Music",
+        "Sony DADC, Terre Haute",
+        "Sony DADC, Terre Haute"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered",
+        "Stereo"
+      ],
+      "master_id": 62129,
+      "uri": "/release/11706481-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 2016799,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "Europe",
+      "year": "2007",
+      "catno": "88697 09183 2",
+      "label": [
+        "Roswell Records",
+        "RCA",
+        "Legacy",
+        "Sony Music",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "BBC",
+        "Sony Music Entertainment",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering",
+        "W.B.I.H.S.",
+        "M.J. Twelve Music",
+        "BMG Songs Ltd.",
+        "Warner/Chappell",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Music Of Stage Three",
+        "EMI Music Publishing",
+        "Flying Earform Music",
+        "Ruthensmear Music",
+        "Bug Music Publishing",
+        "Sonopress Arvato"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 62129,
+      "uri": "/release/2016799-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 2779323,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "UK & Europe",
+      "year": "1997",
+      "catno": "7243 8 55832 2 3",
+      "label": [
+        "Roswell Records",
+        "Roswell Records",
+        "Capitol Records",
+        "Capitol Records",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering",
+        "M.J. Twelve Music",
+        "EMI",
+        "EMI",
+        "EMI Uden",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 62129,
+      "uri": "/release/2779323-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 3962886,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "Europe",
+      "year": null,
+      "catno": "82876 55495 2",
+      "label": [
+        "RCA",
+        "Roswell Records",
+        "BMG",
+        "Sonopress",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 62129,
+      "uri": "/release/3962886-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 7956001,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "US",
+      "year": "2007",
+      "catno": "88697 09183 2",
+      "label": [
+        "Roswell Records",
+        "RCA",
+        "Legacy",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "BBC",
+        "Sony BMG Music Entertainment",
+        "Sony BMG Music Entertainment",
+        "Roswell Records, Inc.",
+        "M.J. Twelve Music",
+        "BMG Songs Ltd.",
+        "Warner/Chappell",
+        "Universal Songs Of Polygram, Inc.",
+        "Music Of Stage Three",
+        "EMI Music Publishing",
+        "Flying Earform Music",
+        "Ruthensmear Music",
+        "Bug Music Publishing",
+        "BBC Worldwide Ltd.",
+        "BBC Worldwide Ltd.",
+        "Roswell Records",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering",
+        "Sony DADC, Terre Haute"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Remastered",
+        "Repress"
+      ],
+      "master_id": 62129,
+      "uri": "/release/7956001-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 1556077,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "UK",
+      "year": "1997",
+      "catno": "7243 8 55832 2 3",
+      "label": [
+        "Roswell Records",
+        "Capitol Records",
+        "Roswell Records",
+        "Capitol Records",
+        "EMI",
+        "EMI",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "EMI Swindon",
+        "M.J. Twelve Music",
+        "Grandmaster Recorders",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 62129,
+      "uri": "/release/1556077-Foo-Fighters-The-Colour-And-The-Shape"
+    },
+    {
+      "id": 2739379,
+      "title": "Foo Fighters - The Colour And The Shape",
+      "country": "Europe",
+      "year": "1997",
+      "catno": "7243 8 55832 2 3",
+      "label": [
+        "Roswell Records",
+        "Capitol Records",
+        "EMI",
+        "EMI",
+        "Roswell Records, Inc.",
+        "Roswell Records, Inc.",
+        "EMI Music Italy",
+        "M.J. Twelve Music",
+        "Grand Master Recorders, Ltd.",
+        "Bear Creek Studios",
+        "WGNS Studios",
+        "Skip Saylor Recording",
+        "Gateway Mastering",
+        "EMI Uden",
+        "EMI, Caronno Pertusella"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Stereo"
+      ],
+      "master_id": 62129,
+      "uri": "/release/2739379-Foo-Fighters-The-Colour-And-The-Shape"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": 41079,
+  "title": "Club Classics Vol. One",
+  "artists": "Soul II Soul",
+  "year": 1989,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "10 Records",
+      "catno": "Dix cd 82"
+    },
+    {
+      "name": "10 Records",
+      "catno": "DIXCD 82"
+    },
+    {
+      "name": "10 Records",
+      "catno": "Dixcd 82"
+    }
+  ],
+  "master_id": 79393,
+  "track_count": 10,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Keep On Movin'",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Fairplay",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Holdin' On (Bambelela)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Feeling Free (Live Rap)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "African Dance",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Dance",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Feel Free",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Happiness (Dub)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Back To Life (Accapella)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Jazzie's Groove",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

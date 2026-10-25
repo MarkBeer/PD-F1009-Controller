@@ -1,0 +1,133 @@
+{
+  "id": 161255,
+  "title": "The Immaculate Collection",
+  "artists": "Madonna",
+  "year": 1990,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Sire",
+      "catno": "7599-26440-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "7599-26440-2"
+    }
+  ],
+  "master_id": 65483,
+  "track_count": 17,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Holiday",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Lucky Star",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Borderline",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Like A Virgin",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Material Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Crazy For You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Into The Groove",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Live To Tell",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Papa Don't Preach",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "La Isla Bonita",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Like A Prayer",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Express Yourself",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Cherish",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Vogue",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Justify My Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Rescue Me",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": 292433,
+  "title": "True Blue",
+  "artists": "Madonna",
+  "year": 1986,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Sire",
+      "catno": "925 442-2"
+    }
+  ],
+  "master_id": 67836,
+  "track_count": 9,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Papa Don't Preach",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "White Heat",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Live To Tell",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Where's The Party",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "True Blue",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "La Isla Bonita",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Jimmy Jimmy",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Love Makes The World Go Round",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

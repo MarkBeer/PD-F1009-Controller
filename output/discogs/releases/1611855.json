@@ -1,0 +1,93 @@
+{
+  "id": 1611855,
+  "title": "Fleet Foxes",
+  "artists": "Fleet Foxes",
+  "year": 2008,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ],
+      "text": "Digipak"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Bella Union",
+      "catno": "BELLACD167"
+    }
+  ],
+  "master_id": 72463,
+  "track_count": 11,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Sun It Rises",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "White Winter Hymnal",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Ragged Wood",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Tiger Mountain Peasant Song",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Quiet Houses",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "He Doesn't Know Why",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Heard Them Stirring",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Your Protector",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Meadowlarks",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Blue Ridge Mountains",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Oliver James",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

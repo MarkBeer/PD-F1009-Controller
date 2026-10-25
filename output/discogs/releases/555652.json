@@ -1,0 +1,100 @@
+{
+  "id": 555652,
+  "title": "Confessions On A Dance Floor",
+  "artists": "Madonna",
+  "year": 2005,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Mixed",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-49460-2"
+    }
+  ],
+  "master_id": 34205,
+  "track_count": 12,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Hung Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Get Together",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Sorry",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Future Lovers",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "I Love New York",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Let It Will Be",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Forbidden Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Jump",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "How High",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Isaac",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Push",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Like It Or Not",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

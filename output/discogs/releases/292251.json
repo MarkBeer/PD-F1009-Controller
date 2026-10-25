@@ -1,0 +1,102 @@
+{
+  "id": 292251,
+  "title": "Bedtime Stories",
+  "artists": "Madonna",
+  "year": 1994,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ],
+      "text": "WMME Alsdorf Pressing"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-45767-2"
+    },
+    {
+      "name": "Sire",
+      "catno": "9362-45767-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-45767-2"
+    }
+  ],
+  "master_id": 34099,
+  "track_count": 11,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Survival",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Secret",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "I'd Rather Be Your Lover",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Don't Stop",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Inside Of Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Human Nature",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Forbidden Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Love Tried To Welcome Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Sanctuary",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Bedtime Story",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Take A Bow",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

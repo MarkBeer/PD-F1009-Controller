@@ -1,0 +1,133 @@
+{
+  "id": 9668222,
+  "title": "The Best Of M People",
+  "artists": "M People",
+  "year": 1998,
+  "country": "UK & Ireland",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ],
+      "text": "Disctronics S Pressing"
+    }
+  ],
+  "labels": [
+    {
+      "name": "M People Records",
+      "catno": "74321 61387 2"
+    },
+    {
+      "name": "BMG",
+      "catno": "74321 61387 2"
+    }
+  ],
+  "master_id": 65540,
+  "track_count": 17,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Testify",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Search For The Hero",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Moving On Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Angel St.",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "One Night In Heaven",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Itchycoo Park",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Sight For Sore Eyes",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Just For You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Colour My Life",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "How Can I Love You More",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Dreaming",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Don't Look Any Further",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Someday",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Renaissance",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Fantasy Island",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "What A Fool Believes",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": 9152475,
+  "title": "All I Want For Christmas (A 'Cool' Christmas With The Stars)",
+  "artists": "Various",
+  "year": 2000,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Jingle (2)",
+      "catno": "12048-2"
+    }
+  ],
+  "master_id": 1546893,
+  "track_count": 14,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Hey Mr. Christmas",
+      "type": "track",
+      "artists": "Showaddywaddy"
+    },
+    {
+      "pos": "2",
+      "title": "Noel",
+      "type": "track",
+      "artists": "Alvin Stardust"
+    },
+    {
+      "pos": "3",
+      "title": "Happy Xmas (War Is Over)",
+      "type": "track",
+      "artists": "Christie"
+    },
+    {
+      "pos": "4",
+      "title": "Silent Night",
+      "type": "track",
+      "artists": "The Rubettes"
+    },
+    {
+      "pos": "5",
+      "title": "Santa Claus Is Coming To Town",
+      "type": "track",
+      "artists": "Racey"
+    },
+    {
+      "pos": "6",
+      "title": "Let The Children Sing",
+      "type": "track",
+      "artists": "Suzi Quatro"
+    },
+    {
+      "pos": "7",
+      "title": "Let's Ring The Bell",
+      "type": "track",
+      "artists": "The Fortunes"
+    },
+    {
+      "pos": "8",
+      "title": "Christmas At Sea",
+      "type": "track",
+      "artists": "Goombay Dance Band"
+    },
+    {
+      "pos": "9",
+      "title": "She'll Be Home For Christmas",
+      "type": "track",
+      "artists": "The Swinging Blue Jeans"
+    },
+    {
+      "pos": "10",
+      "title": "All I Want For Christmas",
+      "type": "track",
+      "artists": "Gerry & The Pacemakers"
+    },
+    {
+      "pos": "11",
+      "title": "Happiest Christmas Of All",
+      "type": "track",
+      "artists": "The Searchers"
+    },
+    {
+      "pos": "12",
+      "title": "Let'S Hear It For Christmas",
+      "type": "track",
+      "artists": "Dave Dee (2)"
+    },
+    {
+      "pos": "13",
+      "title": "I Saw Mommy Kissing Santa Claus",
+      "type": "track",
+      "artists": "The New Seekers"
+    },
+    {
+      "pos": "14",
+      "title": "White Christmas",
+      "type": "track",
+      "artists": "Middle Of The Road"
+    }
+  ]
+}

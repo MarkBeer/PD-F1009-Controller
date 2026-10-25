@@ -1,0 +1,98 @@
+{
+  "id": 14008,
+  "title": "Music",
+  "artists": "Madonna",
+  "year": 2000,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Stereo"
+      ],
+      "text": "WMME Alsdorf Pressing"
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-47865-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-47865-2"
+    }
+  ],
+  "master_id": 34721,
+  "track_count": 11,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Music",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Impressive Instant",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Runaway Lover",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "I Deserve It",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Amazing",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Nobody's Perfect",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Don't Tell Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "What It Feels Like For A Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Paradise (Not For Me)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Gone",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "American Pie",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

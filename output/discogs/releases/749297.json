@@ -1,0 +1,141 @@
+{
+  "id": 749297,
+  "title": "Evita (Music From The Motion Picture)",
+  "artists": "Andrew Lloyd Webber, Tim Rice",
+  "year": 0,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Repress"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-46450-2"
+    }
+  ],
+  "master_id": 65602,
+  "track_count": 19,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Requiem For Evita",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Oh What A Circus",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "On This Night Of A Thousand Stars",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Eva And Magaldi / Eva Beware Of The City",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Buenos Aires",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Another Suitcase In Another Hall",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Goodnight And Thank You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "I'd Be Surprisingly Good For You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Peron's Latest Flame",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "A New Argentina",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Don't Cry For Me Argentina",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "High Flying, Adored",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "Rainbow High",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "And The Money Kept Rolling In (And Out)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "She Is A Diamond",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Waltz For Eva And Che",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "You Must Love Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "Eva's Final Broadcast",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "19",
+      "title": "Lament",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

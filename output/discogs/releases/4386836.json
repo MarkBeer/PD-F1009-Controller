@@ -1,0 +1,120 @@
+{
+  "id": 4386836,
+  "title": "GHV2 (Greatest Hits Volume 2)",
+  "artists": "Madonna",
+  "year": 2001,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-48000-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-48000-2"
+    }
+  ],
+  "master_id": 92851,
+  "track_count": 15,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Deeper And Deeper (7\" Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Erotica (Radio Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Human Nature (Radio Version)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Secret (Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Don't Cry For Me Argentina (Radio Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Bedtime Story (Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "The Power Of Good-Bye",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Beautiful Stranger (William Orbit Radio Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "Frozen (Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Take A Bow (Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Ray Of Light (Radio Edit)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "Don't Tell Me",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "What It Feels Like For A Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Drowned World / Substitute For Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Music",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

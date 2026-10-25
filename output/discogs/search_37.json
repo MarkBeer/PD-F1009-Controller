@@ -1,0 +1,170 @@
+{
+  "q": "Huey Lewis & The News The Collection",
+  "results": [
+    {
+      "id": 1406448,
+      "title": "Various - The Golden Collection 5 & 6",
+      "country": "Sweden",
+      "year": null,
+      "catno": "MMCD 8005",
+      "label": [
+        "The Golden Collection",
+        "The Golden Collection"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1642034,
+      "uri": "/release/1406448-Various-The-Golden-Collection-5-6"
+    },
+    {
+      "id": 1406638,
+      "title": "Various - The Golden Collection 7 & 8",
+      "country": "Sweden",
+      "year": null,
+      "catno": "MMCD 8007",
+      "label": [
+        "The Golden Collection",
+        "The Golden Collection"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 0,
+      "uri": "/release/1406638-Various-The-Golden-Collection-7-8"
+    },
+    {
+      "id": 4856530,
+      "title": "Huey Lewis & The News - The Heart Of Rock & Roll",
+      "country": "UK",
+      "year": "2000",
+      "catno": "7243 5 28561 2 1",
+      "label": [
+        "EMI Gold",
+        "EMI Gold",
+        "EMI Records",
+        "EMI Records"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1056204,
+      "uri": "/release/4856530-Huey-Lewis-The-News-The-Heart-Of-Rock-Roll"
+    },
+    {
+      "id": 14443350,
+      "title": "Various - The Golden Collection 5 & 6",
+      "country": "Sweden",
+      "year": "1994",
+      "catno": "MMCD 8005",
+      "label": [
+        "The Golden Collection",
+        "The Golden Collection",
+        "Logos"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1642034,
+      "uri": "/release/14443350-Various-The-Golden-Collection-5-6"
+    },
+    {
+      "id": 1530465,
+      "title": "Various - The 80's Collection 1985 Alive And Kicking",
+      "country": "Europe",
+      "year": "1994",
+      "catno": "TL 544/13",
+      "label": [
+        "Time Life Music",
+        "The 80's Collection",
+        "Time-Life Books B.V.",
+        "Time-Life Books B.V.",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 935914,
+      "uri": "/release/1530465-Various-The-80s-Collection-1985-Alive-And-Kicking"
+    },
+    {
+      "id": 8260269,
+      "title": "Various - Gold & Platinum - The Ultimate Rock Collection 1964-1995",
+      "country": "US",
+      "year": "1997",
+      "catno": "R13610",
+      "label": [
+        "Time Life Music",
+        "Time Life Music",
+        "BMG Special Products",
+        "BMG Special Products",
+        "Warner Special Products",
+        "Warner Special Products",
+        "EMI-Capitol Music Special Markets",
+        "EMI-Capitol Music Special Markets",
+        "Sony Music Special Products",
+        "Sony Music Special Products",
+        "PolyGram Records, Inc.",
+        "PolyGram Records, Inc.",
+        "Universal Music Special Markets",
+        "Universal Music Special Markets",
+        "Time Life Music",
+        "Time Life Inc."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Limited Edition",
+        "Special Edition"
+      ],
+      "master_id": 0,
+      "uri": "/release/8260269-Various-Gold-Platinum-The-Ultimate-Rock-Collection-1964-1995"
+    },
+    {
+      "id": 7981361,
+      "title": "Various - The 80's Collection Movers & Shakers",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "TL 544/29",
+      "label": [
+        "Time Life Music",
+        "The 80's Collection",
+        "Time-Life Books B.V.",
+        "Time-Life Books B.V."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 0,
+      "uri": "/release/7981361-Various-The-80s-Collection-Movers-Shakers"
+    },
+    {
+      "id": 7911846,
+      "title": "Various - The 80's Collection 1985 Alive And Kicking",
+      "country": "Europe",
+      "year": "1994",
+      "catno": "TL 544/13",
+      "label": [
+        "Time Life Music",
+        "The 80's Collection",
+        "Time-Life Books B.V.",
+        "Time-Life Books B.V.",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 935914,
+      "uri": "/release/7911846-Various-The-80s-Collection-1985-Alive-And-Kicking"
+    }
+  ]
+}

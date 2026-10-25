@@ -1,0 +1,90 @@
+{
+  "id": 2581147,
+  "title": "Classics",
+  "artists": "Don McLean",
+  "year": 1996,
+  "country": "Netherlands",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Dino Music",
+      "catno": "29001"
+    },
+    {
+      "name": "Curb Records",
+      "catno": "MP 1"
+    }
+  ],
+  "master_id": 753955,
+  "track_count": 10,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "American Pie (Complete Original Version)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Vincent",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "And I Love You So",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Crying (Original Recording)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Since I Don't Have You (Original Recording)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Castles In The Air",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "It's Just The Sun",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Jerusalem",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "It's A Beautiful Life",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "American Pie (New Version)",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

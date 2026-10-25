@@ -1,0 +1,143 @@
+{
+  "id": 1287634,
+  "title": "The Very Best Of",
+  "artists": "Pat Benatar",
+  "year": 0,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Repress"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Chrysalis",
+      "catno": "7243 8 28408 2 4"
+    },
+    {
+      "name": "Chrysalis",
+      "catno": "8 28408 2"
+    },
+    {
+      "name": "Chrysalis",
+      "catno": "CDCHR 6070"
+    }
+  ],
+  "master_id": 266034,
+  "track_count": 18,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Heartbreaker",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "We Live For Love",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Promises In The Dark",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Fire And Ice",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Ooh Ooh Song",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Hit Me With Your Best Shot",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Shadows Of The Night",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Anxiety (Get Nervous)",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "I Want Out",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "Lipstick Lies",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Love Is A Battlefield",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "We Belong",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "13",
+      "title": "All Fired Up",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "14",
+      "title": "Hell Is For Children",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "15",
+      "title": "Invincible",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "16",
+      "title": "Somebody's Baby",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "17",
+      "title": "Everybody Lay Down",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "18",
+      "title": "True Love",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

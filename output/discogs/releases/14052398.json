@@ -1,0 +1,98 @@
+{
+  "id": 14052398,
+  "title": "The Very Best Of",
+  "artists": "Van Morrison",
+  "year": 0,
+  "country": null,
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Arcade",
+      "catno": "99 02 143"
+    }
+  ],
+  "master_id": 1839624,
+  "track_count": 12,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Brown Eyed Girl",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "2",
+      "title": "Spanish Rose",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "3",
+      "title": "Madam George",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "4",
+      "title": "Beside You",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "5",
+      "title": "Who Drove The Red Sportscar",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "6",
+      "title": "Midnight Special",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "7",
+      "title": "Ro Ro Rosey",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "8",
+      "title": "Joe Harper Saturday Morning",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "9",
+      "title": "It's Alright",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "10",
+      "title": "He Ain't Give You None",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "11",
+      "title": "Chick-A-Boom",
+      "type": "track",
+      "artists": ""
+    },
+    {
+      "pos": "12",
+      "title": "T.B. Sheets",
+      "type": "track",
+      "artists": ""
+    }
+  ]
+}

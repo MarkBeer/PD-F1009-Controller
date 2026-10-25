@@ -1,0 +1,246 @@
+{
+  "image": "a760bb13-1170-47fb-88be-bf50082ed5f3.jpg",
+  "items": [
+    {
+      "index": 1,
+      "release_id": 9152475,
+      "crop": "output/crops/01.jpg"
+    },
+    {
+      "index": 2,
+      "release_id": 41079,
+      "crop": "output/crops/02.jpg"
+    },
+    {
+      "index": 3,
+      "release_id": 292251,
+      "crop": "output/crops/03.jpg"
+    },
+    {
+      "index": 4,
+      "release_id": 292250,
+      "crop": "output/crops/04.jpg"
+    },
+    {
+      "index": 5,
+      "release_id": 711263,
+      "crop": "output/crops/05.jpg"
+    },
+    {
+      "index": 6,
+      "release_id": 361064,
+      "crop": "output/crops/06.jpg"
+    },
+    {
+      "index": 7,
+      "release_id": 663182,
+      "crop": "output/crops/07.jpg"
+    },
+    {
+      "index": 8,
+      "release_id": 555652,
+      "crop": "output/crops/08.jpg"
+    },
+    {
+      "index": 9,
+      "release_id": 1316369,
+      "crop": "output/crops/09.jpg"
+    },
+    {
+      "index": 10,
+      "release_id": 292244,
+      "crop": "output/crops/10.jpg"
+    },
+    {
+      "index": 11,
+      "release_id": 292433,
+      "crop": "output/crops/11.jpg"
+    },
+    {
+      "index": 12,
+      "release_id": 711192,
+      "crop": "output/crops/12.jpg"
+    },
+    {
+      "index": 13,
+      "release_id": 1287634,
+      "crop": "output/crops/13.jpg"
+    },
+    {
+      "index": 14,
+      "release_id": 515072,
+      "crop": "output/crops/14.jpg"
+    },
+    {
+      "index": 15,
+      "release_id": 1921898,
+      "crop": "output/crops/15.jpg"
+    },
+    {
+      "index": 16,
+      "release_id": 14052398,
+      "crop": "output/crops/16.jpg"
+    },
+    {
+      "index": 17,
+      "release_id": 6117045,
+      "crop": "output/crops/17.jpg",
+      "album": "Collection (2CD)"
+    },
+    {
+      "index": 18,
+      "release_id": 2581147,
+      "crop": "output/crops/18.jpg"
+    },
+    {
+      "index": 19,
+      "release_id": 8795794,
+      "crop": "output/crops/19.jpg"
+    },
+    {
+      "index": 20,
+      "release_id": 1586022,
+      "crop": "output/crops/20.jpg"
+    },
+    {
+      "index": 21,
+      "release_id": 383727,
+      "crop": "output/crops/21.jpg"
+    },
+    {
+      "index": 22,
+      "release_id": 1611855,
+      "crop": "output/crops/22.jpg"
+    },
+    {
+      "index": 23,
+      "release_id": 2679456,
+      "crop": "output/crops/23.jpg"
+    },
+    {
+      "index": 24,
+      "release_id": 10811744,
+      "crop": "output/crops/24.jpg"
+    },
+    {
+      "index": 25,
+      "release_id": 8161840,
+      "crop": "output/crops/25.jpg"
+    },
+    {
+      "index": 26,
+      "release_id": 254743,
+      "crop": "output/crops/26.jpg"
+    },
+    {
+      "index": 27,
+      "release_id": 1232588,
+      "crop": "output/crops/27.jpg"
+    },
+    {
+      "index": 28,
+      "release_id": 2504107,
+      "crop": "output/crops/28.jpg"
+    },
+    {
+      "index": 29,
+      "release_id": 9668222,
+      "crop": "output/crops/29.jpg"
+    },
+    {
+      "index": 30,
+      "release_id": 1930797,
+      "crop": "output/crops/30.jpg"
+    },
+    {
+      "index": 31,
+      "release_id": 1568450,
+      "crop": "output/crops/31.jpg"
+    },
+    {
+      "index": 32,
+      "release_id": 608302,
+      "crop": "output/crops/32.jpg"
+    },
+    {
+      "index": 33,
+      "release_id": 916692,
+      "crop": "output/crops/33.jpg"
+    },
+    {
+      "index": 34,
+      "release_id": 572782,
+      "crop": "output/crops/34.jpg"
+    },
+    {
+      "index": 35,
+      "release_id": 2779323,
+      "crop": "output/crops/35.jpg"
+    },
+    {
+      "index": 36,
+      "release_id": 588618,
+      "crop": "output/crops/36.jpg"
+    },
+    {
+      "index": 37,
+      "release_id": 5579918,
+      "crop": "output/crops/37.jpg"
+    },
+    {
+      "index": 38,
+      "release_id": 3503929,
+      "crop": "output/crops/38.jpg"
+    },
+    {
+      "index": 39,
+      "release_id": 1090349,
+      "crop": "output/crops/39.jpg"
+    },
+    {
+      "index": 40,
+      "release_id": 74027,
+      "crop": "output/crops/40.jpg"
+    },
+    {
+      "index": 41,
+      "release_id": 14008,
+      "crop": "output/crops/41.jpg"
+    },
+    {
+      "index": 42,
+      "release_id": 384936,
+      "crop": "output/crops/42.jpg"
+    },
+    {
+      "index": 43,
+      "release_id": 4386836,
+      "crop": "output/crops/43.jpg"
+    },
+    {
+      "index": 44,
+      "release_id": 161255,
+      "crop": "output/crops/44.jpg"
+    },
+    {
+      "index": 45,
+      "release_id": 215159,
+      "crop": "output/crops/45.jpg"
+    },
+    {
+      "index": 46,
+      "release_id": 629140,
+      "crop": "output/crops/46.jpg"
+    },
+    {
+      "index": 47,
+      "release_id": 169530,
+      "crop": "output/crops/47.jpg"
+    },
+    {
+      "index": 48,
+      "release_id": 549356,
+      "crop": "output/crops/48.jpg"
+    }
+  ]
+}

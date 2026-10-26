@@ -3,10 +3,13 @@
 from __future__ import annotations
 
 import argparse
+import errno
 import json
+import socket
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from urllib.parse import quote
 
 import cv2
 
@@ -37,6 +40,12 @@ class AlignSession:
         height, width = self.image.shape[:2]
         grid_path = out / "grid.json"
         grid = load_grid(grid_path) if grid_path.exists() else None
+        if grid is not None and not _grid_matches_photo(out, image_path):
+            print(
+                "Saved boxes do not match this photo, so the page starts from a fresh box.",
+                flush=True,
+            )
+            grid = None
         self.rows = rows or (grid.rows if grid else 8)
         self.cols = cols or (grid.cols if grid else 6)
         self.inset = inset if inset is not None else (max(grid.inset_x, grid.inset_y) if grid else 6)
@@ -56,9 +65,15 @@ class AlignSession:
             "width": width,
             "height": height,
             "image": self.image_path.name,
+            "photo": self.photo_url(),
             "out": display_path(self.out),
             "saved": (self.out / "grid.json").is_file(),
         }
+
+    def photo_url(self) -> str:
+        stat = self.image_path.stat()
+        source = quote(str(self.image_path.resolve()))
+        return f"/photo?src={source}&v={stat.st_mtime_ns}-{stat.st_size}"
 
     def save(self, payload: dict) -> dict:
         with self._lock:
@@ -211,6 +226,7 @@ def make_server(session: AlignSession, host: str, port: int) -> ThreadingHTTPSer
             self.send_response(code)
             self.send_header("Content-Type", content_type)
             self.send_header("Content-Length", str(len(body)))
+            self.send_header("Cache-Control", "no-store")
             if disposition:
                 self.send_header("Content-Disposition", disposition)
             self.end_headers()
@@ -275,9 +291,51 @@ def make_server(session: AlignSession, host: str, port: int) -> ThreadingHTTPSer
     return ThreadingHTTPServer((host, port), Handler)
 
 
+def _grid_matches_photo(out: Path, image_path: Path) -> bool:
+    """A saved grid belongs to this file only. A replaced photo starts fresh."""
+    grid_path = out / "grid.json"
+    try:
+        if image_path.stat().st_mtime > grid_path.stat().st_mtime:
+            return False
+    except OSError:
+        return False
+    meta_path = out / "run.json"
+    if not meta_path.is_file():
+        return True
+    try:
+        meta = json.loads(meta_path.read_text())
+    except json.JSONDecodeError:
+        return False
+    saved = meta.get("image_path")
+    if isinstance(saved, str) and saved:
+        try:
+            return Path(saved).resolve() == image_path.resolve()
+        except OSError:
+            return False
+    return meta.get("image") in (None, image_path.name)
+
+
+def ensure_port_free(port: int, host: str = "0.0.0.0") -> None:
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
+        sock.bind((host, port))
+    except OSError as exc:
+        if exc.errno == errno.EADDRINUSE:
+            raise SystemExit(
+                f"Port {port} is already in use, so http://127.0.0.1:{port} is still the previous photo.\n"
+                "Stop that align command with Ctrl+C, then run this one again.\n"
+                f"Or add --port {port + 1} and open the address that command prints."
+            )
+        raise
+    finally:
+        sock.close()
+
+
 def serve(session: AlignSession, host: str = "0.0.0.0", port: int = 47321) -> None:
     server = make_server(session, host, port)
+    print(f"Showing {session.image_path.resolve()}", flush=True)
     print(f"Line up the cases at http://127.0.0.1:{port}", flush=True)
+    print("If the window still shows a previous photo, reload it.", flush=True)
     print("Save the crops, then start search, identify, and export on the page.", flush=True)
     try:
         server.serve_forever()

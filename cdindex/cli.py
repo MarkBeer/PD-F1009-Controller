@@ -389,8 +389,9 @@ def _prepare_run(args: argparse.Namespace) -> None:
 
 
 def cmd_align(args: argparse.Namespace) -> int:
-    from cdindex.align import AlignSession, serve
+    from cdindex.align import AlignSession, ensure_port_free, serve
 
+    ensure_port_free(args.port)
     _prepare_run(args)
     session = AlignSession(
         Path(args.image),

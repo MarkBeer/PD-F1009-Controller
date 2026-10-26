@@ -333,6 +333,95 @@ class AlignTests(unittest.TestCase):
                 server.server_close()
 
 
+class PhotoWindowTests(unittest.TestCase):
+    def test_the_page_serves_the_photo_given_on_the_command_line(self):
+        import threading
+        from urllib.request import urlopen
+
+        from cdindex.align import AlignSession, make_server
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            red_path = folder / "table-red.jpg"
+            blue_path = folder / "table-blue.jpg"
+            red = np.zeros((30, 40, 3), dtype=np.uint8)
+            blue = np.zeros((30, 40, 3), dtype=np.uint8)
+            red[:, :] = (0, 0, 230)
+            blue[:, :] = (230, 40, 0)
+            cv2.imwrite(str(red_path), red)
+            cv2.imwrite(str(blue_path), blue)
+            red_session = AlignSession(red_path, folder / "red-run", rows=1, cols=1, inset=0)
+            blue_session = AlignSession(blue_path, folder / "blue-run", rows=1, cols=1, inset=0)
+            red_server = make_server(red_session, "127.0.0.1", 0)
+            blue_server = make_server(blue_session, "127.0.0.1", 0)
+            threads = [
+                threading.Thread(target=red_server.serve_forever, daemon=True),
+                threading.Thread(target=blue_server.serve_forever, daemon=True),
+            ]
+            for thread in threads:
+                thread.start()
+            try:
+                red_state = json.loads(urlopen(f"http://127.0.0.1:{red_server.server_address[1]}/state").read())
+                blue_state = json.loads(urlopen(f"http://127.0.0.1:{blue_server.server_address[1]}/state").read())
+                self.assertIn("table-red.jpg", red_state["photo"])
+                self.assertIn("table-blue.jpg", blue_state["photo"])
+                self.assertNotEqual(red_state["photo"], blue_state["photo"])
+                with urlopen(f"http://127.0.0.1:{red_server.server_address[1]}{red_state['photo']}") as response:
+                    self.assertIn("no-store", response.headers["Cache-Control"])
+                    shown = cv2.imdecode(np.frombuffer(response.read(), dtype=np.uint8), cv2.IMREAD_COLOR)
+                self.assertGreater(shown[:, :, 2].mean(), 200)
+                self.assertLess(shown[:, :, 0].mean(), 30)
+                with urlopen(f"http://127.0.0.1:{blue_server.server_address[1]}{blue_state['photo']}") as response:
+                    shown = cv2.imdecode(np.frombuffer(response.read(), dtype=np.uint8), cv2.IMREAD_COLOR)
+                self.assertGreater(shown[:, :, 0].mean(), 200)
+                self.assertLess(shown[:, :, 2].mean(), 30)
+            finally:
+                red_server.shutdown()
+                blue_server.shutdown()
+                red_server.server_close()
+                blue_server.server_close()
+
+    def test_a_saved_grid_is_not_kept_for_a_different_photo(self):
+        import os
+        import time
+
+        from cdindex.align import AlignSession
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            first = folder / "first.jpg"
+            second = folder / "second.jpg"
+            canvas = np.zeros((40, 50, 3), dtype=np.uint8)
+            cv2.imwrite(str(first), canvas)
+            cv2.imwrite(str(second), canvas)
+            out = folder / "run"
+            session = AlignSession(first, out, rows=1, cols=1, inset=0)
+            session.save({"rows": 1, "cols": 1, "inset": 0, "corners": [[0, 0], [49, 0], [49, 39], [0, 39]]})
+            reopened = AlignSession(first, out, rows=None, cols=None, inset=0)
+            self.assertEqual(reopened.corners[0], [0, 0])
+            other = AlignSession(second, out, rows=None, cols=None, inset=0)
+            self.assertNotEqual(other.corners[0], [0, 0])
+            os.utime(first, (time.time() + 30, time.time() + 30))
+            replaced = AlignSession(first, out, rows=None, cols=None, inset=0)
+            self.assertNotEqual(replaced.corners[0], [0, 0])
+
+    def test_a_busy_port_is_reported_before_the_old_window_is_reused(self):
+        import socket
+
+        from cdindex.align import ensure_port_free
+
+        held = socket.socket()
+        held.bind(("127.0.0.1", 0))
+        port = held.getsockname()[1]
+        try:
+            with self.assertRaises(SystemExit) as caught:
+                ensure_port_free(port, "127.0.0.1")
+            self.assertIn(str(port), str(caught.exception))
+            self.assertIn("previous photo", str(caught.exception))
+        finally:
+            held.close()
+
+
 class RunFolderTests(unittest.TestCase):
     def test_each_photo_gets_its_own_folder(self):
         from cdindex.runs import resolve_run_directory

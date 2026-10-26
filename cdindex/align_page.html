@@ -25,6 +25,7 @@
       border-right: 1px solid #3a3126;
     }
     h1 { font-size: 22px; margin: 0 0 8px; font-weight: 650; }
+    #image-name { font-weight: 650; color: #f3ecdf; word-break: break-all; }
     h2 {
       font-size: 13px;
       margin: 22px 0 8px;
@@ -105,6 +106,7 @@
 <body>
   <aside>
     <h1>Line up the cases</h1>
+    <p id="image-name"></p>
     <p>Drag a corner to resize. The other three stay where they are, so the top left can stay put while the bottom right moves. Near cases look bigger than far ones; the lines follow that.</p>
     <div class="row">
       <div>
@@ -148,6 +150,7 @@
     const insetInput = document.getElementById("inset");
     const insetValue = document.getElementById("inset-value");
     const status = document.getElementById("status");
+    const imageName = document.getElementById("image-name");
     const runFolder = document.getElementById("run-folder");
     const progressLabel = document.getElementById("progress-label");
     const bar = document.getElementById("bar");
@@ -603,7 +606,9 @@
     photo.onload = async () => {
       canvas.width = photo.naturalWidth;
       canvas.height = photo.naturalHeight;
-      const state = await (await fetch("/state")).json();
+      const state = await (await fetch("/state", {cache: "no-store"})).json();
+      imageName.textContent = state.image;
+      document.title = "Line up " + state.image;
       rowsInput.value = state.rows;
       colsInput.value = state.cols;
       insetInput.value = state.inset;
@@ -623,7 +628,16 @@
       }
     };
     window.addEventListener("resize", () => { if (canvas.width) fit(); });
-    photo.src = "/photo";
+    fetch("/state", {cache: "no-store"})
+      .then((response) => response.json())
+      .then((state) => {
+        imageName.textContent = state.image;
+        document.title = "Line up " + state.image;
+        photo.src = state.photo;
+      })
+      .catch(() => {
+        status.textContent = "Could not load the photo from this align command.";
+      });
   </script>
 </body>
 </html>

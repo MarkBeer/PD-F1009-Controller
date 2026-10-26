@@ -17,7 +17,7 @@ Each photo gets a new folder under `output/`, named with the time and the photo,
 python -m cdindex align photo.jpg --out output/20261026-173500-photo
 ```
 
-The page opens at <http://127.0.0.1:47321>. Use the original photo, not `preview.jpg` (that file already has the green lines drawn on it).
+The page opens at <http://127.0.0.1:47321>. The terminal prints the photo it is showing, and the page names that file under the heading. Use the original photo, not `preview.jpg` (that file already has the green lines drawn on it). If the window still shows an older photo, reload it. If the port is already in use, the previous align command is still running: stop it with Ctrl+C, or add `--port` with another number and open the address that command prints.
 
 1. Drag a corner to resize. The other three stay where they are, so the top left can stay put while the bottom right moves. Edge handles resize one side. The lines follow the perspective, so nearer cases get larger boxes. Use Zoom to bottom-right when that corner is hard to reach.
 2. **Save crops.** That writes `crops/01.jpg`, `crops/02.jpg`, … plus `preview.jpg` and `grid.json`. Cases are numbered left to right, top to bottom.

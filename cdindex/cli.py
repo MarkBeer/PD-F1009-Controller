@@ -1,7 +1,10 @@
 """Command line for a new photo of jewel cases.
 
-    python -m cdindex run photo.jpg --out output/run
-    python -m cdindex export --out output/run
+    python -m cdindex align photo.jpg
+    python -m cdindex run photo.jpg
+    python -m cdindex export --out output/20260101-120000-photo
+
+Each photo is written to its own folder under output/.
 
 detect writes grid.json, preview.jpg, and crops/.
 align opens a page where the four corners of a bad grid can be dragged.
@@ -17,6 +20,7 @@ Pin a wrong match by adding out/overrides.json and running identify again:
 from __future__ import annotations
 
 import argparse
+import contextvars
 import json
 import sys
 import time
@@ -37,11 +41,28 @@ from cdindex.discogs import (
     search,
 )
 from cdindex.grid import detect_grid, load_grid, save_grid, write_crops, write_preview
+from cdindex.runs import display_path, resolve_run_directory
 from cdindex.yandex import YandexError, search_cover
 
 
-def _log(message: str) -> None:
+def _print_log(message: str) -> None:
     print(message, flush=True)
+
+
+def _ignore_progress(step: str, done: int, total: int, detail: str = "") -> None:
+    del step, done, total, detail
+
+
+_log_sink = contextvars.ContextVar("cdindex_log", default=_print_log)
+_progress_sink = contextvars.ContextVar("cdindex_progress", default=_ignore_progress)
+
+
+def _log(message: str) -> None:
+    _log_sink.get()(message)
+
+
+def _progress(step: str, done: int, total: int, detail: str = "") -> None:
+    _progress_sink.get()(step, done, total, detail)
 
 
 def _read_image(path: Path):
@@ -69,11 +90,7 @@ def _overrides(path: Path | None, out: Path) -> dict:
 
 
 def _display_path(path: Path) -> str:
-    resolved = path.resolve()
-    try:
-        return resolved.relative_to(Path.cwd().resolve()).as_posix()
-    except ValueError:
-        return path.as_posix()
+    return display_path(path)
 
 
 def _release_dirs(out: Path, extra: list[Path]) -> list[Path]:
@@ -114,7 +131,7 @@ def cmd_detect(args: argparse.Namespace) -> int:
         {"image": image_path.name, "image_path": str(image_path), "cases": len(crops)},
     )
     _log(f"Wrote {len(crops)} crops, {out / 'grid.json'}, and {out / 'preview.jpg'}")
-    _log("Check preview.jpg. If a case is clipped, edit grid.json or pass --rows and --cols.")
+    _log("Check preview.jpg. If a case is clipped, run align and drag the corners.")
     return 0
 
 
@@ -151,14 +168,13 @@ def cmd_search(args: argparse.Namespace) -> int:
             pending.append((cell, crop, saved))
     _log(f"{len(cells)} crops in the grid.")
     if skipped:
-        _log(
-            f"Skipping {len(skipped)} already searched. "
-            "Pass --force to search those again."
-        )
+        _log(f"Skipping {len(skipped)} covers that already have a search newer than the crop.")
+    _progress("search", len(skipped), len(cells), "already searched" if skipped else "")
     searched = 0
     for cell, crop, saved in pending:
         searched += 1
         _log(f"Image search {searched}/{len(pending)}  {crop.name}")
+        _progress("search", len(skipped) + searched, len(cells), crop.name)
         if not crop.exists():
             save_json(saved, {"tags": [], "objects": [], "sites": [], "error": f"Missing crop {crop.name}"})
             _log(f"  missing {crop}")
@@ -217,10 +233,10 @@ def cmd_identify(args: argparse.Namespace) -> int:
     grid = load_grid(out / "grid.json")
     overrides = _overrides(Path(args.overrides) if args.overrides else None, out)
     extra = [Path(path) for path in args.releases]
+    cells = [cell for cell in grid.cells if not args.limit or cell.index <= args.limit]
     items: list[dict] = []
-    for cell in grid.cells:
-        if args.limit and cell.index > args.limit:
-            break
+    _progress("identify", 0, len(cells), "")
+    for cell in cells:
         override = overrides.get(str(cell.index), {})
         yandex_path = out / "yandex" / f"{cell.index:02d}.json"
         yandex = json.loads(yandex_path.read_text()) if yandex_path.exists() else {}
@@ -278,7 +294,9 @@ def cmd_identify(args: argparse.Namespace) -> int:
             entry["note"] = str(exc)
             _log(f"{cell.index:02d} {exc}")
         items.append(entry)
-        _log(f"{cell.index:02d} {entry['status']} {((entry.get('chosen') or {}).get('title') or '')}")
+        title = ((entry.get("chosen") or {}).get("title") or "")
+        _log(f"{cell.index:02d} {entry['status']} {title}")
+        _progress("identify", len(items), len(cells), f"{entry['status']} {title}".strip())
         save_json(out / "review.json", {"items": items})
     needs = [item["index"] for item in items if item["status"] != "identified"]
     if needs:
@@ -306,7 +324,11 @@ def cmd_export(args: argparse.Namespace) -> int:
     if getattr(args, "selection", None):
         return _export_selection(args)
     out = Path(args.out)
-    review = json.loads((out / "review.json").read_text())
+    review_path = out / "review.json"
+    if not review_path.is_file():
+        raise ValueError("Identify the covers before exporting.")
+    review = json.loads(review_path.read_text())
+    _progress("export", 0, len(review.get("items") or []), "")
     meta = _run_meta(out)
     image_name = meta.get("image") or "image"
     overrides = _overrides(Path(args.overrides) if args.overrides else None, out)
@@ -333,6 +355,7 @@ def cmd_export(args: argparse.Namespace) -> int:
     dest = Path(args.csv) if args.csv else out / "cd_index.csv"
     write_csv(rows, dest)
     _log(f"Wrote {len(rows)} track rows to {dest}")
+    _progress("export", len(rows), len(rows), dest.name)
     return 0
 
 
@@ -356,9 +379,19 @@ def _export_selection(args: argparse.Namespace) -> int:
     return 0
 
 
+def _prepare_run(args: argparse.Namespace) -> None:
+    image_path = Path(args.image)
+    if cv2.imread(str(image_path)) is None:
+        raise SystemExit(f"Could not read image {image_path}")
+    out, note = resolve_run_directory(Path(args.out) if args.out else None, image_path)
+    args.out = str(out)
+    _log(note)
+
+
 def cmd_align(args: argparse.Namespace) -> int:
     from cdindex.align import AlignSession, serve
 
+    _prepare_run(args)
     session = AlignSession(
         Path(args.image),
         Path(args.out),
@@ -371,6 +404,7 @@ def cmd_align(args: argparse.Namespace) -> int:
 
 
 def cmd_run(args: argparse.Namespace) -> int:
+    _prepare_run(args)
     cmd_detect(args)
     if not args.detect_only:
         cmd_search(args)
@@ -392,7 +426,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     align = sub.add_parser("align", help="Drag the grid into place in a browser, then save the crops")
     align.add_argument("image", help="Original photo, without the green preview lines")
-    align.add_argument("--out", required=True, help="Run directory for grid.json and crops")
+    align.add_argument(
+        "--out",
+        help="Parent folder for a new run, or an existing run of this same photo. Defaults to output",
+    )
     align.add_argument("--rows", type=int, help="Starting row count")
     align.add_argument("--cols", type=int, help="Starting column count")
     align.add_argument("--inset", type=int, help="Pixels trimmed inside each case")
@@ -415,7 +452,11 @@ def build_parser() -> argparse.ArgumentParser:
     export.set_defaults(func=cmd_export)
 
     run = sub.add_parser("run", help="detect, search, identify, and export")
-    _add_detect_args(run)
+    _add_detect_args(
+        run,
+        out_required=False,
+        out_help="Parent folder for a new run, or an existing run of this same photo. Defaults to output",
+    )
     run.add_argument("--force", action="store_true", help="Redo image searches and Discogs searches")
     run.add_argument("--limit", type=int, default=0)
     run.add_argument("--pause", type=float, default=2.7, help="Seconds between Discogs requests")
@@ -433,9 +474,14 @@ def build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def _add_detect_args(parser: argparse.ArgumentParser) -> None:
+def _add_detect_args(
+    parser: argparse.ArgumentParser,
+    *,
+    out_required: bool = True,
+    out_help: str = "Directory for crops, review, and CSV",
+) -> None:
     parser.add_argument("image", help="Photo of the cases")
-    parser.add_argument("--out", required=True, help="Directory for crops, review, and CSV")
+    parser.add_argument("--out", required=out_required, help=out_help)
     parser.add_argument("--rows", type=int, help="Force the number of rows")
     parser.add_argument("--cols", type=int, help="Force the number of columns")
     parser.add_argument("--inset", type=int, default=6, help="Pixels cut inside each detected box")

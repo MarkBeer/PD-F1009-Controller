@@ -8,33 +8,44 @@ The photo already in this repo is `assets/a760bb13-1170-47fb-88be-bf50082ed5f3.j
 
 ```bash
 pip install -r requirements.txt
-python -m cdindex run photo.jpg --out output/run
+python -m cdindex align photo.jpg
 ```
 
-That does four steps. Each one can also be run on its own.
-
-1. **detect** finds a regular grid and writes `crops/01.jpg`, `crops/02.jpg`, … plus `preview.jpg` and `grid.json`. Cases are numbered left to right, top to bottom.
-2. **search** uploads each crop to Yandex Images and saves the tags and object titles under `yandex/`.
-3. **identify** searches Discogs for those titles, prefers a UK retail CD (then UK & Europe, then Europe), and writes `review.json`. Album releases are preferred to CD singles of the same title.
-4. **export** writes `cd_index.csv`, one row per track.
-
-Check `preview.jpg` before trusting the search. If the green boxes miss the cases, do not edit `grid.json` by hand. Open the align page and drag a corner: that corner moves on its own, so the top left can stay put while the bottom right resizes. Edge handles resize one side. The lines follow the perspective, so nearer cases get larger boxes. Use Zoom to bottom-right when that corner is hard to reach.
+Each photo gets a new folder under `output/`, named with the time and the photo, such as `output/20261026-173500-photo`. A second photo does not reuse the first photo’s searches, crops, or CSV. Passing `--out` with a folder that already belongs to a different photo does the same thing: the old folder stays as it is, and a new one is created beside it. To come back to a photo you already started, pass that photo’s folder:
 
 ```bash
-python -m cdindex align photo.jpg --out output/run
+python -m cdindex align photo.jpg --out output/20261026-173500-photo
 ```
 
-Use the original photo, not `preview.jpg` (that file already has the green lines drawn on it). Save replaces the crops. Then continue:
+The page opens at <http://127.0.0.1:47321>. Use the original photo, not `preview.jpg` (that file already has the green lines drawn on it).
+
+1. Drag a corner to resize. The other three stay where they are, so the top left can stay put while the bottom right moves. Edge handles resize one side. The lines follow the perspective, so nearer cases get larger boxes. Use Zoom to bottom-right when that corner is hard to reach.
+2. **Save crops.** That writes `crops/01.jpg`, `crops/02.jpg`, … plus `preview.jpg` and `grid.json`. Cases are numbered left to right, top to bottom.
+3. **Search, identify, and export.** The page runs the next three steps and shows what it is doing: which cover is being uploaded, whether Discogs matched it, and a download link when the CSV is ready. The same buttons can run one step at a time.
+
+Those three steps are:
+
+- **search** uploads each crop to Yandex Images and saves the tags and object titles under `yandex/`.
+- **identify** searches Discogs for those titles, prefers a UK retail CD (then UK & Europe, then Europe), and writes `review.json`. Album releases are preferred to CD singles of the same title.
+- **export** writes `cd_index.csv`, one row per track.
+
+A saved image search is reused only when it is newer than that crop and it actually returned tags. After you realign and save, the replaced crops are uploaded again. Tick “Redo covers that were already searched” to upload every crop again.
+
+To run the whole pipeline in the terminal instead of the page, this also creates a new folder:
 
 ```bash
-python -m cdindex search --out output/run
-python -m cdindex identify --out output/run
-python -m cdindex export --out output/run
+python -m cdindex run photo.jpg
 ```
 
-A saved image search is reused only when it is newer than that crop and it actually returned tags. After you realign, the replaced crops are uploaded again and crops that did not change are left alone. The log says how many were skipped. `python -m cdindex search --out output/run --force` uploads every crop again.
+`search`, `identify`, and `export` still take the exact run folder:
 
-A single cover is `--rows 1 --cols 1`.
+```bash
+python -m cdindex search --out output/20261026-173500-photo
+python -m cdindex identify --out output/20261026-173500-photo
+python -m cdindex export --out output/20261026-173500-photo
+```
+
+A single cover is `--rows 1 --cols 1` on `align` or `run`.
 
 Yandex and Discogs have to be reachable. Discogs allows about 25 unauthenticated requests a minute; the default pause is 2.7 seconds. A token in `DISCOGS_TOKEN` raises that limit. A Discogs search already on disk is reused when the query is the same. `--force` repeats those as well.
 
@@ -42,7 +53,7 @@ Yandex and Discogs have to be reachable. Discogs allows about 25 unauthenticated
 
 `review.json` has one entry per case: the queries, the Yandex tags, the chosen release, and the other Discogs hits. `status` is `identified`, `needs_review`, or `unable to identify`.
 
-Two things still need a person. The image search sometimes names a different album with similar art, and several pressings share a title (the 1CD and the 2CD, or two catalogue numbers). The front cover does not always say which one was photographed. Pin the release in `output/run/overrides.json` and run identify and export again:
+Two things still need a person. The image search sometimes names a different album with similar art, and several pressings share a title (the 1CD and the 2CD, or two catalogue numbers). The front cover does not always say which one was photographed. Pin the release in the run folder’s `overrides.json` and run identify and export again:
 
 ```json
 {

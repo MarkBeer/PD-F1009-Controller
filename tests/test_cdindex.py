@@ -323,10 +323,150 @@ class AlignTests(unittest.TestCase):
                 )
                 saved = json.loads(urlopen(request).read())
                 self.assertEqual(saved["cases"], 4)
+                self.assertIn(b"Search, identify, and export", page)
                 self.assertEqual(len(list((folder / "run" / "crops").glob("*.jpg"))), 4)
                 grid = json.loads((folder / "run" / "grid.json").read_text())
                 self.assertEqual(grid["rows"], 2)
                 self.assertEqual(len(grid["block_corners"]), 4)
+            finally:
+                server.shutdown()
+                server.server_close()
+
+
+class RunFolderTests(unittest.TestCase):
+    def test_each_photo_gets_its_own_folder(self):
+        from cdindex.runs import resolve_run_directory
+
+        with tempfile.TemporaryDirectory() as tmp:
+            parent = Path(tmp) / "output"
+            first, note = resolve_run_directory(parent, Path("table-a.jpg"))
+            second, _second_note = resolve_run_directory(parent, Path("table-b.jpg"))
+            self.assertNotEqual(first, second)
+            self.assertEqual(first.parent, parent)
+            self.assertEqual(second.parent, parent)
+            self.assertIn("table-a", first.name)
+            self.assertIn("table-b", second.name)
+            self.assertIn("New run folder", note)
+            self.assertEqual(json.loads((first / "run.json").read_text())["image"], "table-a.jpg")
+            resumed, resume_note = resolve_run_directory(first, Path("table-a.jpg"))
+            self.assertEqual(resumed, first)
+            self.assertIn("Resuming", resume_note)
+
+    def test_a_different_photo_does_not_reuse_a_finished_run(self):
+        from cdindex.runs import resolve_run_directory
+
+        with tempfile.TemporaryDirectory() as tmp:
+            run = Path(tmp) / "output" / "run"
+            run.mkdir(parents=True)
+            (run / "run.json").write_text(json.dumps({"image": "first.jpg"}))
+            (run / "yandex").mkdir()
+            (run / "yandex" / "01.json").write_text("{}")
+            new, note = resolve_run_directory(run, Path("second.jpg"))
+            self.assertNotEqual(new, run)
+            self.assertEqual(new.parent, run.parent)
+            self.assertFalse(str(new).startswith(str(run) + "/"))
+            self.assertFalse((new / "yandex").exists())
+            self.assertIn("first.jpg", note)
+            self.assertTrue((run / "yandex" / "01.json").exists())
+
+
+class ProcessPageTests(unittest.TestCase):
+    def test_the_page_can_export_and_only_one_job_runs(self):
+        import threading
+        import time
+        from urllib.error import HTTPError
+        from urllib.request import Request, urlopen
+
+        from cdindex.align import AlignSession, make_server
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            image_path = folder / "photo.jpg"
+            canvas = np.zeros((80, 100, 3), dtype=np.uint8)
+            cv2.imwrite(str(image_path), canvas)
+            session = AlignSession(image_path, folder / "run", rows=2, cols=2, inset=0)
+            server = make_server(session, "127.0.0.1", 0)
+            port = server.server_address[1]
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            try:
+                early = Request(
+                    f"http://127.0.0.1:{port}/process",
+                    data=b'{"steps": ["export"]}',
+                    headers={"Content-Type": "application/json"},
+                )
+                with self.assertRaises(HTTPError) as caught:
+                    urlopen(early)
+                self.assertEqual(caught.exception.code, 400)
+
+                payload = json.dumps(
+                    {"rows": 2, "cols": 2, "inset": 0, "corners": [[0, 0], [99, 0], [99, 79], [0, 79]]}
+                ).encode()
+                urlopen(
+                    Request(
+                        f"http://127.0.0.1:{port}/save",
+                        data=payload,
+                        headers={"Content-Type": "application/json"},
+                    )
+                )
+                review = {
+                    "items": [
+                        {
+                            "index": 1,
+                            "crop": "crops/01.jpg",
+                            "chosen": None,
+                            "status": "unable to identify",
+                        }
+                    ]
+                }
+                (folder / "run" / "review.json").write_text(json.dumps(review))
+                started = json.loads(
+                    urlopen(
+                        Request(
+                            f"http://127.0.0.1:{port}/process",
+                            data=b'{"steps": ["export"]}',
+                            headers={"Content-Type": "application/json"},
+                        )
+                    ).read()
+                )
+                self.assertIn(started["running"], (True, False))
+                progress = started
+                for _ in range(50):
+                    if not progress["running"]:
+                        break
+                    time.sleep(0.05)
+                    progress = json.loads(urlopen(f"http://127.0.0.1:{port}/progress").read())
+                self.assertFalse(progress["running"])
+                self.assertIsNone(progress["error"])
+                self.assertEqual(progress["results"][0]["status"], "unable to identify")
+                self.assertTrue(any("Wrote" in line for line in progress["lines"]))
+                csv = urlopen(f"http://127.0.0.1:{port}/cd_index.csv").read().decode()
+                self.assertIn("Track Title", csv)
+                self.assertIn("unable to identify", csv)
+
+                release = threading.Event()
+
+                def wait(steps, force):
+                    del steps, force
+                    release.wait(3)
+
+                session.start_job(["export"], False, worker=wait)
+                with self.assertRaises(RuntimeError):
+                    session.start_job(["export"], False)
+                blocked = Request(
+                    f"http://127.0.0.1:{port}/process",
+                    data=b'{"steps": ["export"]}',
+                    headers={"Content-Type": "application/json"},
+                )
+                with self.assertRaises(HTTPError) as busy:
+                    urlopen(blocked)
+                self.assertEqual(busy.exception.code, 409)
+                release.set()
+                for _ in range(50):
+                    if not session.progress()["running"]:
+                        break
+                    time.sleep(0.05)
+                self.assertFalse(session.progress()["running"])
             finally:
                 server.shutdown()
                 server.server_close()

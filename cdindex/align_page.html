@@ -127,15 +127,15 @@
     <h2>This run</h2>
     <p id="run-folder"></p>
     <button class="save" id="process" type="button" disabled>Search, identify, and export</button>
+    <p id="progress-label"></p>
+    <div class="bar" id="bar" hidden><span id="bar-fill"></span></div>
+    <pre id="log">Save the crops, then processing progress shows up here.</pre>
+    <ul id="results"></ul>
+    <a id="csv" hidden href="/cd_index.csv">Download the track CSV</a>
     <button class="ghost" id="step-search" type="button" disabled>Search covers</button>
     <button class="ghost" id="step-identify" type="button" disabled>Identify on Discogs</button>
     <button class="ghost" id="step-export" type="button" disabled>Export CSV</button>
     <label class="check" for="force"><input id="force" type="checkbox"> Redo covers that were already searched</label>
-    <p id="progress-label"></p>
-    <div class="bar" id="bar" hidden><span id="bar-fill"></span></div>
-    <ul id="results"></ul>
-    <a id="csv" hidden href="/cd_index.csv">Download the track CSV</a>
-    <pre id="log"></pre>
   </aside>
   <main>
     <canvas id="stage"></canvas>
@@ -484,9 +484,12 @@
     }
 
     function renderProgress(body) {
-      const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 24;
-      log.textContent = (body.lines || []).join("\n");
-      if (nearBottom) log.scrollTop = log.scrollHeight;
+      const lines = body.lines || [];
+      if (lines.length) {
+        const nearBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 24;
+        log.textContent = lines.join("\n");
+        if (nearBottom) log.scrollTop = log.scrollHeight;
+      }
       const name = stepNames[body.step] || "";
       if (body.total) {
         bar.hidden = false;
@@ -510,6 +513,7 @@
       }
       csvLink.hidden = !body.csv;
       if (body.error) progressLabel.textContent = body.error;
+      if (body.running) log.scrollIntoView({block: "nearest"});
     }
 
     function schedulePoll() {

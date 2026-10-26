@@ -263,6 +263,67 @@ class SearchRankingTests(unittest.TestCase):
         self.assertEqual(parsed["sites"][0]["domain"], "example.test")
 
 
+class AlignTests(unittest.TestCase):
+    def test_four_corners_divide_into_the_case_grid(self):
+        from cdindex.grid import cells_from_block, warp_quad
+
+        cells = cells_from_block(2, 2, [[0, 0], [100, 0], [100, 40], [0, 40]])
+        self.assertEqual(len(cells), 4)
+        self.assertEqual((cells[0].x0, cells[0].y0, cells[0].x1, cells[0].y1), (0, 0, 50, 20))
+        self.assertEqual(cells[3].row, 2)
+        self.assertEqual(cells[3].col, 2)
+        image = np.zeros((80, 120, 3), dtype=np.uint8)
+        image[10:50, 20:70] = (0, 0, 220)
+        warped = warp_quad(image, [[20, 10], [70, 10], [70, 50], [20, 50]])
+        self.assertGreater(warped[:, :, 2].mean(), 200)
+        self.assertEqual(warped.shape[1], 50)
+        self.assertEqual(warped.shape[0], 40)
+
+    def test_align_page_saves_one_crop_per_case(self):
+        import json
+        import threading
+        from urllib.request import Request, urlopen
+
+        from cdindex.align import AlignSession, make_server
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            image_path = folder / "photo.jpg"
+            canvas = np.zeros((80, 100, 3), dtype=np.uint8)
+            canvas[:, :] = (40, 90, 140)
+            cv2.imwrite(str(image_path), canvas)
+            session = AlignSession(image_path, folder / "run", rows=2, cols=2, inset=0)
+            server = make_server(session, "127.0.0.1", 0)
+            port = server.server_address[1]
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            try:
+                page = urlopen(f"http://127.0.0.1:{port}/").read()
+                self.assertIn(b"Drag a corner", page)
+                payload = json.dumps(
+                    {
+                        "rows": 2,
+                        "cols": 2,
+                        "inset": 0,
+                        "corners": [[0, 0], [99, 0], [99, 79], [0, 79]],
+                    }
+                ).encode()
+                request = Request(
+                    f"http://127.0.0.1:{port}/save",
+                    data=payload,
+                    headers={"Content-Type": "application/json"},
+                )
+                saved = json.loads(urlopen(request).read())
+                self.assertEqual(saved["cases"], 4)
+                self.assertEqual(len(list((folder / "run" / "crops").glob("*.jpg"))), 4)
+                grid = json.loads((folder / "run" / "grid.json").read_text())
+                self.assertEqual(grid["rows"], 2)
+                self.assertEqual(len(grid["block_corners"]), 4)
+            finally:
+                server.shutdown()
+                server.server_close()
+
+
 class CsvWriterTests(unittest.TestCase):
     def test_writer_uses_the_track_columns(self):
         with tempfile.TemporaryDirectory() as tmp:

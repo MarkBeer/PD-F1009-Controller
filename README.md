@@ -18,10 +18,15 @@ That does four steps. Each one can also be run on its own.
 3. **identify** searches Discogs for those titles, prefers a UK retail CD (then UK & Europe, then Europe), and writes `review.json`. Album releases are preferred to CD singles of the same title.
 4. **export** writes `cd_index.csv`, one row per track.
 
-Check `preview.jpg` before trusting the search. The detector expects a roughly front-on grid of similar cases. If a row is clipped, run detect again with the count you can see, or edit the boxes in `grid.json` and run detect with `--grid`:
+Check `preview.jpg` before trusting the search. If the green boxes are sitting on the table or on the wrong cases, do not edit `grid.json` by hand. Open the align page, drag the four corners onto the outside of the stack, set the rows and columns, and save:
 
 ```bash
-python -m cdindex detect photo.jpg --out output/run --rows 8 --cols 6
+python -m cdindex align photo.jpg --out output/run
+```
+
+Use the original photo, not `preview.jpg` (that file already has the green lines drawn on it). Save replaces the crops. Then continue:
+
+```bash
 python -m cdindex search --out output/run
 python -m cdindex identify --out output/run
 python -m cdindex export --out output/run

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Line up the cases</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      background: #16130f;
+      color: #f3ecdf;
+      font: 16px/1.45 "Segoe UI", sans-serif;
+    }
+    aside {
+      width: 300px;
+      flex: none;
+      padding: 20px 18px 28px;
+      background: #221c16;
+      border-right: 1px solid #3a3126;
+    }
+    h1 { font-size: 22px; margin: 0 0 8px; font-weight: 650; }
+    p { margin: 0 0 14px; color: #d9cbb6; }
+    label { display: block; margin: 12px 0 4px; font-size: 13px; letter-spacing: 0.04em; text-transform: uppercase; color: #b5a48d; }
+    input[type="number"] {
+      width: 100%;
+      font: inherit;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid #5a4c3a;
+      background: #120f0c;
+      color: inherit;
+    }
+    input[type="range"] { width: 100%; }
+    .row { display: flex; gap: 10px; }
+    .row > div { flex: 1; }
+    button {
+      font: inherit;
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 0;
+      cursor: pointer;
+    }
+    button.save { background: #e7f27a; color: #1b160f; font-weight: 650; }
+    button.ghost { background: transparent; color: #f3ecdf; border: 1px solid #5a4c3a; }
+    #status { min-height: 3em; margin-top: 12px; }
+    main { flex: 1; overflow: auto; padding: 12px; }
+    canvas { display: block; background: #000; cursor: grab; touch-action: none; }
+    canvas.dragging { cursor: grabbing; }
+    @media (max-width: 800px) {
+      body { flex-direction: column; }
+      aside { width: auto; border-right: 0; border-bottom: 1px solid #3a3126; }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <h1>Line up the cases</h1>
+    <p>Drag a corner onto the outside of the stack. Drag the middle to slide the whole grid. Set the rows and columns you can see, then save.</p>
+    <div class="row">
+      <div>
+        <label for="rows">Rows</label>
+        <input id="rows" type="number" min="1" max="20" value="8">
+      </div>
+      <div>
+        <label for="cols">Columns</label>
+        <input id="cols" type="number" min="1" max="20" value="6">
+      </div>
+    </div>
+    <label for="inset">Inset <span id="inset-value">6</span> px</label>
+    <input id="inset" type="range" min="0" max="30" value="6">
+    <button class="save" id="save" type="button">Save crops</button>
+    <button class="ghost" id="reset" type="button">Start from a fresh box</button>
+    <p id="status">Arrow keys nudge the whole grid. Shift moves it further.</p>
+  </aside>
+  <main>
+    <canvas id="stage"></canvas>
+  </main>
+  <script>
+    const canvas = document.getElementById("stage");
+    const ctx = canvas.getContext("2d");
+    const rowsInput = document.getElementById("rows");
+    const colsInput = document.getElementById("cols");
+    const insetInput = document.getElementById("inset");
+    const insetValue = document.getElementById("inset-value");
+    const status = document.getElementById("status");
+    const photo = new Image();
+    let corners = [[0, 0], [1, 0], [1, 1], [0, 1]];
+    let drag = null;
+
+    function bilinear(u, v) {
+      const [tl, tr, br, bl] = corners;
+      const topX = tl[0] * (1 - u) + tr[0] * u;
+      const topY = tl[1] * (1 - u) + tr[1] * u;
+      const botX = bl[0] * (1 - u) + br[0] * u;
+      const botY = bl[1] * (1 - u) + br[1] * u;
+      return [topX * (1 - v) + botX * v, topY * (1 - v) + botY * v];
+    }
+
+    function cellQuad(row, col, rows, cols) {
+      return [
+        bilinear(col / cols, row / rows),
+        bilinear((col + 1) / cols, row / rows),
+        bilinear((col + 1) / cols, (row + 1) / rows),
+        bilinear(col / cols, (row + 1) / rows),
+      ];
+    }
+
+    function draw() {
+      const rows = Number(rowsInput.value) || 1;
+      const cols = Number(colsInput.value) || 1;
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(photo, 0, 0);
+      ctx.lineJoin = "round";
+      let index = 1;
+      for (let row = 0; row < rows; row++) {
+        for (let col = 0; col < cols; col++) {
+          const quad = cellQuad(row, col, rows, cols);
+          stroke(quad, "rgba(0,0,0,0.85)", 5);
+          stroke(quad, "#d6ff4a", 2);
+          const left = Math.min(...quad.map((point) => point[0]));
+          const top = Math.min(...quad.map((point) => point[1]));
+          ctx.font = "600 22px Segoe UI, sans-serif";
+          ctx.lineWidth = 4;
+          ctx.strokeStyle = "rgba(0,0,0,0.8)";
+          ctx.strokeText(String(index), left + 8, top + 26);
+          ctx.fillStyle = "#d6ff4a";
+          ctx.fillText(String(index), left + 8, top + 26);
+          index += 1;
+        }
+      }
+      corners.forEach((point, i) => {
+        ctx.beginPath();
+        ctx.arc(point[0], point[1], 14, 0, Math.PI * 2);
+        ctx.fillStyle = drag && drag.kind === "corner" && drag.index === i ? "#ffffff" : "#d6ff4a";
+        ctx.fill();
+        ctx.lineWidth = 3;
+        ctx.strokeStyle = "#1b160f";
+        ctx.stroke();
+      });
+    }
+
+    function stroke(quad, color, width) {
+      ctx.beginPath();
+      ctx.moveTo(quad[0][0], quad[0][1]);
+      for (let i = 1; i < quad.length; i++) ctx.lineTo(quad[i][0], quad[i][1]);
+      ctx.closePath();
+      ctx.lineWidth = width;
+      ctx.strokeStyle = color;
+      ctx.stroke();
+    }
+
+    function toImage(event) {
+      const rect = canvas.getBoundingClientRect();
+      const point = event.touches ? event.touches[0] : event;
+      return [
+        (point.clientX - rect.left) / rect.width * canvas.width,
+        (point.clientY - rect.top) / rect.height * canvas.height,
+      ];
+    }
+
+    function nearestCorner(point) {
+      const rect = canvas.getBoundingClientRect();
+      const limit = 22 / (rect.width / canvas.width);
+      let best = null;
+      let bestDist = limit;
+      corners.forEach((corner, index) => {
+        const dist = Math.hypot(corner[0] - point[0], corner[1] - point[1]);
+        if (dist < bestDist) {
+          best = index;
+          bestDist = dist;
+        }
+      });
+      return best;
+    }
+
+    function inside(point) {
+      let hit = false;
+      for (let i = 0, j = corners.length - 1; i < corners.length; j = i++) {
+        const yi = corners[i][1];
+        const yj = corners[j][1];
+        const xi = corners[i][0];
+        const xj = corners[j][0];
+        const intersect = ((yi > point[1]) !== (yj > point[1]))
+          && (point[0] < (xj - xi) * (point[1] - yi) / ((yj - yi) || 1e-6) + xi);
+        if (intersect) hit = !hit;
+      }
+      return hit;
+    }
+
+    function pointerDown(event) {
+      const point = toImage(event);
+      const corner = nearestCorner(point);
+      if (corner !== null) drag = { kind: "corner", index: corner, point };
+      else if (inside(point)) drag = { kind: "move", point };
+      else return;
+      canvas.classList.add("dragging");
+      event.preventDefault();
+    }
+
+    function pointerMove(event) {
+      if (!drag) return;
+      const point = toImage(event);
+      if (drag.kind === "corner") {
+        corners[drag.index] = point;
+      } else {
+        const dx = point[0] - drag.point[0];
+        const dy = point[1] - drag.point[1];
+        corners = corners.map(([x, y]) => [x + dx, y + dy]);
+        drag.point = point;
+      }
+      draw();
+      event.preventDefault();
+    }
+
+    function pointerUp() {
+      drag = null;
+      canvas.classList.remove("dragging");
+    }
+
+    canvas.addEventListener("mousedown", pointerDown);
+    window.addEventListener("mousemove", pointerMove);
+    window.addEventListener("mouseup", pointerUp);
+    canvas.addEventListener("touchstart", pointerDown, { passive: false });
+    window.addEventListener("touchmove", pointerMove, { passive: false });
+    window.addEventListener("touchend", pointerUp);
+
+    window.addEventListener("keydown", (event) => {
+      const step = event.shiftKey ? 20 : 4;
+      const move = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[event.key];
+      if (!move) return;
+      corners = corners.map(([x, y]) => [x + move[0], y + move[1]]);
+      draw();
+      event.preventDefault();
+    });
+
+    rowsInput.addEventListener("input", draw);
+    colsInput.addEventListener("input", draw);
+    insetInput.addEventListener("input", () => {
+      insetValue.textContent = insetInput.value;
+    });
+
+    document.getElementById("reset").addEventListener("click", () => {
+      const m = 0.12;
+      corners = [
+        [canvas.width * m, canvas.height * m],
+        [canvas.width * (1 - m), canvas.height * m],
+        [canvas.width * (1 - m), canvas.height * (1 - m)],
+        [canvas.width * m, canvas.height * (1 - m)],
+      ];
+      draw();
+      status.textContent = "Fresh box. Drag the corners onto the outside of the stack.";
+    });
+
+    document.getElementById("save").addEventListener("click", async () => {
+      status.textContent = "Saving crops…";
+      const response = await fetch("/save", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          rows: Number(rowsInput.value),
+          cols: Number(colsInput.value),
+          inset: Number(insetInput.value),
+          corners,
+        }),
+      });
+      const body = await response.json();
+      if (!response.ok) {
+        status.textContent = body.error || "Save failed.";
+        return;
+      }
+      status.textContent = `Saved ${body.cases} crops. Next: python -m cdindex search --out ${body.out}`;
+    });
+
+    function fit() {
+      const aside = document.querySelector("aside").getBoundingClientRect();
+      const maxW = Math.max(240, window.innerWidth - aside.width - 28);
+      const maxH = Math.max(240, window.innerHeight - 28);
+      const scale = Math.min(maxW / canvas.width, maxH / canvas.height);
+      canvas.style.width = `${canvas.width * scale}px`;
+      canvas.style.height = `${canvas.height * scale}px`;
+    }
+
+    photo.onload = async () => {
+      canvas.width = photo.naturalWidth;
+      canvas.height = photo.naturalHeight;
+      const state = await (await fetch("/state")).json();
+      rowsInput.value = state.rows;
+      colsInput.value = state.cols;
+      insetInput.value = state.inset;
+      insetValue.textContent = state.inset;
+      corners = state.corners;
+      fit();
+      draw();
+    };
+    window.addEventListener("resize", () => { if (canvas.width) fit(); });
+    photo.src = "/photo";
+  </script>
+</body>
+</html>

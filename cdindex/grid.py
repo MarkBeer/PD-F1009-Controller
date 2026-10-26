@@ -23,6 +23,8 @@ class Cell:
     y0: int
     x1: int
     y1: int
+    # TL, TR, BR, BL in image pixels. Empty when the cell is an axis-aligned box.
+    corners: list | None = None
 
 
 @dataclass
@@ -37,6 +39,8 @@ class Grid:
     inset_y: int
     cells: list[Cell]
     edge_score: float = 0.0
+    # TL, TR, BR, BL of the whole stack. The page that lines up a photo edits these.
+    block_corners: list | None = None
 
     def to_json(self) -> dict:
         data = asdict(self)
@@ -44,7 +48,20 @@ class Grid:
 
     @classmethod
     def from_json(cls, data: dict) -> Grid:
-        cells = [Cell(**c) for c in data["cells"]]
+        cells = []
+        for raw in data["cells"]:
+            cells.append(
+                Cell(
+                    index=int(raw["index"]),
+                    row=int(raw["row"]),
+                    col=int(raw["col"]),
+                    x0=int(raw["x0"]),
+                    y0=int(raw["y0"]),
+                    x1=int(raw["x1"]),
+                    y1=int(raw["y1"]),
+                    corners=raw.get("corners"),
+                )
+            )
         return cls(
             image_width=int(data["image_width"]),
             image_height=int(data["image_height"]),
@@ -56,6 +73,7 @@ class Grid:
             inset_y=int(data.get("inset_y") or 0),
             cells=cells,
             edge_score=float(data.get("edge_score") or 0),
+            block_corners=data.get("block_corners"),
         )
 
 
@@ -227,6 +245,127 @@ def detect_grid(
     )
 
 
+def bilinear(corners: list, u: float, v: float) -> tuple[float, float]:
+    """Map a unit-square point onto the quadrilateral TL, TR, BR, BL."""
+    tl, tr, br, bl = corners
+    top_x = tl[0] * (1 - u) + tr[0] * u
+    top_y = tl[1] * (1 - u) + tr[1] * u
+    bot_x = bl[0] * (1 - u) + br[0] * u
+    bot_y = bl[1] * (1 - u) + br[1] * u
+    return (top_x * (1 - v) + bot_x * v, top_y * (1 - v) + bot_y * v)
+
+
+def cells_from_block(rows: int, cols: int, corners: list) -> list[Cell]:
+    """Divide one quadrilateral into a row-major grid of cells."""
+    if len(corners) != 4:
+        raise ValueError("The stack needs four corners.")
+    if rows < 1 or cols < 1:
+        raise ValueError("Rows and columns must be at least 1.")
+    cells: list[Cell] = []
+    index = 1
+    for row in range(rows):
+        for col in range(cols):
+            quad = [
+                bilinear(corners, col / cols, row / rows),
+                bilinear(corners, (col + 1) / cols, row / rows),
+                bilinear(corners, (col + 1) / cols, (row + 1) / rows),
+                bilinear(corners, col / cols, (row + 1) / rows),
+            ]
+            xs = [point[0] for point in quad]
+            ys = [point[1] for point in quad]
+            stored = [[round(point[0], 2), round(point[1], 2)] for point in quad]
+            cells.append(
+                Cell(
+                    index,
+                    row + 1,
+                    col + 1,
+                    int(min(xs)),
+                    int(min(ys)),
+                    int(round(max(xs))),
+                    int(round(max(ys))),
+                    stored,
+                )
+            )
+            index += 1
+    return cells
+
+
+def grid_from_block(
+    image_shape: tuple[int, int],
+    rows: int,
+    cols: int,
+    corners: list,
+    inset: int = 6,
+) -> Grid:
+    height, width = image_shape[:2]
+    stored = [[round(float(point[0]), 2), round(float(point[1]), 2)] for point in corners]
+    return Grid(
+        image_width=width,
+        image_height=height,
+        rows=rows,
+        cols=cols,
+        slope=0.0,
+        x_ref=0,
+        inset_x=inset,
+        inset_y=inset,
+        cells=cells_from_block(rows, cols, stored),
+        edge_score=0.0,
+        block_corners=stored,
+    )
+
+
+def outer_corners(grid: Grid) -> list:
+    """Four corners a person can drag. Falls back to the outer case edges."""
+    if grid.block_corners and len(grid.block_corners) == 4:
+        return [[float(point[0]), float(point[1])] for point in grid.block_corners]
+    by_pos = {(cell.row, cell.col): cell for cell in grid.cells}
+    tl = by_pos[(1, 1)]
+    tr = by_pos[(1, grid.cols)]
+    br = by_pos[(grid.rows, grid.cols)]
+    bl = by_pos[(grid.rows, 1)]
+    if tl.corners and tr.corners and br.corners and bl.corners:
+        return [tl.corners[0], tr.corners[1], br.corners[2], bl.corners[3]]
+    return [
+        [tl.x0, tl.y0],
+        [tr.x1, tr.y0],
+        [br.x1, br.y1],
+        [bl.x0, bl.y1],
+    ]
+
+
+def default_corners(width: int, height: int, margin: float = 0.12) -> list:
+    x0, y0 = width * margin, height * margin
+    x1, y1 = width * (1 - margin), height * (1 - margin)
+    return [[x0, y0], [x1, y0], [x1, y1], [x0, y1]]
+
+
+def _shrink_quad(quad: list, inset: float) -> list:
+    if inset <= 0:
+        return [(float(point[0]), float(point[1])) for point in quad]
+    cx = sum(point[0] for point in quad) / 4
+    cy = sum(point[1] for point in quad) / 4
+    shrunk = []
+    for x, y in quad:
+        dx, dy = cx - float(x), cy - float(y)
+        length = (dx * dx + dy * dy) ** 0.5 or 1.0
+        step = min(float(inset), length * 0.45)
+        shrunk.append((float(x) + dx / length * step, float(y) + dy / length * step))
+    return shrunk
+
+
+def warp_quad(image: np.ndarray, quad: list) -> np.ndarray:
+    """Pull a quadrilateral out of the photo into a straight cover."""
+    tl, tr, br, bl = [(float(point[0]), float(point[1])) for point in quad]
+    width = int(round((np.hypot(tr[0] - tl[0], tr[1] - tl[1]) + np.hypot(br[0] - bl[0], br[1] - bl[1])) / 2))
+    height = int(round((np.hypot(bl[0] - tl[0], bl[1] - tl[1]) + np.hypot(br[0] - tr[0], br[1] - tr[1])) / 2))
+    width = max(width, 2)
+    height = max(height, 2)
+    source = np.float32([tl, tr, br, bl])
+    dest = np.float32([[0, 0], [width - 1, 0], [width - 1, height - 1], [0, height - 1]])
+    matrix = cv2.getPerspectiveTransform(source, dest)
+    return cv2.warpPerspective(image, matrix, (width, height), flags=cv2.INTER_CUBIC)
+
+
 def crop_bounds(grid: Grid, cell: Cell, image_shape: tuple[int, int]) -> tuple[int, int, int, int]:
     """Return y0, y1, x0, x1 inside the image, after slope and inset."""
     height, width = image_shape
@@ -241,33 +380,61 @@ def crop_bounds(grid: Grid, cell: Cell, image_shape: tuple[int, int]) -> tuple[i
     return y0, y1, x0, x1
 
 
+def _draw_quad(canvas: np.ndarray, quad: list, color: tuple[int, int, int], label: str) -> None:
+    points = np.array([[int(round(point[0])), int(round(point[1]))] for point in quad], dtype=np.int32)
+    cv2.polylines(canvas, [points], True, (0, 0, 0), 5, cv2.LINE_AA)
+    cv2.polylines(canvas, [points], True, color, 2, cv2.LINE_AA)
+    cv2.putText(
+        canvas,
+        label,
+        (int(points[:, 0].min()) + 8, int(points[:, 1].min()) + 28),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.7,
+        (0, 0, 0),
+        3,
+        cv2.LINE_AA,
+    )
+    cv2.putText(
+        canvas,
+        label,
+        (int(points[:, 0].min()) + 8, int(points[:, 1].min()) + 28),
+        cv2.FONT_HERSHEY_SIMPLEX,
+        0.7,
+        color,
+        1,
+        cv2.LINE_AA,
+    )
+
+
 def write_crops(image: np.ndarray, grid: Grid, dest: Path) -> list[Path]:
     dest.mkdir(parents=True, exist_ok=True)
     paths: list[Path] = []
+    inset = max(grid.inset_x, grid.inset_y)
     for cell in grid.cells:
-        y0, y1, x0, x1 = crop_bounds(grid, cell, image.shape[:2])
         path = dest / f"{cell.index:02d}.jpg"
-        cv2.imwrite(str(path), image[y0:y1, x0:x1], [int(cv2.IMWRITE_JPEG_QUALITY), 95])
+        if cell.corners:
+            crop = warp_quad(image, _shrink_quad(cell.corners, inset))
+        else:
+            y0, y1, x0, x1 = crop_bounds(grid, cell, image.shape[:2])
+            crop = image[y0:y1, x0:x1]
+        if crop.size == 0:
+            raise ValueError(f"Cell {cell.index} is outside the photo.")
+        cv2.imwrite(str(path), crop, [int(cv2.IMWRITE_JPEG_QUALITY), 95])
         paths.append(path)
     return paths
 
 
 def write_preview(image: np.ndarray, grid: Grid, path: Path) -> None:
-    """Draw the detected boxes on a smaller copy of the photo."""
+    """Draw the case outlines on a smaller copy of the photo."""
     canvas = image.copy()
+    inset = max(grid.inset_x, grid.inset_y)
     for cell in grid.cells:
-        y0, y1, x0, x1 = crop_bounds(grid, cell, image.shape[:2])
-        cv2.rectangle(canvas, (x0, y0), (x1 - 1, y1 - 1), (40, 220, 40), 3)
-        cv2.putText(
-            canvas,
-            str(cell.index),
-            (x0 + 8, y0 + 36),
-            cv2.FONT_HERSHEY_SIMPLEX,
-            1.0,
-            (40, 220, 40),
-            2,
-            cv2.LINE_AA,
-        )
+        if cell.corners:
+            quad = _shrink_quad(cell.corners, inset)
+        else:
+            y0, y1, x0, x1 = crop_bounds(grid, cell, image.shape[:2])
+            quad = [(x0, y0), (x1, y0), (x1, y1), (x0, y1)]
+        _draw_quad(canvas, quad, (40, 220, 40), str(cell.index))
     scale = min(1.0, 1400 / canvas.shape[1])
     if scale < 1:
         canvas = cv2.resize(canvas, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)

@@ -4,6 +4,7 @@
     python -m cdindex export --out output/run
 
 detect writes grid.json, preview.jpg, and crops/.
+align opens a page where the four corners of a bad grid can be dragged.
 search uploads each crop to Yandex.
 identify picks a Discogs CD and writes review.json.
 export writes cd_index.csv, one row per track.
@@ -327,6 +328,20 @@ def _export_selection(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_align(args: argparse.Namespace) -> int:
+    from cdindex.align import AlignSession, serve
+
+    session = AlignSession(
+        Path(args.image),
+        Path(args.out),
+        args.rows,
+        args.cols,
+        args.inset,
+    )
+    serve(session, port=args.port)
+    return 0
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     cmd_detect(args)
     if not args.detect_only:
@@ -346,6 +361,15 @@ def build_parser() -> argparse.ArgumentParser:
     detect = sub.add_parser("detect", help="Find the case grid and write one crop per case")
     _add_detect_args(detect)
     detect.set_defaults(func=cmd_detect)
+
+    align = sub.add_parser("align", help="Drag the grid into place in a browser, then save the crops")
+    align.add_argument("image", help="Original photo, without the green preview lines")
+    align.add_argument("--out", required=True, help="Run directory for grid.json and crops")
+    align.add_argument("--rows", type=int, help="Starting row count")
+    align.add_argument("--cols", type=int, help="Starting column count")
+    align.add_argument("--inset", type=int, help="Pixels trimmed inside each case")
+    align.add_argument("--port", type=int, default=47321)
+    align.set_defaults(func=cmd_align)
 
     search = sub.add_parser("search", help="Reverse image search each crop with Yandex")
     search.add_argument("--out", required=True, help="Run directory created by detect")

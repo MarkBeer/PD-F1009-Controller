@@ -279,6 +279,14 @@ class AlignTests(unittest.TestCase):
         self.assertEqual(warped.shape[1], 50)
         self.assertEqual(warped.shape[0], 40)
 
+    def test_near_cases_get_more_room_than_far_cases(self):
+        from cdindex.grid import cells_from_block
+
+        cells = cells_from_block(2, 1, [[40, 0], [80, 0], [120, 100], [0, 100]])
+        far_height = cells[0].y1 - cells[0].y0
+        near_height = cells[1].y1 - cells[1].y0
+        self.assertLess(far_height, near_height)
+
     def test_align_page_saves_one_crop_per_case(self):
         import json
         import threading

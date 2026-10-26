@@ -255,6 +255,24 @@ def bilinear(corners: list, u: float, v: float) -> tuple[float, float]:
     return (top_x * (1 - v) + bot_x * v, top_y * (1 - v) + bot_y * v)
 
 
+def perspective_map(corners: list, u: float, v: float) -> tuple[float, float]:
+    """Map a unit-square point through the photo's perspective.
+
+    A table seen from one end makes the near cases larger than the far ones.
+    Even spacing on that plane is a homography, not an even split of the screen.
+    """
+    source = np.float32([[0, 0], [1, 0], [1, 1], [0, 1]])
+    dest = np.float32(corners)
+    try:
+        matrix = cv2.getPerspectiveTransform(source, dest)
+    except cv2.error:
+        return bilinear(corners, u, v)
+    point = matrix @ np.array([u, v, 1.0], dtype=np.float64)
+    if abs(point[2]) < 1e-9:
+        return bilinear(corners, u, v)
+    return (float(point[0] / point[2]), float(point[1] / point[2]))
+
+
 def cells_from_block(rows: int, cols: int, corners: list) -> list[Cell]:
     """Divide one quadrilateral into a row-major grid of cells."""
     if len(corners) != 4:
@@ -266,10 +284,10 @@ def cells_from_block(rows: int, cols: int, corners: list) -> list[Cell]:
     for row in range(rows):
         for col in range(cols):
             quad = [
-                bilinear(corners, col / cols, row / rows),
-                bilinear(corners, (col + 1) / cols, row / rows),
-                bilinear(corners, (col + 1) / cols, (row + 1) / rows),
-                bilinear(corners, col / cols, (row + 1) / rows),
+                perspective_map(corners, col / cols, row / rows),
+                perspective_map(corners, (col + 1) / cols, row / rows),
+                perspective_map(corners, (col + 1) / cols, (row + 1) / rows),
+                perspective_map(corners, col / cols, (row + 1) / rows),
             ]
             xs = [point[0] for point in quad]
             ys = [point[1] for point in quad]

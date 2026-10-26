@@ -61,7 +61,7 @@
 <body>
   <aside>
     <h1>Line up the cases</h1>
-    <p>Drag a corner onto the outside of the stack. Drag the middle to slide the whole grid. Set the rows and columns you can see, then save.</p>
+    <p>Drag a corner to resize. The other three stay where they are, so the top left can stay put while the bottom right moves. Near cases look bigger than far ones; the lines follow that.</p>
     <div class="row">
       <div>
         <label for="rows">Rows</label>
@@ -74,9 +74,12 @@
     </div>
     <label for="inset">Inset <span id="inset-value">6</span> px</label>
     <input id="inset" type="range" min="0" max="30" value="6">
+    <label for="zoom">Zoom <span id="zoom-value">Fit</span></label>
+    <input id="zoom" type="range" min="50" max="400" value="100">
+    <button class="ghost" id="focus-br" type="button">Zoom to bottom-right</button>
     <button class="save" id="save" type="button">Save crops</button>
     <button class="ghost" id="reset" type="button">Start from a fresh box</button>
-    <p id="status">Arrow keys nudge the whole grid. Shift moves it further.</p>
+    <p id="status">The bottom-right corner is selected. Drag it, or use the arrow keys, to resize.</p>
   </aside>
   <main>
     <canvas id="stage"></canvas>
@@ -90,24 +93,72 @@
     const insetValue = document.getElementById("inset-value");
     const status = document.getElementById("status");
     const photo = new Image();
+    const main = document.querySelector("main");
+    const zoomInput = document.getElementById("zoom");
+    const zoomValue = document.getElementById("zoom-value");
     let corners = [[0, 0], [1, 0], [1, 1], [0, 1]];
     let drag = null;
+    let selected = { kind: "corner", index: 2 };
+    let homography = null;
+    const cornerNames = ["top-left", "top-right", "bottom-right", "bottom-left"];
+    const edgeNames = ["top", "right", "bottom", "left"];
 
-    function bilinear(u, v) {
-      const [tl, tr, br, bl] = corners;
-      const topX = tl[0] * (1 - u) + tr[0] * u;
-      const topY = tl[1] * (1 - u) + tr[1] * u;
-      const botX = bl[0] * (1 - u) + br[0] * u;
-      const botY = bl[1] * (1 - u) + br[1] * u;
-      return [topX * (1 - v) + botX * v, topY * (1 - v) + botY * v];
+    function solve(matrix, values) {
+      const size = values.length;
+      const rows = matrix.map((row, index) => row.concat(values[index]));
+      for (let col = 0; col < size; col++) {
+        let pivot = col;
+        for (let row = col + 1; row < size; row++) {
+          if (Math.abs(rows[row][col]) > Math.abs(rows[pivot][col])) pivot = row;
+        }
+        [rows[col], rows[pivot]] = [rows[pivot], rows[col]];
+        const scale = rows[col][col];
+        if (Math.abs(scale) < 1e-10) return null;
+        for (let k = col; k <= size; k++) rows[col][k] /= scale;
+        for (let row = 0; row < size; row++) {
+          if (row === col) continue;
+          const factor = rows[row][col];
+          for (let k = col; k <= size; k++) rows[row][k] -= factor * rows[col][k];
+        }
+      }
+      return rows.map((row) => row[size]);
+    }
+
+    function perspective(u, v) {
+      if (!homography) {
+        const src = [[0, 0], [1, 0], [1, 1], [0, 1]];
+        const system = [];
+        const values = [];
+        src.forEach(([x, y], index) => {
+          const [X, Y] = corners[index];
+          system.push([x, y, 1, 0, 0, 0, -X * x, -X * y]);
+          values.push(X);
+          system.push([0, 0, 0, x, y, 1, -Y * x, -Y * y]);
+          values.push(Y);
+        });
+        homography = solve(system, values);
+      }
+      const h = homography;
+      if (!h) {
+        const [tl, tr, br, bl] = corners;
+        const topX = tl[0] * (1 - u) + tr[0] * u;
+        const topY = tl[1] * (1 - u) + tr[1] * u;
+        const botX = bl[0] * (1 - u) + br[0] * u;
+        const botY = bl[1] * (1 - u) + br[1] * u;
+        return [topX * (1 - v) + botX * v, topY * (1 - v) + botY * v];
+      }
+      const x = h[0] * u + h[1] * v + h[2];
+      const y = h[3] * u + h[4] * v + h[5];
+      const w = h[6] * u + h[7] * v + 1;
+      return [x / w, y / w];
     }
 
     function cellQuad(row, col, rows, cols) {
       return [
-        bilinear(col / cols, row / rows),
-        bilinear((col + 1) / cols, row / rows),
-        bilinear((col + 1) / cols, (row + 1) / rows),
-        bilinear(col / cols, (row + 1) / rows),
+        perspective(col / cols, row / rows),
+        perspective((col + 1) / cols, row / rows),
+        perspective((col + 1) / cols, (row + 1) / rows),
+        perspective(col / cols, (row + 1) / rows),
       ];
     }
 
@@ -134,15 +185,53 @@
           index += 1;
         }
       }
-      corners.forEach((point, i) => {
+      const radius = screenPixels(16);
+      edgePoints().forEach((point, index) => {
+        const active = selected.kind === "edge" && selected.index === index;
         ctx.beginPath();
-        ctx.arc(point[0], point[1], 14, 0, Math.PI * 2);
-        ctx.fillStyle = drag && drag.kind === "corner" && drag.index === i ? "#ffffff" : "#d6ff4a";
+        ctx.arc(point[0], point[1], radius * 0.72, 0, Math.PI * 2);
+        ctx.fillStyle = active ? "#ffffff" : "#8fd0ff";
         ctx.fill();
-        ctx.lineWidth = 3;
+        ctx.lineWidth = screenPixels(2);
         ctx.strokeStyle = "#1b160f";
         ctx.stroke();
       });
+      corners.forEach((point, index) => {
+        const active = selected.kind === "corner" && selected.index === index;
+        ctx.beginPath();
+        ctx.arc(point[0], point[1], active ? radius * 1.25 : radius, 0, Math.PI * 2);
+        ctx.fillStyle = active ? "#ffffff" : "#d6ff4a";
+        ctx.fill();
+        ctx.lineWidth = screenPixels(3);
+        ctx.strokeStyle = "#1b160f";
+        ctx.stroke();
+      });
+      const center = perspective(0.5, 0.5);
+      ctx.beginPath();
+      ctx.arc(center[0], center[1], radius * 0.85, 0, Math.PI * 2);
+      ctx.fillStyle = selected.kind === "move" ? "#ffffff" : "#ffb020";
+      ctx.fill();
+      ctx.lineWidth = screenPixels(3);
+      ctx.strokeStyle = "#1b160f";
+      ctx.stroke();
+    }
+
+    function screenPixels(cssPixels) {
+      const rect = canvas.getBoundingClientRect();
+      return cssPixels * (canvas.width / Math.max(rect.width, 1));
+    }
+
+    function edgePoints() {
+      return [
+        midpoint(corners[0], corners[1]),
+        midpoint(corners[1], corners[2]),
+        midpoint(corners[2], corners[3]),
+        midpoint(corners[3], corners[0]),
+      ];
+    }
+
+    function midpoint(a, b) {
+      return [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
     }
 
     function stroke(quad, color, width) {
@@ -164,18 +253,28 @@
       ];
     }
 
-    function nearestCorner(point) {
-      const rect = canvas.getBoundingClientRect();
-      const limit = 22 / (rect.width / canvas.width);
+    function nearestHandle(point) {
+      const limit = screenPixels(28);
       let best = null;
       let bestDist = limit;
       corners.forEach((corner, index) => {
         const dist = Math.hypot(corner[0] - point[0], corner[1] - point[1]);
         if (dist < bestDist) {
-          best = index;
+          best = { kind: "corner", index };
           bestDist = dist;
         }
       });
+      edgePoints().forEach((edge, index) => {
+        const dist = Math.hypot(edge[0] - point[0], edge[1] - point[1]);
+        if (dist < bestDist) {
+          best = { kind: "edge", index };
+          bestDist = dist;
+        }
+      });
+      const center = perspective(0.5, 0.5);
+      if (Math.hypot(center[0] - point[0], center[1] - point[1]) < bestDist) {
+        best = { kind: "move" };
+      }
       return best;
     }
 
@@ -193,26 +292,46 @@
       return hit;
     }
 
+    function describeSelection() {
+      if (selected.kind === "corner") {
+        return `The ${cornerNames[selected.index]} corner is selected. Drag it, or use the arrow keys, to resize. The other corners stay put.`;
+      }
+      if (selected.kind === "edge") {
+        return `The ${edgeNames[selected.index]} edge is selected. Drag it to resize that side.`;
+      }
+      return "The middle handle moves the whole grid. Corners and edge handles resize it.";
+    }
+
     function pointerDown(event) {
       const point = toImage(event);
-      const corner = nearestCorner(point);
-      if (corner !== null) drag = { kind: "corner", index: corner, point };
-      else if (inside(point)) drag = { kind: "move", point };
-      else return;
+      const handle = nearestHandle(point);
+      if (!handle) return;
+      selected = handle;
+      drag = { ...handle, point };
       canvas.classList.add("dragging");
+      status.textContent = describeSelection();
       event.preventDefault();
     }
 
     function pointerMove(event) {
       if (!drag) return;
       const point = toImage(event);
+      const dx = point[0] - drag.point[0];
+      const dy = point[1] - drag.point[1];
       if (drag.kind === "corner") {
         corners[drag.index] = point;
+        homography = null;
+      } else if (drag.kind === "edge") {
+        const pair = [[0, 1], [1, 2], [2, 3], [3, 0]][drag.index];
+        pair.forEach((index) => {
+          corners[index] = [corners[index][0] + dx, corners[index][1] + dy];
+        });
+        drag.point = point;
+        homography = null;
       } else {
-        const dx = point[0] - drag.point[0];
-        const dy = point[1] - drag.point[1];
         corners = corners.map(([x, y]) => [x + dx, y + dy]);
         drag.point = point;
+        homography = null;
       }
       draw();
       event.preventDefault();
@@ -231,10 +350,21 @@
     window.addEventListener("touchend", pointerUp);
 
     window.addEventListener("keydown", (event) => {
-      const step = event.shiftKey ? 20 : 4;
+      const step = (event.shiftKey ? 20 : 4) * screenPixels(1);
       const move = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[event.key];
       if (!move) return;
-      corners = corners.map(([x, y]) => [x + move[0], y + move[1]]);
+      homography = null;
+      if (selected.kind === "corner") {
+        const index = selected.index;
+        corners[index] = [corners[index][0] + move[0], corners[index][1] + move[1]];
+      } else if (selected.kind === "edge") {
+        const pair = [[0, 1], [1, 2], [2, 3], [3, 0]][selected.index];
+        pair.forEach((index) => {
+          corners[index] = [corners[index][0] + move[0], corners[index][1] + move[1]];
+        });
+      } else {
+        corners = corners.map(([x, y]) => [x + move[0], y + move[1]]);
+      }
       draw();
       event.preventDefault();
     });
@@ -253,6 +383,7 @@
         [canvas.width * (1 - m), canvas.height * (1 - m)],
         [canvas.width * m, canvas.height * (1 - m)],
       ];
+      homography = null;
       draw();
       status.textContent = "Fresh box. Drag the corners onto the outside of the stack.";
     });
@@ -281,10 +412,33 @@
       const aside = document.querySelector("aside").getBoundingClientRect();
       const maxW = Math.max(240, window.innerWidth - aside.width - 28);
       const maxH = Math.max(240, window.innerHeight - 28);
-      const scale = Math.min(maxW / canvas.width, maxH / canvas.height);
+      const fitted = Math.min(maxW / canvas.width, maxH / canvas.height);
+      const scale = fitted * (Number(zoomInput.value) / 100);
       canvas.style.width = `${canvas.width * scale}px`;
       canvas.style.height = `${canvas.height * scale}px`;
+      zoomValue.textContent = zoomInput.value === "100" ? "Fit" : `${zoomInput.value}%`;
     }
+
+    function reveal(point) {
+      const canvasRect = canvas.getBoundingClientRect();
+      const mainRect = main.getBoundingClientRect();
+      const scaleX = canvasRect.width / canvas.width;
+      const scaleY = canvasRect.height / canvas.height;
+      const x = canvasRect.left - mainRect.left + main.scrollLeft + point[0] * scaleX;
+      const y = canvasRect.top - mainRect.top + main.scrollTop + point[1] * scaleY;
+      main.scrollLeft = x - main.clientWidth / 2;
+      main.scrollTop = y - main.clientHeight / 2;
+    }
+
+    zoomInput.addEventListener("input", fit);
+    document.getElementById("focus-br").addEventListener("click", () => {
+      selected = { kind: "corner", index: 2 };
+      zoomInput.value = "250";
+      fit();
+      requestAnimationFrame(() => reveal(corners[2]));
+      status.textContent = describeSelection();
+      draw();
+    });
 
     photo.onload = async () => {
       canvas.width = photo.naturalWidth;
@@ -295,8 +449,9 @@
       insetInput.value = state.inset;
       insetValue.textContent = state.inset;
       corners = state.corners;
+      homography = null;
       fit();
-      draw();
+      requestAnimationFrame(() => draw());
     };
     window.addEventListener("resize", () => { if (canvas.width) fit(); });
     photo.src = "/photo";

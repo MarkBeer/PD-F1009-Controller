@@ -18,7 +18,7 @@ That does four steps. Each one can also be run on its own.
 3. **identify** searches Discogs for those titles, prefers a UK retail CD (then UK & Europe, then Europe), and writes `review.json`. Album releases are preferred to CD singles of the same title.
 4. **export** writes `cd_index.csv`, one row per track.
 
-Check `preview.jpg` before trusting the search. If the green boxes are sitting on the table or on the wrong cases, do not edit `grid.json` by hand. Open the align page, drag the four corners onto the outside of the stack, set the rows and columns, and save:
+Check `preview.jpg` before trusting the search. If the green boxes miss the cases, do not edit `grid.json` by hand. Open the align page and drag a corner: that corner moves on its own, so the top left can stay put while the bottom right resizes. Edge handles resize one side. The lines follow the perspective, so nearer cases get larger boxes. Use Zoom to bottom-right when that corner is hard to reach.
 
 ```bash
 python -m cdindex align photo.jpg --out output/run

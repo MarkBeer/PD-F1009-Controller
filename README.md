@@ -32,9 +32,11 @@ python -m cdindex identify --out output/run
 python -m cdindex export --out output/run
 ```
 
+A saved image search is reused only when it is newer than that crop and it actually returned tags. After you realign, the replaced crops are uploaded again and crops that did not change are left alone. The log says how many were skipped. `python -m cdindex search --out output/run --force` uploads every crop again.
+
 A single cover is `--rows 1 --cols 1`.
 
-Yandex and Discogs have to be reachable. Discogs allows about 25 unauthenticated requests a minute; the default pause is 2.7 seconds. A token in `DISCOGS_TOKEN` raises that limit. Searches and releases already on disk are reused, so a second run does not repeat them unless you pass `--force`.
+Yandex and Discogs have to be reachable. Discogs allows about 25 unauthenticated requests a minute; the default pause is 2.7 seconds. A token in `DISCOGS_TOKEN` raises that limit. A Discogs search already on disk is reused when the query is the same. `--force` repeats those as well.
 
 ## When the match is wrong
 

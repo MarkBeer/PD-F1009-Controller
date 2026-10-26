@@ -118,31 +118,59 @@ def cmd_detect(args: argparse.Namespace) -> int:
     return 0
 
 
+def search_result_is_current(crop: Path, saved: Path) -> bool:
+    """A saved image search is current only if it matches this crop and succeeded."""
+    if not crop.exists() or not saved.exists():
+        return False
+    if saved.stat().st_mtime < crop.stat().st_mtime:
+        return False
+    try:
+        payload = json.loads(saved.read_text())
+    except json.JSONDecodeError:
+        return False
+    if payload.get("error"):
+        return False
+    return bool(payload.get("tags") or payload.get("objects"))
+
+
 def cmd_search(args: argparse.Namespace) -> int:
     out = Path(args.out)
     grid = load_grid(out / "grid.json")
     pause = getattr(args, "search_pause", None)
     if pause is None:
         pause = args.pause
-    found = 0
-    for cell in grid.cells:
-        if args.limit and cell.index > args.limit:
-            break
-        dest = out / "yandex" / f"{cell.index:02d}.json"
-        if dest.exists() and not args.force:
-            found += 1
-            continue
+    cells = [cell for cell in grid.cells if not args.limit or cell.index <= args.limit]
+    pending = []
+    skipped = []
+    for cell in cells:
         crop = out / "crops" / f"{cell.index:02d}.jpg"
-        _log(f"Image search {cell.index:02d} {crop.name}")
+        saved = out / "yandex" / f"{cell.index:02d}.json"
+        if not args.force and search_result_is_current(crop, saved):
+            skipped.append(cell.index)
+        else:
+            pending.append((cell, crop, saved))
+    _log(f"{len(cells)} crops in the grid.")
+    if skipped:
+        _log(
+            f"Skipping {len(skipped)} already searched. "
+            "Pass --force to search those again."
+        )
+    searched = 0
+    for cell, crop, saved in pending:
+        searched += 1
+        _log(f"Image search {searched}/{len(pending)}  {crop.name}")
+        if not crop.exists():
+            save_json(saved, {"tags": [], "objects": [], "sites": [], "error": f"Missing crop {crop.name}"})
+            _log(f"  missing {crop}")
+            continue
         try:
             result = search_cover(crop)
         except YandexError as exc:
             result = {"tags": [], "objects": [], "sites": [], "error": str(exc)}
             _log(f"  {exc}")
-        save_json(dest, result)
-        found += 1
+        save_json(saved, result)
         time.sleep(pause)
-    _log(f"Image search files: {found}")
+    _log(f"Searched {searched} of {len(cells)} crops.")
     return 0
 
 

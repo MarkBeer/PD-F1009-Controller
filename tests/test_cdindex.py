@@ -332,6 +332,28 @@ class AlignTests(unittest.TestCase):
                 server.server_close()
 
 
+class SearchCacheTests(unittest.TestCase):
+    def test_a_newer_crop_is_searched_again(self):
+        import os
+        import time
+
+        from cdindex.cli import search_result_is_current
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            crop = folder / "01.jpg"
+            saved = folder / "01.json"
+            crop.write_bytes(b"crop")
+            saved.write_text('{"tags": ["old"], "objects": [], "sites": []}')
+            os.utime(saved, (time.time() + 10, time.time() + 10))
+            self.assertTrue(search_result_is_current(crop, saved))
+            os.utime(crop, (time.time() + 20, time.time() + 20))
+            self.assertFalse(search_result_is_current(crop, saved))
+            saved.write_text('{"tags": [], "objects": [], "sites": [], "error": "blocked"}')
+            os.utime(saved, (time.time() + 30, time.time() + 30))
+            self.assertFalse(search_result_is_current(crop, saved))
+
+
 class CsvWriterTests(unittest.TestCase):
     def test_writer_uses_the_track_columns(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -15,6 +15,7 @@ COLUMNS = [
     "Track Artist",
     "Track Title",
     "Cover Crop",
+    "Needs Review",
 ]
 
 _DISAMBIG = re.compile(r"\s*\(\d+\)")
@@ -132,14 +133,20 @@ def cd_artist(release: dict) -> str:
     return name
 
 
+def needs_review_text(status: str | None) -> str:
+    return "yes" if status == "needs_review" else "no"
+
+
 def catalog_rows(
     image_name: str,
     index: int,
     crop: str,
     release: dict | None,
     album: str | None = None,
+    status: str | None = None,
 ) -> list[dict[str, str]]:
     """One dict per track. A missing release becomes a single 'unable to identify' row."""
+    review = needs_review_text(status)
     if release is None:
         return [
             {
@@ -151,6 +158,7 @@ def catalog_rows(
                 "Track Artist": "",
                 "Track Title": "unable to identify",
                 "Cover Crop": crop,
+                "Needs Review": review,
             }
         ]
     artist = cd_artist(release)
@@ -167,6 +175,7 @@ def catalog_rows(
                 "Track Artist": "",
                 "Track Title": "track info unavailable",
                 "Cover Crop": crop,
+                "Needs Review": review,
             }
         ]
     return [
@@ -179,6 +188,7 @@ def catalog_rows(
             "Track Artist": performer,
             "Track Title": track_title,
             "Cover Crop": crop,
+            "Needs Review": review,
         }
         for disc, performer, track_title in tracks
     ]

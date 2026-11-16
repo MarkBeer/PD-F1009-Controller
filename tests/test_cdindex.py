@@ -176,8 +176,10 @@ class CatalogTests(unittest.TestCase):
                 "Track Artist",
                 "Track Title",
                 "Cover Crop",
+                "Needs Review",
             ],
         )
+        self.assertTrue(all(row["Needs Review"] == "no" for row in rows))
 
 
 class SearchRankingTests(unittest.TestCase):
@@ -583,14 +585,67 @@ class SearchCacheTests(unittest.TestCase):
             self.assertFalse(search_result_is_current(crop, saved))
 
 
+class ExportReviewTests(unittest.TestCase):
+    def test_needs_review_is_copied_onto_every_track(self):
+        import csv
+
+        from cdindex.cli import main
+        from cdindex.discogs import save_json
+
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            release = {
+                "id": 42,
+                "title": "Believe",
+                "artists": "Cher",
+                "tracks": [
+                    {"pos": "1", "title": "Believe", "type": "track"},
+                    {"pos": "2", "title": "Strong Enough", "type": "track"},
+                ],
+            }
+            save_json(out / "discogs" / "releases" / "42.json", release)
+            save_json(
+                out / "review.json",
+                {
+                    "items": [
+                        {
+                            "index": 6,
+                            "crop": "crops/06.jpg",
+                            "status": "needs_review",
+                            "chosen": {"release_id": 42, "title": "Believe"},
+                        },
+                        {
+                            "index": 7,
+                            "crop": "crops/07.jpg",
+                            "status": "identified",
+                            "chosen": {"release_id": 42, "title": "Believe"},
+                        },
+                    ]
+                },
+            )
+            save_json(out / "run.json", {"image": "table.jpg", "cases": 2})
+            dest = out / "cd_index.csv"
+            status = main(["export", "--out", str(out), "--csv", str(dest), "--pause", "0"])
+            self.assertEqual(status, 0)
+            with dest.open(newline="") as handle:
+                rows = list(csv.DictReader(handle))
+        self.assertEqual([row["Needs Review"] for row in rows], ["yes", "yes", "no", "no"])
+        self.assertEqual([row["Index"] for row in rows], ["6", "6", "7", "7"])
+
+
 class CsvWriterTests(unittest.TestCase):
     def test_writer_uses_the_track_columns(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "tracks.csv"
             write_csv(catalog_rows("shot.jpg", 2, "crops/02.jpg", None), path)
             text = path.read_text()
-        self.assertTrue(text.startswith("Input Image,Index,CD Artist,Album,CD Number,Track Artist,Track Title,Cover Crop\n"))
+        self.assertTrue(
+            text.startswith(
+                "Input Image,Index,CD Artist,Album,CD Number,Track Artist,Track Title,Cover Crop,Needs Review\n"
+            )
+        )
         self.assertIn("unable to identify", text)
+        self.assertIn(",no\n", text)
 
 
 if __name__ == "__main__":

@@ -350,11 +350,15 @@ def cmd_export(args: argparse.Namespace) -> int:
                 crop,
                 release,
                 album=override.get("album"),
+                status=item.get("status"),
             )
         )
     dest = Path(args.csv) if args.csv else out / "cd_index.csv"
     write_csv(rows, dest)
     _log(f"Wrote {len(rows)} track rows to {dest}")
+    needs = [f"{int(item['index']):02d}" for item in review["items"] if item.get("status") == "needs_review"]
+    if needs:
+        _log(f"Needs review: {', '.join(needs)}")
     _progress("export", len(rows), len(rows), dest.name)
     return 0
 
@@ -372,7 +376,16 @@ def _export_selection(args: argparse.Namespace) -> int:
         if release is None:
             raise SystemExit(f"Missing Discogs file for release {item['release_id']} (index {index})")
         crop = item.get("crop") or ""
-        rows.extend(catalog_rows(image_name, index, crop, release, album=item.get("album")))
+        rows.extend(
+            catalog_rows(
+                image_name,
+                index,
+                crop,
+                release,
+                album=item.get("album"),
+                status=item.get("status"),
+            )
+        )
     dest = Path(args.csv)
     write_csv(rows, dest)
     _log(f"Wrote {len(rows)} track rows to {dest}")

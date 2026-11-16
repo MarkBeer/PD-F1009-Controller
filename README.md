@@ -78,6 +78,7 @@ A case with no usable match is one CSV row whose track title is `unable to ident
 | Track Artist | Performer of that track. On a single-artist CD this is the album artist, plus a featured credit when the release lists one |
 | Track Title | Song title |
 | Cover Crop | Path to that case’s cropped artwork |
+| Needs Review | `yes` when this case was matched but the match is uncertain. Every track from that case has the same value |
 
 Headings such as “Bonus Tracks” are not rows. A silent spacer track is not a row. A position like `2-1` is disc 2. A position like `14.1` on an otherwise single disc stays on disc 1.
 

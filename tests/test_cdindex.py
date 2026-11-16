@@ -424,6 +424,98 @@ class PhotoWindowTests(unittest.TestCase):
             held.close()
 
 
+class OverridePageTests(unittest.TestCase):
+    def test_a_review_case_can_be_saved_from_its_crop(self):
+        import threading
+        from urllib.error import HTTPError
+        from urllib.request import Request, urlopen
+
+        from cdindex.align import AlignSession, make_server
+
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp)
+            image_path = folder / "photo.jpg"
+            canvas = np.zeros((40, 50, 3), dtype=np.uint8)
+            canvas[:, :] = (20, 40, 200)
+            cv2.imwrite(str(image_path), canvas)
+            session = AlignSession(image_path, folder / "run", rows=1, cols=2, inset=0)
+            session.save(
+                {"rows": 1, "cols": 2, "inset": 0, "corners": [[0, 0], [49, 0], [49, 39], [0, 39]]}
+            )
+            review = {
+                "items": [
+                    {
+                        "index": 1,
+                        "status": "needs_review",
+                        "chosen": {"artists": "Madonna", "title": "Like a Virgin"},
+                    },
+                    {"index": 2, "status": "unable to identify", "chosen": None},
+                ]
+            }
+            (folder / "run" / "review.json").write_text(json.dumps(review))
+            server = make_server(session, "127.0.0.1", 0)
+            port = server.server_address[1]
+            thread = threading.Thread(target=server.serve_forever, daemon=True)
+            thread.start()
+            try:
+                page = urlopen(f"http://127.0.0.1:{port}/").read()
+                self.assertIn(b"Copy cover", page)
+                progress = json.loads(urlopen(f"http://127.0.0.1:{port}/progress").read())
+                self.assertEqual(progress["results"][0]["crop"], "/crops/01.jpg")
+                self.assertEqual(progress["results"][1]["status"], "unable to identify")
+                crop = urlopen(f"http://127.0.0.1:{port}/crops/01.jpg").read()
+                self.assertGreater(len(crop), 100)
+                missing = Request(f"http://127.0.0.1:{port}/crops/../photo.jpg")
+                with self.assertRaises(HTTPError) as blocked:
+                    urlopen(missing)
+                self.assertEqual(blocked.exception.code, 404)
+                saved = json.loads(
+                    urlopen(
+                        Request(
+                            f"http://127.0.0.1:{port}/overrides",
+                            data=json.dumps(
+                                {"index": 2, "artist": "Madonna", "album": "True Blue", "release_id": ""}
+                            ).encode(),
+                            headers={"Content-Type": "application/json"},
+                        )
+                    ).read()
+                )
+                self.assertEqual(saved["override"]["query"], "Madonna True Blue")
+                pinned = json.loads(
+                    urlopen(
+                        Request(
+                            f"http://127.0.0.1:{port}/overrides",
+                            data=json.dumps(
+                                {
+                                    "index": 1,
+                                    "artist": "Madonna",
+                                    "album": "True Blue",
+                                    "release_id": "https://www.discogs.com/release/292433-Madonna-True-Blue",
+                                }
+                            ).encode(),
+                            headers={"Content-Type": "application/json"},
+                        )
+                    ).read()
+                )
+                self.assertEqual(pinned["override"]["release_id"], 292433)
+                stored = json.loads((folder / "run" / "overrides.json").read_text())
+                self.assertEqual(set(stored), {"1", "2"})
+                self.assertEqual(stored["2"]["album"], "True Blue")
+                empty = Request(
+                    f"http://127.0.0.1:{port}/overrides",
+                    data=b'{"index": 1, "artist": "", "album": "", "release_id": ""}',
+                    headers={"Content-Type": "application/json"},
+                )
+                with self.assertRaises(HTTPError) as rejected:
+                    urlopen(empty)
+                self.assertEqual(rejected.exception.code, 400)
+                kept = json.loads((folder / "run" / "overrides.json").read_text())
+                self.assertEqual(kept["1"]["release_id"], 292433)
+            finally:
+                server.shutdown()
+                server.server_close()
+
+
 class RunFolderTests(unittest.TestCase):
     def test_each_photo_gets_its_own_folder(self):
         from cdindex.runs import resolve_run_directory

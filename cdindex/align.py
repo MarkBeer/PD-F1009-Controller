@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import errno
 import json
+import re
 import socket
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -167,10 +168,47 @@ class AlignSession:
             state["lines"] = list(self._state["lines"])
             state["running"] = self._running
         state["results"] = _review_results(self.out)
+        state["overrides"] = _saved_overrides(self.out)
         csv_path = self.out / "cd_index.csv"
         state["csv"] = csv_path.name if csv_path.is_file() else None
         state["out"] = display_path(self.out)
         return state
+
+    def save_override(self, payload: dict) -> dict:
+        index = int(payload["index"])
+        if index < 1:
+            raise ValueError("Pick a case first.")
+        artist = str(payload.get("artist") or "").strip()
+        album = str(payload.get("album") or "").strip()
+        release_text = str(payload.get("release_id") or "").strip()
+        entry: dict = {}
+        if release_text:
+            found = re.search(r"\d{3,}", release_text)
+            if not found:
+                raise ValueError("The Discogs release id is the number in the release address.")
+            entry["release_id"] = int(found.group(0))
+        if artist:
+            entry["artist"] = artist
+        if album:
+            entry["album"] = album
+        query = " ".join(part for part in (artist, album) if part)
+        if query:
+            entry["query"] = query
+        if not entry.get("release_id") and not entry.get("query"):
+            raise ValueError("Enter an artist and album, or a Discogs release id.")
+        current = _saved_overrides(self.out)
+        current[str(index)] = entry
+        save_json(self.out / "overrides.json", current)
+        return {"index": index, "override": entry, "path": display_path(self.out / "overrides.json")}
+
+    def crop_file(self, name: str) -> Path | None:
+        if not re.fullmatch(r"\d{2}\.jpg", name):
+            return None
+        path = (self.out / "crops" / name).resolve()
+        root = (self.out / "crops").resolve()
+        if path.parent != root or not path.is_file():
+            return None
+        return path
 
     def _append(self, message: str) -> None:
         with self._lock:
@@ -206,15 +244,33 @@ def _review_results(out: Path) -> list[dict]:
             label = f"{artist} — {title}"
         else:
             label = title or artist
+        try:
+            crop = f"/crops/{int(item.get('index')):02d}.jpg"
+        except (TypeError, ValueError):
+            crop = ""
         rows.append(
             {
                 "index": item.get("index"),
                 "status": item.get("status") or "",
                 "label": label,
                 "note": item.get("note") or "",
+                "crop": crop,
             }
         )
     return rows
+
+
+def _saved_overrides(out: Path) -> dict:
+    path = out / "overrides.json"
+    if not path.is_file():
+        return {}
+    try:
+        data = json.loads(path.read_text())
+    except json.JSONDecodeError:
+        return {}
+    if not isinstance(data, dict):
+        return {}
+    return {str(key): value for key, value in data.items() if isinstance(value, dict)}
 
 
 def make_server(session: AlignSession, host: str, port: int) -> ThreadingHTTPServer:
@@ -253,6 +309,12 @@ def make_server(session: AlignSession, host: str, port: int) -> ThreadingHTTPSer
                 self._json(200, session.state())
             elif path == "/progress":
                 self._json(200, session.progress())
+            elif path.startswith("/crops/"):
+                crop = session.crop_file(path.removeprefix("/crops/"))
+                if crop is None:
+                    self._send(404, b"Not found", "text/plain")
+                    return
+                self._send(200, crop.read_bytes(), "image/jpeg")
             elif path == "/cd_index.csv":
                 csv_path = session.out / "cd_index.csv"
                 if not csv_path.is_file():
@@ -269,13 +331,15 @@ def make_server(session: AlignSession, host: str, port: int) -> ThreadingHTTPSer
 
         def do_POST(self) -> None:  # noqa: N802
             path = self.path.split("?", 1)[0]
-            if path not in ("/save", "/process"):
+            if path not in ("/save", "/process", "/overrides"):
                 self._send(404, b"Not found", "text/plain")
                 return
             try:
                 payload = self._read_json()
                 if path == "/save":
                     result = session.save(payload)
+                elif path == "/overrides":
+                    result = session.save_override(payload)
                 else:
                     steps = payload.get("steps") or list(STEPS)
                     session.start_job([str(step) for step in steps], bool(payload.get("force")))

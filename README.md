@@ -53,7 +53,11 @@ Yandex and Discogs have to be reachable. Discogs allows about 25 unauthenticated
 
 `review.json` has one entry per case: the queries, the Yandex tags, the chosen release, and the other Discogs hits. `status` is `identified`, `needs_review`, or `unable to identify`.
 
-Two things still need a person. The image search sometimes names a different album with similar art, and several pressings share a title (the 1CD and the 2CD, or two catalogue numbers). The front cover does not always say which one was photographed. Pin the release in the run folder’s `overrides.json` and run identify and export again:
+Two things still need a person. The image search sometimes names a different album with similar art, and several pressings share a title (the 1CD and the 2CD, or two catalogue numbers). The front cover does not always say which one was photographed.
+
+On the align page, after identify, those cases are listed under Needs a look. Select one, copy or open the cover, and use it in a visual search. Enter the artist and album, or the Discogs release id, and Save details. That writes the run folder’s `overrides.json`. Then run Identify on Discogs and Export CSV.
+
+The same file can be edited by hand:
 
 ```json
 {

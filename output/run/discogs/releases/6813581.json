@@ -1,0 +1,185 @@
+{
+  "id": 6813581,
+  "title": "The Very Best Of Don McLean",
+  "artists": "Don McLean",
+  "year": 1989,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Capitol Records",
+      "catno": "CD UAG 30314"
+    },
+    {
+      "name": "Capitol Records",
+      "catno": "CDP 7934712"
+    },
+    {
+      "name": "Capitol Records",
+      "catno": "CDP 7 93471 2"
+    },
+    {
+      "name": "Liberty",
+      "catno": "CD UAG 30314"
+    },
+    {
+      "name": "Liberty",
+      "catno": "CDP 7934712"
+    },
+    {
+      "name": "Liberty",
+      "catno": "CDP 7 93471 2"
+    }
+  ],
+  "master_id": 208397,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "American Pie",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Vincent",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Castles In The Air",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Dreidel",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Winterwood",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Everyday",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Building My Body",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "And I Love You So",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Mountains Of Mourne",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Fools Paradise",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Wonderful Baby",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "La La Love You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Prime Time",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "Jump",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "Crying",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "16",
+      "title": "Bronco Bill's Lament",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "17",
+      "title": "Oh My What A Shame",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "18",
+      "title": "If We Try",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "19",
+      "title": "Babylon",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "20",
+      "title": "Love In My Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

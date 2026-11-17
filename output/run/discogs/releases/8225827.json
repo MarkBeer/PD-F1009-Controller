@@ -1,0 +1,130 @@
+{
+  "id": 8225827,
+  "title": "High On Emotion - Live From Dublin!",
+  "artists": "Chris de Burgh",
+  "year": 1990,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "A&M Records",
+      "catno": "397 086 2"
+    }
+  ],
+  "master_id": 402840,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Last Night",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Sailing Away",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "The Revolution",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "I'm Not Scared Anymore",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Spanish Train",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Borderline",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "The Risen Lord",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "The Last Time I Cried",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "The Lady In Red",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "A Spaceman Came Traveling",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Patricia The Stripper",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Missing You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Say Goodbye To It All",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "Don't Pay The Ferryman",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "High On Emotion",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

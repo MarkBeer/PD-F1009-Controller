@@ -1,0 +1,46 @@
+{
+  "id": 949041,
+  "title": "I Drove All Night",
+  "artists": "Roy Orbison",
+  "year": 1992,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Single"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "MCA Records",
+      "catno": "MCSTD 1652"
+    }
+  ],
+  "master_id": 234458,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "I Drove All Night",
+      "type": "track",
+      "artists": "Roy Orbison",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Forever Friends",
+      "type": "track",
+      "artists": "Sheena Easton",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Line Of Fire",
+      "type": "track",
+      "artists": "Trixter",
+      "featuring": []
+    }
+  ]
+}

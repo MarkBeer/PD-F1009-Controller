@@ -1,0 +1,47 @@
+{
+  "id": 673284,
+  "title": "All I Want For Christmas Is You",
+  "artists": "Mariah Carey",
+  "year": 1994,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Single",
+        "Limited Edition"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Columbia",
+      "catno": "661070 5"
+    }
+  ],
+  "master_id": 77971,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "All I Want For Christmas Is You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Miss You Most (At Christmas Time)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Silent Night",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

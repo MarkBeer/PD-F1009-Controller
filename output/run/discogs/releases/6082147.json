@@ -1,0 +1,239 @@
+{
+  "id": 6082147,
+  "title": "Madonna",
+  "artists": "Madonna",
+  "year": 1994,
+  "country": "Italy",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    },
+    {
+      "name": "Vinyl",
+      "qty": "2",
+      "descriptions": [
+        "LP",
+        "Album",
+        "Picture Disc"
+      ]
+    },
+    {
+      "name": "Box Set",
+      "qty": "1",
+      "descriptions": []
+    },
+    {
+      "name": "All Media",
+      "qty": "1",
+      "descriptions": [
+        "Unofficial Release"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "On Stage Records",
+      "catno": "ON COF 2260"
+    },
+    {
+      "name": "On Stage Records",
+      "catno": "ON 2260 COF"
+    }
+  ],
+  "master_id": 2946832,
+  "tracks": [
+    {
+      "pos": "",
+      "title": "Play With Me: Live At Wembley Stadium 7-1990",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1",
+      "title": "Like A Virgin",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Like A Prayer",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Papa Don't Preach",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Sooner Or Later",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Hanky Panky",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Now I'm Following You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Material Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Cherish",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Holiday",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Summer In Spain",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "A1",
+      "title": "Express Yourself",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "A2",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "A3",
+      "title": "Causing A Commotion",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "A4",
+      "title": "Where's The Party",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "B1",
+      "title": "Like A Prayer",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "B2",
+      "title": "Papa Don't Preach",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "B3",
+      "title": "I Always Get My Man",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "B4",
+      "title": "Hanky Panky",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "C1",
+      "title": "I'm Following You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "C2",
+      "title": "Material Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "C3",
+      "title": "Cherish",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "C4",
+      "title": "Into The Groove",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "D1",
+      "title": "Holiday",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "D2",
+      "title": "Family Affair",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "D3",
+      "title": "Keep It Together",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

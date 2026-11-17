@@ -1,0 +1,100 @@
+{
+  "id": 438845,
+  "title": "Led Zeppelin III",
+  "artists": "Led Zeppelin",
+  "year": "",
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Reissue"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Atlantic",
+      "catno": "7567-81527-2"
+    },
+    {
+      "name": "Atlantic",
+      "catno": "19128-2"
+    }
+  ],
+  "master_id": 4199,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Immigrant Song",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Friends",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Celebration Day",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Since I've Been Loving You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Out On The Tiles",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Gallows Pole",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Tangerine",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "That's The Way",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Bron-Y-Aur Stomp",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Hats Off To (Roy) Harper",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": 1103673,
+  "title": "Greatest",
+  "artists": "Bee Gees",
+  "year": 2007,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "2",
+      "descriptions": [
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Reprise Records",
+      "catno": "8122 79963 7"
+    },
+    {
+      "name": "Reprise Records",
+      "catno": "8122 799637"
+    }
+  ],
+  "master_id": 15979,
+  "tracks": [
+    {
+      "pos": "1-1",
+      "title": "Jive Talkin'",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-2",
+      "title": "Night Fever",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-3",
+      "title": "Tragedy",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-4",
+      "title": "You Should Be Dancing",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-5",
+      "title": "Stayin' Alive",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-6",
+      "title": "How Deep Is Your Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-7",
+      "title": "Love So Right",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-8",
+      "title": "Too Much Heaven",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-9",
+      "title": "(Our Love) Don't Throw It All Away",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-10",
+      "title": "Fanny (Be Tender With My Love)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Bonus Tracks",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-11",
+      "title": "Warm Ride",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-12",
+      "title": "Stayin' Alive (Promo 12\" Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-1",
+      "title": "If I Can't Have You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-2",
+      "title": "You Stepped Into My Life",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-3",
+      "title": "Love Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-4",
+      "title": "More Than A Woman",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-5",
+      "title": "Rest Your Love On Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-6",
+      "title": "Nights On Broadway",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-7",
+      "title": "Spirits (Having Flown)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-8",
+      "title": "Love You Inside Out",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-9",
+      "title": "Wind Of Change",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-10",
+      "title": "Children Of The World",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Bonus Tracks",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-11",
+      "title": "You Should Be Dancing (Jason Bentley/Philip Steir Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-12",
+      "title": "If I Can't Have You (Count Da Money Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-13",
+      "title": "Night Fever (GRN Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-14",
+      "title": "How Deep Is Your Love (Supreme Beings Of Leisure Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-15",
+      "title": "Stayin' Alive (Teddybears Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-16",
+      "title": "If I Can't Have You (The Disco Boys Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

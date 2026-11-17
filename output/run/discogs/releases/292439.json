@@ -1,0 +1,104 @@
+{
+  "id": 292439,
+  "title": "Madonna",
+  "artists": "Madonna",
+  "year": 2001,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Reissue",
+        "Remastered"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-47903-2"
+    }
+  ],
+  "master_id": 5319,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Lucky Star",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Borderline",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Burning Up",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "I Know It",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Holiday",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Think Of Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Physical Attraction",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Everybody",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Bonus Tracks",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Burning Up (12\" Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Lucky Star (\"New\" Mix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

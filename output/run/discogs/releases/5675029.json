@@ -1,0 +1,96 @@
+{
+  "id": 5675029,
+  "title": "Pat Benatar",
+  "artists": "Pat Benatar",
+  "year": 1999,
+  "country": "Canada",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Platinum Disc Corporation",
+      "catno": "14282"
+    },
+    {
+      "name": "Platinum Disc Corporation",
+      "catno": "72434-96964-2-6"
+    },
+    {
+      "name": "Platinum Disc Corporation",
+      "catno": "72434-96964-2-6 disc 1"
+    }
+  ],
+  "master_id": 2925271,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Heartbreaker",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Invincible",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Looking For A Stranger",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Treat Me Right",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Shadows Of The Night",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "We Belong",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Le Bel Age",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "In The Heat Of The Night",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Little Too Late",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

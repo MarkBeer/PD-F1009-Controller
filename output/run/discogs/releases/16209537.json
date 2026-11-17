@@ -1,0 +1,125 @@
+{
+  "id": 16209537,
+  "title": "The Best of the Pogues",
+  "artists": "The Pogues",
+  "year": "",
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "WEA",
+      "catno": "9031-75405-2"
+    }
+  ],
+  "master_id": 43841,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Fairytale of New York featuring Kirsty MacColl",
+      "type": "track",
+      "artists": "",
+      "featuring": [
+        "Kirsty MacColl"
+      ]
+    },
+    {
+      "pos": "2",
+      "title": "Sally MacLennane",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Dirty Old Town",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "The Irish Rover",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "A Pair Of Brown Eyes",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Streams Of Whiskey",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "A Rainy Night In Soho",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Fiesta",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Rain Street",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Misty Morning, Albert Bridge",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "White City",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Thousands Are Sailing",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "The Broad Majestic Shannon",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "The Body Of An American",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

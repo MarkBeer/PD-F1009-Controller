@@ -1,0 +1,111 @@
+{
+  "id": 555652,
+  "title": "Confessions On A Dance Floor",
+  "artists": "Madonna",
+  "year": 2005,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Mixed",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-49460-2"
+    }
+  ],
+  "master_id": 34205,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Hung Up",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Get Together",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Sorry",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Future Lovers",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "I Love New York",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Let It Will Be",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Forbidden Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Jump",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "How High",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Isaac",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Push",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Like It Or Not",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

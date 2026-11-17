@@ -1,0 +1,95 @@
+{
+  "id": 5556835,
+  "title": "Believe",
+  "artists": "Cher",
+  "year": 1998,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "WEA",
+      "catno": "3984 25319 2"
+    }
+  ],
+  "master_id": 69294,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Believe",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "The Power",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Runaway",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "All Or Nothing",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Strong Enough",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Dov'è L'Amore",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Takin' Back My Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Taxi Taxi",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Love Is The Groove",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "We All Sleep Alone",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

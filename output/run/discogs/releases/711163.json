@@ -1,0 +1,108 @@
+{
+  "id": 711163,
+  "title": "Like A Prayer",
+  "artists": "Madonna",
+  "year": "",
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Reissue",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Sire",
+      "catno": "7599-25844-2"
+    },
+    {
+      "name": "Sire",
+      "catno": "925 844-2"
+    }
+  ],
+  "master_id": 34627,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Like A Prayer",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Express Yourself",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Love Song",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Till Death Do Us Part",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Promise To Try",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Cherish",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Dear Jessie",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Oh Father",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Keep It Together",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Pray For Spanish Eyes",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Act Of Contrition",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

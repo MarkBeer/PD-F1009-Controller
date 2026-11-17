@@ -1,0 +1,187 @@
+{
+  "id": 6017023,
+  "title": "Evita",
+  "artists": "Andrew Lloyd Webber and Tim Rice",
+  "year": 1996,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "2",
+      "descriptions": [
+        "Album",
+        "Reissue"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "MCA Records",
+      "catno": "DMCX 503"
+    }
+  ],
+  "master_id": 81283,
+  "tracks": [
+    {
+      "pos": "1-1",
+      "title": "A Cinema In Bueno Aires, 26 July 1952",
+      "type": "track",
+      "artists": "Carlos Pasini",
+      "featuring": []
+    },
+    {
+      "pos": "1-2",
+      "title": "Requiem For Evita / Oh What A Circus",
+      "type": "track",
+      "artists": "Colm Wilkinson, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "1-3",
+      "title": "On This Night Of A Thousand Stars / Eva And Magaldi / Eva Beware Of The City",
+      "type": "track",
+      "artists": "Tony Christie, Julie Covington, Colm Wilkinson",
+      "featuring": []
+    },
+    {
+      "pos": "1-4",
+      "title": "Buenos Aires",
+      "type": "track",
+      "artists": "Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "1-5",
+      "title": "Goodnight And Thank You",
+      "type": "track",
+      "artists": "Colm Wilkinson",
+      "featuring": []
+    },
+    {
+      "pos": "1-6",
+      "title": "The Lady's Got Potential",
+      "type": "track",
+      "artists": "Colm Wilkinson, Paul Jones",
+      "featuring": []
+    },
+    {
+      "pos": "1-7",
+      "title": "Charity Concert / I'd Be Surprisingly Good For You",
+      "type": "track",
+      "artists": "Tony Christie, Julie Covington, Paul Jones",
+      "featuring": []
+    },
+    {
+      "pos": "1-8",
+      "title": "Another Suitcase In Another Hall",
+      "type": "track",
+      "artists": "Julie Covington, Barbara Dickson",
+      "featuring": []
+    },
+    {
+      "pos": "1-9",
+      "title": "Dangerous Jade",
+      "type": "track",
+      "artists": "Colm Wilkinson, Paul Jones",
+      "featuring": []
+    },
+    {
+      "pos": "1-10",
+      "title": "A New Argentina",
+      "type": "track",
+      "artists": "Paul Jones, Julie Covington, Colm Wilkinson, Mike Smith, Mike D'Abo",
+      "featuring": []
+    },
+    {
+      "pos": "2-1",
+      "title": "On The Balcony Of The Casa Rosada / Don't Cry For Me Argentina",
+      "type": "track",
+      "artists": "Paul Jones, Julie Covington, David Hamilton-Smith",
+      "featuring": []
+    },
+    {
+      "pos": "2-2",
+      "title": "High Flying, Adored",
+      "type": "track",
+      "artists": "Colm Wilkinson, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-3",
+      "title": "Rainbow High",
+      "type": "track",
+      "artists": "Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-4",
+      "title": "Rainbow Tour",
+      "type": "track",
+      "artists": "Tim Rice, Colm Wilkinson, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-5",
+      "title": "The Actress Hasn't Learned The Lines (You'd Like To Hear)",
+      "type": "track",
+      "artists": "Julie Covington, Colm Wilkinson",
+      "featuring": []
+    },
+    {
+      "pos": "2-6",
+      "title": "And The Money Kept Rolling In (And Out)",
+      "type": "track",
+      "artists": "Christopher Neil",
+      "featuring": []
+    },
+    {
+      "pos": "2-7",
+      "title": "Santa Evita",
+      "type": "track",
+      "artists": "Colm Wilkinson",
+      "featuring": []
+    },
+    {
+      "pos": "2-8",
+      "title": "Waltz For Eva And Che",
+      "type": "track",
+      "artists": "Colm Wilkinson, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-9",
+      "title": "She Is A Diamond",
+      "type": "track",
+      "artists": "Paul Jones",
+      "featuring": []
+    },
+    {
+      "pos": "2-10",
+      "title": "Dice Are Rolling",
+      "type": "track",
+      "artists": "Paul Jones, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-11",
+      "title": "Eva's Final Broadcast",
+      "type": "track",
+      "artists": "Colm Wilkinson, Julie Covington",
+      "featuring": []
+    },
+    {
+      "pos": "2-12",
+      "title": "Montage",
+      "type": "track",
+      "artists": "Tony Christie, Christopher Neil, Paul Jones, Colm Wilkinson",
+      "featuring": []
+    },
+    {
+      "pos": "2-13",
+      "title": "Lament",
+      "type": "track",
+      "artists": "Julie Covington",
+      "featuring": []
+    }
+  ]
+}

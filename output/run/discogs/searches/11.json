@@ -1,0 +1,726 @@
+{
+  "queries": [
+    "madonna trueblue deluxe edition",
+    "madonna madonna"
+  ],
+  "results": [
+    {
+      "id": 292439,
+      "title": "Madonna - Madonna",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "9362-47903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Remasters",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Manufacturing Europe",
+        "Time Warner",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "WB Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/292439-Madonna-Madonna"
+    },
+    {
+      "id": 2996244,
+      "title": "Madonna - Madonna",
+      "country": "USA & Europe",
+      "year": "1984",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Warner Bros. Records Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Sigma Sound Studios, New York",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "WCI Record Group",
+        "Polygram, Hanover, West Germany"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 5319,
+      "uri": "/release/2996244-Madonna-Madonna"
+    },
+    {
+      "id": 1336607,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "2001",
+      "catno": "9 47903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Remasters",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sterling Sound",
+        "WEA Mfg. Olyphant",
+        "WEA Mfg. Olyphant"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1336607-Madonna-Madonna"
+    },
+    {
+      "id": 15760129,
+      "title": "Madonna - Madonna",
+      "country": "USA & Europe",
+      "year": "2020",
+      "catno": "47903-2",
+      "label": [
+        "Warner Records",
+        "Warner Records",
+        "Warner Remasters",
+        "Warner Music Group",
+        "Warner Records Inc.",
+        "Warner Records Inc.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "Wb Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sonopress"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/15760129-Madonna-Madonna"
+    },
+    {
+      "id": 521971,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Warner Bros. Records",
+        "Warner Communications",
+        "Warner Bros. Records Inc.",
+        "WEA Manufacturing",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl",
+        "Bleu Disque Music",
+        "WB Music Corp.",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Sigma Sound Studios, New York",
+        "WCI Record Group",
+        "Specialty Records Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Repress"
+      ],
+      "master_id": 5319,
+      "uri": "/release/521971-Madonna-Madonna"
+    },
+    {
+      "id": 2284744,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "1984",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Warner Bros. Records",
+        "Warner Communications",
+        "Warner Bros. Records Inc.",
+        "JVC, Japan",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl",
+        "WB Music Corp.",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Sigma Sound Studios, New York",
+        "WCI Record Group"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 5319,
+      "uri": "/release/2284744-Madonna-Madonna"
+    },
+    {
+      "id": 13789415,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "",
+      "catno": "9 47903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Remasters",
+        "WEA Manufacturing",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Sterling Sound"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/13789415-Madonna-Madonna"
+    },
+    {
+      "id": 8071265,
+      "title": "Madonna - Madonna",
+      "country": "Japan",
+      "year": "2016",
+      "catno": "WPCR-17077",
+      "label": [
+        "Sire",
+        "マドンナ来日記念紙ジャケット・コレクション",
+        "Warner Music Japan Inc.",
+        "Warner Music Japan Inc.",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sterling Sound",
+        "Memory-Tech"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Limited Edition",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/8071265-Madonna-Madonna"
+    },
+    {
+      "id": 3132514,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "1985",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Warner Bros. Records Inc.",
+        "Sigma Sound Studios, New York",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Victor Company Of Japan, Ltd."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 5319,
+      "uri": "/release/3132514-Madonna-Madonna"
+    },
+    {
+      "id": 1833540,
+      "title": "Madonna - Madonna",
+      "country": "USA & Europe",
+      "year": "",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Warner Bros. Records Inc.",
+        "PolyGram",
+        "Polygram, Hanover, West Germany",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Repress"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1833540-Madonna-Madonna"
+    },
+    {
+      "id": 1075886,
+      "title": "Madonna - Madonna",
+      "country": "Japan",
+      "year": "1985",
+      "catno": "32XD-318",
+      "label": [
+        "Sire",
+        "Sire",
+        "Warner-Pioneer Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1075886-Madonna-Madonna"
+    },
+    {
+      "id": 3789181,
+      "title": "Madonna - Madonna",
+      "country": "Brazil",
+      "year": "2001",
+      "catno": "936247903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Videolar S.A.",
+        "Warner Music Brasil Ltda.",
+        "Warner Music Brasil Ltda.",
+        "Warner Remasters"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/3789181-Madonna-Madonna"
+    },
+    {
+      "id": 9759371,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "1988",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Warner Bros. Records",
+        "Warner Bros. Records Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Polygram, Hanover, West Germany"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 5319,
+      "uri": "/release/9759371-Madonna-Madonna"
+    },
+    {
+      "id": 1267628,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "",
+      "catno": "W2-23867",
+      "label": [
+        "Sire",
+        "Warner Bros. Records",
+        "Columbia House",
+        "Specialty Records Corporation",
+        "Warner Bros. Records Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1267628-Madonna-Madonna"
+    },
+    {
+      "id": 3959691,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "BMG Direct Marketing, Inc.",
+        "BMG Direct Marketing, Inc.",
+        "Allied Record Company",
+        "Specialty Records Corporation",
+        "BMG Direct Marketing, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition"
+      ],
+      "master_id": 5319,
+      "uri": "/release/3959691-Madonna-Madonna"
+    },
+    {
+      "id": 6747018,
+      "title": "Madonna - Madonna",
+      "country": "Canada",
+      "year": "1990",
+      "catno": "CD 23867",
+      "label": [
+        "Sire",
+        "Warner Bros. Records",
+        "Warner Communications",
+        "WEA Music Of Canada, Ltd.",
+        "WEA Musique Du Canada Ltée.",
+        "Cinram",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl",
+        "WB Music Corp.",
+        "Likasa Music",
+        "House Of Fun Music",
+        "Pure Energy Publishing Co. Inc.",
+        "Sigma Sound Studios, New York",
+        "WCI Record Group"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 5319,
+      "uri": "/release/6747018-Madonna-Madonna"
+    },
+    {
+      "id": 628740,
+      "title": "...And You Will Know Us By The Trail Of Dead - Madonna",
+      "country": "Europe",
+      "year": "2000",
+      "catno": "WIGCD84",
+      "label": [
+        "Domino",
+        "Domino Recording Co. Ltd.",
+        "Domino Recording Co. Ltd.",
+        "Merge Records",
+        "Lone Wolf Studio & Productions",
+        "The Bubble"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 23101,
+      "uri": "/release/628740-And-You-Will-Know-Us-By-The-Trail-Of-Dead-Madonna"
+    },
+    {
+      "id": 3432004,
+      "title": "Madonna - Madonna",
+      "country": "Japan",
+      "year": "1984",
+      "catno": "9 23867-2",
+      "label": [
+        "Sire",
+        "Sire",
+        "Warner-Pioneer Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 5319,
+      "uri": "/release/3432004-Madonna-Madonna"
+    },
+    {
+      "id": 795967,
+      "title": "Madonna - Madonna",
+      "country": "Japan",
+      "year": "1989",
+      "catno": "18P2-2700",
+      "label": [
+        "Sire",
+        "Forever Young Series",
+        "Sire Records Company",
+        "Sire Records Company",
+        "Warner Bros. Records (Japan) Inc.",
+        "Warner Bros. Records Inc.",
+        "Warner-Pioneer Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 5319,
+      "uri": "/release/795967-Madonna-Madonna"
+    },
+    {
+      "id": 1587855,
+      "title": "Madonna - Madonna",
+      "country": "Italy",
+      "year": "2008",
+      "catno": "none",
+      "label": [
+        "Warner Bros. Records",
+        "Madonna Dalle Origini Al Mito",
+        "Corriere Della Sera",
+        "Time Warner",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Wb Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "ims Manufacturing",
+        "ims Manufacturing"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1587855-Madonna-Madonna"
+    },
+    {
+      "id": 1418905,
+      "title": "Madonna - Madonna",
+      "country": "Canada",
+      "year": "2001",
+      "catno": "CDW 47903",
+      "label": [
+        "Warner Bros. Records",
+        "Cinram",
+        "AOL Time Warner",
+        "Time Warner",
+        "Warner Music Group",
+        "Warner Music Canada Ltd",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "WB Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Warner Remasters"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/1418905-Madonna-Madonna"
+    },
+    {
+      "id": 5729170,
+      "title": "Madonna - Madonna",
+      "country": "Australia",
+      "year": "2001",
+      "catno": "9362479032",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Remasters",
+        "Warner Bros. Records Inc.",
+        "Time Warner",
+        "Warner Music Group",
+        "Warner Music Australia",
+        "Warner Music Australia",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "WB Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "WB Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/5729170-Madonna-Madonna"
+    },
+    {
+      "id": 5736430,
+      "title": "Madonna - Madonna",
+      "country": "Argentina",
+      "year": "2001",
+      "catno": "936247903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Music Argentina",
+        "Warner Remasters",
+        "Warner Music Argentina S.A.",
+        "Warner Music Argentina S.A.",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "Laser Disc",
+        "Laser Disc",
+        "Wb Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/5736430-Madonna-Madonna"
+    },
+    {
+      "id": 2600486,
+      "title": "Madonna - Madonna",
+      "country": "US",
+      "year": "",
+      "catno": "W2-23867",
+      "label": [
+        "Sire",
+        "Columbia House"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition"
+      ],
+      "master_id": 5319,
+      "uri": "/release/2600486-Madonna-Madonna"
+    },
+    {
+      "id": 13611866,
+      "title": "Madonna - Madonna",
+      "country": "Europe",
+      "year": "2017",
+      "catno": "9362-47903-2",
+      "label": [
+        "Warner Bros. Records",
+        "Warner Remasters",
+        "Warner Bros. Records Inc.",
+        "Warner Bros. Records Inc.",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Manufacturing Europe",
+        "Time Warner",
+        "Kalisa Inc.",
+        "Jellybean Productions, Inc.",
+        "WB Music Corp.",
+        "Bleu Disque Music Co., Inc.",
+        "Webo Girl Publishing, Inc.",
+        "Careers-BMG Music Publishing, Inc.",
+        "House Of Fun Music, Inc.",
+        "Spirit One Music",
+        "Sigma Sound Studios, New York",
+        "Sterling Sound",
+        "Optimal Media GmbH"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 5319,
+      "uri": "/release/13611866-Madonna-Madonna"
+    }
+  ]
+}

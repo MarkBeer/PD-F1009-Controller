@@ -1,0 +1,148 @@
+{
+  "id": 9668222,
+  "title": "The Best Of M People",
+  "artists": "M People",
+  "year": 1998,
+  "country": "UK & Ireland",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "M People Records",
+      "catno": "74321 61387 2"
+    },
+    {
+      "name": "BMG",
+      "catno": "74321 61387 2"
+    }
+  ],
+  "master_id": 65540,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Testify",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Search For The Hero",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Moving On Up",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Angel St.",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "One Night In Heaven",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Itchycoo Park",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Sight For Sore Eyes",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Just For You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Colour My Life",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "How Can I Love You More",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Dreaming",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Open Your Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Don't Look Any Further",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "Someday",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "Renaissance",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "16",
+      "title": "Fantasy Island",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "17",
+      "title": "What A Fool Believes",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

@@ -1,0 +1,6151 @@
+{
+  "items": [
+    {
+      "index": 1,
+      "crop": "output/run/crops/01.jpg",
+      "queries": [
+        "mariah carey all i want for christmas is you",
+        "all i want for christmas is you мэрайя кэри"
+      ],
+      "yandex_tags": [
+        "all i want for christmas",
+        "all i want for christmas is",
+        "mariah carey all i want for christmas is you",
+        "all i want for christmas is you мэрайя кэри",
+        "all a want for christmas is you"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 673284,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "UK",
+          "year": "1994",
+          "catno": "661070 5",
+          "format": [
+            "CD",
+            "Single",
+            "Limited Edition"
+          ],
+          "score": 35.0
+        },
+        {
+          "release_id": 2346041,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "UK",
+          "year": "1994",
+          "catno": "661070 2",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 35.0
+        },
+        {
+          "release_id": 32409555,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Japan",
+          "year": "2024",
+          "catno": "SICP 31744",
+          "format": [
+            "CD",
+            "Limited Edition",
+            "Reissue",
+            "Special Edition"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 1470832,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "COL 660944 2",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 32.0
+        },
+        {
+          "release_id": 2139887,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "COL 660944 1",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 32.0
+        },
+        {
+          "release_id": 4489260,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "COL 660944 5",
+          "format": [
+            "CD",
+            "Maxi-Single",
+            "Limited Edition"
+          ],
+          "score": 32.0
+        },
+        {
+          "release_id": 32476845,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Europe",
+          "year": "2024",
+          "catno": "19658891412",
+          "format": [
+            "CD",
+            "Single",
+            "Reissue",
+            "Special Edition"
+          ],
+          "score": 32.0
+        },
+        {
+          "release_id": 32487312,
+          "title": "Mariah Carey - All I Want For Christmas Is You",
+          "country": "Europe",
+          "year": "2024",
+          "catno": "19802879112",
+          "format": [
+            "CD",
+            "Single",
+            "Limited Edition",
+            "Reissue",
+            "Special Edition"
+          ],
+          "score": 32.0
+        }
+      ],
+      "chosen": {
+        "release_id": 673284,
+        "title": "All I Want For Christmas Is You",
+        "artists": "Mariah Carey",
+        "country": "UK",
+        "year": 1994,
+        "catno": "661070 5",
+        "score": 35.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 2,
+      "crop": "output/run/crops/02.jpg",
+      "queries": [
+        "soul ii soul keep on movin",
+        "soul ii soul back to life"
+      ],
+      "yandex_tags": [
+        "soul ii soul club classics vol 1",
+        "soul ii soul back to life",
+        "soul 11 soul",
+        "soul ii soul keep on movin",
+        "soul soul"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Soul II Soul",
+          "subtitle": "Британская музыкальная группа"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 3672096,
+          "title": "Various - Back To Life - '90s Soul, Groove & Club Classics",
+          "country": "UK",
+          "year": "2011",
+          "catno": "5335211",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 180121,
+          "title": "Soul II Soul - Back To Life (However Do You Want Me)",
+          "country": "UK",
+          "year": "1989",
+          "catno": "TENCD 265",
+          "format": [
+            "CD",
+            "Single",
+            "Mini"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 7532471,
+          "title": "Soul II Soul Featuring Caron Wheeler - Back To Life (However Do You Want Me)",
+          "country": "UK",
+          "year": "1989",
+          "catno": "TENCD 265",
+          "format": [
+            "CD",
+            "Mini",
+            "Single",
+            "Reissue"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 461500,
+          "title": "Soul II Soul Featuring Caron Wheeler - Keep On Movin (Remix)",
+          "country": "UK & Europe",
+          "year": "1989",
+          "catno": "ten r cd 263",
+          "format": [
+            "CD",
+            "Single",
+            "Stereo"
+          ],
+          "score": 18.0
+        },
+        {
+          "release_id": 260002,
+          "title": "Soul II Soul Featuring Caron Wheeler - Back To Life (However Do You Want Me)",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "TENCDT 265",
+          "format": [
+            "CD",
+            "Single",
+            "Stereo"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 14675216,
+          "title": "Soul II Soul - Back To Life (However Do You Want Me)",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "TENCDT 265",
+          "format": [
+            "CD",
+            "Single",
+            "Stereo"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 41079,
+          "title": "Soul II Soul - Club Classics Vol. One",
+          "country": "UK",
+          "year": "1989",
+          "catno": "Dix cd 82",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 15.0
+        },
+        {
+          "release_id": 320899,
+          "title": "Muggs* - Soul Assassins II",
+          "country": "UK",
+          "year": "2000",
+          "catno": "RLDigi-02",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 15.0
+        }
+      ],
+      "chosen": {
+        "release_id": 3672096,
+        "title": "Back To Life - '90s Soul, Groove & Club Classics",
+        "artists": "Various",
+        "country": "UK",
+        "year": 2011,
+        "catno": "5335211",
+        "score": 20.0
+      },
+      "status": "needs_review",
+      "note": ""
+    },
+    {
+      "index": 3,
+      "crop": "output/run/crops/03.jpg",
+      "queries": [
+        "madonna - bedtime stories 1994",
+        "cd madonna - bedtime stories"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка madonna bedtime stories",
+        "madonna - bedtime stories 1994",
+        "виниловая пластинка maverick madonna",
+        "cd madonna - bedtime stories",
+        "madonna - bedtime stories - (lp) виниловая пластинка 12\""
+      ],
+      "yandex_objects": [
+        {
+          "title": "Bedtime Stories",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 36031354,
+          "title": "Madonna - Bedtime Stories",
+          "country": "UK & Europe",
+          "year": "2025",
+          "catno": "R2 727979",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Special Edition",
+            "CD",
+            "EP",
+            "All Media",
+            "Deluxe Edition"
+          ],
+          "score": 57.0
+        },
+        {
+          "release_id": 292251,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 3478167,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 5645047,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 6118717,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 11655608,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Club Edition"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 15841744,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "1994",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Misprint"
+          ],
+          "score": 55.0
+        },
+        {
+          "release_id": 16101654,
+          "title": "Madonna - Bedtime Stories",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "9362-45767-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 55.0
+        }
+      ],
+      "chosen": {
+        "release_id": 36031354,
+        "title": "Bedtime Stories",
+        "artists": "Madonna",
+        "country": "UK & Europe",
+        "year": 2025,
+        "catno": "R2 727979",
+        "score": 57.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 4,
+      "crop": "output/run/crops/04.jpg",
+      "queries": [
+        "madonna erotica",
+        "madonna madonna"
+      ],
+      "yandex_tags": [
+        "madonna erotica",
+        "винил madonna",
+        "madonna madonna",
+        "эротика мадонны",
+        "m ciccone"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Erotica",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 292439,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2001",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 628740,
+          "title": "...And You Will Know Us By The Trail Of Dead - Madonna",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "WIGCD84",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 13611866,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2017",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 1833540,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 2996244,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "1984",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 15760129,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "2020",
+          "catno": "47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 521971,
+          "title": "Madonna - Madonna",
+          "country": "US",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 37.0
+        },
+        {
+          "release_id": 795967,
+          "title": "Madonna - Madonna",
+          "country": "Japan",
+          "year": "1989",
+          "catno": "18P2-2700",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 37.0
+        }
+      ],
+      "chosen": {
+        "release_id": 292439,
+        "title": "Madonna",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2001,
+        "catno": "9362-47903-2",
+        "score": 40.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 5,
+      "crop": "output/run/crops/05.jpg",
+      "queries": [
+        "evita 1996",
+        "evita dvd"
+      ],
+      "yandex_tags": [
+        "evita 1996",
+        "evita",
+        "evita music",
+        "триллер драма",
+        "evita dvd"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Эвита",
+          "subtitle": "Evita, 1996 (18+)"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 6017023,
+          "title": "Andrew Lloyd Webber and Tim Rice - Evita",
+          "country": "UK",
+          "year": "1996",
+          "catno": "DMCX 503",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 711263,
+          "title": "Andrew Lloyd Webber And Tim Rice - Evita (Music From The Motion Picture)",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "9362-46432-2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 722778,
+          "title": "Andrew Lloyd Webber And Tim Rice - Evita (The Motion Picture Music Soundtrack)",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "9362-46346-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 749297,
+          "title": "Andrew Lloyd Webber And Tim Rice - Evita (Music From The Motion Picture)",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-46450-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 7110128,
+          "title": "Andrew Lloyd Webber and Tim Rice - Evita",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "MCD 00503",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 9622636,
+          "title": "Various - Evita (Music From The Motion Picture)",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "9362-46450-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 10704496,
+          "title": "Andrew Lloyd Webber And Tim Rice - Evita (Music From The Motion Picture)",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "9362-46450-2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 13655902,
+          "title": "Andrew Lloyd Webber / Tim Rice - Evita (Music From The Motion Picture)",
+          "country": "Europe",
+          "year": "1996",
+          "catno": "9362-46432-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 50.0
+        }
+      ],
+      "chosen": {
+        "release_id": 6017023,
+        "title": "Evita",
+        "artists": "Andrew Lloyd Webber and Tim Rice",
+        "country": "UK",
+        "year": 1996,
+        "catno": "DMCX 503",
+        "score": 53.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 6,
+      "crop": "output/run/crops/06.jpg",
+      "queries": [
+        "cher believe",
+        "cher dov è l amore"
+      ],
+      "yandex_tags": [
+        "cher dov è l amore",
+        "cher believe",
+        "cher bono",
+        "шер певица",
+        "cher greatest hits"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Believe",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 5556835,
+          "title": "Cher - Believe",
+          "country": "UK",
+          "year": "1998",
+          "catno": "3984 25319 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 361064,
+          "title": "Cher - Believe",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "3984 25319 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 6456618,
+          "title": "Cher - Believe",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "3984 25319 2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 8387403,
+          "title": "Cher - Believe",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "3984 25319 2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 14123333,
+          "title": "Cher - Believe",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "3984 25319 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 28788565,
+          "title": "Cher - Believe",
+          "country": "USA & Europe",
+          "year": "2023",
+          "catno": "5054197610295",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "CD",
+            "Compilation",
+            "All Media",
+            "Deluxe Edition",
+            "Limited Edition",
+            "Remastered"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 348470,
+          "title": "Cher - Believe",
+          "country": "Canada",
+          "year": "1998",
+          "catno": "2 25319",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 1160584,
+          "title": "Cher - Believe",
+          "country": "US",
+          "year": "1998",
+          "catno": "9 47121-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 20.0
+        }
+      ],
+      "chosen": {
+        "release_id": 5556835,
+        "title": "Believe",
+        "artists": "Cher",
+        "country": "UK",
+        "year": 1998,
+        "catno": "3984 25319 2",
+        "score": 26.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 7,
+      "crop": "output/run/crops/07.jpg",
+      "queries": [
+        "the very best of the pogues",
+        "the best of the pogues"
+      ],
+      "yandex_tags": [
+        "the very best of the pogues",
+        "very best of",
+        "the best of the pogues",
+        "shane macgowan",
+        "музыкант"
+      ],
+      "yandex_objects": [
+        {
+          "title": "The Very Best of The Pogues",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 16209537,
+          "title": "The Pogues - The Best of the Pogues",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 6644886,
+          "title": "The Pogues - The Very Best Of The Pogues",
+          "country": "US",
+          "year": "2013",
+          "catno": "826663-13738",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 369147,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "1991",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 2829861,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 5316018,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 8488548,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 9391329,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "1991",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 9767063,
+          "title": "The Pogues - The Best Of The Pogues",
+          "country": "Europe",
+          "year": "2003",
+          "catno": "9031-75405-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 19.0
+        }
+      ],
+      "chosen": {
+        "release_id": 16209537,
+        "title": "The Best of the Pogues",
+        "artists": "The Pogues",
+        "country": "UK & Europe",
+        "year": "",
+        "catno": "9031-75405-2",
+        "score": 21.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 8,
+      "crop": "output/run/crops/08.jpg",
+      "queries": [
+        "madonna confessions on a dance floor",
+        "confessions on a dance floor"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка madonna",
+        "madonna confessions on a dance floor",
+        "madonna confessions ii",
+        "confessions on a dance floor",
+        "пластинка madonna"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Confessions on a Dance Floor",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 555652,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 5283161,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 16193850,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Reissue"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 17117697,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Reissue",
+            "Stereo"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 592188,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "US",
+          "year": "2005",
+          "catno": "2-49464",
+          "format": [
+            "Box Set",
+            "Special Edition",
+            "CD",
+            "Album",
+            "Partially Mixed"
+          ],
+          "score": 36.0
+        },
+        {
+          "release_id": 677102,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Japan",
+          "year": "2005",
+          "catno": "WPCR-12200",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 36.0
+        },
+        {
+          "release_id": 690709,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "US",
+          "year": "2005",
+          "catno": "49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 36.0
+        },
+        {
+          "release_id": 713161,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Australia",
+          "year": "2005",
+          "catno": "9362494602",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed"
+          ],
+          "score": 36.0
+        }
+      ],
+      "chosen": {
+        "release_id": 555652,
+        "title": "Confessions On A Dance Floor",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2005,
+        "catno": "9362-49460-2",
+        "score": 39.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 9,
+      "crop": "output/run/crops/09.jpg",
+      "queries": [
+        "madonna confessions on a dance floor",
+        "4 minutes madonna"
+      ],
+      "yandex_tags": [
+        "madonna madonna",
+        "madonna confessions on a dance floor",
+        "4 minutes madonna",
+        "madonna мадонна",
+        "candy deluxe"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 555652,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 5283161,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 16193850,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Reissue"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 17117697,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "9362-49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Reissue",
+            "Stereo"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 592188,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "US",
+          "year": "2005",
+          "catno": "2-49464",
+          "format": [
+            "Box Set",
+            "Special Edition",
+            "CD",
+            "Album",
+            "Partially Mixed"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 677102,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Japan",
+          "year": "2005",
+          "catno": "WPCR-12200",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 690709,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "US",
+          "year": "2005",
+          "catno": "49460-2",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed",
+            "Stereo"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 713161,
+          "title": "Madonna - Confessions On A Dance Floor",
+          "country": "Australia",
+          "year": "2005",
+          "catno": "9362494602",
+          "format": [
+            "CD",
+            "Album",
+            "Mixed"
+          ],
+          "score": 23.0
+        }
+      ],
+      "chosen": {
+        "release_id": 555652,
+        "title": "Confessions On A Dance Floor",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2005,
+        "catno": "9362-49460-2",
+        "score": 26.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 10,
+      "crop": "output/run/crops/10.jpg",
+      "queries": [
+        "music from and inspired by the film dick tracy",
+        "madonna hanky panky"
+      ],
+      "yandex_tags": [
+        "дик трэйси",
+        "music from and inspired by the film dick tracy",
+        "madonna hanky panky",
+        "madonna madonna",
+        "80 s madonna"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Дик Трейси",
+          "subtitle": "Dick Tracy, 1990 (12+)"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 6082147,
+          "title": "Madonna - Madonna",
+          "country": "Italy",
+          "year": "1994",
+          "catno": "ON COF 2260",
+          "format": [
+            "CD",
+            "Album",
+            "Vinyl",
+            "LP",
+            "Album",
+            "Picture Disc",
+            "Box Set",
+            "All Media",
+            "Unofficial Release"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 433557,
+          "title": "Madonna - Hanky Panky (Bare Bottom Twelve Inch Mix)",
+          "country": "Europe",
+          "year": "1990",
+          "catno": "W 9789 CD",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 15147630,
+          "title": "Madonna - Hanky Panky (Bare Bottom Twelve Inch Mix)",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "W 9789 CD",
+          "format": [
+            "CD",
+            "Single",
+            "Reissue",
+            "Stereo"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 700883,
+          "title": "Madonna - Hanky Panky",
+          "country": "Japan",
+          "year": "1990",
+          "catno": "WPDP-6235",
+          "format": [
+            "CD",
+            "Mini",
+            "Single"
+          ],
+          "score": 11.0
+        },
+        {
+          "release_id": 13279034,
+          "title": "Madonna - Hanky Panky",
+          "country": "US",
+          "year": "",
+          "catno": "9 21577-2",
+          "format": [
+            "CD",
+            "Maxi-Single",
+            "Reissue"
+          ],
+          "score": 11.0
+        },
+        {
+          "release_id": 15333437,
+          "title": "Madonna - Hanky Panky (Bare Bottom Twelve Inch Mix)",
+          "country": "Germany",
+          "year": "",
+          "catno": "W 9789 CD",
+          "format": [
+            "CD",
+            "Single",
+            "Reissue"
+          ],
+          "score": 11.0
+        },
+        {
+          "release_id": 30144434,
+          "title": "Madonna - Hanky Panky",
+          "country": "US",
+          "year": "",
+          "catno": "9 21577-2",
+          "format": [
+            "CD",
+            "Maxi-Single",
+            "Reissue"
+          ],
+          "score": 11.0
+        },
+        {
+          "release_id": 687701,
+          "title": "Madonna - Hanky Panky",
+          "country": "US",
+          "year": "1990",
+          "catno": "PRO-CD-4304",
+          "format": [
+            "CD",
+            "Single",
+            "Promo"
+          ],
+          "score": 5.0
+        }
+      ],
+      "chosen": {
+        "release_id": 6082147,
+        "title": "Madonna",
+        "artists": "Madonna",
+        "country": "Italy",
+        "year": 1994,
+        "catno": "ON COF 2260",
+        "score": 23.0
+      },
+      "status": "identified",
+      "note": ""
+    },
+    {
+      "index": 11,
+      "crop": "output/run/crops/11.jpg",
+      "queries": [
+        "madonna trueblue deluxe edition",
+        "madonna madonna"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка madonna true blue",
+        "madonna madonna",
+        "blue madonna",
+        "madonna trueblue deluxe edition",
+        "madonna 80 s"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 292439,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2001",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 60.0
+        },
+        {
+          "release_id": 628740,
+          "title": "...And You Will Know Us By The Trail Of Dead - Madonna",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "WIGCD84",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 60.0
+        },
+        {
+          "release_id": 13611866,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2017",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 60.0
+        },
+        {
+          "release_id": 1833540,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 59.0
+        },
+        {
+          "release_id": 2996244,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "1984",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 59.0
+        },
+        {
+          "release_id": 15760129,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "2020",
+          "catno": "47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 59.0
+        },
+        {
+          "release_id": 521971,
+          "title": "Madonna - Madonna",
+          "country": "US",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 57.0
+        },
+        {
+          "release_id": 795967,
+          "title": "Madonna - Madonna",
+          "country": "Japan",
+          "year": "1989",
+          "catno": "18P2-2700",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 57.0
+        }
+      ],
+      "chosen": {
+        "release_id": 292439,
+        "title": "Madonna",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2001,
+        "catno": "9362-47903-2",
+        "score": 60.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 12,
+      "crop": "output/run/crops/12.jpg",
+      "queries": [
+        "like a prayer madonna",
+        "мадонна like a prayer"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка madonna - like a prayer",
+        "мадонна like a prayer",
+        "like a prayer madonna",
+        "madonna like a virgin",
+        "обложка песни мадонна like a prayer"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Like a Prayer",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 711163,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "",
+          "catno": "7599-25844-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Stereo"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 711192,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "925 844-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 5644855,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "",
+          "catno": "7599-25844-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 9140352,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "925 844-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 10200931,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "7599-25844-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 10327097,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "925 844-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 11632043,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "925 844-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 45.0
+        },
+        {
+          "release_id": 16527102,
+          "title": "Madonna - Like A Prayer",
+          "country": "Europe",
+          "year": "",
+          "catno": "7599-25844-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 45.0
+        }
+      ],
+      "chosen": {
+        "release_id": 711163,
+        "title": "Like A Prayer",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": "",
+        "catno": "7599-25844-2",
+        "score": 45.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 13,
+      "crop": "output/run/crops/13.jpg",
+      "queries": [
+        "pat benatar shadows of the night",
+        "the very best of pat benatar"
+      ],
+      "yandex_tags": [
+        "the very best of pat benatar",
+        "pat benatar shadows of the night",
+        "pat benatar true love",
+        "pat benatar greatest hits",
+        "pat benatar precious time"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 5675029,
+          "title": "Pat Benatar - Pat Benatar",
+          "country": "Canada",
+          "year": "1999",
+          "catno": "14282",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 56.0
+        },
+        {
+          "release_id": 5675032,
+          "title": "Pat Benatar - Pat Benatar",
+          "country": "Canada",
+          "year": "1999",
+          "catno": "13072",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 56.0
+        },
+        {
+          "release_id": 12936597,
+          "title": "Pat Benatar - The Very Best Of",
+          "country": "UK",
+          "year": "1994",
+          "catno": "7243 8 28408 2 4",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 1287634,
+          "title": "Pat Benatar - The Very Best Of",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "7243 8 28408 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 2368233,
+          "title": "Pat Benatar - The Very Best Of Pat Benatar",
+          "country": "Australia",
+          "year": "1994",
+          "catno": "8284082",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 5939868,
+          "title": "Pat Benatar - The Very Best Of Pat Benatar",
+          "country": "Italy",
+          "year": "1994",
+          "catno": "7243 8 28408 2 4",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 9393328,
+          "title": "Pat Benatar - The Very Best Of Pat Benatar",
+          "country": "Argentina",
+          "year": "1994",
+          "catno": "7243 8 28408 2 4",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 5564676,
+          "title": "Pat Benatar - The Very Best Of",
+          "country": "Europe",
+          "year": "",
+          "catno": "7243 8 28408 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 19.0
+        }
+      ],
+      "chosen": {
+        "release_id": 5675029,
+        "title": "Pat Benatar",
+        "artists": "Pat Benatar",
+        "country": "Canada",
+        "year": 1999,
+        "catno": "14282",
+        "score": 56.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 14,
+      "crop": "output/run/crops/14.jpg",
+      "queries": [
+        "robert palmer bad case of loving you",
+        "robert palmer every kinda people"
+      ],
+      "yandex_tags": [
+        "robert palmer johnny and mary",
+        "robert palmer",
+        "robert palmer every kinda people",
+        "robert palmer bad case of loving you",
+        "роберта палмер"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 4461452,
+          "title": "Robert Palmer - Robert Palmer",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "524 650-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 9498707,
+          "title": "Robert Palmer - Robert Palmer",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "542 267-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Limited Edition",
+            "Remastered"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 5586739,
+          "title": "Robert Palmer - Bad Case Of Loving You (Doctor Doctor)",
+          "country": "UK",
+          "year": "1989",
+          "catno": "CID 438",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 2429483,
+          "title": "Robert Palmer - Every Kinda People",
+          "country": "UK",
+          "year": "1992",
+          "catno": "CID 498",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 14658538,
+          "title": "Robert Palmer - Bad Case Of Loving You (Doctor Doctor)",
+          "country": "Austria",
+          "year": "1989",
+          "catno": "162 848",
+          "format": [
+            "CD",
+            "Mini",
+            "Single"
+          ],
+          "score": 15.0
+        },
+        {
+          "release_id": 11290314,
+          "title": "Robert Palmer - Every Kinda People",
+          "country": "UK",
+          "year": "1991",
+          "catno": "CIDDJ 498",
+          "format": [
+            "CD",
+            "Single",
+            "Promo"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 1041845,
+          "title": "Robert Palmer - Every Kinda People",
+          "country": "Germany",
+          "year": "1991",
+          "catno": "664 412",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 8837950,
+          "title": "Robert Palmer - Classic Robert Palmer",
+          "country": "UK & Europe",
+          "year": "2009",
+          "catno": "5315419",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 11.0
+        }
+      ],
+      "chosen": {
+        "release_id": 4461452,
+        "title": "Robert Palmer",
+        "artists": "Robert Palmer",
+        "country": "Europe",
+        "year": 1999,
+        "catno": "524 650-2",
+        "score": 49.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 15,
+      "crop": "output/run/crops/15.jpg",
+      "queries": [
+        "new light through old windows the best of chris rea",
+        "new light through old windows the best of"
+      ],
+      "yandex_tags": [
+        "new light through old windows the best of chris rea",
+        "new light through old windows the best of",
+        "chris rea driving home for christmas",
+        "chris rea official",
+        "the best of chris rea"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 1881262,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "1991",
+          "catno": "2292-43841-2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 1921898,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "1988",
+          "catno": "243 841-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 4692965,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "",
+          "catno": "W2 43841",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 5822292,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "",
+          "catno": "2292-43841-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 7911561,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "1988",
+          "catno": "243 841-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 8355124,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "",
+          "catno": "2292-43841-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 9729271,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "",
+          "catno": "2292-43841-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 12954083,
+          "title": "Chris Rea - New Light Through Old Windows (The Best Of Chris Rea)",
+          "country": "Europe",
+          "year": "1991",
+          "catno": "2292-43841-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        }
+      ],
+      "chosen": {
+        "release_id": 1881262,
+        "title": "New Light Through Old Windows (The Best Of Chris Rea)",
+        "artists": "Chris Rea",
+        "country": "Europe",
+        "year": 1991,
+        "catno": "2292-43841-2",
+        "score": 38.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 16,
+      "crop": "output/run/crops/16.jpg",
+      "queries": [
+        "the best of van morrison",
+        "the essential van morrison"
+      ],
+      "yandex_tags": [
+        "the best of van morrison",
+        "van morrison",
+        "van morrison live",
+        "van morrison discography",
+        "the essential van morrison"
+      ],
+      "yandex_objects": [
+        {
+          "title": "The Best of Van Morrison",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 790990,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "841 970-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress",
+            "Stereo"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 2804220,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "841 970-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 3366853,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "1998",
+          "catno": "537 459-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 3757798,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "537 459-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 7583711,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "537 459-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 12776219,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "537 459-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 24818156,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "UK & Europe",
+          "year": "1990",
+          "catno": "841 970-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 585619,
+          "title": "Van Morrison - The Best Of Van Morrison",
+          "country": "Europe",
+          "year": "",
+          "catno": "537 459-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 24.0
+        }
+      ],
+      "chosen": {
+        "release_id": 790990,
+        "title": "The Best Of Van Morrison",
+        "artists": "Van Morrison",
+        "country": "UK & Europe",
+        "year": "",
+        "catno": "841 970-2",
+        "score": 26.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 17,
+      "crop": "output/run/crops/17.jpg",
+      "queries": [
+        "van morrison discography",
+        "van morrison collection"
+      ],
+      "yandex_tags": [
+        "van morrison live",
+        "van morrison",
+        "van morrison moondance",
+        "van morrison collection",
+        "van morrison discography"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 6117045,
+          "title": "Van Morrison - Van Morrison",
+          "country": "Europe",
+          "year": "2008",
+          "catno": "ORANGE224",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 59.0
+        },
+        {
+          "release_id": 4280643,
+          "title": "Van Morrison - Van Morrison",
+          "country": "Greece",
+          "year": "",
+          "catno": "none",
+          "format": [
+            "CD",
+            "Compilation",
+            "Promo"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 1582346,
+          "title": "Them (3) - The Collection Featuring Van Morrison",
+          "country": "UK",
+          "year": "1992",
+          "catno": "CCSCD131",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 6351257,
+          "title": "Van Morrison - The Van Morrison Collection - Volume One",
+          "country": "UK",
+          "year": "2001",
+          "catno": "ONEPAK739",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 6351312,
+          "title": "Van Morrison - The Van Morrison Collection - Volume Two",
+          "country": "UK",
+          "year": "2001",
+          "catno": "ONEPAK740",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 15255093,
+          "title": "Van Morrison - The Van Morrison Collection",
+          "country": "UK",
+          "year": "2001",
+          "catno": "TOPAK738",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 6130556,
+          "title": "Various - The Van Morrison Songbook",
+          "country": "UK",
+          "year": "1997",
+          "catno": "VSOP CD 233",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 1996392,
+          "title": "Van Morrison - White Collection - Van The Man",
+          "country": "UK, Europe & US",
+          "year": "2008",
+          "catno": "WHITE212",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 11.0
+        }
+      ],
+      "chosen": {
+        "release_id": 6117045,
+        "title": "Van Morrison",
+        "artists": "Van Morrison",
+        "country": "Europe",
+        "year": 2008,
+        "catno": "ORANGE224",
+        "score": 59.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 18,
+      "crop": "output/run/crops/18.jpg",
+      "queries": [
+        "don mclean american troubadour",
+        "the very best of don mclean"
+      ],
+      "yandex_tags": [
+        "don mclean american pie",
+        "don mcclain",
+        "don mclean american troubadour",
+        "best of don mclean",
+        "the very best of don mclean"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 6813581,
+          "title": "Don McLean - The Very Best Of Don McLean",
+          "country": "UK",
+          "year": "1989",
+          "catno": "CD UAG 30314",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 33701505,
+          "title": "Don McLean - The Very Best Of Don McLean - American Pie",
+          "country": "UK",
+          "year": "1994",
+          "catno": "ACBP172",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 9000484,
+          "title": "Don McLean - The Very Best Of Don McLean",
+          "country": "Australia",
+          "year": "",
+          "catno": "D 52010",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 9844983,
+          "title": "Don McLean - The Very Best Of Don McLean",
+          "country": "South Africa",
+          "year": "",
+          "catno": "CDLBR (WM) 1051 (7934712)",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 15906281,
+          "title": "Don McLean - The Very Best Of Don McLean",
+          "country": "Australia",
+          "year": "",
+          "catno": "D 52010",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 13171929,
+          "title": "Don McLean - American Troubadour",
+          "country": "US",
+          "year": "2012",
+          "catno": "27019-D",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 6013170,
+          "title": "Don McLean - The Very Best Of Don McLean - American Pie",
+          "country": "Unknown",
+          "year": "1994",
+          "catno": "ROJOC 1014",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 31011346,
+          "title": "Don McLean - The Very Best Of Don McLean - American Pie",
+          "country": "Unknown",
+          "year": "1994",
+          "catno": "ROJOC 1014",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        }
+      ],
+      "chosen": {
+        "release_id": 6813581,
+        "title": "The Very Best Of Don McLean",
+        "artists": "Don McLean",
+        "country": "UK",
+        "year": 1989,
+        "catno": "CD UAG 30314",
+        "score": 26.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 19,
+      "crop": "output/run/crops/19.jpg",
+      "queries": [
+        "crowded house temple of low men",
+        "crowded house don t dream it s over"
+      ],
+      "yandex_tags": [
+        "crowded house don t dream it s over",
+        "crowded house temple of low men",
+        "crowded house better be home soon",
+        "crowded house fingers of love",
+        "the very very best of crowded house"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Temple of Low Men",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 5376054,
+          "title": "Crowded House - Crowded House",
+          "country": "Europe",
+          "year": "",
+          "catno": "CDP 7 46693 2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 62.0
+        },
+        {
+          "release_id": 1873303,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "UK",
+          "year": "1988",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 3984457,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "UK",
+          "year": "1988",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 6840194,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "UK",
+          "year": "1988",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 12868807,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "UK",
+          "year": "1988",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 1795323,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "Europe",
+          "year": "",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 2991564,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "Europe",
+          "year": "",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 6000403,
+          "title": "Crowded House - Temple Of Low Men",
+          "country": "Europe",
+          "year": "",
+          "catno": "CDP 7 48763 2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 27.0
+        }
+      ],
+      "chosen": {
+        "release_id": 5376054,
+        "title": "Crowded House",
+        "artists": "Crowded House",
+        "country": "Europe",
+        "year": "",
+        "catno": "CDP 7 46693 2",
+        "score": 62.0
+      },
+      "status": "identified",
+      "note": ""
+    },
+    {
+      "index": 20,
+      "crop": "output/run/crops/20.jpg",
+      "queries": [
+        "the corrs live at the royal albert hall",
+        "live at the royal albert hall"
+      ],
+      "yandex_tags": [
+        "the corrs live at the royal albert hall",
+        "кэролайн корр",
+        "the corrs the right time",
+        "шэрон корр",
+        "live at the royal albert hall"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Кэролайн Корр",
+          "subtitle": ""
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 1300930,
+          "title": "The Cinematic Orchestra - Live At The Royal Albert Hall",
+          "country": "UK",
+          "year": "2008",
+          "catno": "ZEN CD141",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 41.0
+        },
+        {
+          "release_id": 3274649,
+          "title": "Adele (3) - Live At The Royal Albert Hall",
+          "country": "UK & Europe",
+          "year": "2011",
+          "catno": "XLBLU559D",
+          "format": [
+            "Blu-ray",
+            "Multichannel",
+            "CD",
+            "Album"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 3792602,
+          "title": "Paul Weller - Live At The Royal Albert Hall",
+          "country": "UK & Europe",
+          "year": "2008",
+          "catno": "5051442776324",
+          "format": [
+            "DVD",
+            "DVD-Video",
+            "Multichannel",
+            "PAL",
+            "Copy Protected",
+            "CD",
+            "Album"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 1878855,
+          "title": "Emerson, Lake & Palmer - Live At The Royal Albert Hall",
+          "country": "Europe",
+          "year": "1993",
+          "catno": "828 393-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 2481890,
+          "title": "Nick Cave & The Bad Seeds - Live At The Royal Albert Hall",
+          "country": "Europe",
+          "year": "2008",
+          "catno": "LTTN002",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 3254034,
+          "title": "Adele (3) - Live At The Royal Albert Hall",
+          "country": "Europe",
+          "year": "2011",
+          "catno": "XLDVD559",
+          "format": [
+            "DVD",
+            "DVD-Video",
+            "Multichannel",
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 3926903,
+          "title": "Adele (3) - Live At The Royal Albert Hall",
+          "country": "Europe",
+          "year": "2011",
+          "catno": "",
+          "format": [
+            "Blu-ray",
+            "Stereo",
+            "Multichannel",
+            "CD",
+            "Album"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 4322747,
+          "title": "Nick Cave & The Bad Seeds - Live At The Royal Albert Hall",
+          "country": "Europe",
+          "year": "2008",
+          "catno": "LTTN002",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 38.0
+        }
+      ],
+      "chosen": {
+        "release_id": 1300930,
+        "title": "Live At The Royal Albert Hall",
+        "artists": "The Cinematic Orchestra",
+        "country": "UK",
+        "year": 2008,
+        "catno": "ZEN CD141",
+        "score": 41.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 21,
+      "crop": "output/run/crops/21.jpg",
+      "queries": [
+        "texas say what you want",
+        "texas black eyed boy"
+      ],
+      "yandex_tags": [
+        "группа texas",
+        "white on blonde",
+        "texas say what you want",
+        "texas black eyed boy",
+        "texas discography"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 383727,
+          "title": "Texas - White On Blonde",
+          "country": "Europe",
+          "year": "1997",
+          "catno": "534 315-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 3466312,
+          "title": "Texas - White On Blonde",
+          "country": "Europe",
+          "year": "1997",
+          "catno": "536 790-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 7434466,
+          "title": "Texas - White On Blonde",
+          "country": "Europe",
+          "year": "1997",
+          "catno": "534 315-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 12411595,
+          "title": "Texas - White On Blonde",
+          "country": "Europe",
+          "year": "1997",
+          "catno": "534 315-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 667829,
+          "title": "Texas - Say What You Want",
+          "country": "UK",
+          "year": "1997",
+          "catno": "MERCD 480",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 1572962,
+          "title": "Texas - Say What You Want",
+          "country": "UK",
+          "year": "1997",
+          "catno": "MERDD 480",
+          "format": [
+            "CD",
+            "Single",
+            "Limited Edition"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 3323633,
+          "title": "Texas Featuring Wu-Tang* - Say What You Want (All Day Everyday)",
+          "country": "UK",
+          "year": "1998",
+          "catno": "TEW UJ1",
+          "format": [
+            "CD",
+            "Promo"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 7523499,
+          "title": "Texas - Say What You Want",
+          "country": "UK & Europe",
+          "year": "1997",
+          "catno": "MERCD 480",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 20.0
+        }
+      ],
+      "chosen": {
+        "release_id": 383727,
+        "title": "White On Blonde",
+        "artists": "Texas",
+        "country": "Europe",
+        "year": 1997,
+        "catno": "534 315-2",
+        "score": 24.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 22,
+      "crop": "output/run/crops/22.jpg",
+      "queries": [],
+      "yandex_tags": [
+        "питер брейгель фламандские пословицы",
+        "питер брейгель старший фламандские пословицы",
+        "фламандские пословицы",
+        "картина брейгель",
+        "брейгель фламандские пословицы"
+      ],
+      "yandex_objects": [],
+      "candidates": [],
+      "chosen": null,
+      "status": "unable to identify",
+      "note": "No Discogs CD matched the cover search."
+    },
+    {
+      "index": 23,
+      "crop": "output/run/crops/23.jpg",
+      "queries": [
+        "bee gees number ones",
+        "bee gees greatest hits"
+      ],
+      "yandex_tags": [
+        "bee gees number ones",
+        "bee gees greatest hits",
+        "bee gees greatest",
+        "bee gees the best of",
+        "группа bee gees"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Number Ones",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 2679456,
+          "title": "Bee Gees - Number Ones",
+          "country": "UK",
+          "year": "2004",
+          "catno": "9868840",
+          "format": [
+            "CD",
+            "Compilation",
+            "Special Edition"
+          ],
+          "score": 25.0
+        },
+        {
+          "release_id": 3285616,
+          "title": "Bee Gees - Number Ones",
+          "country": "UK & Europe",
+          "year": "2011",
+          "catno": "8122-79885-7",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 1369617,
+          "title": "Bee Gees - Number Ones",
+          "country": "Europe",
+          "year": "2004",
+          "catno": "9868838",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 8304101,
+          "title": "Bee Gees - Number Ones",
+          "country": "Europe",
+          "year": "2004",
+          "catno": "9868839",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 17521351,
+          "title": "Bee Gees - Number Ones",
+          "country": "Europe",
+          "year": "",
+          "catno": "986 883-8",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 23377646,
+          "title": "Bee Gees - Bee Gees Greatest Hits",
+          "country": "US",
+          "year": "1996",
+          "catno": "Classic 7774",
+          "format": [
+            "CD",
+            "Compilation",
+            "Stereo"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 4826211,
+          "title": "Bee Gees - Number Ones",
+          "country": "US",
+          "year": "2004",
+          "catno": "R2 516196",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 6177106,
+          "title": "Bee Gees - Number Ones",
+          "country": "US",
+          "year": "2004",
+          "catno": "B0003777-10",
+          "format": [
+            "CD",
+            "Compilation",
+            "DVD",
+            "DVD-Video"
+          ],
+          "score": 19.0
+        }
+      ],
+      "chosen": {
+        "release_id": 2679456,
+        "title": "Number Ones",
+        "artists": "Bee Gees",
+        "country": "UK",
+        "year": 2004,
+        "catno": "9868840",
+        "score": 25.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 24,
+      "crop": "output/run/crops/24.jpg",
+      "queries": [
+        "roy orbison i drove all night",
+        "roy orbison dream baby"
+      ],
+      "yandex_tags": [
+        "roy orbison i drove all night",
+        "виниловая пластинка roy orbison",
+        "roy orbison sings",
+        "boy orbison",
+        "roy orbison dream baby"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 949041,
+          "title": "Roy Orbison - I Drove All Night",
+          "country": "UK",
+          "year": "1992",
+          "catno": "MCSTD 1652",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 3453211,
+          "title": "Roy Orbison - I Drove All Night",
+          "country": "UK",
+          "year": "1993",
+          "catno": "VUSCD 79",
+          "format": [
+            "CD",
+            "Maxi-Single",
+            "Reissue"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 1636811,
+          "title": "Roy Orbison - I Drove All Night",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "MCD 17859",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 6034813,
+          "title": "Roy Orbison - The Legendary Roy Orbison",
+          "country": "UK",
+          "year": "1988",
+          "catno": "TCD 2330",
+          "format": [
+            "CD",
+            "Album",
+            "Compilation"
+          ],
+          "score": 15.0
+        },
+        {
+          "release_id": 2546888,
+          "title": "Roy Orbison - I Drove All Night",
+          "country": "US",
+          "year": "1992",
+          "catno": "MCADS-54419",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 609499,
+          "title": "Roy Orbison - The Very Best Of Roy Orbison",
+          "country": "UK",
+          "year": "",
+          "catno": "38138",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 6341156,
+          "title": "Roy Orbison - The Very Best Of Roy Orbison",
+          "country": "UK",
+          "year": "1996",
+          "catno": "7243 8 42483 2 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 1377597,
+          "title": "Roy Orbison - The All-Time Greatest Hits Of Roy Orbison",
+          "country": "Europe",
+          "year": "",
+          "catno": "CD 67290",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Stereo"
+          ],
+          "score": 11.0
+        }
+      ],
+      "chosen": {
+        "release_id": 949041,
+        "title": "I Drove All Night",
+        "artists": "Roy Orbison",
+        "country": "UK",
+        "year": 1992,
+        "catno": "MCSTD 1652",
+        "score": 19.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 25,
+      "crop": "output/run/crops/25.jpg",
+      "queries": [
+        "пластинка led zeppelin - led zeppelin iii",
+        "led zeppelin iii"
+      ],
+      "yandex_tags": [
+        "пластинка led zeppelin - led zeppelin iii",
+        "виниловая пластинка led zeppelin led zeppelin iii",
+        "led zeppelin iii",
+        "виниловая пластинка led zeppelin",
+        "led zeppelin led zeppelin ii"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Led Zeppelin III",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 438845,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "",
+          "catno": "7567-81527-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 440879,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "7567-82678-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 2211173,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "2003",
+          "catno": "WPCR-11613",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 2243833,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "1986",
+          "catno": "250 002",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 3894629,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "",
+          "catno": "7567-81527-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 4169275,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "1987",
+          "catno": "250 002",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 5196661,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "",
+          "catno": "7567-82678-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered",
+            "Repress"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 5425698,
+          "title": "Led Zeppelin - Led Zeppelin III",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "250 002",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        }
+      ],
+      "chosen": {
+        "release_id": 438845,
+        "title": "Led Zeppelin III",
+        "artists": "Led Zeppelin",
+        "country": "Europe",
+        "year": "",
+        "catno": "7567-81527-2",
+        "score": 47.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 26,
+      "crop": "output/run/crops/26.jpg",
+      "queries": [
+        "savage garden affirmation",
+        "savage garden i knew i loved you"
+      ],
+      "yandex_tags": [
+        "savage garden affirmation",
+        "savage garden i knew i loved you",
+        "группа savage garden",
+        "savage garden truly madly deeply",
+        "garden savage"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Affirmation",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 254743,
+          "title": "Savage Garden - Affirmation",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "COL 494935 2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 1057334,
+          "title": "Savage Garden - Affirmation",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "COL 494935 9",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 24404606,
+          "title": "Savage Garden - Affirmation",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "COL 494935 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 23.0
+        },
+        {
+          "release_id": 448182,
+          "title": "Savage Garden - Affirmation",
+          "country": "Australasia",
+          "year": "1999",
+          "catno": "101232-2",
+          "format": [
+            "CD",
+            "Album",
+            "Enhanced"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 493129,
+          "title": "Savage Garden - Affirmation",
+          "country": "US",
+          "year": "1999",
+          "catno": "CK 63711",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 2246986,
+          "title": "Savage Garden - Affirmation",
+          "country": "Australia",
+          "year": "2000",
+          "catno": "102976-2",
+          "format": [
+            "CD",
+            "Album",
+            "Enhanced",
+            "CD"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 2607326,
+          "title": "Savage Garden - Affirmation",
+          "country": "Argentina",
+          "year": "1999",
+          "catno": "2-494935",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 20.0
+        },
+        {
+          "release_id": 3796436,
+          "title": "Savage Garden - Affirmation",
+          "country": "Canada",
+          "year": "1999",
+          "catno": "CK 63711",
+          "format": [
+            "CD",
+            "Album",
+            "Club Edition"
+          ],
+          "score": 20.0
+        }
+      ],
+      "chosen": {
+        "release_id": 254743,
+        "title": "Affirmation",
+        "artists": "Savage Garden",
+        "country": "Europe",
+        "year": 1999,
+        "catno": "COL 494935 2",
+        "score": 23.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 27,
+      "crop": "output/run/crops/27.jpg",
+      "queries": [
+        "bee gees greatest hits",
+        "bee gees greatest"
+      ],
+      "yandex_tags": [
+        "bee gees greatest hits",
+        "best of the bee gees",
+        "the very best of the bee gees",
+        "bee gees greatest",
+        "группа bee gees"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Greatest",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 1103673,
+          "title": "Bee Gees - Greatest",
+          "country": "Europe",
+          "year": "2007",
+          "catno": "8122 79963 7",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 1105990,
+          "title": "Bee Gees - Greatest",
+          "country": "Europe",
+          "year": "2007",
+          "catno": "8122-79950-7",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Special Edition"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 6835792,
+          "title": "Bee Gees - Greatest",
+          "country": "Europe",
+          "year": "2007",
+          "catno": "8122 79963 7",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 11120377,
+          "title": "Bee Gees - Greatest",
+          "country": "Europe",
+          "year": "2007",
+          "catno": "8122 79963 7",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Special Edition"
+          ],
+          "score": 30.0
+        },
+        {
+          "release_id": 413840,
+          "title": "Bee Gees - Greatest",
+          "country": "Germany",
+          "year": "1985",
+          "catno": "800 071-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 1866171,
+          "title": "Bee Gees - Greatest",
+          "country": "US",
+          "year": "2007",
+          "catno": "R2 287740",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Special Edition"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 1946595,
+          "title": "Bee Gees - Greatest",
+          "country": "US",
+          "year": "1987",
+          "catno": "800 071-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 4363492,
+          "title": "Bee Gees - Greatest",
+          "country": "US",
+          "year": "",
+          "catno": "800 071-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Club Edition"
+          ],
+          "score": 27.0
+        }
+      ],
+      "chosen": {
+        "release_id": 1103673,
+        "title": "Greatest",
+        "artists": "Bee Gees",
+        "country": "Europe",
+        "year": 2007,
+        "catno": "8122 79963 7",
+        "score": 30.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 28,
+      "crop": "output/run/crops/28.jpg",
+      "queries": [
+        "blondie - essential nowa",
+        "blondie greatest hits"
+      ],
+      "yandex_tags": [
+        "essential blondie",
+        "the best of blondie",
+        "blondie greatest hits",
+        "группа blondie",
+        "blondie - essential nowa"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 15384245,
+          "title": "Blondie - Greatest Hits",
+          "country": "UK",
+          "year": "",
+          "catno": "7243 5 4 3105 2 2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "Repress"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 1596868,
+          "title": "Blondie - Greatest Hits",
+          "country": "UK & Europe",
+          "year": "2005",
+          "catno": "",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "DVD",
+            "Compilation",
+            "PAL"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 15930820,
+          "title": "Blondie - Greatest Hits",
+          "country": "UK & Europe",
+          "year": "",
+          "catno": "0946 345054 2 0",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "DVD",
+            "DVD-Video",
+            "PAL",
+            "Compilation"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 789219,
+          "title": "Blondie - Greatest Hits",
+          "country": "Europe",
+          "year": "2002",
+          "catno": "72435-42068-2-5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 2648632,
+          "title": "Blondie - Greatest Hits",
+          "country": "Europe",
+          "year": "2002",
+          "catno": "7243 5 4 3105 2 2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 11051081,
+          "title": "Blondie - Greatest Hits",
+          "country": "Europe",
+          "year": "",
+          "catno": "72435-42068-2-5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 24519764,
+          "title": "Blondie - Greatest Hits",
+          "country": "Europe",
+          "year": "2015",
+          "catno": "72435-42068-2-5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Remastered",
+            "Stereo"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 27170853,
+          "title": "Blondie - Greatest Hits",
+          "country": "Europe",
+          "year": "2002",
+          "catno": "72435-42068-2-5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered"
+          ],
+          "score": 19.0
+        }
+      ],
+      "chosen": {
+        "release_id": 15384245,
+        "title": "Greatest Hits",
+        "artists": "Blondie",
+        "country": "UK",
+        "year": "",
+        "catno": "7243 5 4 3105 2 2",
+        "score": 22.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 29,
+      "crop": "output/run/crops/29.jpg",
+      "queries": [
+        "m people the best of m people",
+        "one night in heaven the very best of m people"
+      ],
+      "yandex_tags": [
+        "m people the best of m people",
+        "best of m people",
+        "one night in heaven the very best of m people",
+        "поп группа",
+        "don t look any further"
+      ],
+      "yandex_objects": [
+        {
+          "title": "The Best of M People",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 9668222,
+          "title": "M People - The Best Of M People",
+          "country": "UK & Ireland",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 20374072,
+          "title": "M People - The Best Of M People",
+          "country": "UK & Ireland",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 438400,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 1115308,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "74321 62768 2",
+          "format": [
+            "CD",
+            "Compilation",
+            "CD",
+            "Enhanced",
+            "Limited Edition"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 13296997,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 13946440,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 27987894,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 29053321,
+          "title": "M People - The Best Of M People",
+          "country": "Europe",
+          "year": "",
+          "catno": "74321 61387 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 22.0
+        }
+      ],
+      "chosen": {
+        "release_id": 9668222,
+        "title": "The Best Of M People",
+        "artists": "M People",
+        "country": "UK & Ireland",
+        "year": 1998,
+        "catno": "74321 61387 2",
+        "score": 24.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 30,
+      "crop": "output/run/crops/30.jpg",
+      "queries": [
+        "madonna celebration",
+        "madonna madonna"
+      ],
+      "yandex_tags": [
+        "madonna celebration",
+        "виниловая пластинка madonna",
+        "madonna madonna",
+        "madonna мадонна",
+        "винил madonna"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Celebration",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 292439,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2001",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 628740,
+          "title": "...And You Will Know Us By The Trail Of Dead - Madonna",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "WIGCD84",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 13611866,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2017",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 50.0
+        },
+        {
+          "release_id": 1833540,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 2996244,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "1984",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 15760129,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "2020",
+          "catno": "47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 521971,
+          "title": "Madonna - Madonna",
+          "country": "US",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 47.0
+        },
+        {
+          "release_id": 795967,
+          "title": "Madonna - Madonna",
+          "country": "Japan",
+          "year": "1989",
+          "catno": "18P2-2700",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 47.0
+        }
+      ],
+      "chosen": {
+        "release_id": 292439,
+        "title": "Madonna",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2001,
+        "catno": "9362-47903-2",
+        "score": 50.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 31,
+      "crop": "output/run/crops/31.jpg",
+      "queries": [
+        "standing on a beach the singles",
+        "staring at the sea the singles"
+      ],
+      "yandex_tags": [
+        "staring at the sea the singles",
+        "standing on a beach the singles",
+        "staring at the sea",
+        "standing on a beach",
+        "easy cure"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 184663,
+          "title": "The Cure - Staring At The Sea · The Singles",
+          "country": "Europe",
+          "year": "1990",
+          "catno": "829 239-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 1426437,
+          "title": "The Cure - Staring At The Sea - The Singles",
+          "country": "Europe",
+          "year": "",
+          "catno": "829239/2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 1568450,
+          "title": "The Cure - Staring At The Sea • The Singles",
+          "country": "Europe",
+          "year": "1986",
+          "catno": "829239/2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 3282786,
+          "title": "The Cure - Staring At The Sea · The Singles",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "829239/2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 3400589,
+          "title": "The Cure - Staring At The Sea · The Singles",
+          "country": "Europe",
+          "year": "",
+          "catno": "829239/2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 3553758,
+          "title": "The Cure - Staring At The Sea • The Singles",
+          "country": "Europe",
+          "year": "",
+          "catno": "829 239-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 3692288,
+          "title": "The Cure - Staring At The Sea • The Singles",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "829 239-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 6875355,
+          "title": "The Cure - Staring At The Sea • The Singles",
+          "country": "Europe",
+          "year": "",
+          "catno": "829239/2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 13.0
+        }
+      ],
+      "chosen": {
+        "release_id": 184663,
+        "title": "Staring At The Sea · The Singles",
+        "artists": "The Cure",
+        "country": "Europe",
+        "year": 1990,
+        "catno": "829 239-2",
+        "score": 13.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 32,
+      "crop": "output/run/crops/32.jpg",
+      "queries": [
+        "beautiful ones the best of suede 1992 2018",
+        "suede - singles (2003)"
+      ],
+      "yandex_tags": [
+        "suede - singles (2003)",
+        "beautiful ones the best of suede 1992 2018",
+        "suede discography",
+        "suede obsessions",
+        "london suede"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 608302,
+          "title": "Suede - Singles",
+          "country": "Europe",
+          "year": "2003",
+          "catno": "SIN 513604 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 3047424,
+          "title": "Suede - Singles",
+          "country": "Europe",
+          "year": "2003",
+          "catno": "513604 2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 16033605,
+          "title": "Suede - The Best Of Suede. Beautiful Ones. 1992-2018",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "SUEDEBOX011",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 16055999,
+          "title": "Suede - The Best Of Suede: Beautiful Ones 1992-2018",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "EDSL0073",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 35126909,
+          "title": "Suede - The Best Of Suede. Beautiful Ones. 1992-2018",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "SUEDEBOX011X",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 16025158,
+          "title": "The London Suede* - The Best Of The London Suede: Beautiful Ones 1992 - 2018",
+          "country": "USA & Canada",
+          "year": "2020",
+          "catno": "EDSL0076",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 774853,
+          "title": "Suede - Singles (Exclusive Asian Limited Edition)",
+          "country": "Asia",
+          "year": "2003",
+          "catno": "513604 2",
+          "format": [
+            "CD",
+            "Compilation",
+            "CD",
+            "VCD"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 1580823,
+          "title": "Suede - Singles (Exclusive Asian Limited Edition)",
+          "country": "Singapore",
+          "year": "2003",
+          "catno": "513604 3",
+          "format": [
+            "CD",
+            "Compilation",
+            "DVD",
+            "DVD-Video",
+            "NTSC",
+            "All Media",
+            "Limited Edition"
+          ],
+          "score": 14.0
+        }
+      ],
+      "chosen": {
+        "release_id": 608302,
+        "title": "Singles",
+        "artists": "Suede",
+        "country": "Europe",
+        "year": 2003,
+        "catno": "SIN 513604 2",
+        "score": 17.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 33,
+      "crop": "output/run/crops/33.jpg",
+      "queries": [
+        "mind body soul sessions live in new york city",
+        "mind body & soul (special edition) album by joss stone"
+      ],
+      "yandex_tags": [
+        "mind body & soul (special edition) by joss stone",
+        "mind body & soul (special edition) album by joss stone",
+        "mind, body & soul by joss stone",
+        "mind body soul sessions live in new york city",
+        "introducing joss stone"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 1804151,
+          "title": "Joss Stone - Mind Body & Soul",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "094634510721",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "Special Edition",
+            "DVD",
+            "PAL",
+            "Mini-Album",
+            "Special Edition"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 12323754,
+          "title": "Joss Stone - Mind Body & Soul (Special German Edition)",
+          "country": "Germany",
+          "year": "2005",
+          "catno": "094634646727",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "DVD",
+            "DVD-Video",
+            "PAL",
+            "All Media",
+            "Special Edition"
+          ],
+          "score": 31.0
+        },
+        {
+          "release_id": 20869486,
+          "title": "Joss Stone - Mind Body & Soul",
+          "country": "Mexico",
+          "year": "2005",
+          "catno": "094634 49562 2",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "Special Edition",
+            "DVD",
+            "DVD-Video",
+            "NTSC",
+            "Special Edition"
+          ],
+          "score": 31.0
+        },
+        {
+          "release_id": 4939371,
+          "title": "Joss Stone - Mind, Body & Soul (Special Edition)",
+          "country": "Europe",
+          "year": "2005",
+          "catno": "CDRELX 04",
+          "format": [
+            "CD",
+            "Album",
+            "DVD",
+            "PAL",
+            "All Media",
+            "Special Edition"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 10201619,
+          "title": "Joss Stone - Mind, Body & Soul (Special Edition)",
+          "country": "Brazil",
+          "year": "2005",
+          "catno": "094634495622",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "DVD",
+            "PAL",
+            "Mini-Album"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 11424689,
+          "title": "Joss Stone - Mind, Body & Soul (Special Edition)",
+          "country": "Australia",
+          "year": "2005",
+          "catno": "094634510721",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "DVD",
+            "PAL",
+            "Mini-Album"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 14779044,
+          "title": "Joss Stone - Mind, Body & Soul",
+          "country": "Japan",
+          "year": "2005",
+          "catno": "TOCP-66467",
+          "format": [
+            "All Media",
+            "Special Edition",
+            "CD",
+            "Album",
+            "Copy Protected",
+            "Stereo",
+            "DVD",
+            "DVD-Video",
+            "NTSC",
+            "Stereo"
+          ],
+          "score": 21.0
+        },
+        {
+          "release_id": 2779813,
+          "title": "Joss Stone - Mind, Body & Soul - Special Edition",
+          "country": "US",
+          "year": "2005",
+          "catno": "0946 3 46136 2 0",
+          "format": [
+            "CD",
+            "Album",
+            "Copy Protected",
+            "DVD",
+            "DVD-Video",
+            "NTSC"
+          ],
+          "score": 15.0
+        }
+      ],
+      "chosen": {
+        "release_id": 1804151,
+        "title": "Mind Body & Soul",
+        "artists": "Joss Stone",
+        "country": "Europe",
+        "year": 2005,
+        "catno": "094634510721",
+        "score": 34.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 34,
+      "crop": "output/run/crops/34.jpg",
+      "queries": [
+        "good vibrations thirty years of the beach boys",
+        "the beach boys good vibrations"
+      ],
+      "yandex_tags": [
+        "the beach boys good vibrations",
+        "пластинка the beach boys",
+        "beach boys greatest hits",
+        "good vibrations thirty years of the beach boys",
+        "the best of the beach boys vol 3"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Beach Boys’ Party!",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 2946380,
+          "title": "The Beach Boys - The Beach Boys",
+          "country": "Spain",
+          "year": "2008",
+          "catno": "34092",
+          "format": [
+            "CD",
+            "Album",
+            "Compilation"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 1252983,
+          "title": "The Beach Boys - Good Vibrations (Thirty Years Of The Beach Boys)",
+          "country": "Europe",
+          "year": "",
+          "catno": "C2 0777 7 81294 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Box Set",
+            "Reissue"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 1535351,
+          "title": "The Beach Boys - Good Vibrations (Thirty Years Of The Beach Boys)",
+          "country": "Europe",
+          "year": "1993",
+          "catno": "C2 0777 7 81294 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "Mono",
+            "CD",
+            "Remastered",
+            "Box Set",
+            "Compilation",
+            "Deluxe Edition",
+            "Limited Edition"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 13239994,
+          "title": "The Beach Boys - Good Vibrations (Thirty Years Of The Beach Boys)",
+          "country": "US",
+          "year": "",
+          "catno": "C2 0777 7 81294 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress",
+            "Box Set"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 15953661,
+          "title": "The Beach Boys - Good Vibrations  (Thirty Years Of The Beach Boys)",
+          "country": "Worldwide",
+          "year": "1993",
+          "catno": "0777 7 89936 2 9",
+          "format": [
+            "CD",
+            "Box Set",
+            "Compilation",
+            "Deluxe Edition"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 33567177,
+          "title": "The Beach Boys - Good Vibrations (Thirty Years Of The Beach Boys)",
+          "country": "US",
+          "year": "",
+          "catno": "C2 0777 7 81294 2 4",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue",
+            "Box Set"
+          ],
+          "score": 26.0
+        },
+        {
+          "release_id": 2505597,
+          "title": "The Beach Boys - Good Vibrations",
+          "country": "Europe",
+          "year": "2006",
+          "catno": "09463 66170 2 2",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 2167882,
+          "title": "The Beach Boys - Good Vibrations",
+          "country": "US",
+          "year": "2006",
+          "catno": "09463 44962 2 3",
+          "format": [
+            "CD",
+            "Maxi-Single",
+            "Limited Edition",
+            "Stereo",
+            "Mono"
+          ],
+          "score": 21.0
+        }
+      ],
+      "chosen": {
+        "release_id": 2946380,
+        "title": "The Beach Boys",
+        "artists": "The Beach Boys",
+        "country": "Spain",
+        "year": 2008,
+        "catno": "34092",
+        "score": 49.0
+      },
+      "status": "identified",
+      "note": ""
+    },
+    {
+      "index": 35,
+      "crop": "output/run/crops/35.jpg",
+      "queries": [
+        "foo fighters the colour and the shape",
+        "everlong foo fighters"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка foo fighters",
+        "foo fighters the colour and the shape",
+        "fighters album",
+        "пластинка foo fighters",
+        "everlong foo fighters"
+      ],
+      "yandex_objects": [
+        {
+          "title": "The Colour and the Shape",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 1556077,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "UK",
+          "year": "1997",
+          "catno": "7243 8 55832 2 3",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 28.0
+        },
+        {
+          "release_id": 1735408,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "UK & Europe",
+          "year": "1997",
+          "catno": "7243 8 23127 2 7",
+          "format": [
+            "CD",
+            "Album",
+            "CD",
+            "EP",
+            "Limited Edition"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 2779323,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "UK & Europe",
+          "year": "1997",
+          "catno": "7243 8 55832 2 3",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 8894328,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "UK & Europe",
+          "year": "1997",
+          "catno": "72438 23127 2 7",
+          "format": [
+            "CD",
+            "Album",
+            "CD",
+            "Limited Edition"
+          ],
+          "score": 27.0
+        },
+        {
+          "release_id": 2016799,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "Europe",
+          "year": "2007",
+          "catno": "88697 09183 2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 25.0
+        },
+        {
+          "release_id": 2077338,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "Europe",
+          "year": "",
+          "catno": "82876 55495 2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 25.0
+        },
+        {
+          "release_id": 2739379,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "Europe",
+          "year": "1997",
+          "catno": "7243 8 55832 2 3",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 25.0
+        },
+        {
+          "release_id": 3962886,
+          "title": "Foo Fighters - The Colour And The Shape",
+          "country": "Europe",
+          "year": "",
+          "catno": "82876 55495 2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 25.0
+        }
+      ],
+      "chosen": {
+        "release_id": 1556077,
+        "title": "The Colour And The Shape",
+        "artists": "Foo Fighters",
+        "country": "UK",
+        "year": 1997,
+        "catno": "7243 8 55832 2 3",
+        "score": 28.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 36,
+      "crop": "output/run/crops/36.jpg",
+      "queries": [
+        "the corrs unplugged",
+        "acoustic unplugged"
+      ],
+      "yandex_tags": [
+        "the corrs unplugged",
+        "radio unplugged",
+        "live acoustic",
+        "rock unplugged",
+        "acoustic unplugged"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Unplugged",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 369868,
+          "title": "The Corrs - Unplugged",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "7567-92890-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 433678,
+          "title": "Eric Clapton - Unplugged",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-45024-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress",
+            "Stereo"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 559798,
+          "title": "Neil Young - Unplugged",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-45310-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 588618,
+          "title": "The Corrs - Unplugged",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "7567-80986-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 1877856,
+          "title": "Die Fantastischen Vier - Unplugged",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "FOR 500775 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 1945962,
+          "title": "The Corrs - Unplugged",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "7567-80986-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 4771033,
+          "title": "Neil Young - Unplugged",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-45310-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 53.0
+        },
+        {
+          "release_id": 5694507,
+          "title": "Eric Clapton - Unplugged",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "9362-45024-2",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 53.0
+        }
+      ],
+      "chosen": {
+        "release_id": 369868,
+        "title": "Unplugged",
+        "artists": "The Corrs",
+        "country": "Europe",
+        "year": 2000,
+        "catno": "7567-92890-2",
+        "score": 53.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 37,
+      "crop": "output/run/crops/37.jpg",
+      "queries": [],
+      "yandex_tags": [],
+      "yandex_objects": [],
+      "candidates": [],
+      "chosen": null,
+      "status": "unable to identify",
+      "note": "No Discogs CD matched the cover search."
+    },
+    {
+      "index": 38,
+      "crop": "output/run/crops/38.jpg",
+      "queries": [
+        "belinda carlisle heaven is a place on earth",
+        "belinda carlisle – the best of belinda volume 1 1992 holland"
+      ],
+      "yandex_tags": [
+        "belinda carlisle circle in the sand",
+        "the best of belinda carlisle",
+        "belinda carlisle heaven is a place on earth",
+        "belinda carlisle - the best of belinda volume 1",
+        "belinda carlisle – the best of belinda volume 1 1992 holland"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 542935,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 5501257,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 6560249,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 6877125,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 13911937,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 27578895,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 37396359,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "1992",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 29.0
+        },
+        {
+          "release_id": 38709036,
+          "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+          "country": "Europe",
+          "year": "",
+          "catno": "BELCD 1",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 29.0
+        }
+      ],
+      "chosen": {
+        "release_id": 542935,
+        "title": "The Best Of Belinda Volume 1",
+        "artists": "Belinda Carlisle",
+        "country": "Europe",
+        "year": 1992,
+        "catno": "BELCD 1",
+        "score": 29.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 39,
+      "crop": "output/run/crops/39.jpg",
+      "queries": [
+        "chris de burgh high on emotion",
+        "chris de burgh missing you"
+      ],
+      "yandex_tags": [
+        "chris de burgh missing you",
+        "chris de burgh discography",
+        "chris de burgh high on emotion",
+        "chris de burgh обложка альбома",
+        "christopher davison"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 8225827,
+          "title": "Chris de Burgh - High On Emotion - Live From Dublin!",
+          "country": "UK",
+          "year": "1990",
+          "catno": "397 086 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 17.0
+        },
+        {
+          "release_id": 489434,
+          "title": "Chris de Burgh - High On Emotion - Live From Dublin!",
+          "country": "Europe",
+          "year": "1990",
+          "catno": "397 086 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 1381635,
+          "title": "Chris de Burgh - Missing You",
+          "country": "Europe",
+          "year": "1988",
+          "catno": "390 367-2",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 13132520,
+          "title": "Chris de Burgh - High On Emotion - Live From Dublin!",
+          "country": "Europe",
+          "year": "",
+          "catno": "397 086 2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 15628692,
+          "title": "Chris de Burgh - High On Emotion - Live From Dublin!",
+          "country": "Europe",
+          "year": "1990",
+          "catno": "397 086 2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 14.0
+        },
+        {
+          "release_id": 1090349,
+          "title": "Chris de Burgh - Missing You: The Collection",
+          "country": "UK",
+          "year": "2004",
+          "catno": "982 065-1",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 6635087,
+          "title": "Chris de Burgh - The Chris De Burgh Collection",
+          "country": "Europe",
+          "year": "2009",
+          "catno": "060075320611",
+          "format": [
+            "CD",
+            "Compilation",
+            "Stereo"
+          ],
+          "score": 11.0
+        },
+        {
+          "release_id": 14384030,
+          "title": "Chris De Burgh - Spark To A Flame - The Very Best Of Chris De Burgh",
+          "country": "Europe",
+          "year": "1989",
+          "catno": "397 034-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 11.0
+        }
+      ],
+      "chosen": {
+        "release_id": 8225827,
+        "title": "High On Emotion - Live From Dublin!",
+        "artists": "Chris de Burgh",
+        "country": "UK",
+        "year": 1990,
+        "catno": "397 086 2",
+        "score": 17.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 40,
+      "crop": "output/run/crops/40.jpg",
+      "queries": [
+        "madonna ray of light album cover",
+        "madonna 1998 ray of light"
+      ],
+      "yandex_tags": [
+        "madonna - ray of light",
+        "madonna madonna",
+        "madonna 1998 ray of light",
+        "madonna - ray of light компакт-диск",
+        "madonna ray of light album cover"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 170752,
+          "title": "Madonna - Ray Of Light",
+          "country": "UK & Europe",
+          "year": "1998",
+          "catno": "9 46884-2",
+          "format": [
+            "CD",
+            "Album",
+            "Limited Edition",
+            "Special Edition"
+          ],
+          "score": 54.0
+        },
+        {
+          "release_id": 74027,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 52.0
+        },
+        {
+          "release_id": 5645943,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 52.0
+        },
+        {
+          "release_id": 7053743,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 52.0
+        },
+        {
+          "release_id": 12814078,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 52.0
+        },
+        {
+          "release_id": 24360881,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "46847-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 52.0
+        },
+        {
+          "release_id": 690466,
+          "title": "Madonna - Ray Of Light",
+          "country": "Japan",
+          "year": "1998",
+          "catno": "WPCR-2000",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 49.0
+        },
+        {
+          "release_id": 713150,
+          "title": "Madonna - Ray Of Light",
+          "country": "Australia",
+          "year": "1998",
+          "catno": "9362468472",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 49.0
+        }
+      ],
+      "chosen": {
+        "release_id": 170752,
+        "title": "Ray Of Light",
+        "artists": "Madonna",
+        "country": "UK & Europe",
+        "year": 1998,
+        "catno": "9 46884-2",
+        "score": 54.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 41,
+      "crop": "output/run/crops/41.jpg",
+      "queries": [
+        "madonna madonna",
+        "madonna - music"
+      ],
+      "yandex_tags": [
+        "madonna madonna",
+        "мадонна 2000",
+        "madonna мадонна",
+        "madonna - music",
+        "песни мадонны"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 292439,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2001",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 628740,
+          "title": "...And You Will Know Us By The Trail Of Dead - Madonna",
+          "country": "Europe",
+          "year": "2000",
+          "catno": "WIGCD84",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 13611866,
+          "title": "Madonna - Madonna",
+          "country": "Europe",
+          "year": "2017",
+          "catno": "9362-47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 40.0
+        },
+        {
+          "release_id": 1833540,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 2996244,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "1984",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 15760129,
+          "title": "Madonna - Madonna",
+          "country": "USA & Europe",
+          "year": "2020",
+          "catno": "47903-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ],
+          "score": 39.0
+        },
+        {
+          "release_id": 521971,
+          "title": "Madonna - Madonna",
+          "country": "US",
+          "year": "",
+          "catno": "9 23867-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 37.0
+        },
+        {
+          "release_id": 795967,
+          "title": "Madonna - Madonna",
+          "country": "Japan",
+          "year": "1989",
+          "catno": "18P2-2700",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 37.0
+        }
+      ],
+      "chosen": {
+        "release_id": 292439,
+        "title": "Madonna",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 2001,
+        "catno": "9362-47903-2",
+        "score": 40.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 42,
+      "crop": "output/run/crops/42.jpg",
+      "queries": [
+        "диск cd forgiven, not forgotten - the corrs",
+        "the corrs - \"forgiven, not forgotten\""
+      ],
+      "yandex_tags": [
+        "the corrs - \"forgiven, not forgotten\"",
+        "диск cd forgiven, not forgotten - the corrs",
+        "the corrs discography",
+        "the corrs the right time",
+        "best of the corrs"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Forgiven, Not Forgotten",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 384936,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Europe",
+          "year": "1995",
+          "catno": "7567-92612-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 37.0
+        },
+        {
+          "release_id": 4662692,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "7567-92612-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue",
+            "Repress"
+          ],
+          "score": 37.0
+        },
+        {
+          "release_id": 1588760,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "US",
+          "year": "1995",
+          "catno": "92612-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 1955126,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Japan",
+          "year": "1995",
+          "catno": "AMCY-913",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 1993732,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Spain",
+          "year": "2003",
+          "catno": "7567-92612-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 2886194,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Canada",
+          "year": "1995",
+          "catno": "CD 92612",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 2891536,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Canada",
+          "year": "",
+          "catno": "A2 92612",
+          "format": [
+            "CD",
+            "Album",
+            "Club Edition"
+          ],
+          "score": 34.0
+        },
+        {
+          "release_id": 3868112,
+          "title": "The Corrs - Forgiven, Not Forgotten",
+          "country": "Australia",
+          "year": "1995",
+          "catno": "7567926122",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 34.0
+        }
+      ],
+      "chosen": {
+        "release_id": 384936,
+        "title": "Forgiven, Not Forgotten",
+        "artists": "The Corrs",
+        "country": "Europe",
+        "year": 1995,
+        "catno": "7567-92612-2",
+        "score": 37.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 43,
+      "crop": "output/run/crops/43.jpg",
+      "queries": [
+        "greatest hits volume",
+        "madonna ray of light"
+      ],
+      "yandex_tags": [
+        "great hits volume 2",
+        "m ciccone",
+        "greatest hits volume",
+        "greatest hit vol 2",
+        "madonna ray of light"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Greatest Hits",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 170752,
+          "title": "Madonna - Ray Of Light",
+          "country": "UK & Europe",
+          "year": "1998",
+          "catno": "9 46884-2",
+          "format": [
+            "CD",
+            "Album",
+            "Limited Edition",
+            "Special Edition"
+          ],
+          "score": 24.0
+        },
+        {
+          "release_id": 74027,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 3658150,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "2001",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album",
+            "Repress"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 5645943,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 7053743,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "1998",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 12814078,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "",
+          "catno": "9362-46847-2",
+          "format": [
+            "CD",
+            "Album"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 24360881,
+          "title": "Madonna - Ray Of Light",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "46847-2",
+          "format": [
+            "CD",
+            "Album",
+            "Reissue"
+          ],
+          "score": 22.0
+        },
+        {
+          "release_id": 690466,
+          "title": "Madonna - Ray Of Light",
+          "country": "Japan",
+          "year": "1998",
+          "catno": "WPCR-2000",
+          "format": [
+            "CD",
+            "Album",
+            "Stereo"
+          ],
+          "score": 19.0
+        }
+      ],
+      "chosen": {
+        "release_id": 170752,
+        "title": "Ray Of Light",
+        "artists": "Madonna",
+        "country": "UK & Europe",
+        "year": 1998,
+        "catno": "9 46884-2",
+        "score": 24.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 44,
+      "crop": "output/run/crops/44.jpg",
+      "queries": [
+        "the immaculate collection volume 2",
+        "the immaculate collection volume 1"
+      ],
+      "yandex_tags": [
+        "immaculate collection",
+        "мадонна безупречная коллекция",
+        "madonna madonna",
+        "the immaculate collection volume 2",
+        "the immaculate collection volume 1"
+      ],
+      "yandex_objects": [],
+      "candidates": [],
+      "chosen": null,
+      "status": "unable to identify",
+      "note": "No Discogs CD matched the cover search."
+    },
+    {
+      "index": 45,
+      "crop": "output/run/crops/45.jpg",
+      "queries": [
+        "madonna something to remember lp 1995 eu",
+        "madonna - something to remember"
+      ],
+      "yandex_tags": [
+        "виниловая пластинка madonna - something to remember 1995",
+        "виниловая пластинка madonna something to remember 1995 г",
+        "madonna something to remember lp 1995 eu",
+        "madonna виниловая пластинка something to remember",
+        "madonna - something to remember"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Something to Remember",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 215159,
+          "title": "Madonna - Something To Remember",
+          "country": "Europe",
+          "year": "1995",
+          "catno": "9362-46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Stereo"
+          ],
+          "score": 64.0
+        },
+        {
+          "release_id": 1267860,
+          "title": "Madonna - Something To Remember",
+          "country": "Europe",
+          "year": "1995",
+          "catno": "9362-46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 64.0
+        },
+        {
+          "release_id": 5645821,
+          "title": "Madonna - Something To Remember",
+          "country": "Europe",
+          "year": "1999",
+          "catno": "9362-46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Repress"
+          ],
+          "score": 64.0
+        },
+        {
+          "release_id": 11655843,
+          "title": "Madonna - Something To Remember",
+          "country": "Europe",
+          "year": "1995",
+          "catno": "9362-46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Club Edition"
+          ],
+          "score": 64.0
+        },
+        {
+          "release_id": 17117562,
+          "title": "Madonna - Something To Remember",
+          "country": "Europe",
+          "year": "2020",
+          "catno": "9362-46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 64.0
+        },
+        {
+          "release_id": 1011782,
+          "title": "Madonna - Something To Remember",
+          "country": "Canada",
+          "year": "1995",
+          "catno": "CDW 46100",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 61.0
+        },
+        {
+          "release_id": 1283648,
+          "title": "Madonna - Something To Remember",
+          "country": "US",
+          "year": "1995",
+          "catno": "9 46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Stereo"
+          ],
+          "score": 61.0
+        },
+        {
+          "release_id": 1311655,
+          "title": "Madonna - Something To Remember",
+          "country": "US",
+          "year": "1995",
+          "catno": "9 46100-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Club Edition"
+          ],
+          "score": 61.0
+        }
+      ],
+      "chosen": {
+        "release_id": 215159,
+        "title": "Something To Remember",
+        "artists": "Madonna",
+        "country": "Europe",
+        "year": 1995,
+        "catno": "9362-46100-2",
+        "score": 64.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 46,
+      "crop": "output/run/crops/46.jpg",
+      "queries": [
+        "tamla motown gold the sound of young america",
+        "motown greatest hits"
+      ],
+      "yandex_tags": [
+        "tamla motown gold the sound of young america",
+        "motown gold",
+        "tamla motown gold",
+        "mowest records",
+        "motown greatest hits"
+      ],
+      "yandex_objects": [
+        {
+          "title": "Tamla Motown Gold: The Sound of Young America",
+          "subtitle": "Альбом"
+        }
+      ],
+      "candidates": [
+        {
+          "release_id": 629140,
+          "title": "Various - Tamla Motown Gold - The Sound Of Young America",
+          "country": "UK & Europe",
+          "year": "2001",
+          "catno": "016301-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 6522275,
+          "title": "Various - Motown Greatest Hits",
+          "country": "Netherlands",
+          "year": "2003",
+          "catno": "067 685-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 18.0
+        },
+        {
+          "release_id": 14101902,
+          "title": "Various - Motown Greatest Hits",
+          "country": "Netherlands",
+          "year": "2019",
+          "catno": "5387964",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 18.0
+        },
+        {
+          "release_id": 1790160,
+          "title": "Jimmy Ruffin - Greatest Motown Hits",
+          "country": "UK & Europe",
+          "year": "1992",
+          "catno": "530 057-2",
+          "format": [
+            "CD",
+            "Compilation",
+            "Reissue"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 331489,
+          "title": "Diana Ross - Motown's Greatest Hits",
+          "country": "UK",
+          "year": "1992",
+          "catno": "530 013-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 1790109,
+          "title": "Four Tops - Motown's Greatest Hits",
+          "country": "UK",
+          "year": "1992",
+          "catno": "530 016-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 2486135,
+          "title": "Marvin Gaye - Motown's Greatest Hits",
+          "country": "UK",
+          "year": "1992",
+          "catno": "530 012-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        },
+        {
+          "release_id": 3442642,
+          "title": "Michael Jackson - Motown's Greatest Hits",
+          "country": "UK",
+          "year": "1992",
+          "catno": "530 014-2",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 12.0
+        }
+      ],
+      "chosen": {
+        "release_id": 629140,
+        "title": "Tamla Motown Gold - The Sound Of Young America",
+        "artists": "Various",
+        "country": "UK & Europe",
+        "year": 2001,
+        "catno": "016301-2",
+        "score": 19.0
+      },
+      "status": "needs_review",
+      "note": ""
+    },
+    {
+      "index": 47,
+      "crop": "output/run/crops/47.jpg",
+      "queries": [
+        "talking heads once in a lifetime",
+        "talking heads lifetime piling up"
+      ],
+      "yandex_tags": [
+        "talking heads once in a lifetime",
+        "the best of once in a lifetime",
+        "talking heads lifetime piling up",
+        "once in a lifetime",
+        "heads talking"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 2836004,
+          "title": "Talking Heads - Once In A Lifetime",
+          "country": "Europe",
+          "year": "2003",
+          "catno": "R2 73934",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "DVD",
+            "DVD-Video",
+            "PAL",
+            "Compilation",
+            "Remastered",
+            "Box Set"
+          ],
+          "score": 41.0
+        },
+        {
+          "release_id": 1390812,
+          "title": "Talking Heads - Once In A Lifetime",
+          "country": "US",
+          "year": "2003",
+          "catno": "R2 73934",
+          "format": [
+            "CD",
+            "Compilation",
+            "DVD",
+            "DVD-Video",
+            "NTSC",
+            "Compilation",
+            "Reissue",
+            "All Media"
+          ],
+          "score": 38.0
+        },
+        {
+          "release_id": 1952562,
+          "title": "Talking Heads - Lifetime Piling Up",
+          "country": "UK",
+          "year": "1992",
+          "catno": "7243 8 80287 2 1",
+          "format": [
+            "CD",
+            "Maxi-Single"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 11995653,
+          "title": "Talking Heads - Lifetime Piling Up",
+          "country": "UK",
+          "year": "1992",
+          "catno": "CDEM 250",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 2223558,
+          "title": "Talking Heads - Lifetime Piling Up",
+          "country": "UK & Europe",
+          "year": "1992",
+          "catno": "CDEM 250",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 18.0
+        },
+        {
+          "release_id": 169530,
+          "title": "Talking Heads - Once In A Lifetime - The Best Of",
+          "country": "UK",
+          "year": "1992",
+          "catno": "0777 7 80593 2 5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 8030842,
+          "title": "Talking Heads - Once In A Lifetime - The Best Of",
+          "country": "UK",
+          "year": "",
+          "catno": "0777 7 80593 2 5",
+          "format": [
+            "CD",
+            "Compilation",
+            "Remastered",
+            "Repress"
+          ],
+          "score": 16.0
+        },
+        {
+          "release_id": 7926906,
+          "title": "Talking Heads - Once In A Lifetime Talking Heads The Best Of ",
+          "country": "Japan",
+          "year": "2014",
+          "catno": "WPCR-15847",
+          "format": [
+            "CD",
+            "Compilation"
+          ],
+          "score": 14.0
+        }
+      ],
+      "chosen": {
+        "release_id": 2836004,
+        "title": "Once In A Lifetime",
+        "artists": "Talking Heads",
+        "country": "Europe",
+        "year": 2003,
+        "catno": "R2 73934",
+        "score": 41.0
+      },
+      "status": "identified",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    },
+    {
+      "index": 48,
+      "crop": "output/run/crops/48.jpg",
+      "queries": [
+        "the charlatans one to another",
+        "the charlatans uk then"
+      ],
+      "yandex_tags": [
+        "the charlatans one to another",
+        "the high street",
+        "old london",
+        "the charlatans uk then",
+        "great george street"
+      ],
+      "yandex_objects": [],
+      "candidates": [
+        {
+          "release_id": 397566,
+          "title": "The Charlatans - One To Another",
+          "country": "UK",
+          "year": "1996",
+          "catno": "BBQ 301CD",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 19.0
+        },
+        {
+          "release_id": 367086,
+          "title": "The Charlatans - Then",
+          "country": "UK",
+          "year": "1990",
+          "catno": "SIT 74 CD",
+          "format": [
+            "CD",
+            "Single"
+          ],
+          "score": 15.0
+        },
+        {
+          "release_id": 4276536,
+          "title": "The Charlatans - One To Another",
+          "country": "UK",
+          "year": "1996",
+          "catno": "BBQ 301DJ",
+          "format": [
+            "CD",
+            "Single",
+            "Promo"
+          ],
+          "score": 13.0
+        },
+        {
+          "release_id": 259531,
+          "title": "The Charlatans UK* - One To Another",
+          "country": "US",
+          "year": "1997",
+          "catno": "MCA5P-3938",
+          "format": [
+            "CD",
+            "Single",
+            "Promo"
+          ],
+          "score": 7.0
+        },
+        {
+          "release_id": 603904,
+          "title": "The Charlatans UK* - Then",
+          "country": "US",
+          "year": "1990",
+          "catno": "2452-2-HDJ",
+          "format": [
+            "CD",
+            "Single",
+            "Promo"
+          ],
+          "score": 3.0
+        }
+      ],
+      "chosen": {
+        "release_id": 397566,
+        "title": "One To Another",
+        "artists": "The Charlatans",
+        "country": "UK",
+        "year": 1996,
+        "catno": "BBQ 301CD",
+        "score": 19.0
+      },
+      "status": "needs_review",
+      "note": "Several pressings share this title. Pin release_id in overrides.json if the case is a specific edition."
+    }
+  ]
+}

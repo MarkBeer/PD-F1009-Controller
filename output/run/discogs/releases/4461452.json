@@ -1,0 +1,151 @@
+{
+  "id": 4461452,
+  "title": "Robert Palmer",
+  "artists": "Robert Palmer",
+  "year": 1999,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Polygram",
+      "catno": "524 650-2"
+    }
+  ],
+  "master_id": 520855,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Johnny & Mary",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Every Kinda People",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Sneakin' Sally Through The Alley",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Bad Case Of Loving You (Doctor, Doctor)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Addicted To Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "From A Whisper To A Stream",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Pressure Drop",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Give Me An Inch Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Man Smart, Woman Smarter",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Spanish Moon",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Best Of Both Worlds",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Looking For Clues",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "You Are In My System",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "Want You More",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "Riptide",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "16",
+      "title": "Discipline Of Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "17",
+      "title": "Whats It Take?",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "18",
+      "title": "Woke Up Laughing",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

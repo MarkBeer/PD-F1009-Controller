@@ -1,0 +1,417 @@
+{
+  "id": 3672096,
+  "title": "Back To Life - '90s Soul, Groove & Club Classics",
+  "artists": "Various",
+  "year": 2011,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "3",
+      "descriptions": [
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Universal Music",
+      "catno": "5335211"
+    }
+  ],
+  "master_id": 0,
+  "tracks": [
+    {
+      "pos": "1-1",
+      "title": "Back To Life (However Do You Want Me)",
+      "type": "track",
+      "artists": "Soul II Soul Feat. Caron Wheeler",
+      "featuring": []
+    },
+    {
+      "pos": "1-2",
+      "title": "Apparently Nothin'",
+      "type": "track",
+      "artists": "Young Disciples",
+      "featuring": []
+    },
+    {
+      "pos": "1-3",
+      "title": "People Everyday",
+      "type": "track",
+      "artists": "Arrested Development",
+      "featuring": []
+    },
+    {
+      "pos": "1-4",
+      "title": "Buffalo Stance",
+      "type": "track",
+      "artists": "Neneh Cherry",
+      "featuring": []
+    },
+    {
+      "pos": "1-5",
+      "title": "My Lovin' (You're Never Gonna Get It)",
+      "type": "track",
+      "artists": "En Vogue",
+      "featuring": []
+    },
+    {
+      "pos": "1-6",
+      "title": "You Gotta Be",
+      "type": "track",
+      "artists": "Des'ree",
+      "featuring": []
+    },
+    {
+      "pos": "1-7",
+      "title": "Blow Your Mind",
+      "type": "track",
+      "artists": "Jamiroquai",
+      "featuring": []
+    },
+    {
+      "pos": "1-8",
+      "title": "Midnight At The Oasis",
+      "type": "track",
+      "artists": "The Brand New Heavies",
+      "featuring": []
+    },
+    {
+      "pos": "1-9",
+      "title": "Always There",
+      "type": "track",
+      "artists": "Incognito Feat. Jocelyn Brown",
+      "featuring": []
+    },
+    {
+      "pos": "1-10",
+      "title": "Moving On Up",
+      "type": "track",
+      "artists": "M People",
+      "featuring": []
+    },
+    {
+      "pos": "1-11",
+      "title": "Finally",
+      "type": "track",
+      "artists": "Ce Ce Peniston",
+      "featuring": []
+    },
+    {
+      "pos": "1-12",
+      "title": "Now That We Found Love",
+      "type": "track",
+      "artists": "Heavy D. & The Boyz Feat. Aaron Hall",
+      "featuring": []
+    },
+    {
+      "pos": "1-13",
+      "title": "Got To Have Your Love",
+      "type": "track",
+      "artists": "Mantronix Feat. Wondress Hutchinson",
+      "featuring": []
+    },
+    {
+      "pos": "1-14",
+      "title": "Remember Me",
+      "type": "track",
+      "artists": "Blue Boy",
+      "featuring": []
+    },
+    {
+      "pos": "1-15",
+      "title": "Dub Be Good To Me",
+      "type": "track",
+      "artists": "Beats International",
+      "featuring": []
+    },
+    {
+      "pos": "1-16",
+      "title": "Winter In July",
+      "type": "track",
+      "artists": "Bomb The Bass",
+      "featuring": []
+    },
+    {
+      "pos": "1-17",
+      "title": "I Still Haven't Found What I'm Looking For",
+      "type": "track",
+      "artists": "The Chimes",
+      "featuring": []
+    },
+    {
+      "pos": "1-18",
+      "title": "Dreams",
+      "type": "track",
+      "artists": "Gabrielle",
+      "featuring": []
+    },
+    {
+      "pos": "2-1",
+      "title": "Set Adrift On Memory Bliss",
+      "type": "track",
+      "artists": "P.M. Dawn",
+      "featuring": []
+    },
+    {
+      "pos": "2-2",
+      "title": "Whatta Man",
+      "type": "track",
+      "artists": "Salt 'N' Pepa Feat. En Vogue",
+      "featuring": []
+    },
+    {
+      "pos": "2-3",
+      "title": "You Don't Love Me (No No No)",
+      "type": "track",
+      "artists": "Dawn Penn",
+      "featuring": []
+    },
+    {
+      "pos": "2-4",
+      "title": "Would I Lie To You",
+      "type": "track",
+      "artists": "Charles & Eddie",
+      "featuring": []
+    },
+    {
+      "pos": "2-5",
+      "title": "Free",
+      "type": "track",
+      "artists": "Ultra Naté",
+      "featuring": []
+    },
+    {
+      "pos": "2-6",
+      "title": "Tom's Diner",
+      "type": "track",
+      "artists": "DNA Feat. Suzanne Vega",
+      "featuring": []
+    },
+    {
+      "pos": "2-7",
+      "title": "Gypsy Woman (She's Homeless)",
+      "type": "track",
+      "artists": "Crystal Waters",
+      "featuring": []
+    },
+    {
+      "pos": "2-8",
+      "title": "Naked In The Rain",
+      "type": "track",
+      "artists": "Blue Pearl",
+      "featuring": []
+    },
+    {
+      "pos": "2-9",
+      "title": "(I Wanna Give You) Devotion",
+      "type": "track",
+      "artists": "Nomad",
+      "featuring": []
+    },
+    {
+      "pos": "2-10",
+      "title": "I'm Free",
+      "type": "track",
+      "artists": "The Soup Dragons",
+      "featuring": []
+    },
+    {
+      "pos": "2-11",
+      "title": "Connected",
+      "type": "track",
+      "artists": "Stereo MC's",
+      "featuring": []
+    },
+    {
+      "pos": "2-12",
+      "title": "Wash Your Face In My Sink",
+      "type": "track",
+      "artists": "Dream Warriors",
+      "featuring": []
+    },
+    {
+      "pos": "2-13",
+      "title": "So What!",
+      "type": "track",
+      "artists": "Ronny Jordan",
+      "featuring": []
+    },
+    {
+      "pos": "2-14",
+      "title": "Ain't No Love (Ain't No Use)",
+      "type": "track",
+      "artists": "Sub Sub",
+      "featuring": []
+    },
+    {
+      "pos": "2-15",
+      "title": "Never Gonna Let You Go",
+      "type": "track",
+      "artists": "Tina Moore",
+      "featuring": []
+    },
+    {
+      "pos": "2-16",
+      "title": "Where Love Lives",
+      "type": "track",
+      "artists": "Alison Limerick",
+      "featuring": []
+    },
+    {
+      "pos": "2-17",
+      "title": "I Wanna Be The Only One",
+      "type": "track",
+      "artists": "Eternal Feat. BeBe Winans",
+      "featuring": []
+    },
+    {
+      "pos": "2-18",
+      "title": "I Love Your Smile",
+      "type": "track",
+      "artists": "Shanice",
+      "featuring": []
+    },
+    {
+      "pos": "2-19",
+      "title": "Return Of The Mack",
+      "type": "track",
+      "artists": "Mark Morrison",
+      "featuring": []
+    },
+    {
+      "pos": "3-1",
+      "title": "Waterfalls",
+      "type": "track",
+      "artists": "TLC",
+      "featuring": []
+    },
+    {
+      "pos": "3-2",
+      "title": "You Might Need Somebody",
+      "type": "track",
+      "artists": "Shola Ama",
+      "featuring": []
+    },
+    {
+      "pos": "3-3",
+      "title": "Mr. Loverman",
+      "type": "track",
+      "artists": "Shabba Ranks Feat. Chevelle Franklyn",
+      "featuring": []
+    },
+    {
+      "pos": "3-4",
+      "title": "Regulate",
+      "type": "track",
+      "artists": "Warren G Feat. Nate Dogg",
+      "featuring": []
+    },
+    {
+      "pos": "3-5",
+      "title": "No Diggity",
+      "type": "track",
+      "artists": "Blackstreet Feat. Dr. Dre",
+      "featuring": []
+    },
+    {
+      "pos": "3-6",
+      "title": "If You Love Me",
+      "type": "track",
+      "artists": "Brownstone",
+      "featuring": []
+    },
+    {
+      "pos": "3-7",
+      "title": "I'm Going All The Way",
+      "type": "track",
+      "artists": "Sounds Of Blackness",
+      "featuring": []
+    },
+    {
+      "pos": "3-8",
+      "title": "Ghetto Heaven",
+      "type": "track",
+      "artists": "The Family Stand",
+      "featuring": []
+    },
+    {
+      "pos": "3-9",
+      "title": "Wishing On A Star",
+      "type": "track",
+      "artists": "Fresh 4",
+      "featuring": []
+    },
+    {
+      "pos": "3-10",
+      "title": "Come Into My Life",
+      "type": "track",
+      "artists": "Joyce Sims",
+      "featuring": []
+    },
+    {
+      "pos": "3-11",
+      "title": "It's Too Late",
+      "type": "track",
+      "artists": "Dina Carroll",
+      "featuring": []
+    },
+    {
+      "pos": "3-12",
+      "title": "Brown Sugar",
+      "type": "track",
+      "artists": "D'Angelo",
+      "featuring": []
+    },
+    {
+      "pos": "3-13",
+      "title": "On & On",
+      "type": "track",
+      "artists": "Erykah Badu",
+      "featuring": []
+    },
+    {
+      "pos": "3-14",
+      "title": "I Am The Black Gold Of The Sun",
+      "type": "track",
+      "artists": "Nuyorican Soul",
+      "featuring": []
+    },
+    {
+      "pos": "3-15",
+      "title": "Spiritual Love",
+      "type": "track",
+      "artists": "Urban Species",
+      "featuring": []
+    },
+    {
+      "pos": "3-16",
+      "title": "I Need Your Lovin'",
+      "type": "track",
+      "artists": "Alyson Williams",
+      "featuring": []
+    },
+    {
+      "pos": "3-17",
+      "title": "Freak Me",
+      "type": "track",
+      "artists": "Another Level",
+      "featuring": []
+    },
+    {
+      "pos": "3-18",
+      "title": "Breathe Again",
+      "type": "track",
+      "artists": "Toni Braxton",
+      "featuring": []
+    },
+    {
+      "pos": "3-19",
+      "title": "There's Nothing Like This",
+      "type": "track",
+      "artists": "Omar",
+      "featuring": []
+    }
+  ]
+}

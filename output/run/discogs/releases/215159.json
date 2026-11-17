@@ -1,0 +1,128 @@
+{
+  "id": 215159,
+  "title": "Something To Remember",
+  "artists": "Madonna",
+  "year": 1995,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Stereo"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9362-46100-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-46100-2"
+    }
+  ],
+  "master_id": 67828,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "I Want You",
+      "type": "track",
+      "artists": "Madonna With Massive Attack",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "I'll Remember (Theme From The Motion Picture With Honors)",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Take A Bow",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "You'll See",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Crazy For You",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "This Used To Be My Playground",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Live To Tell",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Love Don't Live Here Anymore (Remix)",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Something To Remember",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Forbidden Love",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "One More Chance",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Rain",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Oh Father",
+      "type": "track",
+      "artists": "Madonna",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "I Want You (Orchestral)",
+      "type": "track",
+      "artists": "Madonna With Massive Attack",
+      "featuring": []
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "id": 2836004,
+  "title": "Once In A Lifetime",
+  "artists": "Talking Heads",
+  "year": 2003,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "3",
+      "descriptions": [
+        "Compilation",
+        "Remastered"
+      ]
+    },
+    {
+      "name": "DVD",
+      "qty": "1",
+      "descriptions": [
+        "DVD-Video",
+        "PAL",
+        "Compilation",
+        "Remastered"
+      ]
+    },
+    {
+      "name": "Box Set",
+      "qty": "1",
+      "descriptions": []
+    }
+  ],
+  "labels": [
+    {
+      "name": "EMI",
+      "catno": "R2 73934"
+    },
+    {
+      "name": "EMI",
+      "catno": "5953970"
+    }
+  ],
+  "master_id": 311041,
+  "tracks": [
+    {
+      "pos": "CD1-1",
+      "title": "Sugar On My Tongue",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-2",
+      "title": "Love → Building On Fire",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-3",
+      "title": "I Wish You Wouldn't Say That",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-4",
+      "title": "Don't Worry About The Government",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-5",
+      "title": "Uh-Oh, Love Comes To Town (Alternate Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-6",
+      "title": "New Feeling (Alternate Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-7",
+      "title": "Pulled Up",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-8",
+      "title": "Psycho Killer",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-9",
+      "title": "Warning Sign",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-10",
+      "title": "Artists Only",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-11",
+      "title": "Tentative Descisions",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-12",
+      "title": "No Compassion",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-13",
+      "title": "Stay Hungry",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-14",
+      "title": "I'm Not In Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-15",
+      "title": "The Book I Read",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-16",
+      "title": "Thank You For Sending Me An Angel",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-17",
+      "title": "Found A Job",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-18",
+      "title": "A Clean Break (Live)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-19",
+      "title": "Take Me To The River",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-.20",
+      "title": "The Big Country",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD1-21",
+      "title": "Heaven",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-1",
+      "title": "I Zimbra",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-2",
+      "title": "Cities (Alternate Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-3",
+      "title": "Life During Wartime",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-4",
+      "title": "Air",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-5",
+      "title": "Memories Can't Wait",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-6",
+      "title": "Drugs (Alternate Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-7",
+      "title": "Once In A Lifetime",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-8",
+      "title": "Born Under Punches (The Heat Goes On)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-9",
+      "title": "Listening Wind",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-10",
+      "title": "Houses In Motion",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-11",
+      "title": "Crosseyed And Painless",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-12",
+      "title": "Burning Down The House",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-13",
+      "title": "Making Flippy Floppy",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-14",
+      "title": "Girlfriend Is Better",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-15",
+      "title": "Slippery People",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-16",
+      "title": "Swamp",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD2-17",
+      "title": "This Must Be The Place (Naïve Melody)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-1",
+      "title": "And She Was",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-2",
+      "title": "Stay Up Late",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-3",
+      "title": "Creatures Of Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-4",
+      "title": "The Lady Don't Mind",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-5",
+      "title": "Road To Nowhere",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-6",
+      "title": "Wild Wild Life",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-7",
+      "title": "Love For Sale",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-8",
+      "title": "People Like Us",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-9",
+      "title": "Puzzlin' Evidence",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-10",
+      "title": "City Of Dreams",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-11",
+      "title": "Blind",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-12",
+      "title": "Mr. Jones",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-13",
+      "title": "The Democratic Circus",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-14",
+      "title": "(Nothing But) Flowers",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-15",
+      "title": "In Asking Land (Outtake)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-16",
+      "title": "Sax And Violins",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD3-17",
+      "title": "Lifetime Piling Up",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Storytelling Giant (DVD) - Expanded",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-1",
+      "title": "Once In A Lifetime",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-2",
+      "title": "Wild Wild Life",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-3",
+      "title": "Stay Up Late",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-4",
+      "title": "Blind",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-5",
+      "title": "Crosseyes And Painless",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-6",
+      "title": "Burning Down The House",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-7",
+      "title": "And She Was",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-8",
+      "title": "Sax And Violins",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-9",
+      "title": "This Must Be The Place (Naïve Melody)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-10",
+      "title": "The Lady Don't Mind",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-11",
+      "title": "Love For Sale",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-12",
+      "title": "(Nothing But) Flowers",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-13",
+      "title": "Road To Nowhere",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

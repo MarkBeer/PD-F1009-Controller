@@ -1,0 +1,46 @@
+{
+  "id": 397566,
+  "title": "One To Another",
+  "artists": "The Charlatans",
+  "year": 1996,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Single"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Beggars Banquet",
+      "catno": "BBQ 301CD"
+    }
+  ],
+  "master_id": 70872,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "One To Another",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Two Of Us",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Reputation",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

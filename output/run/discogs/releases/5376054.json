@@ -1,0 +1,103 @@
+{
+  "id": 5376054,
+  "title": "Crowded House",
+  "artists": "Crowded House",
+  "year": "",
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Repress"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Capitol Records",
+      "catno": "CDP 7 46693 2"
+    }
+  ],
+  "master_id": 81149,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Mean To Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "World Where You Live",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Now We're Getting Somewhere",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Don't Dream It's Over",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Love You 'Til The Day I Die",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Something So Strong",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Hole In The River",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Can't Carry On",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "I Walk Away",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Tombstone",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "That's What I Call Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": 1804151,
+  "title": "Mind Body & Soul",
+  "artists": "Joss Stone",
+  "year": 2005,
+  "country": "Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Copy Protected",
+        "Special Edition"
+      ]
+    },
+    {
+      "name": "DVD",
+      "qty": "1",
+      "descriptions": [
+        "PAL",
+        "Mini-Album",
+        "Special Edition"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "S-Curve Records",
+      "catno": "094634510721"
+    },
+    {
+      "name": "Virgin",
+      "catno": "094634510721"
+    }
+  ],
+  "master_id": 60294,
+  "tracks": [
+    {
+      "pos": "CD-1",
+      "title": "Right To Be Wrong",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-2",
+      "title": "Jet Lag",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-3",
+      "title": "You Had Me",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-4",
+      "title": "Spoiled",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-5",
+      "title": "Don't Cha Wanna Ride",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-6",
+      "title": "Less Is More",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-7",
+      "title": "Security",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-8",
+      "title": "Young At Heart",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD9",
+      "title": "Snakes And Ladders",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-10",
+      "title": "Understand",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-11",
+      "title": "Don't Know How",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-12",
+      "title": "Torn And Tattered",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-13",
+      "title": "Killing Time",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-14",
+      "title": "Sleep Like A Child",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Bonus Audio",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "CD-15",
+      "title": "The Right Time",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-16",
+      "title": "God Only Knows",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "CD-17",
+      "title": "Calling It Christmas",
+      "type": "track",
+      "artists": "Joss Stone & Elton John",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "Bonus DVD",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-1",
+      "title": "You Had Me (Video)",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-2",
+      "title": "Right To Be Wrong (Video)",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-3",
+      "title": "Spoiled (Video)",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-4",
+      "title": "Don't Cha Wanna Ride (Video)",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    },
+    {
+      "pos": "DVD-5",
+      "title": "Mind, Body & Soul (EPK)",
+      "type": "track",
+      "artists": "Joss Stone",
+      "featuring": []
+    }
+  ]
+}

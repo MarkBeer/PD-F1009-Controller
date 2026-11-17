@@ -1,0 +1,818 @@
+Input Image,Index,CD Artist,Album,CD Number,Track Artist,Track Title,Cover Crop
+image2.jpg,1,Mariah Carey,All I Want For Christmas Is You,1,Mariah Carey,All I Want For Christmas Is You,output/run/crops/01.jpg
+image2.jpg,1,Mariah Carey,All I Want For Christmas Is You,1,Mariah Carey,Miss You Most (At Christmas Time),output/run/crops/01.jpg
+image2.jpg,1,Mariah Carey,All I Want For Christmas Is You,1,Mariah Carey,Silent Night,output/run/crops/01.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Soul II Soul Feat. Caron Wheeler,Back To Life (However Do You Want Me),output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Young Disciples,Apparently Nothin',output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Arrested Development,People Everyday,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Neneh Cherry,Buffalo Stance,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,En Vogue,My Lovin' (You're Never Gonna Get It),output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Des'ree,You Gotta Be,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Jamiroquai,Blow Your Mind,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,The Brand New Heavies,Midnight At The Oasis,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Incognito Feat. Jocelyn Brown,Always There,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,M People,Moving On Up,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Ce Ce Peniston,Finally,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Heavy D. & The Boyz Feat. Aaron Hall,Now That We Found Love,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Mantronix Feat. Wondress Hutchinson,Got To Have Your Love,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Blue Boy,Remember Me,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Beats International,Dub Be Good To Me,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Bomb The Bass,Winter In July,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,The Chimes,I Still Haven't Found What I'm Looking For,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",1,Gabrielle,Dreams,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,P.M. Dawn,Set Adrift On Memory Bliss,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Salt 'N' Pepa Feat. En Vogue,Whatta Man,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Dawn Penn,You Don't Love Me (No No No),output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Charles & Eddie,Would I Lie To You,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Ultra Naté,Free,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,DNA Feat. Suzanne Vega,Tom's Diner,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Crystal Waters,Gypsy Woman (She's Homeless),output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Blue Pearl,Naked In The Rain,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Nomad,(I Wanna Give You) Devotion,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,The Soup Dragons,I'm Free,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Stereo MC's,Connected,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Dream Warriors,Wash Your Face In My Sink,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Ronny Jordan,So What!,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Sub Sub,Ain't No Love (Ain't No Use),output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Tina Moore,Never Gonna Let You Go,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Alison Limerick,Where Love Lives,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Eternal Feat. BeBe Winans,I Wanna Be The Only One,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Shanice,I Love Your Smile,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",2,Mark Morrison,Return Of The Mack,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,TLC,Waterfalls,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Shola Ama,You Might Need Somebody,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Shabba Ranks Feat. Chevelle Franklyn,Mr. Loverman,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Warren G Feat. Nate Dogg,Regulate,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Blackstreet Feat. Dr. Dre,No Diggity,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Brownstone,If You Love Me,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Sounds Of Blackness,I'm Going All The Way,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,The Family Stand,Ghetto Heaven,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Fresh 4,Wishing On A Star,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Joyce Sims,Come Into My Life,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Dina Carroll,It's Too Late,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,D'Angelo,Brown Sugar,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Erykah Badu,On & On,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Nuyorican Soul,I Am The Black Gold Of The Sun,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Urban Species,Spiritual Love,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Alyson Williams,I Need Your Lovin',output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Another Level,Freak Me,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Toni Braxton,Breathe Again,output/run/crops/02.jpg
+image2.jpg,2,Various,"Back To Life - '90s Soul, Groove & Club Classics",3,Omar,There's Nothing Like This,output/run/crops/02.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Survival,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Secret,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,I'd Rather Be Your Lover,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Don't Stop,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Inside Of Me,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Human Nature,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Forbidden Love,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Love Tried To Welcome Me,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Sanctuary,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Bedtime Story,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,1,Madonna,Take A Bow,output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Survival (Quiet Storm Demo Remix),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Secret (Allstar New Single Mix),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Right On Time (Original Demo Edit),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Don't Stop (Original Demo Edit),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Freedom (Short Mix),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Human Nature (Howie Tee New Clean Edit),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Let Down Your Guard (Rough Single Mix),output/run/crops/03.jpg
+image2.jpg,3,Madonna,Bedtime Stories,2,Madonna,Love Won't Wait (Original Demo Edit),output/run/crops/03.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Lucky Star,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Borderline,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Burning Up,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,I Know It,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Think Of Me,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Physical Attraction,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,Everybody,output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,"Burning Up (12"" Version)",output/run/crops/04.jpg
+image2.jpg,4,Madonna,Madonna,1,Madonna,"Lucky Star (""New"" Mix)",output/run/crops/04.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,Carlos Pasini,"A Cinema In Bueno Aires, 26 July 1952",output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Colm Wilkinson, Julie Covington",Requiem For Evita / Oh What A Circus,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Tony Christie, Julie Covington, Colm Wilkinson",On This Night Of A Thousand Stars / Eva And Magaldi / Eva Beware Of The City,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,Julie Covington,Buenos Aires,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,Colm Wilkinson,Goodnight And Thank You,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Colm Wilkinson, Paul Jones",The Lady's Got Potential,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Tony Christie, Julie Covington, Paul Jones",Charity Concert / I'd Be Surprisingly Good For You,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Julie Covington, Barbara Dickson",Another Suitcase In Another Hall,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Colm Wilkinson, Paul Jones",Dangerous Jade,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,1,"Paul Jones, Julie Covington, Colm Wilkinson, Mike Smith, Mike D'Abo",A New Argentina,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Paul Jones, Julie Covington, David Hamilton-Smith",On The Balcony Of The Casa Rosada / Don't Cry For Me Argentina,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Colm Wilkinson, Julie Covington","High Flying, Adored",output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,Julie Covington,Rainbow High,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Tim Rice, Colm Wilkinson, Julie Covington",Rainbow Tour,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Julie Covington, Colm Wilkinson",The Actress Hasn't Learned The Lines (You'd Like To Hear),output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,Christopher Neil,And The Money Kept Rolling In (And Out),output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,Colm Wilkinson,Santa Evita,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Colm Wilkinson, Julie Covington",Waltz For Eva And Che,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,Paul Jones,She Is A Diamond,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Paul Jones, Julie Covington",Dice Are Rolling,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Colm Wilkinson, Julie Covington",Eva's Final Broadcast,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,"Tony Christie, Christopher Neil, Paul Jones, Colm Wilkinson",Montage,output/run/crops/05.jpg
+image2.jpg,5,Andrew Lloyd Webber and Tim Rice,Evita,2,Julie Covington,Lament,output/run/crops/05.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Believe,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,The Power,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Runaway,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,All Or Nothing,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Strong Enough,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Dov'è L'Amore,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Takin' Back My Heart,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Taxi Taxi,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,Love Is The Groove,output/run/crops/06.jpg
+image2.jpg,6,Cher,Believe,1,Cher,We All Sleep Alone,output/run/crops/06.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues feat. Kirsty MacColl,Fairytale of New York featuring Kirsty MacColl,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Sally MacLennane,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Dirty Old Town,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,The Irish Rover,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,A Pair Of Brown Eyes,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Streams Of Whiskey,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,A Rainy Night In Soho,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Fiesta,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Rain Street,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,"Misty Morning, Albert Bridge",output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,White City,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,Thousands Are Sailing,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,The Broad Majestic Shannon,output/run/crops/07.jpg
+image2.jpg,7,The Pogues,The Best of the Pogues,1,The Pogues,The Body Of An American,output/run/crops/07.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Hung Up,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Get Together,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Sorry,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Future Lovers,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,I Love New York,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Let It Will Be,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Forbidden Love,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Jump,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,How High,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Isaac,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Push,output/run/crops/08.jpg
+image2.jpg,8,Madonna,Confessions On A Dance Floor,1,Madonna,Like It Or Not,output/run/crops/08.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Hung Up,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Get Together,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Sorry,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Future Lovers,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,I Love New York,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Let It Will Be,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Forbidden Love,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Jump,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,How High,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Isaac,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Push,output/run/crops/09.jpg
+image2.jpg,9,Madonna,Confessions On A Dance Floor,1,Madonna,Like It Or Not,output/run/crops/09.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Like A Virgin,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Like A Prayer,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Papa Don't Preach,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Sooner Or Later,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Hanky Panky,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Now I'm Following You,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Material Girl,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Cherish,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Open Your Heart,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Express Yourself,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Open Your Heart,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Causing A Commotion,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Where's The Party,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Like A Prayer,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Papa Don't Preach,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,I Always Get My Man,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Hanky Panky,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,I'm Following You,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Material Girl,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Cherish,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Into The Groove,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Family Affair,output/run/crops/10.jpg
+image2.jpg,10,Madonna,Madonna,1,Madonna,Keep It Together,output/run/crops/10.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Lucky Star,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Borderline,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Burning Up,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,I Know It,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Think Of Me,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Physical Attraction,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,Everybody,output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,"Burning Up (12"" Version)",output/run/crops/11.jpg
+image2.jpg,11,Madonna,Madonna,1,Madonna,"Lucky Star (""New"" Mix)",output/run/crops/11.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Like A Prayer,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Express Yourself,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Love Song,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Till Death Do Us Part,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Promise To Try,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Cherish,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Dear Jessie,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Oh Father,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Keep It Together,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Pray For Spanish Eyes,output/run/crops/12.jpg
+image2.jpg,12,Madonna,Like A Prayer,1,Madonna,Act Of Contrition,output/run/crops/12.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Heartbreaker,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Invincible,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Looking For A Stranger,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Treat Me Right,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Shadows Of The Night,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,We Belong,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Le Bel Age,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,In The Heat Of The Night,output/run/crops/13.jpg
+image2.jpg,13,Pat Benatar,Pat Benatar,1,Pat Benatar,Little Too Late,output/run/crops/13.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Johnny & Mary,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Every Kinda People,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Sneakin' Sally Through The Alley,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,"Bad Case Of Loving You (Doctor, Doctor)",output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Addicted To Love,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,From A Whisper To A Stream,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Pressure Drop,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Give Me An Inch Girl,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,"Man Smart, Woman Smarter",output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Spanish Moon,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Best Of Both Worlds,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Looking For Clues,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,You Are In My System,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Want You More,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Riptide,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Discipline Of Love,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Whats It Take?,output/run/crops/14.jpg
+image2.jpg,14,Robert Palmer,Robert Palmer,1,Robert Palmer,Woke Up Laughing,output/run/crops/14.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Let's Dance,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Working On It,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Ace Of Hearts,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Josephine,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Candles,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,On The Beach,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Fool (If You Think It's Over),output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,I Can Hear Your Heartbeat,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Shamrock Diaries,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Stainsby Girls,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Windy Town,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Driving Home For Christmas,output/run/crops/15.jpg
+image2.jpg,15,Chris Rea,New Light Through Old Windows (The Best Of Chris Rea),1,Chris Rea,Steel River,output/run/crops/15.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Bright Side Of The Road,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Them Featuring Van Morrison,Gloria,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Moondance,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Them Featuring Van Morrison,Baby Please Don't Go,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Have I Told You Lately,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Brown Eyed Girl,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Sweet Thing,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Warm Love,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Wonderful Remark,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Jackie Wilson Said (I'm In Heaven When You Smile),output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Full Force Gale,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,And It Stoned Me,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Them Featuring Van Morrison,Here Comes The Night,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Domino,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Did Ye Get Healed,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Wild Night,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Cleaning Windows,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison With Cliff Richard,Whenever God Shines His Light,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Queen Of The Slipstream,output/run/crops/16.jpg
+image2.jpg,16,Van Morrison,The Best Of Van Morrison,1,Van Morrison,Dweller On The Threshold,output/run/crops/16.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Brown Eyed Girl,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,T.B. Sheets,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Goodbye Baby (Baby Goodbye),output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Who Drove The Red Sportscar,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Beside You,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Madame George,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,The Smile You Smile,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Joe Harper Saturday Morning,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,I Love You (The Smile You Smile),output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,The Big Royalty Check,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Ring Worm,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,1,Van Morrison,Blow In Your Nose,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Spanish Rose,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Ro Ro Rosey,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Midnight Special,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,He Ain't Give You None,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,It's All Right,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Send Your Mind,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,The Back Boom,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Chick- A- Boom,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Brown Eyed Girl (Alternate Take),output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Twist And Shake,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Dum Dum George,output/run/crops/17.jpg
+image2.jpg,17,Van Morrison,Van Morrison,2,Van Morrison,Go For Yourself,output/run/crops/17.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,American Pie,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Vincent,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Castles In The Air,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Dreidel,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Winterwood,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Everyday,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Building My Body,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,And I Love You So,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Mountains Of Mourne,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Fools Paradise,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Wonderful Baby,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,La La Love You,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Prime Time,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Jump,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Crying,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Bronco Bill's Lament,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Oh My What A Shame,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,If We Try,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Babylon,output/run/crops/18.jpg
+image2.jpg,18,Don McLean,The Very Best Of Don McLean,1,Don McLean,Love In My Heart,output/run/crops/18.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Mean To Me,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,World Where You Live,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Now We're Getting Somewhere,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Don't Dream It's Over,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Love You 'Til The Day I Die,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Something So Strong,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Hole In The River,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Can't Carry On,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,I Walk Away,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,Tombstone,output/run/crops/19.jpg
+image2.jpg,19,Crowded House,Crowded House,1,Crowded House,That's What I Call Love,output/run/crops/19.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,All That You Give,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Child Song,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Flite,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Familiar Ground,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,To Build A Home,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Prelude,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Breathe,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Man With The Movie Camera,output/run/crops/20.jpg
+image2.jpg,20,The Cinematic Orchestra,Live At The Royal Albert Hall,1,The Cinematic Orchestra,Time & Space,output/run/crops/20.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,0.34,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Say What You Want,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Drawing Crazy Patterns,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Halo,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Put Your Arms Around Me,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Insane,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Black Eyed Boy,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Polo Mint City,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,White On Blonde,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Postcard,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,0.28,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Ticket To Lie,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Good Advice,output/run/crops/21.jpg
+image2.jpg,21,Texas,White On Blonde,1,Texas,Breathless,output/run/crops/21.jpg
+image2.jpg,22,,,,,unable to identify,output/run/crops/22.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Massachusetts,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,World,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Words,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,I've Gotta Get A Message To You,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,I Started A Joke,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Don't Forget To Remember,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,How Can You Mend A Broken Heart,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Jive Talkin',output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,You Should Be Dancing,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,How Deep Is Your Love,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Stayin' Alive,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Night Fever,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Too Much Heaven,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Tragedy,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,More Than A Woman,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Love You Inside Out,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,You Win Again,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Man In The Middle,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Islands In The Stream,output/run/crops/23.jpg
+image2.jpg,23,Bee Gees,Number Ones,1,Bee Gees,Immortality (Original Demo Version),output/run/crops/23.jpg
+image2.jpg,24,Roy Orbison,I Drove All Night,1,Roy Orbison,I Drove All Night,output/run/crops/24.jpg
+image2.jpg,24,Roy Orbison,I Drove All Night,1,Sheena Easton,Forever Friends,output/run/crops/24.jpg
+image2.jpg,24,Roy Orbison,I Drove All Night,1,Trixter,Line Of Fire,output/run/crops/24.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Immigrant Song,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Friends,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Celebration Day,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Since I've Been Loving You,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Out On The Tiles,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Gallows Pole,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Tangerine,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,That's The Way,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Bron-Y-Aur Stomp,output/run/crops/25.jpg
+image2.jpg,25,Led Zeppelin,Led Zeppelin III,1,Led Zeppelin,Hats Off To (Roy) Harper,output/run/crops/25.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Affirmation,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Hold Me,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,I Knew I Loved You,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,The Best Thing,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Crash And Burn,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Chained To You,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,The Animal Song,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,The Lover After Me,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Two Beds And A Coffee Machine,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,You Can Still Be Free,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,Gunning Down Romance,output/run/crops/26.jpg
+image2.jpg,26,Savage Garden,Affirmation,1,Savage Garden,I Don't Know You Anymore,output/run/crops/26.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Jive Talkin',output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Night Fever,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Tragedy,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,You Should Be Dancing,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Stayin' Alive,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,How Deep Is Your Love,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Love So Right,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Too Much Heaven,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,(Our Love) Don't Throw It All Away,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Fanny (Be Tender With My Love),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,Warm Ride,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,1,Bee Gees,"Stayin' Alive (Promo 12"" Version)",output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,If I Can't Have You,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,You Stepped Into My Life,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Love Me,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,More Than A Woman,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Rest Your Love On Me,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Nights On Broadway,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Spirits (Having Flown),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Love You Inside Out,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Wind Of Change,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Children Of The World,output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,You Should Be Dancing (Jason Bentley/Philip Steir Remix),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,If I Can't Have You (Count Da Money Remix),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Night Fever (GRN Remix),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,How Deep Is Your Love (Supreme Beings Of Leisure Remix),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,Stayin' Alive (Teddybears Remix),output/run/crops/27.jpg
+image2.jpg,27,Bee Gees,Greatest,2,Bee Gees,If I Can't Have You (The Disco Boys Remix),output/run/crops/27.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Dreaming,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Call Me,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,One Way Or Another,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Heart Of Glass,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,The Tide Is High,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,X Offender,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Hanging On The Telephone,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Rip Her To Shreds,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Rapture,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Atomic,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Picture This,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,In The Flesh,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Denis,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,"(I'm Always Touched By Your) Presence, Dear",output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Union City Blue,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,The Hardest Part,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Island Of Lost Souls,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Sunday Girl,output/run/crops/28.jpg
+image2.jpg,28,Blondie,Greatest Hits,1,Blondie,Maria,output/run/crops/28.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Testify,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Search For The Hero,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Moving On Up,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Angel St.,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,One Night In Heaven,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Itchycoo Park,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Sight For Sore Eyes,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Just For You,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Colour My Life,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,How Can I Love You More,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Dreaming,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Open Your Heart,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Don't Look Any Further,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Someday,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Renaissance,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,Fantasy Island,output/run/crops/29.jpg
+image2.jpg,29,M People,The Best Of M People,1,M People,What A Fool Believes,output/run/crops/29.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Lucky Star,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Borderline,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Burning Up,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,I Know It,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Think Of Me,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Physical Attraction,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,Everybody,output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,"Burning Up (12"" Version)",output/run/crops/30.jpg
+image2.jpg,30,Madonna,Madonna,1,Madonna,"Lucky Star (""New"" Mix)",output/run/crops/30.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Killing An Arab,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,10:15 Saturday Night,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Boys Don't Cry,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Jumping Someone Else's Train,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,A Forest,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Play For Today,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Primary,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Other Voices,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Charlotte Sometimes,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,The Hanging Garden,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Let's Go To Bed,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,The Walk,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,The Lovecats,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,The Caterpillar,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,In Between Days,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,Close To Me,output/run/crops/31.jpg
+image2.jpg,31,The Cure,Staring At The Sea · The Singles,1,The Cure,A Night Like This,output/run/crops/31.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Beautiful Ones,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Animal Nitrate,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Trash,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Metal Mickey,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,So Young,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,The Wild Ones,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Obsessions,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Filmstar,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Can't Get Enough,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Everything Will Flow,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Stay Together,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Love The Way You Love,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,The Drowners,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,New Generation,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Lazy,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,She's In Fashion,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Attitude,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Electricity,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,We Are The Pigs,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Positivity,output/run/crops/32.jpg
+image2.jpg,32,Suede,Singles,1,Suede,Saturday Night,output/run/crops/32.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Right To Be Wrong,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Jet Lag,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,You Had Me,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Spoiled,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Don't Cha Wanna Ride,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Less Is More,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Security,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Young At Heart,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Snakes And Ladders,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Understand,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Don't Know How,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Torn And Tattered,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Killing Time,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Sleep Like A Child,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,The Right Time,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,God Only Knows,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone & Elton John,Calling It Christmas,output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,You Had Me (Video),output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Right To Be Wrong (Video),output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Spoiled (Video),output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,Don't Cha Wanna Ride (Video),output/run/crops/33.jpg
+image2.jpg,33,Joss Stone,Mind Body & Soul,1,Joss Stone,"Mind, Body & Soul (EPK)",output/run/crops/33.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Cottonfields,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Barbara Ann,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,I Get Around,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,"Fun, Fun",output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Surfin' USA,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Good Vibrations,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Do It Again,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Finders Keepers,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Girl Don't Tell Me,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Then I Kissed Her,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Surfer Girl,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Don't Worry Baby,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Mountain Of Love,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,The Nearest Faraway Place,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Let's Go Away For A While,output/run/crops/34.jpg
+image2.jpg,34,The Beach Boys,The Beach Boys,1,The Beach Boys,Surfin' Safari,output/run/crops/34.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Doll,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Monkey Wrench,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,"Hey, Johnny Park!",output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,My Poor Brain,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Wind Up,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Up In Arms,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,My Hero,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,See You,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Enough Space,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,February Stars,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Everlong,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,Walking After You,output/run/crops/35.jpg
+image2.jpg,35,Foo Fighters,The Colour And The Shape,1,Foo Fighters,New Way Home,output/run/crops/35.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Only When I Sleep,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,What Can I Do,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Radio,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Toss The Feathers,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Runaway,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Forgiven Not Forgotten,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,At Your Side,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Little Wing,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,No Frontiers,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Queen Of Hollywood,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Old Town,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Lough Erin Shore,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,So Young,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,Everybody Hurts,output/run/crops/36.jpg
+image2.jpg,36,The Corrs,Unplugged,1,The Corrs,At Your Side (Remix Version),output/run/crops/36.jpg
+image2.jpg,37,,,,,unable to identify,output/run/crops/37.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Heaven Is A Place On Earth,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,(We Want) The Same Thing,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Circle In The Sand,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Leave A Light On,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Little Black Book,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Summer Rain,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Vision Of You,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Live Your Life Be Free,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,I Get Weak,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,La Luna,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,I Plead Insanity,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,World Without You,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Do You Feel Like I Feel?,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Half The World,output/run/crops/38.jpg
+image2.jpg,38,Belinda Carlisle,The Best Of Belinda Volume 1,1,Belinda Carlisle,Runaway Horses,output/run/crops/38.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Last Night,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Sailing Away,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,The Revolution,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,I'm Not Scared Anymore,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Spanish Train,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Borderline,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,The Risen Lord,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,The Last Time I Cried,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,The Lady In Red,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,A Spaceman Came Traveling,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Patricia The Stripper,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Missing You,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Say Goodbye To It All,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,Don't Pay The Ferryman,output/run/crops/39.jpg
+image2.jpg,39,Chris de Burgh,High On Emotion - Live From Dublin!,1,Chris de Burgh,High On Emotion,output/run/crops/39.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Drowned World / Substitute For Love,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Swim,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Ray Of Light,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Candy Perfume Girl,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Skin,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Nothing Really Matters,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Sky Fits Heaven,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Shanti / Ashtangi,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Frozen,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,The Power Of Good-Bye,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,To Have And Not To Hold,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Little Star,output/run/crops/40.jpg
+image2.jpg,40,Madonna,Ray Of Light,1,Madonna,Mer Girl,output/run/crops/40.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Lucky Star,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Borderline,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Burning Up,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,I Know It,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Holiday,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Think Of Me,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Physical Attraction,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,Everybody,output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,"Burning Up (12"" Version)",output/run/crops/41.jpg
+image2.jpg,41,Madonna,Madonna,1,Madonna,"Lucky Star (""New"" Mix)",output/run/crops/41.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Erin Shore (Instrumental) (Traditional Intro),output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Forgiven Not Forgotten,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Heaven Knows,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Along With The Girls (Instrumental),output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Someday,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Runaway,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,The Right Time,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,The Minstrel Boy (Instrumental),output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Toss The Feathers (Instrumental),output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Love To Love You,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Secret Life,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Carraroe Jig (Instrumental),output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Closer,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Leave Me Alone,output/run/crops/42.jpg
+image2.jpg,42,The Corrs,"Forgiven, Not Forgotten",1,The Corrs,Erin Shore (Instrumental),output/run/crops/42.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Drowned World / Substitute For Love,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Swim,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Ray Of Light,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Candy Perfume Girl,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Skin,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Nothing Really Matters,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Sky Fits Heaven,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Shanti / Ashtangi,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Frozen,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,The Power Of Good-Bye,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,To Have And Not To Hold,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Little Star,output/run/crops/43.jpg
+image2.jpg,43,Madonna,Ray Of Light,1,Madonna,Mer Girl,output/run/crops/43.jpg
+image2.jpg,44,,,,,unable to identify,output/run/crops/44.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna With Massive Attack,I Want You,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,I'll Remember (Theme From The Motion Picture With Honors),output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Take A Bow,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,You'll See,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Crazy For You,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,This Used To Be My Playground,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Live To Tell,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Love Don't Live Here Anymore (Remix),output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Something To Remember,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Forbidden Love,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,One More Chance,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Rain,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna,Oh Father,output/run/crops/45.jpg
+image2.jpg,45,Madonna,Something To Remember,1,Madonna With Massive Attack,I Want You (Orchestral),output/run/crops/45.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Barrett Strong,Money (That's What I Want),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Miracles,Shop Around,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Marvelettes,Please Mr Postman,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Contours,Do You Love Me,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Marvelettes,Beechwood 4-5789,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Marvin Gaye,Stubborn Kind Of Fellow,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Stevie Wonder,Fingertips (Part 2),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Martha Reeves & The Vandellas,(Love Is Like A) Heatwave,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Marvin Gaye,How Sweet It Is (To Be Loved By You),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Temptations,The Way You Do The Things You Do,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Four Tops,Baby I Need Your Loving,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Velvelettes,Needle In A Haystack,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Supremes,Baby Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Martha Reeves & The Vandellas,Dancing In The Street,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Brenda Holloway,Every Little Bit Hurts,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Supremes,Where Did Our Love Go?,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Temptations,My Girl,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Mary Wells,My Guy,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Velvelettes,He Was Really Sayin' Somethin',output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Supremes,Come See About Me,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Miracles,The Tracks Of My Tears,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Martha Reeves & The Vandellas,Nowhere To Run,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Four Tops,"I Can't Help Myself (Sugar Pie, Honey Bunch)",output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Supremes,Stop! In The Name Of Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Junior Walker & The All Stars,Shotgun,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,Kim Weston,Take Me In Your Arms (Rock Me A Little While),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Supremes,Back In My Arms Again,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,1,The Miracles,Going To A Go-Go,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,It's The Same Old Song,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Junior Walker & The All Stars,(I'm A) Road Runner,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Supremes,I Hear A Symphony,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,Loving You Is Sweeter Than Ever,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Isley Brothers,This Old Heart Of Mine (Is Weak For You),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Marvin Gaye & Kim Weston,It Takes Two,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Stevie Wonder,Uptight (Everything's Alright),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Temptations,Ain't Too Proud To Beg,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,"Reach Out, I'll Be There",output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Supremes,You Can't Hurry Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Isley Brothers,I Guess I'll Always Love You,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Junior Walker & The All Stars,How Sweet It Is (To Be Loved By You),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Stevie Wonder,A Place In The Sun,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Temptations,Beauty Is Only Skin Deep,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,Standing In The Shadows Of Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Supremes,You Keep Me Hangin' On,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Isley Brothers,Put Yourself In My Place,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Jimmy Ruffin,What Becomes Of The Broken Hearted,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,Bernadette,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Supremes,Love Is Here And Now You're Gone,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Gladys Knight And The Pips,I Heard It Through The Grapevine,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Isley Brothers,Behind A Painted Smile,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Miracles,I Second That Emotion,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Four Tops,You Keep Running Away,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Supremes,The Happening,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Gladys Knight And The Pips,Take Me In Your Arms And Love Me,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,The Marvelettes,When You're Young And In Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,2,Marvin Gaye & Tammi Terrell,Ain't No Mountain High Enough,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Four Tops,Walk Away Renee,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes,Reflections,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Jimmy Ruffin,Gonna Give Her All The Love I've Got,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Stevie Wonder,I Was Made To Love Her,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Martha Reeves & The Vandellas,Jimmy Mack,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Four Tops,If I Were A Carpenter,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Marvin Gaye & Tammi Terrell,Ain't Nothing Like The Real Thing,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes,In And Out Of Love,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Temptations,Cloud Nine,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Stevie Wonder,For Once In My Life,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Marvin Gaye,I Heard It Through The Grapevine,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes With The Temptations,I'm Gonna Make You Love Me,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Stevie Wonder,I Don't Know Why I Love You,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Marvin Gaye & Tammi Terrell,You're All I Need To Get By,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes With The Temptations,I Second That Emotion,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Edwin Starr,25 Miles,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes,Love Child,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Stevie Wonder,My Cherie Amour,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Marvin Gaye & Tammi Terrell,The Onion Song,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Junior Walker & The All Stars,What Does It Take (To Win Your Love),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Supremes,Someday We'll Be Together,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,David Ruffin,My World Ended (The Moment You Left Me),output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,The Originals,"Baby, I'm For Real",output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Marvin Gaye,Too Busy Thinking About My Baby,output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Stevie Wonder,"Yester-Me, Yester-You, Yesterday",output/run/crops/46.jpg
+image2.jpg,46,Various,Tamla Motown Gold - The Sound Of Young America,3,Rare Earth,Get Ready,output/run/crops/46.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Sugar On My Tongue,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Love → Building On Fire,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,I Wish You Wouldn't Say That,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Don't Worry About The Government,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,"Uh-Oh, Love Comes To Town (Alternate Version)",output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,New Feeling (Alternate Version),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Pulled Up,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Psycho Killer,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Warning Sign,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Artists Only,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Tentative Descisions,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,No Compassion,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Stay Hungry,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,I'm Not In Love,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,The Book I Read,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Thank You For Sending Me An Angel,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Found A Job,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,A Clean Break (Live),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Take Me To The River,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,The Big Country,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Heaven,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,I Zimbra,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Cities (Alternate Version),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Life During Wartime,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Air,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Memories Can't Wait,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Drugs (Alternate Version),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Once In A Lifetime,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Born Under Punches (The Heat Goes On),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Listening Wind,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Houses In Motion,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Crosseyed And Painless,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Burning Down The House,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Making Flippy Floppy,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Girlfriend Is Better,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Slippery People,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,Swamp,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,2,Talking Heads,This Must Be The Place (Naïve Melody),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,And She Was,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Stay Up Late,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Creatures Of Love,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,The Lady Don't Mind,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Road To Nowhere,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Wild Wild Life,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Love For Sale,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,People Like Us,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Puzzlin' Evidence,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,City Of Dreams,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Blind,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Mr. Jones,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,The Democratic Circus,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,(Nothing But) Flowers,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,In Asking Land (Outtake),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Sax And Violins,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,3,Talking Heads,Lifetime Piling Up,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Once In A Lifetime,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Wild Wild Life,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Stay Up Late,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Blind,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Crosseyes And Painless,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Burning Down The House,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,And She Was,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Sax And Violins,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,This Must Be The Place (Naïve Melody),output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,The Lady Don't Mind,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Love For Sale,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,(Nothing But) Flowers,output/run/crops/47.jpg
+image2.jpg,47,Talking Heads,Once In A Lifetime,1,Talking Heads,Road To Nowhere,output/run/crops/47.jpg
+image2.jpg,48,The Charlatans,One To Another,1,The Charlatans,One To Another,output/run/crops/48.jpg
+image2.jpg,48,The Charlatans,One To Another,1,The Charlatans,Two Of Us,output/run/crops/48.jpg
+image2.jpg,48,The Charlatans,One To Another,1,The Charlatans,Reputation,output/run/crops/48.jpg

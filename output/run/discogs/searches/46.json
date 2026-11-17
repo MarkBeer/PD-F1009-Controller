@@ -1,0 +1,601 @@
+{
+  "queries": [
+    "tamla motown gold the sound of young america",
+    "motown greatest hits"
+  ],
+  "results": [
+    {
+      "id": 629140,
+      "title": "Various - Tamla Motown Gold - The Sound Of Young America",
+      "country": "UK & Europe",
+      "year": "2001",
+      "catno": "016301-2",
+      "label": [
+        "Universal Music TV",
+        "Universal Music TV",
+        "Universal Music TV",
+        "Universal Music Operations Ltd.",
+        "Universal Music Operations Ltd.",
+        "Disctronics, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 0,
+      "uri": "/release/629140-Various-Tamla-Motown-Gold-The-Sound-Of-Young-America"
+    },
+    {
+      "id": 314325,
+      "title": "The Temptations - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "",
+      "catno": "530 015-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "PMDC, France"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 280239,
+      "uri": "/release/314325-The-Temptations-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 331489,
+      "title": "Diana Ross - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "1992",
+      "catno": "530 013-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 99284,
+      "uri": "/release/331489-Diana-Ross-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 14101902,
+      "title": "Various - Motown Greatest Hits",
+      "country": "Netherlands",
+      "year": "2019",
+      "catno": "5387964",
+      "label": [
+        "Universal Music Group",
+        "Universal Music Group",
+        "Optimal Media GmbH",
+        "UMG Recordings, Inc.",
+        "UMG Recordings, Inc.",
+        "Motown"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 1635561,
+      "uri": "/release/14101902-Various-Motown-Greatest-Hits"
+    },
+    {
+      "id": 1228945,
+      "title": "Michael Jackson - Motown's Greatest Hits",
+      "country": "France",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/1228945-Michael-Jackson-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 8716953,
+      "title": "The Temptations - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "1992",
+      "catno": "530 015-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "PDO, UK",
+        "Motown's Greatest Hits"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 280239,
+      "uri": "/release/8716953-The-Temptations-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 9670535,
+      "title": "Four Tops - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 016-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Jobete Music",
+        "The New York Times Music Corporation",
+        "The EMP Company",
+        "Warner Bros. Music",
+        "Trio Music",
+        "Hudson Bay Music",
+        "Black Bull Music",
+        "Sparta Florida Music Group Ltd."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 549305,
+      "uri": "/release/9670535-Four-Tops-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 11558471,
+      "title": "Diana Ross - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 013-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "PolyGram Pictures, Ltd.",
+        "Motown Record Company, L.P.",
+        "Jobete Music",
+        "MRC Music",
+        "Chic Music",
+        "Bellboy Music",
+        "Assorted Music",
+        "Screen Gems-EMI Music",
+        "PGP Music",
+        "Brockman Music",
+        "Motown's Greatest Hits"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 99284,
+      "uri": "/release/11558471-Diana-Ross-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 10005466,
+      "title": "Michael Jackson And The Jackson 5 - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company",
+        "Jobete Music",
+        "Atlantic",
+        "Open Window Music",
+        "Recordo Music",
+        "Interior Music"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/10005466-Michael-Jackson-And-The-Jackson-5-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 4442400,
+      "title": "Diana Ross - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 013-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown",
+        "PolyGram Pictures, Ltd.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "The Chic Organisation",
+        "PRS Hannover",
+        "Jobete Music",
+        "MRC Music",
+        "Chic Music",
+        "Bellboy Music",
+        "Assorted Music",
+        "Screen Gems-EMI Music",
+        "PGP Music",
+        "Brockman Music"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 99284,
+      "uri": "/release/4442400-Diana-Ross-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 2486135,
+      "title": "Marvin Gaye - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "1992",
+      "catno": "530 012-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Polydor Ltd. (UK)",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Jobete Music",
+        "Bellboy Music",
+        "Assorted Music",
+        "Regent Music Corp."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 280625,
+      "uri": "/release/2486135-Marvin-Gaye-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 15442495,
+      "title": "The Temptations - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 015-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "PRS Hannover"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 280239,
+      "uri": "/release/15442495-The-Temptations-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 1790109,
+      "title": "Four Tops - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "1992",
+      "catno": "530 016-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "PDO, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 549305,
+      "uri": "/release/1790109-Four-Tops-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 7117269,
+      "title": "Marvin Gaye - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 012-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Polydor Ltd. (UK)",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Jobete Music",
+        "Bellboy Music",
+        "Assorted Music",
+        "Regent Music Corp."
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 280625,
+      "uri": "/release/7117269-Marvin-Gaye-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 3442642,
+      "title": "Michael Jackson - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Polydor Ltd. (UK)"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/3442642-Michael-Jackson-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 2734255,
+      "title": "Michael Jackson And The Jackson 5 - Motown's Greatest Hits 1969 - 1975",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Holland Dozier Holland Productions",
+        "Jobete Music",
+        "Atlantic",
+        "Open Window Music",
+        "Recordo Music",
+        "Interior Music"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/2734255-Michael-Jackson-And-The-Jackson-5-Motowns-Greatest-Hits-1969-1975"
+    },
+    {
+      "id": 5471593,
+      "title": "Four Tops - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "",
+      "catno": "530 016-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 549305,
+      "uri": "/release/5471593-Four-Tops-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 9124097,
+      "title": "Michael Jackson And The Jackson 5 - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Polydor Ltd.",
+        "Holland Dozier Holland Productions",
+        "Jobete Music",
+        "Atlantic",
+        "Open Window Music",
+        "Recordo Music",
+        "Interior Music",
+        "PDO, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/9124097-Michael-Jackson-And-The-Jackson-5-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 6522275,
+      "title": "Various - Motown Greatest Hits",
+      "country": "Netherlands",
+      "year": "2003",
+      "catno": "067 685-2",
+      "label": [
+        "Universal",
+        "Universal TV",
+        "Universal TV",
+        "Universal M & L, Germany",
+        "Universal M & L, Germany",
+        "Universal M & L, Germany"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 0,
+      "uri": "/release/6522275-Various-Motown-Greatest-Hits"
+    },
+    {
+      "id": 3661080,
+      "title": "The Temptations - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "2009",
+      "catno": "530 015-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company",
+        "Polydor Ltd.",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Jobete Music",
+        "Whole Nine Yards",
+        "Wokie Music",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 280239,
+      "uri": "/release/3661080-The-Temptations-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 1790160,
+      "title": "Jimmy Ruffin - Greatest Motown Hits",
+      "country": "UK & Europe",
+      "year": "1992",
+      "catno": "530 057-2",
+      "label": [
+        "Motown",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "PDO, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 375003,
+      "uri": "/release/1790160-Jimmy-Ruffin-Greatest-Motown-Hits"
+    },
+    {
+      "id": 7532711,
+      "title": "Diana Ross - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "",
+      "catno": "530 013-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P.",
+        "PolyGram Pictures, Ltd.",
+        "Motown Record Company, L.P.",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 99284,
+      "uri": "/release/7532711-Diana-Ross-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 2407961,
+      "title": "Michael Jackson And The Jackson 5 - Motown's Greatest Hits 1969 - 1975",
+      "country": "Australasia",
+      "year": "1992",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Polydor",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "EMI Songs Australia Pty. Ltd.",
+        "Copyright Control",
+        "Boosey & Hawkes Australia Pty. Ltd.",
+        "J. Albert & Son Pty. Ltd.",
+        "EMI Music Publishing Australia",
+        "Polydor Ltd. (UK)",
+        "PolyGram",
+        "PolyGram",
+        "Disctronics B"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 190290,
+      "uri": "/release/2407961-Michael-Jackson-And-The-Jackson-5-Motowns-Greatest-Hits-1969-1975"
+    },
+    {
+      "id": 9919596,
+      "title": "Diana Ross - Motown's Greatest Hits",
+      "country": "UK",
+      "year": "",
+      "catno": "530 013-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Polydor Ltd. (UK)",
+        "PDO, UK"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 99284,
+      "uri": "/release/9919596-Diana-Ross-Motowns-Greatest-Hits"
+    },
+    {
+      "id": 4507183,
+      "title": "Michael Jackson - Motown's Greatest Hits 1969 - 1975",
+      "country": "Brazil",
+      "year": "1995",
+      "catno": "530 014-2",
+      "label": [
+        "Motown",
+        "Polygram Do Brasil Ltda.",
+        "Microservice - Microfilmagens E Reproduções Técnicas Da Amazônia Ltda.",
+        "Minha História Internacional"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Limited Edition",
+        "Reissue"
+      ],
+      "master_id": 190290,
+      "uri": "/release/4507183-Michael-Jackson-Motowns-Greatest-Hits-1969-1975"
+    },
+    {
+      "id": 6546300,
+      "title": "The Temptations - Motown's Greatest Hits",
+      "country": "Europe",
+      "year": "",
+      "catno": "530 015-2",
+      "label": [
+        "Motown",
+        "Motown's Greatest Hits",
+        "Motown Record Company, L.P.",
+        "Motown Record Company, L.P.",
+        "Universal M & L, Germany"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 280239,
+      "uri": "/release/6546300-The-Temptations-Motowns-Greatest-Hits"
+    }
+  ]
+}

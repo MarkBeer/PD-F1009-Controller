@@ -1,0 +1,204 @@
+{
+  "id": 36031354,
+  "title": "Bedtime Stories",
+  "artists": "Madonna",
+  "year": 2025,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Reissue",
+        "Special Edition"
+      ]
+    },
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "EP"
+      ]
+    },
+    {
+      "name": "All Media",
+      "qty": "1",
+      "descriptions": [
+        "Deluxe Edition"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "R2 727979"
+    },
+    {
+      "name": "Warner Records",
+      "catno": "R2 727979"
+    },
+    {
+      "name": "Maverick",
+      "catno": "603497812684"
+    },
+    {
+      "name": "Sire",
+      "catno": "603497812684"
+    },
+    {
+      "name": "Warner Records",
+      "catno": "603497812684"
+    }
+  ],
+  "master_id": 34099,
+  "tracks": [
+    {
+      "pos": "",
+      "title": "The Original Album",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-1",
+      "title": "Survival",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-2",
+      "title": "Secret",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-3",
+      "title": "I'd Rather Be Your Lover",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-4",
+      "title": "Don't Stop",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-5",
+      "title": "Inside Of Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-6",
+      "title": "Human Nature",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-7",
+      "title": "Forbidden Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-8",
+      "title": "Love Tried To Welcome Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-9",
+      "title": "Sanctuary",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-10",
+      "title": "Bedtime Story",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "1-11",
+      "title": "Take A Bow",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "",
+      "title": "The Untold Chapter",
+      "type": "heading",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-1",
+      "title": "Survival (Quiet Storm Demo Remix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-2",
+      "title": "Secret (Allstar New Single Mix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-3",
+      "title": "Right On Time (Original Demo Edit)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-4",
+      "title": "Don't Stop (Original Demo Edit)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-5",
+      "title": "Freedom (Short Mix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-6",
+      "title": "Human Nature (Howie Tee New Clean Edit)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-7",
+      "title": "Let Down Your Guard (Rough Single Mix)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2-8",
+      "title": "Love Won't Wait (Original Demo Edit)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

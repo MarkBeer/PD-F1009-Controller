@@ -1,0 +1,166 @@
+{
+  "id": 2679456,
+  "title": "Number Ones",
+  "artists": "Bee Gees",
+  "year": 2004,
+  "country": "UK",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Compilation",
+        "Special Edition"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Polydor",
+      "catno": "9868840"
+    }
+  ],
+  "master_id": 305797,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Massachusetts",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "World",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Words",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "I've Gotta Get A Message To You",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "I Started A Joke",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Don't Forget To Remember",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "How Can You Mend A Broken Heart",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Jive Talkin'",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "You Should Be Dancing",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "How Deep Is Your Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Stayin' Alive",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Night Fever",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Too Much Heaven",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "Tragedy",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "More Than A Woman",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "16",
+      "title": "Love You Inside Out",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "17",
+      "title": "You Win Again",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "18",
+      "title": "Man In The Middle",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "19",
+      "title": "Islands In The Stream",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "20",
+      "title": "Immortality (Original Demo Version)",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

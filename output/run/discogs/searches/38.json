@@ -1,0 +1,899 @@
+{
+  "queries": [
+    "belinda carlisle heaven is a place on earth",
+    "belinda carlisle – the best of belinda volume 1 1992 holland"
+  ],
+  "results": [
+    {
+      "id": 641329,
+      "title": "Belinda Carlisle - Heaven Is A Place On Earth",
+      "country": "UK",
+      "year": "1987",
+      "catno": "VSCD 1036",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Mastermix Productions",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "She-Devil Music",
+        "Nimbus"
+      ],
+      "format": [
+        "CD",
+        "Single"
+      ],
+      "master_id": 63825,
+      "uri": "/release/641329-Belinda-Carlisle-Heaven-Is-A-Place-On-Earth"
+    },
+    {
+      "id": 3456287,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "UK",
+      "year": "1987",
+      "catno": "CDV 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Unichappell",
+        "Stigwood Music",
+        "She-Devil Music",
+        "Dream Dealers Music",
+        "Arista Music, Inc.",
+        "Realsongs",
+        "Kinaalda Music",
+        "Clyde Lieberman Music",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "Sonopress"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Stereo"
+      ],
+      "master_id": 63831,
+      "uri": "/release/3456287-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 792143,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "US",
+      "year": "1987",
+      "catno": "MCAD-42080",
+      "label": [
+        "MCA Records",
+        "Uni Records",
+        "MCA Records, Inc.",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "A&M Studios",
+        "The Mastering Lab",
+        "Precision Lacquer"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 63831,
+      "uri": "/release/792143-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 4858331,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "2013",
+      "catno": "EDSG 8025",
+      "label": [
+        "Edsel Records",
+        "Artist Management Services Ltd.",
+        "Artist Management Services Ltd.",
+        "Demon Music Group Ltd.",
+        "Edsel",
+        "VDC Group",
+        "VDC Group",
+        "VDC Group",
+        "VDC Group",
+        "VDC Group"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Compilation",
+        "Remastered",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "Stereo",
+        "All Media",
+        "Deluxe Edition"
+      ],
+      "master_id": 63831,
+      "uri": "/release/4858331-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 1016627,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "1987",
+      "catno": "CDV 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 63831,
+      "uri": "/release/1016627-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 10929597,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "2017",
+      "catno": "DEMRECBOX14",
+      "label": [
+        "Demon Records"
+      ],
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "CD",
+        "Album",
+        "Reissue",
+        "Box Set",
+        "Deluxe Edition"
+      ],
+      "master_id": 63831,
+      "uri": "/release/10929597-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 1825171,
+      "title": "Belinda Carlisle - Heaven Is A Place On Earth",
+      "country": "US",
+      "year": "1987",
+      "catno": "CD45-17397",
+      "label": [
+        "MCA Records",
+        "MCA Records, Inc.",
+        "MCA Records, Inc."
+      ],
+      "format": [
+        "CD",
+        "Single",
+        "Promo"
+      ],
+      "master_id": 63825,
+      "uri": "/release/1825171-Belinda-Carlisle-Heaven-Is-A-Place-On-Earth"
+    },
+    {
+      "id": 8385001,
+      "title": "Belinda Carlisle - A Place On Earth · The Greatest Hits",
+      "country": "Europe",
+      "year": "1999",
+      "catno": "7243 8 48470 2 9",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Chrysalis Records Ltd.",
+        "EMI Music Publishing Ltd.",
+        "Island Music Ltd.",
+        "Zomba Music Publishers",
+        "EMI Virgin Music Ltd.",
+        "Future Furniture Music",
+        "Hit & Run Music (Publishing) Ltd.",
+        "Rive Droite Music Publishing Ltd.",
+        "BMG Music Publishing Ltd.",
+        "Warner/Chappell Music Ltd.",
+        "EMI Swindon"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "CD",
+        "Compilation",
+        "Limited Edition"
+      ],
+      "master_id": 140036,
+      "uri": "/release/8385001-Belinda-Carlisle-A-Place-On-Earth-The-Greatest-Hits"
+    },
+    {
+      "id": 4890843,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "",
+      "catno": "0777 7 86422 2 0",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Unichappell Music",
+        "Stigwood Music",
+        "She-Devil Music",
+        "Dream Dealers Music",
+        "Arista Music, Inc.",
+        "Realsongs",
+        "Kinaalda Music, Inc",
+        "Clyde Lieberman Music",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 63831,
+      "uri": "/release/4890843-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 6441054,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "US",
+      "year": "1987",
+      "catno": "MCAD-42080",
+      "label": [
+        "MCA Records",
+        "MCA Records, Inc.",
+        "MCA Records, Inc.",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "Precision Lacquer",
+        "MCA Records, Inc.",
+        "JVC Disc America"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 63831,
+      "uri": "/release/6441054-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 696318,
+      "title": "Belinda Carlisle - A Place On Earth · The Greatest Hits",
+      "country": "Europe",
+      "year": "1999",
+      "catno": "CDVX 2901",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Chrysalis Records Ltd.",
+        "EMI Music Publishing Ltd.",
+        "Island Music Ltd.",
+        "Zomba Music Publishers",
+        "EMI Virgin Music Ltd.",
+        "Future Furniture Music",
+        "Hit & Run Music (Publishing) Ltd.",
+        "Rive Droite Music Ltd.",
+        "BMG Music Publishing Ltd.",
+        "Warner/Chappell Music Ltd.",
+        "EMI Uden",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "CD",
+        "Compilation",
+        "Limited Edition"
+      ],
+      "master_id": 140036,
+      "uri": "/release/696318-Belinda-Carlisle-A-Place-On-Earth-The-Greatest-Hits"
+    },
+    {
+      "id": 10930194,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "2017",
+      "catno": "DEMRECBOX14",
+      "label": [
+        "Demon Records",
+        "Demon Records"
+      ],
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Reissue",
+        "Vinyl",
+        "LP",
+        "Compilation",
+        "CD",
+        "Album",
+        "Box Set",
+        "Deluxe Edition",
+        "Limited Edition"
+      ],
+      "master_id": 63831,
+      "uri": "/release/10930194-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 6169574,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "1987",
+      "catno": "CDV 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "DADC Austria"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 63831,
+      "uri": "/release/6169574-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 4877693,
+      "title": "Belinda Carlisle - Heaven Is A Place On Earth",
+      "country": "Australia",
+      "year": "1991",
+      "catno": "432082-2",
+      "label": [
+        "Virgin",
+        "Legendary Masters",
+        "Disctronics",
+        "Disctronics USA"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 63831,
+      "uri": "/release/4877693-Belinda-Carlisle-Heaven-Is-A-Place-On-Earth"
+    },
+    {
+      "id": 5503461,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "",
+      "catno": "CDV 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Nimbus"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Repress"
+      ],
+      "master_id": 63831,
+      "uri": "/release/5503461-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 1813042,
+      "title": "Belinda Carlisle - A Place On Earth  (The Greatest Hits)",
+      "country": "UK & Europe",
+      "year": "1999",
+      "catno": "CDV 2901",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 140036,
+      "uri": "/release/1813042-Belinda-Carlisle-A-Place-On-Earth-The-Greatest-Hits"
+    },
+    {
+      "id": 1762148,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "2009",
+      "catno": "50999 6 97919 2 5",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "EMI Virgin Music Ltd.",
+        "EMI Music Publishing",
+        "BMG Music Publishing Ltd.",
+        "Kinaalda Music, Inc",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Dratleaf Ltd.",
+        "Ocean Way Recording",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "A&M Studios",
+        "Cherokee Studios",
+        "Abbey Road Studios",
+        "TAKT",
+        "TAKT",
+        "TAKT",
+        "TAKT",
+        "Meedja",
+        "EMI",
+        "EMI",
+        "EMI"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Remastered",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "Reissue",
+        "Remastered",
+        "Stereo",
+        "All Media",
+        "Special Edition"
+      ],
+      "master_id": 63831,
+      "uri": "/release/1762148-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 1250567,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Canada",
+      "year": "1987",
+      "catno": "MCAD-42080",
+      "label": [
+        "MCA Records",
+        "MCA Records Canada",
+        "MCA Records Canada",
+        "Cinram",
+        "MCA Records, Inc.",
+        "MCA Records, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 63831,
+      "uri": "/release/1250567-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 7315515,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "",
+      "catno": "0777 7 86422 2 0",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "EMI Swindon",
+        "Virgin",
+        "Virgin"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 63831,
+      "uri": "/release/7315515-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 5875515,
+      "title": "Belinda Carlisle - Heaven Is A Place On Earth",
+      "country": "Japan",
+      "year": "1992",
+      "catno": "VJPR-20",
+      "label": [
+        "Virgin Japan",
+        "Virgin"
+      ],
+      "format": [
+        "CD",
+        "Single",
+        "Promo"
+      ],
+      "master_id": 63825,
+      "uri": "/release/5875515-Belinda-Carlisle-Heaven-Is-A-Place-On-Earth"
+    },
+    {
+      "id": 9094613,
+      "title": "Belinda Carlisle - Heaven Is A Place On Earth",
+      "country": "Japan",
+      "year": "1992",
+      "catno": "VJPR-20",
+      "label": [
+        "Virgin Japan",
+        "Virgin"
+      ],
+      "format": [
+        "CD",
+        "Single",
+        "Promo"
+      ],
+      "master_id": 63825,
+      "uri": "/release/9094613-Belinda-Carlisle-Heaven-Is-A-Place-On-Earth"
+    },
+    {
+      "id": 1638765,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "1988",
+      "catno": "CDVP 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "DADC Austria",
+        "Ocean Way Recording",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "CD Picture"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Limited Edition"
+      ],
+      "master_id": 63831,
+      "uri": "/release/1638765-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 32585460,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "1987",
+      "catno": "CDV 2496",
+      "label": [
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Unichappell",
+        "Stigwood Music",
+        "She-Devil Music",
+        "Dream Dealers Music",
+        "Arista Music, Inc.",
+        "Realsongs",
+        "Kinaalda Music",
+        "Clyde Lieberman Music",
+        "Ocean Way Recording",
+        "American Recording Co.",
+        "Music Grinder Studios",
+        "Hollywood Sound Recorders",
+        "Cherokee Studios",
+        "A&M Studios",
+        "Sonopress"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Stereo"
+      ],
+      "master_id": 63831,
+      "uri": "/release/32585460-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 3526529,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "Europe",
+      "year": "2009",
+      "catno": "50999 6 26077 2 8",
+      "label": [
+        "EMI"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "DVD",
+        "DVD-Video",
+        "Compilation"
+      ],
+      "master_id": 63831,
+      "uri": "/release/3526529-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 7200953,
+      "title": "Belinda Carlisle - Heaven On Earth",
+      "country": "US",
+      "year": "",
+      "catno": "MCAD-42080",
+      "label": [
+        "MCA Records",
+        "Columbia House",
+        "DADC",
+        "Digital Audio Disc Corp.",
+        "MCA Records",
+        "MCA Records",
+        "MCA Records"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition",
+        "Reissue"
+      ],
+      "master_id": 63831,
+      "uri": "/release/7200953-Belinda-Carlisle-Heaven-On-Earth"
+    },
+    {
+      "id": 542935,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 63918,
+      "uri": "/release/542935-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 5501257,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 63918,
+      "uri": "/release/5501257-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 13911937,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 63918,
+      "uri": "/release/13911937-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 6560249,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Offside Records",
+        "Offside Records",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Virgin Music (Publishers) Ltd.",
+        "Make Zee Music",
+        "Sony Music Publishing",
+        "Warner/Chappell Music Ltd.",
+        "Valley Of Vidal Music",
+        "EMI Music Publishing Ltd.",
+        "Munday Music",
+        "Mechanical Panther Music",
+        "ims Manufacturing",
+        "ims Manufacturing"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 63918,
+      "uri": "/release/6560249-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 27578895,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Virgin Music (Publishers) Ltd.",
+        "Make Zee Music",
+        "Sony Music Publishers",
+        "Warner Chappell Music Ltd.",
+        "Valley Of Vidal Music",
+        "EMI Music Publishing Ltd.",
+        "Munday Music",
+        "BMG Music Publishing Ltd.",
+        "Mechanical Panther Music",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 63918,
+      "uri": "/release/27578895-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 6877125,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Offside Records",
+        "Offside Records",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Virgin Music (Publishers) Ltd.",
+        "Make Zee Music",
+        "Sony Music Publishers",
+        "Warner Chappell Music Ltd.",
+        "Valley of Vidal Music",
+        "EMI Music Publishing Ltd.",
+        "Munday Music",
+        "BMG Music Publishing Ltd.",
+        "Mechanical Panther Music"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 63918,
+      "uri": "/release/6877125-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 37396359,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "1992",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Virgin",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 63918,
+      "uri": "/release/37396359-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    },
+    {
+      "id": 38709036,
+      "title": "Belinda Carlisle - The Best Of Belinda Volume 1",
+      "country": "Europe",
+      "year": "",
+      "catno": "BELCD 1",
+      "label": [
+        "Virgin",
+        "Virgin",
+        "Virgin",
+        "Offside Records",
+        "Offside Records",
+        "Offside Records",
+        "Virgin Records Ltd.",
+        "Virgin Records Ltd.",
+        "Future Furniture Music",
+        "Shipwreck Music",
+        "Virgin Music (Publishers) Ltd.",
+        "Make Zee Music",
+        "Sony Music Publishing",
+        "Warner/Chappell Music Ltd.",
+        "Valley Of Vidal Music",
+        "EMI Music Publishing Ltd.",
+        "Munday Music",
+        "Mechanical Panther Music",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 63918,
+      "uri": "/release/38709036-Belinda-Carlisle-The-Best-Of-Belinda-Volume-1"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "id": 629140,
+  "title": "Tamla Motown Gold - The Sound Of Young America",
+  "artists": "Various",
+  "year": 2001,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "3",
+      "descriptions": [
+        "Compilation",
+        "Reissue"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Universal Music TV",
+      "catno": "016301-2"
+    }
+  ],
+  "master_id": 0,
+  "tracks": [
+    {
+      "pos": "1-1",
+      "title": "Money (That's What I Want)",
+      "type": "track",
+      "artists": "Barrett Strong",
+      "featuring": []
+    },
+    {
+      "pos": "1-2",
+      "title": "Shop Around",
+      "type": "track",
+      "artists": "The Miracles",
+      "featuring": []
+    },
+    {
+      "pos": "1-3",
+      "title": "Please Mr Postman",
+      "type": "track",
+      "artists": "The Marvelettes",
+      "featuring": []
+    },
+    {
+      "pos": "1-4",
+      "title": "Do You Love Me",
+      "type": "track",
+      "artists": "The Contours",
+      "featuring": []
+    },
+    {
+      "pos": "1-5",
+      "title": "Beechwood 4-5789",
+      "type": "track",
+      "artists": "The Marvelettes",
+      "featuring": []
+    },
+    {
+      "pos": "1-6",
+      "title": "Stubborn Kind Of Fellow",
+      "type": "track",
+      "artists": "Marvin Gaye",
+      "featuring": []
+    },
+    {
+      "pos": "1-7",
+      "title": "Fingertips (Part 2)",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "1-8",
+      "title": "(Love Is Like A) Heatwave",
+      "type": "track",
+      "artists": "Martha Reeves & The Vandellas",
+      "featuring": []
+    },
+    {
+      "pos": "1-9",
+      "title": "How Sweet It Is (To Be Loved By You)",
+      "type": "track",
+      "artists": "Marvin Gaye",
+      "featuring": []
+    },
+    {
+      "pos": "1-10",
+      "title": "The Way You Do The Things You Do",
+      "type": "track",
+      "artists": "The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "1-11",
+      "title": "Baby I Need Your Loving",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "1-12",
+      "title": "Needle In A Haystack",
+      "type": "track",
+      "artists": "The Velvelettes",
+      "featuring": []
+    },
+    {
+      "pos": "1-13",
+      "title": "Baby Love",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "1-14",
+      "title": "Dancing In The Street",
+      "type": "track",
+      "artists": "Martha Reeves & The Vandellas",
+      "featuring": []
+    },
+    {
+      "pos": "1-15",
+      "title": "Every Little Bit Hurts",
+      "type": "track",
+      "artists": "Brenda Holloway",
+      "featuring": []
+    },
+    {
+      "pos": "1-16",
+      "title": "Where Did Our Love Go?",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "1-17",
+      "title": "My Girl",
+      "type": "track",
+      "artists": "The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "1-18",
+      "title": "My Guy",
+      "type": "track",
+      "artists": "Mary Wells",
+      "featuring": []
+    },
+    {
+      "pos": "1-19",
+      "title": "He Was Really Sayin' Somethin'",
+      "type": "track",
+      "artists": "The Velvelettes",
+      "featuring": []
+    },
+    {
+      "pos": "1-20",
+      "title": "Come See About Me",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "1-21",
+      "title": "The Tracks Of My Tears",
+      "type": "track",
+      "artists": "The Miracles",
+      "featuring": []
+    },
+    {
+      "pos": "1-22",
+      "title": "Nowhere To Run",
+      "type": "track",
+      "artists": "Martha Reeves & The Vandellas",
+      "featuring": []
+    },
+    {
+      "pos": "1-23",
+      "title": "I Can't Help Myself (Sugar Pie, Honey Bunch)",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "1-24",
+      "title": "Stop! In The Name Of Love",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "1-25",
+      "title": "Shotgun",
+      "type": "track",
+      "artists": "Junior Walker & The All Stars",
+      "featuring": []
+    },
+    {
+      "pos": "1-26",
+      "title": "Take Me In Your Arms (Rock Me A Little While)",
+      "type": "track",
+      "artists": "Kim Weston",
+      "featuring": []
+    },
+    {
+      "pos": "1-27",
+      "title": "Back In My Arms Again",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "1-28",
+      "title": "Going To A Go-Go",
+      "type": "track",
+      "artists": "The Miracles",
+      "featuring": []
+    },
+    {
+      "pos": "2-1",
+      "title": "It's The Same Old Song",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-2",
+      "title": "(I'm A) Road Runner",
+      "type": "track",
+      "artists": "Junior Walker & The All Stars",
+      "featuring": []
+    },
+    {
+      "pos": "2-3",
+      "title": "I Hear A Symphony",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "2-4",
+      "title": "Loving You Is Sweeter Than Ever",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-5",
+      "title": "This Old Heart Of Mine (Is Weak For You)",
+      "type": "track",
+      "artists": "The Isley Brothers",
+      "featuring": []
+    },
+    {
+      "pos": "2-6",
+      "title": "It Takes Two",
+      "type": "track",
+      "artists": "Marvin Gaye & Kim Weston",
+      "featuring": []
+    },
+    {
+      "pos": "2-7",
+      "title": "Uptight (Everything's Alright)",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "2-8",
+      "title": "Ain't Too Proud To Beg",
+      "type": "track",
+      "artists": "The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "2-9",
+      "title": "Reach Out, I'll Be There",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-10",
+      "title": "You Can't Hurry Love",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "2-11",
+      "title": "I Guess I'll Always Love You",
+      "type": "track",
+      "artists": "The Isley Brothers",
+      "featuring": []
+    },
+    {
+      "pos": "2-12",
+      "title": "How Sweet It Is (To Be Loved By You)",
+      "type": "track",
+      "artists": "Junior Walker & The All Stars",
+      "featuring": []
+    },
+    {
+      "pos": "2-13",
+      "title": "A Place In The Sun",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "2-14",
+      "title": "Beauty Is Only Skin Deep",
+      "type": "track",
+      "artists": "The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "2-15",
+      "title": "Standing In The Shadows Of Love",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-16",
+      "title": "You Keep Me Hangin' On",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "2-17",
+      "title": "Put Yourself In My Place",
+      "type": "track",
+      "artists": "The Isley Brothers",
+      "featuring": []
+    },
+    {
+      "pos": "2-18",
+      "title": "What Becomes Of The Broken Hearted",
+      "type": "track",
+      "artists": "Jimmy Ruffin",
+      "featuring": []
+    },
+    {
+      "pos": "2-19",
+      "title": "Bernadette",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-20",
+      "title": "Love Is Here And Now You're Gone",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "2-21",
+      "title": "I Heard It Through The Grapevine",
+      "type": "track",
+      "artists": "Gladys Knight And The Pips",
+      "featuring": []
+    },
+    {
+      "pos": "2-22",
+      "title": "Behind A Painted Smile",
+      "type": "track",
+      "artists": "The Isley Brothers",
+      "featuring": []
+    },
+    {
+      "pos": "2-23",
+      "title": "I Second That Emotion",
+      "type": "track",
+      "artists": "The Miracles",
+      "featuring": []
+    },
+    {
+      "pos": "2-24",
+      "title": "You Keep Running Away",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "2-25",
+      "title": "The Happening",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "2-26",
+      "title": "Take Me In Your Arms And Love Me",
+      "type": "track",
+      "artists": "Gladys Knight And The Pips",
+      "featuring": []
+    },
+    {
+      "pos": "2-27",
+      "title": "When You're Young And In Love",
+      "type": "track",
+      "artists": "The Marvelettes",
+      "featuring": []
+    },
+    {
+      "pos": "2-28",
+      "title": "Ain't No Mountain High Enough",
+      "type": "track",
+      "artists": "Marvin Gaye & Tammi Terrell",
+      "featuring": []
+    },
+    {
+      "pos": "3-1",
+      "title": "Walk Away Renee",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "3-2",
+      "title": "Reflections",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "3-3",
+      "title": "Gonna Give Her All The Love I've Got",
+      "type": "track",
+      "artists": "Jimmy Ruffin",
+      "featuring": []
+    },
+    {
+      "pos": "3-4",
+      "title": "I Was Made To Love Her",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "3-5",
+      "title": "Jimmy Mack",
+      "type": "track",
+      "artists": "Martha Reeves & The Vandellas",
+      "featuring": []
+    },
+    {
+      "pos": "3-6",
+      "title": "If I Were A Carpenter",
+      "type": "track",
+      "artists": "Four Tops",
+      "featuring": []
+    },
+    {
+      "pos": "3-7",
+      "title": "Ain't Nothing Like The Real Thing",
+      "type": "track",
+      "artists": "Marvin Gaye & Tammi Terrell",
+      "featuring": []
+    },
+    {
+      "pos": "3-8",
+      "title": "In And Out Of Love",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "3-9",
+      "title": "Cloud Nine",
+      "type": "track",
+      "artists": "The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "3-10",
+      "title": "For Once In My Life",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "3-11",
+      "title": "I Heard It Through The Grapevine",
+      "type": "track",
+      "artists": "Marvin Gaye",
+      "featuring": []
+    },
+    {
+      "pos": "3-12",
+      "title": "I'm Gonna Make You Love Me",
+      "type": "track",
+      "artists": "The Supremes With The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "3-13",
+      "title": "I Don't Know Why I Love You",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "3-14",
+      "title": "You're All I Need To Get By",
+      "type": "track",
+      "artists": "Marvin Gaye & Tammi Terrell",
+      "featuring": []
+    },
+    {
+      "pos": "3-15",
+      "title": "I Second That Emotion",
+      "type": "track",
+      "artists": "The Supremes With The Temptations",
+      "featuring": []
+    },
+    {
+      "pos": "3-16",
+      "title": "25 Miles",
+      "type": "track",
+      "artists": "Edwin Starr",
+      "featuring": []
+    },
+    {
+      "pos": "3-17",
+      "title": "Love Child",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "3-18",
+      "title": "My Cherie Amour",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "3-19",
+      "title": "The Onion Song",
+      "type": "track",
+      "artists": "Marvin Gaye & Tammi Terrell",
+      "featuring": []
+    },
+    {
+      "pos": "3-20",
+      "title": "What Does It Take (To Win Your Love)",
+      "type": "track",
+      "artists": "Junior Walker & The All Stars",
+      "featuring": []
+    },
+    {
+      "pos": "3-21",
+      "title": "Someday We'll Be Together",
+      "type": "track",
+      "artists": "The Supremes",
+      "featuring": []
+    },
+    {
+      "pos": "3-22",
+      "title": "My World Ended (The Moment You Left Me)",
+      "type": "track",
+      "artists": "David Ruffin",
+      "featuring": []
+    },
+    {
+      "pos": "3-23",
+      "title": "Baby, I'm For Real",
+      "type": "track",
+      "artists": "The Originals",
+      "featuring": []
+    },
+    {
+      "pos": "3-24",
+      "title": "Too Busy Thinking About My Baby",
+      "type": "track",
+      "artists": "Marvin Gaye",
+      "featuring": []
+    },
+    {
+      "pos": "3-25",
+      "title": "Yester-Me, Yester-You, Yesterday",
+      "type": "track",
+      "artists": "Stevie Wonder",
+      "featuring": []
+    },
+    {
+      "pos": "3-26",
+      "title": "Get Ready",
+      "type": "track",
+      "artists": "Rare Earth",
+      "featuring": []
+    }
+  ]
+}

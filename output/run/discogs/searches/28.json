@@ -1,0 +1,708 @@
+{
+  "queries": [
+    "blondie - essential nowa",
+    "blondie greatest hits"
+  ],
+  "results": [
+    {
+      "id": 1596868,
+      "title": "Blondie - Greatest Hits",
+      "country": "UK & Europe",
+      "year": "2005",
+      "catno": "",
+      "label": [
+        "EMI",
+        "Chrysalis",
+        "Capitol Records",
+        "Sight & Sound",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "EMI",
+        "EMI",
+        "Mediamotion",
+        "Mediamotion"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered",
+        "DVD",
+        "Compilation",
+        "PAL"
+      ],
+      "master_id": 124793,
+      "uri": "/release/1596868-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 2648632,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "2002",
+      "catno": "7243 5 4 3105 2 2",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Capitol Records, Inc.",
+        "EMI",
+        "EMI",
+        "Capitol Mastering",
+        "EMI Uden",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/2648632-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 2501220,
+      "title": "Blondie - Greatest Hits",
+      "country": "US",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/2501220-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 789219,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "EMI Uden",
+        "Capitol Mastering",
+        "Flying Fish Studio",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/789219-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 2368247,
+      "title": "Blondie - Greatest Hits",
+      "country": "Australia",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "EMI Music Group Australasia",
+        "EMI Music Group Australasia",
+        "Capitol Mastering",
+        "SM",
+        "SM"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 124811,
+      "uri": "/release/2368247-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 13813429,
+      "title": "Blondie - Greatest Hits",
+      "country": "US",
+      "year": "",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Capitol Mastering",
+        "Capitol Records, Inc.",
+        "Flying Fish Studio"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/13813429-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 15930820,
+      "title": "Blondie - Greatest Hits",
+      "country": "UK & Europe",
+      "year": "",
+      "catno": "0946 345054 2 0",
+      "label": [
+        "EMI",
+        "EMI",
+        "EMI",
+        "Chrysalis",
+        "Capitol Records",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "ims Manufacturing",
+        "Sight & Sound"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered",
+        "DVD",
+        "DVD-Video",
+        "PAL",
+        "Compilation"
+      ],
+      "master_id": 124793,
+      "uri": "/release/15930820-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 692070,
+      "title": "Blondie - Greatest Hits: Sound & Vision",
+      "country": "US",
+      "year": "2006",
+      "catno": "09463-45863-2-0",
+      "label": [
+        "Capitol Records",
+        "Sight & Sound",
+        "Capitol Records, Inc.",
+        "Capitol Records, Inc.",
+        "Capitol Records, Inc.",
+        "Phasm 8, LLC",
+        "EMI Records Ltd.",
+        "WEA International Inc.",
+        "EMI Records Ltd.",
+        "Phasm 8, LLC",
+        "EMI Records Ltd.",
+        "WEA International Inc.",
+        "The Red Room",
+        "Cinram, Richmond, IN",
+        "Cinram, Richmond, IN",
+        "Cinram, Richmond, IN",
+        "Cinram, Olyphant, PA",
+        "Cinram, Olyphant, PA"
+      ],
+      "format": [
+        "CD",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "All Media",
+        "Compilation"
+      ],
+      "master_id": 124793,
+      "uri": "/release/692070-Blondie-Greatest-Hits-Sound-Vision"
+    },
+    {
+      "id": 8812585,
+      "title": "Blondie - Greatest Hits: Sound & Vision",
+      "country": "Europe",
+      "year": "2006",
+      "catno": "0946 3 47217 2 1",
+      "label": [
+        "Capitol Records",
+        "Capitol Records Ltd.",
+        "EMI Records Ltd.",
+        "Sight & Sound",
+        "Mediamotion",
+        "Mediamotion"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "DVD",
+        "DVD-Video",
+        "PAL",
+        "Compilation"
+      ],
+      "master_id": 124793,
+      "uri": "/release/8812585-Blondie-Greatest-Hits-Sound-Vision"
+    },
+    {
+      "id": 1101711,
+      "title": "Blondie - Greatest Hits: Sound & Vision",
+      "country": "UK & Ireland",
+      "year": "2006",
+      "catno": "0946 3 45054 2 0",
+      "label": [
+        "EMI",
+        "EMI Records Ltd.",
+        "EMI Records Ltd.",
+        "Mediamotion",
+        "Sight & Sound"
+      ],
+      "format": [
+        "CD",
+        "DVD",
+        "All Media",
+        "Compilation"
+      ],
+      "master_id": 124793,
+      "uri": "/release/1101711-Blondie-Greatest-Hits-Sound-Vision"
+    },
+    {
+      "id": 11051081,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Beyond",
+        "Chrysalis Records, Inc.",
+        "Capitol Mastering",
+        "Flying Fish Studio",
+        "Sony DADC"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/11051081-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 3864211,
+      "title": "Blondie - Greatest Hits",
+      "country": "US",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "BMG Direct",
+        "Capitol Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "JVC Disc America",
+        "JVC Disc America"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered",
+        "Club Edition"
+      ],
+      "master_id": 124811,
+      "uri": "/release/3864211-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 1505325,
+      "title": "Blondie - Greatest Hits: Sound & Vision",
+      "country": "Europe",
+      "year": "",
+      "catno": "0946 3 47217 2 1",
+      "label": [
+        "Capitol Records",
+        "Capitol Records Ltd.",
+        "EMI Records Ltd.",
+        "Sight & Sound",
+        "TAKT",
+        "TAKT",
+        "TAKT"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "DVD",
+        "DVD-Video",
+        "PAL",
+        "Compilation",
+        "All Media",
+        "Repress"
+      ],
+      "master_id": 124793,
+      "uri": "/release/1505325-Blondie-Greatest-Hits-Sound-Vision"
+    },
+    {
+      "id": 15384245,
+      "title": "Blondie - Greatest Hits",
+      "country": "UK",
+      "year": "",
+      "catno": "7243 5 4 3105 2 2",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "EMI",
+        "EMI",
+        "Capitol Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Beyond",
+        "Chrysalis Records, Inc.",
+        "Capitol Mastering",
+        "Sony DADC",
+        "Flying Fish Studio"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered",
+        "Repress"
+      ],
+      "master_id": 124811,
+      "uri": "/release/15384245-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 5690619,
+      "title": "Blondie - Greatest Hits Deluxe Redux / Ghosts Of Download",
+      "country": "UK, Europe & US",
+      "year": "2014",
+      "catno": "NBL 501-2",
+      "label": [
+        "Caroline Records",
+        "Five Seven Music",
+        "Five Seven Music",
+        "Noble ID, LLC",
+        "Noble ID, LLC",
+        "Rod Swenson",
+        "Pandemonium Merchandising LLC",
+        "Noble ID, LLC",
+        "Chrysalis Music",
+        "Monster Island Music",
+        "Embassy Music Publishing, Inc.",
+        "Sony/ATV Harmony",
+        "Dick Johnson Songs",
+        "Chrysalis Songs",
+        "Ensign Music Corp.",
+        "Jiru Music, Inc.",
+        "Bone Lid, LLC",
+        "1176 Music",
+        "Oh Yeah Noa Music",
+        "Bad Conscience Music",
+        "Native Tongue Publishing, NZ",
+        "Party Pop Carousel Music",
+        "SPZ Music Inc.",
+        "Norfolk Square Music",
+        "Man-Ken Music Ltd.",
+        "Glenwood Music Corp.",
+        "Jett Pack Music",
+        "Peermusic Ltd.",
+        "MPL Music Publishing, Inc.",
+        "Taking Care Of Business Music",
+        "Mercy Sound",
+        "Skyline Studios, Oakland",
+        "Marcussen Mastering",
+        "Visual Entropy",
+        "GZ Media",
+        "GZ Media",
+        "GZ Media",
+        "GZ Media"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "Box Set",
+        "Deluxe Edition",
+        "Special Edition"
+      ],
+      "master_id": 691488,
+      "uri": "/release/5690619-Blondie-Greatest-Hits-Deluxe-Redux-Ghosts-Of-Download"
+    },
+    {
+      "id": 30069262,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "",
+      "catno": "7243 5 4 3105 2 2",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Capitol Records, Inc.",
+        "EMI",
+        "EMI",
+        "Capitol Mastering",
+        "EMI Uden",
+        "EMI Uden"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/30069262-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 5187543,
+      "title": "Blondie - Greatest Hits",
+      "country": "Canada",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "EMI Music Canada",
+        "EMI Music Canada",
+        "Capitol Mastering"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 124811,
+      "uri": "/release/5187543-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 27170853,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered"
+      ],
+      "master_id": 124811,
+      "uri": "/release/27170853-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 5728915,
+      "title": "Blondie - Greatest Hits: Deluxe Redux / Ghosts Of Download",
+      "country": "US",
+      "year": "2014",
+      "catno": "NBL 500-2",
+      "label": [
+        "Five Seven Music",
+        "Noble ID, LLC",
+        "Noble ID, LLC",
+        "Optical Experts Manufacturing",
+        "Optical Experts Manufacturing"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Stereo"
+      ],
+      "master_id": 691488,
+      "uri": "/release/5728915-Blondie-Greatest-Hits-Deluxe-Redux-Ghosts-Of-Download"
+    },
+    {
+      "id": 24519764,
+      "title": "Blondie - Greatest Hits",
+      "country": "Europe",
+      "year": "2015",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "Capitol Records",
+        "Chrysalis",
+        "Universal",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Capitol Mastering",
+        "Arvato"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue",
+        "Remastered",
+        "Stereo"
+      ],
+      "master_id": 124811,
+      "uri": "/release/24519764-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 14946482,
+      "title": "Blondie - Greatest Hits",
+      "country": "US",
+      "year": "2002",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Capitol Records",
+        "Chrysalis",
+        "BMG Direct",
+        "Capitol Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "EMI MFG."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Remastered",
+        "Club Edition"
+      ],
+      "master_id": 124811,
+      "uri": "/release/14946482-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 5891071,
+      "title": "Blondie - Greatest Hits: Deluxe Redux / Ghosts Of Download",
+      "country": "Europe",
+      "year": "2014",
+      "catno": "NBL 500-2",
+      "label": [
+        "Five Seven Music",
+        "Caroline Records",
+        "Five Seven Music",
+        "Noble ID, LLC",
+        "Noble ID, LLC",
+        "EDC, Germany",
+        "EDC, Germany"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 691488,
+      "uri": "/release/5891071-Blondie-Greatest-Hits-Deluxe-Redux-Ghosts-Of-Download"
+    },
+    {
+      "id": 15603962,
+      "title": "Blondie - The Best Of Blondie: 36 All-Time Greatest Hits ",
+      "country": "US",
+      "year": "1998",
+      "catno": "15384",
+      "label": [
+        "EMI-Capitol Music Special Markets"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Box Set"
+      ],
+      "master_id": 0,
+      "uri": "/release/15603962-Blondie-The-Best-Of-Blondie-36-All-Time-Greatest-Hits-"
+    },
+    {
+      "id": 1946768,
+      "title": "Blondie - Greatest Hits",
+      "country": "Argentina",
+      "year": "2003",
+      "catno": "72435-42068-2-5",
+      "label": [
+        "Chrysalis",
+        "Capitol Records",
+        "EMI-Odeon S.A.I.C.",
+        "Chrysalis Records, Inc.",
+        "Chrysalis Records, Inc.",
+        "EMI-Odeon S.A.I.C.",
+        "Teltron"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 124811,
+      "uri": "/release/1946768-Blondie-Greatest-Hits"
+    },
+    {
+      "id": 8704511,
+      "title": "Blondie - Greatest Hits Deluxe Redux / Ghosts Of Download",
+      "country": "US",
+      "year": "2014",
+      "catno": "NBL 501-2",
+      "label": [
+        "Five Seven Music",
+        "Five Seven Music",
+        "Noble ID, LLC",
+        "Noble ID, LLC",
+        "Five Seven Music",
+        "The Andy Warhol Foundation For The Visual Arts, Inc.",
+        "Artists Rights Society",
+        "Visual Entropy",
+        "Mercy Sound",
+        "Skyline Studios, Oakland",
+        "Marcussen Mastering",
+        "RED Distribution",
+        "RED Distribution",
+        "Rod Swenson",
+        "Pandemonium Merchandising LLC",
+        "Noble ID, LLC",
+        "CBGB",
+        "Chrysalis Music",
+        "Monster Island Music",
+        "Embassy Music Publishing",
+        "Dick Johnson Songs",
+        "Sony/ATV Harmony",
+        "Chrysalis Songs",
+        "Ensign Music Corp.",
+        "Jiru Music, Inc.",
+        "Bone Lid, LLC",
+        "1176 Music",
+        "Oh Yeah Noa Music",
+        "Bad Conscience Music",
+        "Native Tongue Publishing, NZ",
+        "Party Pop Carousel Music",
+        "SPZ Music Inc.",
+        "Norfolk Square Music",
+        "Man-Ken Music Ltd.",
+        "Glenwood Music Corp.",
+        "Jett Pack Music Inc.",
+        "Peermusic Ltd.",
+        "MPL Music Publishing, Inc.",
+        "Taking Care Of Business Music"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "CD",
+        "Album",
+        "DVD",
+        "DVD-Video",
+        "NTSC",
+        "Box Set",
+        "Deluxe Edition",
+        "Special Edition"
+      ],
+      "master_id": 691488,
+      "uri": "/release/8704511-Blondie-Greatest-Hits-Deluxe-Redux-Ghosts-Of-Download"
+    }
+  ]
+}

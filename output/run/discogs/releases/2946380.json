@@ -1,0 +1,142 @@
+{
+  "id": 2946380,
+  "title": "The Beach Boys",
+  "artists": "The Beach Boys",
+  "year": 2008,
+  "country": "Spain",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Compilation"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Music Ages",
+      "catno": "34092"
+    },
+    {
+      "name": "Music Ages",
+      "catno": "#34092"
+    }
+  ],
+  "master_id": 0,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Cottonfields",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Barbara Ann",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "I Get Around",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Fun, Fun",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Surfin' USA",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Good Vibrations",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Do It Again",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Finders Keepers",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Girl Don't Tell Me",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "Then I Kissed Her",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "Surfer Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Don't Worry Baby",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Mountain Of Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "14",
+      "title": "The Nearest Faraway Place",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "15",
+      "title": "Let's Go Away For A While",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "16",
+      "title": "Surfin' Safari",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

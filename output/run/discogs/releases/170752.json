@@ -1,0 +1,122 @@
+{
+  "id": 170752,
+  "title": "Ray Of Light",
+  "artists": "Madonna",
+  "year": 1998,
+  "country": "UK & Europe",
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album",
+        "Limited Edition",
+        "Special Edition"
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "name": "Maverick",
+      "catno": "9 46884-2"
+    },
+    {
+      "name": "Warner Bros. Records",
+      "catno": "9362-46884-2"
+    }
+  ],
+  "master_id": 67803,
+  "tracks": [
+    {
+      "pos": "1",
+      "title": "Drowned World / Substitute For Love",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "2",
+      "title": "Swim",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "3",
+      "title": "Ray Of Light",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "4",
+      "title": "Candy Perfume Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "5",
+      "title": "Skin",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "6",
+      "title": "Nothing Really Matters",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "7",
+      "title": "Sky Fits Heaven",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "8",
+      "title": "Shanti / Ashtangi",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "9",
+      "title": "Frozen",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "10",
+      "title": "The Power Of Good-Bye",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "11",
+      "title": "To Have And Not To Hold",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "12",
+      "title": "Little Star",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    },
+    {
+      "pos": "13",
+      "title": "Mer Girl",
+      "type": "track",
+      "artists": "",
+      "featuring": []
+    }
+  ]
+}

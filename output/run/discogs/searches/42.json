@@ -1,0 +1,728 @@
+{
+  "queries": [
+    "диск cd forgiven, not forgotten - the corrs",
+    "the corrs - \"forgiven, not forgotten\""
+  ],
+  "results": [
+    {
+      "id": 9391718,
+      "title": "The Corrs - MP3 Collection",
+      "country": "Russia",
+      "year": "",
+      "catno": "none",
+      "label": [
+        "MP3SERVICE",
+        "MP3 Collection",
+        "ООО \"Реплико-Центр\"",
+        "ЗАО \"Полихим-Сервис\"",
+        "ООО \"Арком\""
+      ],
+      "format": [
+        "CDr",
+        "CD-ROM",
+        "Compilation",
+        "Unofficial Release"
+      ],
+      "master_id": 0,
+      "uri": "/release/9391718-The-Corrs-MP3-Collection"
+    },
+    {
+      "id": 384936,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Europe",
+      "year": "1995",
+      "catno": "7567-92612-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Polygram Music Publishing",
+        "Chartmaker Studios",
+        "Mix This!",
+        "Gateway Mastering",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf",
+        "Chartmaker, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/384936-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 1588760,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "US",
+      "year": "1995",
+      "catno": "92612-2",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA Manufacturing Inc.",
+        "Chartmaker Studios",
+        "Gateway Mastering",
+        "Specialty Records Corporation"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/1588760-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 4662692,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Europe",
+      "year": "1999",
+      "catno": "7567-92612-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Polygram Music Publishing",
+        "One Four Three Music",
+        "Howe Sound Music",
+        "Peermusic Ltd.",
+        "Chartmaker Studios",
+        "Mix This!",
+        "Gateway Mastering",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue",
+        "Repress"
+      ],
+      "master_id": 108684,
+      "uri": "/release/4662692-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 395489,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "7567-93073-2",
+      "label": [
+        "Lava",
+        "Atlantic",
+        "AOL Time Warner",
+        "Warner Music Group",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Songs Of PolyGram International, Inc.",
+        "Beacon Communications Music Co.",
+        "Zomba Enterprises, Inc.",
+        "All About Me Music",
+        "Tattoons Music Inc.",
+        "St. Paul Music Inc.",
+        "EMI Virgin Music, Inc.",
+        "Flying One Publishing",
+        "Night Garden Music",
+        "Welsh Witch Music",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Ardmore Studios",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf",
+        "143 Records"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 186067,
+      "uri": "/release/395489-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 3868112,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Australia",
+      "year": "1995",
+      "catno": "7567926122",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Warner Music Australia",
+        "Warner Music Australia",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/3868112-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 9518153,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Australia",
+      "year": "1995",
+      "catno": "7567926122",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Warner Music Group",
+        "WEA Records",
+        "Warner Music Australia",
+        "Digital Audio Technologies Australia",
+        "Specialty Records Corporation",
+        "Chartmaker, Inc.",
+        "Chartmaker Studios",
+        "Mix This!",
+        "Gateway Mastering",
+        "Polygram Music Publishing",
+        "One Four Three Music",
+        "Howe Sound Music",
+        "Peer Music Publishing"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/9518153-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 11164969,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Canada",
+      "year": "1995",
+      "catno": "CD 92612",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Canada Ltd",
+        "Cinram",
+        "Chartmaker Studios",
+        "Gateway Mastering"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/11164969-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 14756665,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "",
+      "catno": "7567-93073-2",
+      "label": [
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Songs Of PolyGram International, Inc.",
+        "Beacon Communications Music Co.",
+        "Zomba Enterprises, Inc.",
+        "All About Me Music",
+        "Tattoons Music Inc.",
+        "St. Paul Music Inc.",
+        "EMI Virgin Music, Inc.",
+        "Flying One Publishing",
+        "Night Garden Music",
+        "Welsh Witch Music",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Warner Music Manufacturing Europe",
+        "Arvato"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 186067,
+      "uri": "/release/14756665-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 1993732,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Spain",
+      "year": "2003",
+      "catno": "7567-92612-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Los Discos De Tu Vida",
+        "El País",
+        "El País",
+        "Gran Vía Musical De Ediciones, S.L."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Reissue"
+      ],
+      "master_id": 108684,
+      "uri": "/release/1993732-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 1955101,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Australia",
+      "year": "2001",
+      "catno": "7567930752",
+      "label": [
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "Warner Music Australia",
+        "Warner Music Australia",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 186067,
+      "uri": "/release/1955101-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 1990974,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Europe",
+      "year": "1996",
+      "catno": "A5687CD",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Polygram Music Publishing",
+        "Warner Music Manufacturing Europe",
+        "KMH Studios",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Single"
+      ],
+      "master_id": 194125,
+      "uri": "/release/1990974-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 13308771,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "7567 93073-2",
+      "label": [
+        "Bonus",
+        "Unknown (BONUS)"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Unofficial Release"
+      ],
+      "master_id": 186067,
+      "uri": "/release/13308771-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 1623453,
+      "title": "The Corrs - Dreams (The Ultimate Corrs Collection)",
+      "country": "UK & Europe",
+      "year": "2006",
+      "catno": "5051011 7995 2 5",
+      "label": [
+        "Atlantic",
+        "Warner Music UK Ltd.",
+        "Warner Music UK Ltd.",
+        "Beacon Communications Music Co.",
+        "Songs Of PolyGram International, Inc.",
+        "Welsh Witch Music",
+        "Barland Music",
+        "EMI Virgin Music, Inc.",
+        "Flying One Publishing",
+        "St. Paul Music Inc.",
+        "Tattoons Music Inc.",
+        "Zomba Enterprises, Inc.",
+        "Sony/ATV Acuff Rose Music",
+        "Sony/ATV Tunes LLC",
+        "Pippin The Friendly Ranger Music",
+        "Universal Music Publishing Ltd.",
+        "ABKCO Music, Inc.",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Chrysalis",
+        "Metrophonic Studios",
+        "Disclab"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 108682,
+      "uri": "/release/1623453-The-Corrs-Dreams-The-Ultimate-Corrs-Collection"
+    },
+    {
+      "id": 8440291,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "7567-93073-2",
+      "label": [
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Songs Of PolyGram International, Inc.",
+        "Beacon Communications Music Co.",
+        "Zomba Enterprises, Inc.",
+        "All About Me Music",
+        "Tattoons Music Inc.",
+        "St. Paul Music Inc.",
+        "EMI Virgin Music, Inc.",
+        "Flying One Publishing",
+        "Night Garden Music",
+        "Welsh Witch Music",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Warner Music Manufacturing Europe",
+        "Optimal Media Production",
+        "Optimal Media Production",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 186067,
+      "uri": "/release/8440291-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 1955152,
+      "title": "The Corrs - Forgiven, Not Forgotten Australasian Tour 1997",
+      "country": "Australasia",
+      "year": "1997",
+      "catno": "7567-92754-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Langelandsfestival",
+        "DR P3",
+        "Warner Music Australia",
+        "Warner Music Australia",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Limited Edition"
+      ],
+      "master_id": 108684,
+      "uri": "/release/1955152-The-Corrs-Forgiven-Not-Forgotten-Australasian-Tour-1997"
+    },
+    {
+      "id": 1955126,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Japan",
+      "year": "1995",
+      "catno": "AMCY-913",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "East West Japan Inc."
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/1955126-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 2886194,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Canada",
+      "year": "1995",
+      "catno": "CD 92612",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/2886194-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 5492613,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "US",
+      "year": "1995",
+      "catno": "92612-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Chartmaker Studios",
+        "Mix This!",
+        "Gateway Mastering",
+        "BMG Direct Marketing, Inc."
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition"
+      ],
+      "master_id": 108684,
+      "uri": "/release/5492613-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 13193231,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "2001",
+      "catno": "7567-93073-2",
+      "label": [
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Songs Of PolyGram International, Inc.",
+        "Beacon Communications Music Co.",
+        "Zomba Enterprises, Inc.",
+        "All About Me Music",
+        "Tattoons Music Inc.",
+        "St. Paul Music Inc.",
+        "EMI Virgin Music, Inc.",
+        "Flying One Publishing",
+        "Night Garden Music",
+        "Welsh Witch Music",
+        "Universal - Songs Of Polygram International, Inc.",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Repress"
+      ],
+      "master_id": 186067,
+      "uri": "/release/13193231-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 12759204,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Australia",
+      "year": "1995",
+      "catno": "7567926122",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "Atlantic Recording Corporation",
+        "WEA Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "SMEA"
+      ],
+      "format": [
+        "CD",
+        "Album"
+      ],
+      "master_id": 108684,
+      "uri": "/release/12759204-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 826577,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Australia",
+      "year": "1996",
+      "catno": "7567-95687-2",
+      "label": [
+        "Atlantic",
+        "143 Records",
+        "Lava",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "Warner Music Australia",
+        "Warner Music Australia",
+        "Polygram Music Publishing",
+        "Chartmaker, Inc.",
+        "KMH Studios",
+        "WMME Alsdorf",
+        "Digital Audio Technologies Australia"
+      ],
+      "format": [
+        "CD",
+        "Single"
+      ],
+      "master_id": 194125,
+      "uri": "/release/826577-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 2891536,
+      "title": "The Corrs - Forgiven, Not Forgotten",
+      "country": "Canada",
+      "year": "",
+      "catno": "A2 92612",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Cinram"
+      ],
+      "format": [
+        "CD",
+        "Album",
+        "Club Edition"
+      ],
+      "master_id": 108684,
+      "uri": "/release/2891536-The-Corrs-Forgiven-Not-Forgotten"
+    },
+    {
+      "id": 1955086,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Spain",
+      "year": "2001",
+      "catno": "7567-93074-2",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation"
+      ],
+      "master_id": 186067,
+      "uri": "/release/1955086-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 29107132,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Europe",
+      "year": "2023",
+      "catno": "5054197781124",
+      "label": [
+        "EastWest",
+        "Warner Music UK Ltd.",
+        "Warner Music UK Ltd."
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 186067,
+      "uri": "/release/29107132-The-Corrs-Best-Of-The-Corrs"
+    },
+    {
+      "id": 10033702,
+      "title": "The Corrs - Best Of The Corrs",
+      "country": "Spain",
+      "year": "",
+      "catno": "7567 93074-2",
+      "label": [
+        "143 Records",
+        "Lava",
+        "Atlantic",
+        "143 Records",
+        "143 Records",
+        "Atlantic Recording Corporation",
+        "Atlantic Recording Corporation",
+        "WEA International Inc.",
+        "WEA International Inc.",
+        "Warner Music Manufacturing Europe",
+        "WMME Alsdorf"
+      ],
+      "format": [
+        "CD",
+        "Compilation",
+        "Reissue"
+      ],
+      "master_id": 186067,
+      "uri": "/release/10033702-The-Corrs-Best-Of-The-Corrs"
+    }
+  ]
+}

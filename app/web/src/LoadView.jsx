@@ -74,6 +74,7 @@ export default function LoadView() {
   } = useCatalog()
   const [query, setQuery] = useState('')
   const [sortBy, setSortBy] = useState('catalogue')
+  const [loadedFilter, setLoadedFilter] = useState('all')
   const [selectedId, setSelectedId] = useState(null)
   const [slotDrafts, setSlotDrafts] = useState({})
   const [status, setStatus] = useState('')
@@ -158,17 +159,17 @@ export default function LoadView() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
-    const matched = !q
-      ? albums
-      : albums.filter((album) => {
-          if (album.artist.toLowerCase().includes(q)) return true
-          if (album.title.toLowerCase().includes(q)) return true
-          return album.discs.some((d) =>
-            String(d.slot_number ?? '').includes(q),
-          )
-        })
+    const matched = albums.filter((album) => {
+      const loadedCount = album.discs.filter((d) => d.slot_number != null).length
+      if (loadedFilter === 'loaded' && loadedCount === 0) return false
+      if (loadedFilter === 'unloaded' && loadedCount > 0) return false
+      if (!q) return true
+      if (album.artist.toLowerCase().includes(q)) return true
+      if (album.title.toLowerCase().includes(q)) return true
+      return album.discs.some((d) => String(d.slot_number ?? '').includes(q))
+    })
     return sortAlbums(matched, sortBy)
-  }, [albums, query, sortBy])
+  }, [albums, query, sortBy, loadedFilter])
 
   const selected = albums.find((a) => a.id === selectedId) || null
 
@@ -291,6 +292,19 @@ export default function LoadView() {
             />
           </label>
           <label className="sort-control">
+            <span className="sr-only">Filter by loaded</span>
+            <select
+              value={loadedFilter}
+              onChange={(e) => setLoadedFilter(e.target.value)}
+              aria-label="Filter by loaded"
+              disabled={importing}
+            >
+              <option value="all">All albums</option>
+              <option value="loaded">Loaded</option>
+              <option value="unloaded">Not loaded</option>
+            </select>
+          </label>
+          <label className="sort-control">
             <span className="sr-only">Sort albums</span>
             <select
               value={sortBy}
@@ -404,8 +418,8 @@ export default function LoadView() {
             </div>
           )
         })}
-        {filtered.length === 0 ? (
-          <p className="muted">No albums match that search.</p>
+        {filtered.length === 0 && albums.length > 0 ? (
+          <p className="muted">No albums match that search or filter.</p>
         ) : null}
       </section>
 

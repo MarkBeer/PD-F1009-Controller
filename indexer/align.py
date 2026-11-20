@@ -14,8 +14,8 @@ from urllib.parse import quote
 
 import cv2
 
-from cdindex.discogs import save_json
-from cdindex.grid import (
+from indexer.discogs import save_json
+from indexer.grid import (
     Grid,
     default_corners,
     grid_from_block,
@@ -25,7 +25,7 @@ from cdindex.grid import (
     write_crops,
     write_preview,
 )
-from cdindex.runs import display_path
+from indexer.runs import display_path
 
 PAGE = Path(__file__).with_name("align_page.html").read_text(encoding="utf-8")
 STEPS = ("search", "identify", "export")
@@ -126,7 +126,7 @@ class AlignSession:
                 self._state["running"] = False
 
     def _execute(self, steps: list[str], force: bool) -> None:
-        from cdindex.cli import _log_sink, _progress_sink, cmd_export, cmd_identify, cmd_search
+        from indexer.cli import _log_sink, _progress_sink, cmd_export, cmd_identify, cmd_search
 
         def sink(message: str) -> None:
             self._append(message)

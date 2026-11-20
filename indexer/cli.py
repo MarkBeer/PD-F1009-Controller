@@ -1,10 +1,10 @@
 """Command line for a new photo of jewel cases.
 
-    python -m cdindex align photo.jpg
-    python -m cdindex run photo.jpg
-    python -m cdindex export --out output/20260101-120000-photo
+    python -m indexer align indexer/photo.jpg
+    python -m indexer run indexer/photo.jpg
+    python -m indexer export --out indexer/output/20260101-120000-photo
 
-Each photo is written to its own folder under output/.
+Each photo is written to its own folder under indexer/output/.
 
 detect writes grid.json, preview.jpg, and crops/.
 align opens a page where the four corners of a bad grid can be dragged.
@@ -28,8 +28,8 @@ from pathlib import Path
 
 import cv2
 
-from cdindex.catalog import catalog_rows, write_csv
-from cdindex.discogs import (
+from indexer.catalog import catalog_rows, write_csv
+from indexer.discogs import (
     DiscogsError,
     choose_queries,
     choose_status,
@@ -40,9 +40,9 @@ from cdindex.discogs import (
     save_json,
     search,
 )
-from cdindex.grid import detect_grid, load_grid, save_grid, write_crops, write_preview
-from cdindex.runs import display_path, resolve_run_directory
-from cdindex.yandex import YandexError, search_cover
+from indexer.grid import detect_grid, load_grid, save_grid, write_crops, write_preview
+from indexer.runs import display_path, resolve_run_directory
+from indexer.yandex import YandexError, search_cover
 
 
 def _print_log(message: str) -> None:
@@ -53,8 +53,8 @@ def _ignore_progress(step: str, done: int, total: int, detail: str = "") -> None
     del step, done, total, detail
 
 
-_log_sink = contextvars.ContextVar("cdindex_log", default=_print_log)
-_progress_sink = contextvars.ContextVar("cdindex_progress", default=_ignore_progress)
+_log_sink = contextvars.ContextVar("indexer_log", default=_print_log)
+_progress_sink = contextvars.ContextVar("indexer_progress", default=_ignore_progress)
 
 
 def _log(message: str) -> None:
@@ -402,7 +402,7 @@ def _prepare_run(args: argparse.Namespace) -> None:
 
 
 def cmd_align(args: argparse.Namespace) -> int:
-    from cdindex.align import AlignSession, ensure_port_free, serve
+    from indexer.align import AlignSession, ensure_port_free, serve
 
     ensure_port_free(args.port)
     _prepare_run(args)
@@ -429,7 +429,7 @@ def cmd_run(args: argparse.Namespace) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="cdindex",
+        prog="indexer",
         description="Crop a photo of CD cases, search each cover, and write a track CSV.",
     )
     sub = parser.add_subparsers(dest="command", required=True)
@@ -442,7 +442,7 @@ def build_parser() -> argparse.ArgumentParser:
     align.add_argument("image", help="Original photo, without the green preview lines")
     align.add_argument(
         "--out",
-        help="Parent folder for a new run, or an existing run of this same photo. Defaults to output",
+        help="Parent folder for a new run, or an existing run of this same photo. Defaults to indexer/output",
     )
     align.add_argument("--rows", type=int, help="Starting row count")
     align.add_argument("--cols", type=int, help="Starting column count")
@@ -469,7 +469,7 @@ def build_parser() -> argparse.ArgumentParser:
     _add_detect_args(
         run,
         out_required=False,
-        out_help="Parent folder for a new run, or an existing run of this same photo. Defaults to output",
+        out_help="Parent folder for a new run, or an existing run of this same photo. Defaults to indexer/output",
     )
     run.add_argument("--force", action="store_true", help="Redo image searches and Discogs searches")
     run.add_argument("--limit", type=int, default=0)

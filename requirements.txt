@@ -1,5 +1,3 @@
-numpy
-opencv-python-headless
 fastapi
 uvicorn[standard]
 httpx

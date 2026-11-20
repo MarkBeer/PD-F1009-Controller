@@ -12,7 +12,9 @@ app/web/dist
 app/db/*.sqlite
 app/db/*.sqlite-*
 output
+indexer
 crops
 *.md
 .cursor
 agent-transcripts
+tests

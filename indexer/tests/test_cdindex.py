@@ -6,10 +6,10 @@ from pathlib import Path
 import cv2
 import numpy as np
 
-from cdindex.catalog import catalog_rows, release_tracks, write_csv
-from cdindex.discogs import album_phrase, choose_queries, rank_hits, score_release
-from cdindex.grid import best_regular_grid, crop_bounds, detect_grid, load_grid
-from cdindex.yandex import parse_results_html
+from indexer.catalog import catalog_rows, release_tracks, write_csv
+from indexer.discogs import album_phrase, choose_queries, rank_hits, score_release
+from indexer.grid import best_regular_grid, crop_bounds, detect_grid, load_grid
+from indexer.yandex import parse_results_html
 
 ROOT = Path(__file__).resolve().parents[1]
 PHOTO = ROOT / "assets" / "a760bb13-1170-47fb-88be-bf50082ed5f3.jpg"
@@ -144,7 +144,7 @@ class CatalogTests(unittest.TestCase):
                 curated[int(row["Index"])] = curated.get(int(row["Index"]), 0) + 1
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp) / "out.csv"
-            from cdindex.cli import main
+            from indexer.cli import main
 
             status = main(
                 [
@@ -267,7 +267,7 @@ class SearchRankingTests(unittest.TestCase):
 
 class AlignTests(unittest.TestCase):
     def test_four_corners_divide_into_the_case_grid(self):
-        from cdindex.grid import cells_from_block, warp_quad
+        from indexer.grid import cells_from_block, warp_quad
 
         cells = cells_from_block(2, 2, [[0, 0], [100, 0], [100, 40], [0, 40]])
         self.assertEqual(len(cells), 4)
@@ -282,7 +282,7 @@ class AlignTests(unittest.TestCase):
         self.assertEqual(warped.shape[0], 40)
 
     def test_near_cases_get_more_room_than_far_cases(self):
-        from cdindex.grid import cells_from_block
+        from indexer.grid import cells_from_block
 
         cells = cells_from_block(2, 1, [[40, 0], [80, 0], [120, 100], [0, 100]])
         far_height = cells[0].y1 - cells[0].y0
@@ -294,7 +294,7 @@ class AlignTests(unittest.TestCase):
         import threading
         from urllib.request import Request, urlopen
 
-        from cdindex.align import AlignSession, make_server
+        from indexer.align import AlignSession, make_server
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -340,7 +340,7 @@ class PhotoWindowTests(unittest.TestCase):
         import threading
         from urllib.request import urlopen
 
-        from cdindex.align import AlignSession, make_server
+        from indexer.align import AlignSession, make_server
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -387,7 +387,7 @@ class PhotoWindowTests(unittest.TestCase):
         import os
         import time
 
-        from cdindex.align import AlignSession
+        from indexer.align import AlignSession
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -410,7 +410,7 @@ class PhotoWindowTests(unittest.TestCase):
     def test_a_busy_port_is_reported_before_the_old_window_is_reused(self):
         import socket
 
-        from cdindex.align import ensure_port_free
+        from indexer.align import ensure_port_free
 
         held = socket.socket()
         held.bind(("127.0.0.1", 0))
@@ -430,7 +430,7 @@ class OverridePageTests(unittest.TestCase):
         from urllib.error import HTTPError
         from urllib.request import Request, urlopen
 
-        from cdindex.align import AlignSession, make_server
+        from indexer.align import AlignSession, make_server
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -518,7 +518,7 @@ class OverridePageTests(unittest.TestCase):
 
 class RunFolderTests(unittest.TestCase):
     def test_each_photo_gets_its_own_folder(self):
-        from cdindex.runs import resolve_run_directory
+        from indexer.runs import resolve_run_directory
 
         with tempfile.TemporaryDirectory() as tmp:
             parent = Path(tmp) / "output"
@@ -536,7 +536,7 @@ class RunFolderTests(unittest.TestCase):
             self.assertIn("Resuming", resume_note)
 
     def test_a_different_photo_does_not_reuse_a_finished_run(self):
-        from cdindex.runs import resolve_run_directory
+        from indexer.runs import resolve_run_directory
 
         with tempfile.TemporaryDirectory() as tmp:
             run = Path(tmp) / "output" / "run"
@@ -560,7 +560,7 @@ class ProcessPageTests(unittest.TestCase):
         from urllib.error import HTTPError
         from urllib.request import Request, urlopen
 
-        from cdindex.align import AlignSession, make_server
+        from indexer.align import AlignSession, make_server
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -660,7 +660,7 @@ class SearchCacheTests(unittest.TestCase):
         import os
         import time
 
-        from cdindex.cli import search_result_is_current
+        from indexer.cli import search_result_is_current
 
         with tempfile.TemporaryDirectory() as tmp:
             folder = Path(tmp)
@@ -681,8 +681,8 @@ class ExportReviewTests(unittest.TestCase):
     def test_needs_review_is_copied_onto_every_track(self):
         import csv
 
-        from cdindex.cli import main
-        from cdindex.discogs import save_json
+        from indexer.cli import main
+        from indexer.discogs import save_json
 
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp)

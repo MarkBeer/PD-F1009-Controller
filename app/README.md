@@ -75,4 +75,5 @@ If the URL is empty, commands stay local and are still written to `play_log` for
 
 ```bash
 pytest tests/test_app_catalog.py tests/test_player_transport.py -q
+# indexer pipeline: pytest indexer/tests -q
 ```

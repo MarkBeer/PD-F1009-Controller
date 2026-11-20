@@ -233,7 +233,7 @@ def search(query: str, pause: float = 2.7, auth: str | None = None) -> list[dict
 
 
 def _artist_field(artists) -> str:
-    from cdindex.catalog import artist_text
+    from indexer.catalog import artist_text
 
     return artist_text(artists)
 

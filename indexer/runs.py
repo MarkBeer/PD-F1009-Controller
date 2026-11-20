@@ -6,6 +6,9 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+INDEXER_ROOT = Path(__file__).resolve().parent
+DEFAULT_OUTPUT_PARENT = INDEXER_ROOT / "output"
+
 
 def display_path(path: Path) -> str:
     resolved = path.resolve()
@@ -64,7 +67,7 @@ def resolve_run_directory(requested: Path | None, image_path: Path) -> tuple[Pat
     belongs to this photo is reused, so the grid can be adjusted. A folder
     that belongs to a different photo is left alone and a sibling is created.
     """
-    parent = Path("output") if requested is None else requested
+    parent = DEFAULT_OUTPUT_PARENT if requested is None else requested
     if is_run_directory(parent):
         existing = run_image_name(parent)
         if existing == image_path.name:

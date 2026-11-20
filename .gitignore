@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 
 # Timestamped folders created for each photo
+indexer/output/20*/
 output/20*/
 
 # Local catalog database built from CSV + cover crops

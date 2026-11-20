@@ -108,7 +108,7 @@ def _request(url: str, data: bytes | None = None, headers: dict | None = None) -
 def search_cover(image_path: Path) -> dict:
     """Upload one crop and return tags, objects, and site titles."""
     content = Path(image_path).read_bytes()
-    boundary = f"----cdindex{uuid.uuid4().hex}"
+    boundary = f"----indexer{uuid.uuid4().hex}"
     filename = Path(image_path).name
     body = (
         f"--{boundary}\r\n"

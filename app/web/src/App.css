@@ -207,6 +207,10 @@
   transform: translateY(-1px);
 }
 
+.cover-card-media {
+  position: relative;
+}
+
 .cover-card img,
 .cover-fallback,
 .detail-hero img,
@@ -215,6 +219,26 @@
   aspect-ratio: 1;
   object-fit: cover;
   background: linear-gradient(145deg, #2a3140, #12151c);
+  display: block;
+}
+
+.cover-loaded-tick {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  z-index: 4;
+  width: 1.55rem;
+  height: 1.55rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(18, 21, 28, 0.88);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 55%, var(--border));
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
 }
 
 .card-menu-trigger {
@@ -354,6 +378,16 @@
   color: #1c1405;
   background: var(--warn);
   border-color: transparent;
+}
+
+.badge-loaded {
+  color: var(--accent-2);
+  border-color: color-mix(in srgb, var(--accent-2) 45%, var(--border));
+  background: color-mix(in srgb, var(--accent-2) 14%, var(--panel-2));
+}
+
+.cover-meta .badge {
+  margin-right: 0.3rem;
 }
 
 .detail-panel {

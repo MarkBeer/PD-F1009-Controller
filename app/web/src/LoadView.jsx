@@ -361,19 +361,34 @@ export default function LoadView() {
                 }
               }}
             >
-              {album.has_cover !== false ? (
-                <img src={coverUrl(album)} alt="" loading="lazy" />
-              ) : (
-                <div className="cover-fallback" />
-              )}
+              <div className="cover-card-media">
+                {album.has_cover !== false ? (
+                  <img src={coverUrl(album)} alt="" loading="lazy" />
+                ) : (
+                  <div className="cover-fallback" />
+                )}
+                {loaded > 0 ? (
+                  <span
+                    className="cover-loaded-tick"
+                    title={`${loaded} of ${album.discs.length} loaded`}
+                    aria-label={`${loaded} of ${album.discs.length} discs loaded`}
+                  >
+                    ✓
+                  </span>
+                ) : null}
+              </div>
               <div className="cover-meta">
                 <strong>{album.title}</strong>
                 <span>{album.artist}</span>
                 <span className="badge">
-                  {loaded
-                    ? `${loaded}/${album.discs.length} loaded`
-                    : `${album.discs.length} disc${album.discs.length === 1 ? '' : 's'}`}
+                  {album.discs.length} disc
+                  {album.discs.length === 1 ? '' : 's'}
                 </span>
+                {loaded > 0 ? (
+                  <span className="badge badge-loaded">
+                    {loaded} loaded
+                  </span>
+                ) : null}
               </div>
               <button
                 type="button"

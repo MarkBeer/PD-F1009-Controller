@@ -68,6 +68,7 @@ export default function LoadView() {
     loading,
     error,
     updateAlbum,
+    syncFromDiscogs,
     uploadCover,
     importCatalog,
     coverUrl,
@@ -487,6 +488,19 @@ export default function LoadView() {
           onSave={async (id, fields) => {
             await updateAlbum(id, fields)
             setStatus('Album details saved')
+          }}
+          onSyncDiscogs={async (id, options) => {
+            const result = await syncFromDiscogs(id, options)
+            const sync = result?.sync
+            const parts = [
+              sync?.artist && sync?.title
+                ? `${sync.artist} — ${sync.title}`
+                : 'Discogs metadata',
+              sync?.track_count != null ? `${sync.track_count} tracks` : null,
+              sync?.cover_updated ? 'cover updated' : 'cover unchanged',
+            ].filter(Boolean)
+            setStatus(`Fetched from Discogs: ${parts.join(' · ')}`)
+            return result
           }}
           onUploadCover={async (id, file) => {
             await uploadCover(id, file)

@@ -46,6 +46,15 @@ export function updateAlbum(id, fields) {
   })
 }
 
+export function syncAlbumFromDiscogs(id, { releaseId, fetchCover = true } = {}) {
+  const body = { fetch_cover: fetchCover }
+  if (releaseId != null) body.release_id = releaseId
+  return request(`/api/albums/${id}/discogs-sync`, {
+    method: 'POST',
+    body: JSON.stringify(body),
+  })
+}
+
 export function uploadCover(id, file) {
   const body = new FormData()
   body.append('file', file)

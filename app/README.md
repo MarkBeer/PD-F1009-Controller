@@ -33,6 +33,8 @@ Open http://127.0.0.1:5173
 - **Load** — upload CSV, set Arduino URL, assign discs to slots 1–300 (or 0 for single loader)
 - **Play** — search loaded discs, play disc/track, Pause / Stop / Prev / Next
 
+On **Edit album**, tick **Fetch artist, album, track list, and cover from Discogs** to replace metadata from a Discogs release ID (`POST /api/albums/{id}/discogs-sync`). No account required; optional `DISCOGS_TOKEN` raises the rate limit. Slot assignments are kept when disc numbers still match.
+
 ## Docker
 
 One container serves the API and the built React UI on port 8000.

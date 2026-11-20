@@ -90,6 +90,19 @@ export function CatalogProvider({ children }) {
     [refresh],
   )
 
+  const syncFromDiscogs = useCallback(
+    async (albumId, { releaseId, fetchCover = true } = {}) => {
+      const result = await api.syncAlbumFromDiscogs(albumId, {
+        releaseId,
+        fetchCover,
+      })
+      setCoverBust((prev) => ({ ...prev, [albumId]: Date.now() }))
+      await refresh()
+      return result
+    },
+    [refresh],
+  )
+
   const uploadCover = useCallback(
     async (albumId, file) => {
       const updated = await api.uploadCover(albumId, file)
@@ -137,6 +150,7 @@ export function CatalogProvider({ children }) {
       play,
       control,
       updateAlbum,
+      syncFromDiscogs,
       uploadCover,
       importCatalog,
       coverUrl,
@@ -153,6 +167,7 @@ export function CatalogProvider({ children }) {
       play,
       control,
       updateAlbum,
+      syncFromDiscogs,
       uploadCover,
       importCatalog,
       coverUrl,

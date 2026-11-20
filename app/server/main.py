@@ -29,6 +29,7 @@ from .db import (
     init_schema,
     set_setting,
 )
+from .discogs import DiscogsError, apply_release_to_album
 from .import_csv import ensure_imported, import_catalog
 from .player import PlayerService, normalize_arduino_base_url
 
@@ -69,6 +70,11 @@ class AlbumUpdate(BaseModel):
     title: str | None = None
     discogs_release_id: int | None = Field(default=None)
     clear_discogs_release_id: bool = False
+
+
+class DiscogsSyncRequest(BaseModel):
+    release_id: int | None = Field(default=None, ge=1)
+    fetch_cover: bool = True
 
 
 def create_app(
@@ -381,6 +387,40 @@ def create_app(
         )
         db().commit()
         return get_album(album_id)
+
+    @app.post("/api/albums/{album_id}/discogs-sync")
+    def sync_album_from_discogs(
+        album_id: int,
+        body: DiscogsSyncRequest = DiscogsSyncRequest(),
+    ) -> dict:
+        row = db().execute(
+            "SELECT id, discogs_release_id FROM albums WHERE id = ?",
+            (album_id,),
+        ).fetchone()
+        if not row:
+            raise HTTPException(status_code=404, detail="Album not found")
+
+        release_id = body.release_id
+        if release_id is None:
+            release_id = row["discogs_release_id"]
+        if release_id is None:
+            raise HTTPException(
+                status_code=400,
+                detail="Discogs release id is required",
+            )
+
+        try:
+            sync = apply_release_to_album(
+                db(),
+                album_id,
+                int(release_id),
+                fetch_cover=body.fetch_cover,
+            )
+        except DiscogsError as exc:
+            raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+        album = get_album(album_id)
+        return {"album": album, "sync": sync}
 
     @app.put("/api/covers/{album_id}")
     async def upload_cover(

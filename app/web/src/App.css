@@ -307,12 +307,38 @@
   color: var(--muted);
 }
 
+.modal-form label.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.modal-form label.checkbox-row input {
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+}
+
 .modal-form input {
   background: var(--panel-2);
   border: 1px solid var(--border);
   color: var(--text);
   border-radius: 8px;
   padding: 0.55rem 0.7rem;
+}
+
+.catalog-id-label {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.catalog-id-label span {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
 }
 
 .file-row {

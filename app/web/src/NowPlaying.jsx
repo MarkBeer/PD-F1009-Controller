@@ -1,3 +1,4 @@
+import CoverImage from './CoverImage'
 import { useCatalog } from './CatalogContext'
 
 export default function NowPlaying() {
@@ -13,11 +14,12 @@ export default function NowPlaying() {
 
   return (
     <footer className="now-playing">
-      {now.cover_url ? (
-        <img src={now.cover_url} alt="" className="now-cover" />
-      ) : (
-        <div className="now-cover placeholder" />
-      )}
+      <CoverImage
+        src={now.cover_url || null}
+        alt=""
+        className="now-cover"
+        loading="eager"
+      />
       <div className="now-meta">
         <div className="now-message">{now.message}</div>
         <div className="now-sub">

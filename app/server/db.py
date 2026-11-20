@@ -79,9 +79,16 @@ SETTING_ARDUINO_BASE_URL = "arduino_base_url"
 def connect(db_path: Path | str = DEFAULT_DB_PATH) -> sqlite3.Connection:
     path = Path(db_path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(str(path), check_same_thread=False)
+    # timeout waits on locks; busy_timeout makes concurrent cover reads resilient
+    # when a phone loads many /api/covers/* requests at once.
+    conn = sqlite3.connect(str(path), check_same_thread=False, timeout=30.0)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
+    conn.execute("PRAGMA busy_timeout = 30000")
+    try:
+        conn.execute("PRAGMA journal_mode = WAL")
+    except sqlite3.Error:
+        pass
     return conn
 
 

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import AlbumEditDialog from './AlbumEditDialog'
 import CatalogImportDialog from './CatalogImportDialog'
+import CoverImage from './CoverImage'
 import SelectPlayerDialog from './SelectPlayerDialog'
 import SlotAssignDialog from './SlotAssignDialog'
 import { useCatalog } from './CatalogContext'
@@ -377,11 +378,10 @@ export default function LoadView() {
               }}
             >
               <div className="cover-card-media">
-                {album.has_cover !== false ? (
-                  <img src={coverUrl(album)} alt="" loading="lazy" />
-                ) : (
-                  <div className="cover-fallback" />
-                )}
+                <CoverImage
+                  src={album.has_cover !== false ? coverUrl(album) : null}
+                  alt=""
+                />
                 {loaded > 0 ? (
                   <span
                     className="cover-loaded-tick"
@@ -454,7 +454,11 @@ export default function LoadView() {
               }}
             >
               {slot.cover_url ? (
-                <img src={coverUrl(slot.cover_url, slot.album_id)} alt="" />
+                <CoverImage
+                  src={coverUrl(slot.cover_url, slot.album_id)}
+                  alt=""
+                  loading="eager"
+                />
               ) : (
                 <span>{slot.slot_number}</span>
               )}

@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from 'react'
+import CoverImage from './CoverImage'
 import { useCatalog } from './CatalogContext'
 import Toast from './Toast'
 
@@ -136,7 +137,7 @@ export default function PlayView() {
                   className={`cover-card ${selectedId === disc.id ? 'selected' : ''}`}
                   onClick={() => setSelectedId(disc.id)}
                 >
-                  <img src={coverUrl(disc)} alt="" loading="lazy" />
+                  <CoverImage src={coverUrl(disc)} alt="" />
                   <div className="cover-meta">
                     <strong>{disc.album_title}</strong>
                     <span>{disc.artist}</span>
@@ -156,7 +157,7 @@ export default function PlayView() {
               {selected ? (
                 <>
                   <div className="detail-hero">
-                    <img src={coverUrl(selected)} alt="" />
+                    <CoverImage src={coverUrl(selected)} alt="" loading="eager" />
                     <div>
                       <h2>{selected.album_title}</h2>
                       <p>{selected.artist}</p>

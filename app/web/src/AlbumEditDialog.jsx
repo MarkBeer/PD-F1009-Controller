@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import CoverImage from './CoverImage'
 
 export default function AlbumEditDialog({
   album,
@@ -115,7 +116,12 @@ export default function AlbumEditDialog({
         </header>
         <form className="modal-form" onSubmit={handleSubmit}>
           <div className="edit-cover-row">
-            <img src={coverSrc} alt="" className="edit-cover" />
+            <CoverImage
+              src={coverSrc}
+              alt=""
+              className="edit-cover"
+              loading="eager"
+            />
             <div>
               <button
                 type="button"

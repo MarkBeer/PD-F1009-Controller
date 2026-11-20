@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import CoverImage from './CoverImage'
 
 function discLabel(disc) {
   const total = disc.disc_count_in_set || 1
@@ -41,7 +42,7 @@ export default function SlotAssignDialog({
         </header>
 
         <div className="detail-hero">
-          {coverSrc ? <img src={coverSrc} alt="" /> : <div className="cover-fallback" />}
+          <CoverImage src={coverSrc} alt="" loading="eager" />
           <div>
             <h2>{album.title}</h2>
             <p>{album.artist}</p>

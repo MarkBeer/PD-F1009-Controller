@@ -465,12 +465,16 @@ def create_app(
             "SELECT cover_jpeg FROM albums WHERE id = ?",
             (album_id,),
         ).fetchone()
-        if not row or row["cover_jpeg"] is None:
+        data = row["cover_jpeg"] if row else None
+        if not data or len(data) < 4 or data[:2] != b"\xff\xd8":
             raise HTTPException(status_code=404, detail="Cover not found")
         return Response(
-            content=row["cover_jpeg"],
+            content=data,
             media_type="image/jpeg",
-            headers={"Cache-Control": "no-cache"},
+            headers={
+                "Cache-Control": "public, max-age=3600",
+                "Content-Length": str(len(data)),
+            },
         )
 
     @app.get("/api/slots")

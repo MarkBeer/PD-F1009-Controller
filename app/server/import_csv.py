@@ -77,7 +77,10 @@ def _read_cover(cover_path: str, crops_base: Path) -> bytes | None:
         return None
     for path in _cover_candidates(cover_path, crops_base):
         if path.is_file():
-            return path.read_bytes()
+            data = path.read_bytes()
+            # Skip non-JPEG so mobile browsers don't show a broken image icon.
+            if len(data) >= 4 and data[:2] == b"\xff\xd8":
+                return data
     return None
 
 

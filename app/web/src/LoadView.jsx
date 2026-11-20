@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import AlbumEditDialog from './AlbumEditDialog'
 import CatalogImportDialog from './CatalogImportDialog'
 import SelectPlayerDialog from './SelectPlayerDialog'
+import SlotAssignDialog from './SlotAssignDialog'
 import { useCatalog } from './CatalogContext'
 import {
   fetchArduinoSettings,
@@ -343,137 +344,55 @@ export default function LoadView() {
         </div>
       ) : null}
 
-      <div className="load-layout">
-        <section className="cover-grid" aria-label="Catalog">
-          {filtered.map((album) => {
-            const loaded = album.discs.filter((d) => d.slot_number != null).length
-            return (
-              <div
-                key={album.id}
-                className={`cover-card ${selectedId === album.id ? 'selected' : ''}`}
-                role="button"
-                tabIndex={0}
-                onClick={() => selectAlbum(album.id)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    selectAlbum(album.id)
-                  }
+      <section className="cover-grid" aria-label="Catalog">
+        {filtered.map((album) => {
+          const loaded = album.discs.filter((d) => d.slot_number != null).length
+          return (
+            <div
+              key={album.id}
+              className={`cover-card ${selectedId === album.id ? 'selected' : ''}`}
+              role="button"
+              tabIndex={0}
+              onClick={() => selectAlbum(album.id)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault()
+                  selectAlbum(album.id)
+                }
+              }}
+            >
+              {album.has_cover !== false ? (
+                <img src={coverUrl(album)} alt="" loading="lazy" />
+              ) : (
+                <div className="cover-fallback" />
+              )}
+              <div className="cover-meta">
+                <strong>{album.title}</strong>
+                <span>{album.artist}</span>
+                <span className="badge">
+                  {loaded
+                    ? `${loaded}/${album.discs.length} loaded`
+                    : `${album.discs.length} disc${album.discs.length === 1 ? '' : 's'}`}
+                </span>
+              </div>
+              <button
+                type="button"
+                className="card-menu-trigger"
+                aria-label={`Edit ${album.title}`}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  setEditingAlbum(album)
                 }}
               >
-                {album.has_cover !== false ? (
-                  <img src={coverUrl(album)} alt="" loading="lazy" />
-                ) : (
-                  <div className="cover-fallback" />
-                )}
-                <div className="cover-meta">
-                  <strong>{album.title}</strong>
-                  <span>{album.artist}</span>
-                  <span className="badge">
-                    {loaded
-                      ? `${loaded}/${album.discs.length} loaded`
-                      : `${album.discs.length} disc${album.discs.length === 1 ? '' : 's'}`}
-                  </span>
-                </div>
-                <button
-                  type="button"
-                  className="card-menu-trigger"
-                  aria-label={`Edit ${album.title}`}
-                  onClick={(e) => {
-                    e.stopPropagation()
-                    setEditingAlbum(album)
-                  }}
-                >
-                  ···
-                </button>
-              </div>
-            )
-          })}
-          {filtered.length === 0 ? (
-            <p className="muted">No albums match that search.</p>
-          ) : null}
-        </section>
-
-        <aside className="detail-panel">
-          {selected ? (
-            <>
-              <div className="detail-hero">
-                <img src={coverUrl(selected)} alt="" />
-                <div>
-                  <h2>{selected.title}</h2>
-                  <p>{selected.artist}</p>
-                  {selected.discogs_release_id ? (
-                    <p className="muted small">
-                      Discogs #{selected.discogs_release_id}
-                    </p>
-                  ) : null}
-                  {selected.needs_review ? (
-                    <span className="badge warn">Needs review</span>
-                  ) : null}
-                </div>
-              </div>
-              <ul className="disc-list">
-                {selected.discs.map((disc) => (
-                  <li key={disc.id}>
-                    <div>
-                      <strong>{discLabel(disc)}</strong>
-                      <div className="muted">
-                        {disc.track_count ?? '?'} tracks ·{' '}
-                        {disc.slot_number != null
-                          ? `Slot ${disc.slot_number}`
-                          : 'Not loaded'}
-                      </div>
-                    </div>
-                    <form
-                      className="slot-form"
-                      onSubmit={(e) => {
-                        e.preventDefault()
-                        const value =
-                          slotDrafts[disc.id] ??
-                          (disc.slot_number != null
-                            ? String(disc.slot_number)
-                            : '')
-                        applySlot(disc, value)
-                      }}
-                    >
-                      <input
-                        type="number"
-                        min={0}
-                        max={300}
-                        placeholder="Slot"
-                        value={
-                          slotDrafts[disc.id] ??
-                          (disc.slot_number != null
-                            ? String(disc.slot_number)
-                            : '')
-                        }
-                        onChange={(e) =>
-                          setSlotDrafts((prev) => ({
-                            ...prev,
-                            [disc.id]: e.target.value,
-                          }))
-                        }
-                      />
-                      <button type="submit">Set</button>
-                      {disc.slot_number != null ? (
-                        <button
-                          type="button"
-                          className="ghost"
-                          onClick={() => applySlot(disc, '')}
-                        >
-                          Unload
-                        </button>
-                      ) : null}
-                    </form>
-                  </li>
-                ))}
-              </ul>
-            </>
-          ) : (
-            <p className="muted">Select an album to assign slots.</p>
-          )}
-        </aside>
-      </div>
+                ···
+              </button>
+            </div>
+          )
+        })}
+        {filtered.length === 0 ? (
+          <p className="muted">No albums match that search.</p>
+        ) : null}
+      </section>
 
       <section className="rack" aria-label="Changer rack">
         <div className="rack-header">
@@ -513,6 +432,24 @@ export default function LoadView() {
           ))}
         </div>
       </section>
+
+      {selected ? (
+        <SlotAssignDialog
+          album={selected}
+          coverSrc={
+            selected.has_cover !== false ? coverUrl(selected) : null
+          }
+          slotDrafts={slotDrafts}
+          onDraftChange={(discId, value) =>
+            setSlotDrafts((prev) => ({
+              ...prev,
+              [discId]: value,
+            }))
+          }
+          onApplySlot={applySlot}
+          onClose={() => setSelectedId(null)}
+        />
+      ) : null}
 
       {editingAlbum ? (
         <AlbumEditDialog

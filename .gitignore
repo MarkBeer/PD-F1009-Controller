@@ -5,3 +5,8 @@ __pycache__/
 
 # Timestamped folders created for each photo
 output/20*/
+
+# Local catalog database built from CSV + cover crops
+app/db/*.sqlite
+app/db/*.sqlite-*
+

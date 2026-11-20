@@ -1,0 +1,17 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist SQLite catalog + settings
+      - disc-detect-data:/data
+      # Mount host cover crops (set crop base in Load UI to /crops)
+      - ${DISC_DETECT_CROPS:-./crops}:/crops:ro
+    environment:
+      DISC_DETECT_DB: /data/catalog.sqlite
+      DISC_DETECT_WEB_DIST: /srv/app/web/dist
+    restart: unless-stopped
+
+volumes:
+  disc-detect-data:
